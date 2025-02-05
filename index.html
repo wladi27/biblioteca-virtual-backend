@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirámide de Usuarios</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .piramide {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .nivel {
+            display: flex;
+            justify-content: center;
+        }
+        .usuario {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 150px;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Pirámide de Usuarios</h1>
+    <input type="text" id="usuarioId" placeholder="Ingresa el ID del usuario">
+    <input type="number" id="niveles" placeholder="Número de niveles" min="1" value="1">
+    <button onclick="obtenerPiramide()">Mostrar Pirámide</button>
+    
+    <div id="resultado" class="piramide"></div>
+
+    <script>
+        async function obtenerPiramide() {
+            const usuarioId = document.getElementById('usuarioId').value;
+            const niveles = parseInt(document.getElementById('niveles').value);
+            const response = await fetch(`http://localhost:5000/usuarios/piramide/${usuarioId}`);
+            const data = await response.json();
+
+            mostrarPiramide(data, niveles);
+        }
+
+        function mostrarPiramide(usuario, niveles) {
+            const resultadoDiv = document.getElementById('resultado');
+            resultadoDiv.innerHTML = ''; // Limpiar resultados anteriores
+
+            if (!usuario) {
+                resultadoDiv.innerHTML = '<p>No se encontró el usuario.</p>';
+                return;
+            }
+
+            // Crear la pirámide
+            const crearNivel = (usuario, nivelActual) => {
+                if (nivelActual >= niveles) return; // No mostrar más allá del nivel especificado
+
+                const divNivel = document.createElement('div');
+                divNivel.classList.add('nivel');
+
+                // Solo mostrar usuarios en niveles 1 y superiores
+                if (nivelActual > 0) {
+                    usuario.hijos.forEach(hijo => {
+                        const divUsuario = document.createElement('div');
+                        divUsuario.classList.add('usuario');
+                        divUsuario.innerText = hijo.nombre_completo;
+                        divNivel.appendChild(divUsuario);
+                    });
+                }
+
+                resultadoDiv.appendChild(divNivel); // Agregar el nivel al resultado
+
+                // Crear hijos en el siguiente nivel
+                usuario.hijos.forEach(hijo => {
+                    crearNivel(hijo, nivelActual + 1); // Llamada recursiva sin agregar div
+                });
+            };
+
+            // Comenzar desde el nivel 0 (no mostrar el usuario raíz)
+            crearNivel(usuario, 0);
+        }
+    </script>
+
+</body>
+</html>

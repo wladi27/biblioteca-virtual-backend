@@ -7,9 +7,10 @@ const authRoutes = require('./routes/auth');
 const referralCodesRoutes = require('./routes/referralCodes');
 const usuariosRouter = require('./routes/usuarios');
 const withdrawalRoutes = require('./routes/withdrawals'); // Importar las rutas de withdrawals
+const authAdminRoutes = require('./routes/authAdmin');
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 5000;
 
 connectDB();
 app.use(cors());
@@ -31,9 +32,10 @@ app.use('/usuarios', require('./routes/usuarios'));
 app.use('/niveles', require('./routes/niveles'));
 app.use('/auth', authRoutes);
 app.use('/withdrawals', withdrawalRoutes); // Usar las rutas de withdrawals
+app.use('/api/auth', authAdminRoutes);
 
 // Insertar niveles y usuarios iniciales
-//seedNiveles();
+seedNiveles();
 
 app.listen(port, () => {
   console.log(`Servidor escuchando en http://localhost:${port}`);

@@ -5,8 +5,9 @@ const withdrawalController = require('../controllers/withdrawalController');
 router.post('/', withdrawalController.crearRetiro);
 router.get('/', withdrawalController.obtenerRetiros);
 router.get('/:id', withdrawalController.obtenerRetiroPorId);
-router.get('/usuario/:usuarioId', withdrawalController.obtenerRetirosPorUsuario); // Nueva ruta para obtener retiros por usuario
+router.get('/usuario/:usuarioId', withdrawalController.obtenerRetirosPorUsuario);
 router.put('/:id', withdrawalController.actualizarRetiro);
+router.patch('/:id', withdrawalController.actualizarEstadoRetiro); // Nueva ruta para actualizar el estado
 router.delete('/:id', withdrawalController.eliminarRetiro);
 
 module.exports = router;

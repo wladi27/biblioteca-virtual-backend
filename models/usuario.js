@@ -8,12 +8,16 @@ const usuarioSchema = new mongoose.Schema({
   cuenta_numero: { type: String },
   banco: { type: String },
   titular_cuenta: { type: String },
-  correo_electronico: { type: String, required: true},
-  nivel: { type: Number, default: 0 },
+  correo_electronico: { type: String, required: true, unique: true },
   dni: { type: String, required: true, unique: true },
   nombre_usuario: { type: String, required: true, unique: true },
   contraseña: { type: String, required: true },
-  codigo_referido: { type: String } // Campo opcional
+  codigo_referido: { type: String }, // Campo opcional
+  padre_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null },
+  nivel: { type: Number, default: 1 },
+  hijo1_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null },
+  hijo2_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null },
+  hijo3_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null },
 });
 
 // Encriptar la contraseña antes de guardar

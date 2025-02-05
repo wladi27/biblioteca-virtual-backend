@@ -48,6 +48,18 @@ const actualizarRetiro = async (req, res) => {
   }
 };
 
+// Nueva función para actualizar el estado de un retiro
+const actualizarEstadoRetiro = async (req, res) => {
+  try {
+    const { status } = req.body;
+    const retiro = await Withdrawal.findByIdAndUpdate(req.params.id, { status }, { new: true });
+    if (!retiro) return res.status(404).json({ message: 'Retiro no encontrado' });
+    res.status(200).json(retiro);
+  } catch (error) {
+    res.status(400).json({ message: error.message });
+  }
+};
+
 const eliminarRetiro = async (req, res) => {
   try {
     const retiro = await Withdrawal.findByIdAndDelete(req.params.id);
@@ -64,5 +76,6 @@ module.exports = {
   obtenerRetiroPorId,
   obtenerRetirosPorUsuario,
   actualizarRetiro,
-  eliminarRetiro
+  eliminarRetiro,
+  actualizarEstadoRetiro // Exportar la nueva función
 };
