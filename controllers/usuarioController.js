@@ -1,4 +1,5 @@
 const Usuario = require('../models/usuario');
+const ReferralCode = require('../models/ReferralCode'); // Asegúrate de importar el modelo de ReferralCode
 
 const agregarUsuario = async (req, res) => {
   try {
@@ -13,8 +14,21 @@ const agregarUsuario = async (req, res) => {
       dni, 
       nombre_usuario, 
       contraseña, 
-      codigo_referido 
+      codigo_referido // Asegúrate de que este campo esté en el cuerpo de la solicitud
     } = req.body;
+
+    // Validar el código de referido
+    let referralCode = null;
+    if (codigo_referido) {
+      referralCode = await ReferralCode.findOne({ code: codigo_referido, used: false });
+      if (referralCode) {
+        // Actualizar el código de referido a usado
+        referralCode.used = true;
+        await referralCode.save();
+      } else {
+        return res.status(400).json({ message: 'Código de referido inválido o ya utilizado' });
+      }
+    }
 
     const nuevoUsuario = new Usuario({ 
       nombre_completo, 

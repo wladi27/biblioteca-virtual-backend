@@ -7,7 +7,7 @@ router.get('/', withdrawalController.obtenerRetiros);
 router.get('/:id', withdrawalController.obtenerRetiroPorId);
 router.get('/usuario/:usuarioId', withdrawalController.obtenerRetirosPorUsuario);
 router.put('/:id', withdrawalController.actualizarRetiro);
-router.patch('/:id', withdrawalController.actualizarEstadoRetiro); // Nueva ruta para actualizar el estado
+router.patch('/:id', withdrawalController.actualizarEstadoRetiro); // Ruta para actualizar el estado
 router.delete('/:id', withdrawalController.eliminarRetiro);
 
 module.exports = router;

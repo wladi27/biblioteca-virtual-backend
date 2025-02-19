@@ -48,10 +48,13 @@ const actualizarRetiro = async (req, res) => {
   }
 };
 
-// Nueva función para actualizar el estado de un retiro
 const actualizarEstadoRetiro = async (req, res) => {
   try {
     const { status } = req.body;
+    if (!['pendiente', 'completado', 'rechazado', 'pagado'].includes(status)) {
+      return res.status(400).json({ message: 'Estado no válido' });
+    }
+    
     const retiro = await Withdrawal.findByIdAndUpdate(req.params.id, { status }, { new: true });
     if (!retiro) return res.status(404).json({ message: 'Retiro no encontrado' });
     res.status(200).json(retiro);
