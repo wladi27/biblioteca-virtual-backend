@@ -14,7 +14,7 @@ const agregarUsuario = async (req, res) => {
       dni, 
       nombre_usuario, 
       contraseña, 
-      codigo_referido // Asegúrate de que este campo esté en el cuerpo de la solicitud
+      codigo_referido 
     } = req.body;
 
     // Validar el código de referido
@@ -28,6 +28,18 @@ const agregarUsuario = async (req, res) => {
       } else {
         return res.status(400).json({ message: 'Código de referido inválido o ya utilizado' });
       }
+    }
+
+    // Verificar si el correo electrónico ya existe
+    const usuarioExistenteCorreo = await Usuario.findOne({ correo_electronico });
+    if (usuarioExistenteCorreo) {
+      return res.status(400).json({ message: 'El correo electrónico ya está en uso' });
+    }
+
+    // Verificar si el nombre de usuario ya existe
+    const usuarioExistenteNombre = await Usuario.findOne({ nombre_usuario });
+    if (usuarioExistenteNombre) {
+      return res.status(400).json({ message: 'El nombre de usuario ya está en uso' });
     }
 
     const nuevoUsuario = new Usuario({ 
@@ -80,7 +92,7 @@ const agregarUsuario = async (req, res) => {
 
     res.status(201).json(nuevoUsuario);
   } catch (error) {
-    res.status(400).json({ message: error.message });
+    res.status(500).json({ message: 'Error en el servidor' }); // Mensaje genérico
   }
 };
 

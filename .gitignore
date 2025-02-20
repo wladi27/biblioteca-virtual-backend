@@ -1,3 +1,7 @@
 .vercel
 .env
 node_modules
+deleteAporte.js
+deleteCodes.js
+deletePost.js
+deleteWithdrawals.js

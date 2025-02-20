@@ -2,7 +2,19 @@ const Nivel = require('../models/nivel');
 
 exports.agregarNivel = async (req, res) => {
   try {
-    const nuevoNivel = new Nivel(req.body);
+    // Asegurarse de que la estructura del body es correcta
+    const { numero_nivel, comision } = req.body;
+
+    // Validar que comision tenga la estructura correcta
+    if (!numero_nivel || !comision || typeof comision.$numberDecimal !== 'string') {
+      return res.status(400).json({ message: 'Datos inválidos. Asegúrate de enviar numero_nivel y comision en el formato correcto.' });
+    }
+
+    const nuevoNivel = new Nivel({
+      numero_nivel,
+      comision,
+    });
+
     await nuevoNivel.save();
     res.status(201).json(nuevoNivel);
   } catch (error) {
