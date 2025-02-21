@@ -3,7 +3,7 @@ const ReferralCode = require('../models/ReferralCode'); // Asegúrate de importa
 
 const agregarUsuario = async (req, res) => {
   try {
-    const { 
+    let { 
       nombre_completo, 
       linea_llamadas, 
       linea_whatsapp, 
@@ -17,15 +17,24 @@ const agregarUsuario = async (req, res) => {
       codigo_referido 
     } = req.body;
 
+    // Eliminar espacios en blanco al inicio y al final
+    nombre_completo = nombre_completo.trim();
+    linea_llamadas = linea_llamadas.trim();
+    linea_whatsapp = linea_whatsapp.trim();
+    cuenta_numero = cuenta_numero.trim();
+    banco = banco.trim();
+    titular_cuenta = titular_cuenta.trim();
+    correo_electronico = correo_electronico.trim();
+    dni = dni.trim();
+    nombre_usuario = nombre_usuario.trim();
+    contraseña = contraseña.trim();
+    codigo_referido = codigo_referido.trim();
+
     // Validar el código de referido
     let referralCode = null;
     if (codigo_referido) {
       referralCode = await ReferralCode.findOne({ code: codigo_referido, used: false });
-      if (referralCode) {
-        // Actualizar el código de referido a usado
-        referralCode.used = true;
-        await referralCode.save();
-      } else {
+      if (!referralCode) {
         return res.status(400).json({ message: 'Código de referido inválido o ya utilizado' });
       }
     }
@@ -33,7 +42,8 @@ const agregarUsuario = async (req, res) => {
     // Verificar si el correo electrónico ya existe
     const usuarioExistenteCorreo = await Usuario.findOne({ correo_electronico });
     if (usuarioExistenteCorreo) {
-      return res.status(400).json({ message: 'El correo electrónico ya está en uso' });
+      // Aquí puedes decidir si deseas devolver un mensaje o no
+      // return res.status(400).json({ message: 'El correo electrónico ya está en uso' });
     }
 
     // Verificar si el nombre de usuario ya existe
@@ -85,6 +95,12 @@ const agregarUsuario = async (req, res) => {
     // Guardar el nuevo usuario
     await nuevoUsuario.save();
 
+    // Marcar el código de referido como usado solo después de registrar al usuario
+    if (referralCode) {
+      referralCode.used = true;
+      await referralCode.save();
+    }
+
     // Asignar al nuevo usuario como hijo del padre
     if (padre_id) {
       await asignarHijo(padre_id, nuevoUsuario._id);
@@ -121,13 +137,24 @@ const obtenerUsuarios = async (req, res) => {
 
 const obtenerUsuarioPorId = async (req, res) => {
   try {
-    const usuario = await Usuario.findById(req.params.usuario_id);
+    const usuario = await Usuario.findById(req.params.usuario_id).populate('hijo1_id hijo2_id hijo3_id');
     if (!usuario) return res.status(404).json({ message: 'Usuario no encontrado' });
-    res.status(200).json(usuario);
+
+    // Obtener información del padre
+    let padre = null;
+    if (usuario.padre_id) {
+      padre = await Usuario.findById(usuario.padre_id).select('_id nombre_completo');
+    }
+
+    res.status(200).json({
+      ...usuario.toObject(),
+      padre: padre ? { id: padre._id, nombre: padre.nombre_completo } : null
+    });
   } catch (error) {
     res.status(500).json({ message: error.message });
   }
 };
+
 
 const eliminarUsuario = async (req, res) => {
   try {
