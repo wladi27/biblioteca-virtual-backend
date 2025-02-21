@@ -1,5 +1,6 @@
 const Usuario = require('../models/usuario');
 const ReferralCode = require('../models/ReferralCode'); // Asegúrate de importar el modelo de ReferralCode
+const bcrypt = require('bcrypt'); // Asegúrate de instalar bcrypt
 
 const agregarUsuario = async (req, res) => {
   try {
@@ -39,18 +40,14 @@ const agregarUsuario = async (req, res) => {
       }
     }
 
-    // Verificar si el correo electrónico ya existe
-    const usuarioExistenteCorreo = await Usuario.findOne({ correo_electronico });
-    if (usuarioExistenteCorreo) {
-      // Aquí puedes decidir si deseas devolver un mensaje o no
-      // return res.status(400).json({ message: 'El correo electrónico ya está en uso' });
-    }
-
     // Verificar si el nombre de usuario ya existe
     const usuarioExistenteNombre = await Usuario.findOne({ nombre_usuario });
     if (usuarioExistenteNombre) {
       return res.status(400).json({ message: 'El nombre de usuario ya está en uso' });
     }
+
+    // Hashear la contraseña antes de guardarla
+    const hashedPassword = await bcrypt.hash(contraseña, 10);
 
     const nuevoUsuario = new Usuario({ 
       nombre_completo, 
@@ -59,10 +56,10 @@ const agregarUsuario = async (req, res) => {
       cuenta_numero, 
       banco, 
       titular_cuenta, 
-      correo_electronico, 
+      correo_electronico, // Permitir el mismo correo
       dni, 
       nombre_usuario, 
-      contraseña,
+      contraseña: hashedPassword,
       codigo_referido 
     });
 
@@ -108,6 +105,7 @@ const agregarUsuario = async (req, res) => {
 
     res.status(201).json(nuevoUsuario);
   } catch (error) {
+    console.error(error); // Log para depuración
     res.status(500).json({ message: 'Error en el servidor' }); // Mensaje genérico
   }
 };
@@ -154,7 +152,6 @@ const obtenerUsuarioPorId = async (req, res) => {
     res.status(500).json({ message: error.message });
   }
 };
-
 
 const eliminarUsuario = async (req, res) => {
   try {
