@@ -46,9 +46,6 @@ const agregarUsuario = async (req, res) => {
       return res.status(400).json({ message: 'El nombre de usuario ya está en uso' });
     }
 
-    // Hashear la contraseña antes de guardarla
-    const hashedPassword = await bcrypt.hash(contraseña, 10);
-
     const nuevoUsuario = new Usuario({ 
       nombre_completo, 
       linea_llamadas, 
@@ -59,7 +56,7 @@ const agregarUsuario = async (req, res) => {
       correo_electronico, // Permitir el mismo correo
       dni, 
       nombre_usuario, 
-      contraseña: hashedPassword,
+      contraseña,
       codigo_referido 
     });
 

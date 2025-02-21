@@ -9,7 +9,7 @@ const usuarioSchema = new mongoose.Schema({
   banco: { type: String },
   titular_cuenta: { type: String },
   correo_electronico: { type: String, required: true }, // No es único
-  dni: { type: String, required: true, unique: true },
+  dni: { type: String, required: true },
   nombre_usuario: { type: String, required: true, unique: true },
   contraseña: { type: String, required: true },
   codigo_referido: { type: String }, // Campo opcional
