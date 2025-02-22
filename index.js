@@ -10,6 +10,7 @@ const withdrawalRoutes = require('./routes/withdrawals'); // Importar las rutas 
 const authAdminRoutes = require('./routes/authAdmin');
 const aporteRoutes = require('./routes/aporteRoutes');
 const publicacionRoutes = require('./routes/publicacionRoutes');
+const tusersRoutes = require('./routes/tusersRoutes');
 const path = require('path');
 const fs = require('fs');
 
@@ -48,6 +49,7 @@ app.use('/withdrawals', withdrawalRoutes); // Usar las rutas de withdrawals
 app.use('/api/auth', authAdminRoutes);
 app.use('/api/aportes', aporteRoutes)
 app.use('/api/publicaciones', publicacionRoutes);
+app.use('/api/tusuarios', tusersRoutes); // Cambiado a /api/tusuarios
 
 // Insertar niveles y usuarios iniciales
 seedNiveles();

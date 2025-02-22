@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "67b8632516be161cf84d8c29",
+    "nombre_completo": "Juan Pérez",
+    "linea_llamadas": "+1234567890",
+    "linea_whatsapp": "+0987654321",
+    "cuenta_numero": "123456789",
+    "banco": "Banco Ejemplo",
+    "titular_cuenta": "Juan Pérez",
+    "correo_electronico": "figuerawladimir@gmail.com",
+    "dni": "123456734",
+    "nombre_usuario": "juantest",
+    "contraseña": "$2b$10$nk77dtawHAjbd6eftLXZMeU6SZKnO5tEeW8SGZpWKPmH/rQoWhreq",
+    "codigo_referido": "",
+    "padre_id": "67be931d86b175d0628218f7",
+    "nivel": 44,
+    "hijo1_id": "67c1d8d331cf2ce56ef90dd4",
+    "hijo2_id": "67c1d9fdb8de006b653aee4c",
+    "hijo3_id": "67c247224cd69ccb04aa68b2",
+    "__v": 0,
+    "validar_codigo_referido": false
+  }
+]
