@@ -25,12 +25,11 @@ const port = process.env.PORT || 5000;
 
 connectDB();
 
-// Configuración de CORS
+// Configuración de CORS para permitir todos los dominios
 app.use(cors({
-  origin: [
-    'https://virtualbiblioteca.com',
-    'https://bibliotecavirtual-flame.vercel.app/' // Nuevo dominio agregado
-  ] // Lista de orígenes permitidos
+  origin: '*', // Permitir todos los dominios
+  methods: ['GET', 'POST', 'PUT', 'DELETE'], // Métodos permitidos
+  allowedHeaders: ['Content-Type', 'Authorization'] // Cabeceras permitidas
 }));
 
 app.use(express.json());
