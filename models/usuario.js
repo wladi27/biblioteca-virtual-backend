@@ -13,11 +13,11 @@ const usuarioSchema = new mongoose.Schema({
   nombre_usuario: { type: String, required: true, unique: true },
   contraseña: { type: String, required: true },
   codigo_referido: { type: String }, // Campo opcional
-  padre_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null },
-  nivel: { type: Number, default: 1 },
-  hijo1_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null },
-  hijo2_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null },
-  hijo3_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null },
+  padre_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null, index: true }, // Indexado
+  nivel: { type: Number, default: 1, index: true }, // Indexado
+  hijo1_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null, index: true }, // Indexado
+  hijo2_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null, index: true }, // Indexado
+  hijo3_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null, index: true }, // Indexado
 });
 
 // Encriptar la contraseña antes de guardar
