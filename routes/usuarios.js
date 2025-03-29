@@ -11,5 +11,7 @@ router.delete('/:usuario_id', usuarioController.eliminarUsuario);
 // Rutas para la pirámide
 router.get('/piramide/:usuario_id', usuarioController.obtenerPiramideUsuario);
 router.get('/piramide', usuarioController.obtenerPiramideGlobal);
+// Nueva ruta para obtener el saldo del usuario
+router.get('/saldo/:usuario_id', usuarioController.obtenerSaldoUsuario);
 
 module.exports = router;

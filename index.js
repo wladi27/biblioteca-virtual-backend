@@ -11,6 +11,10 @@ const authAdminRoutes = require('./routes/authAdmin');
 const aporteRoutes = require('./routes/aporteRoutes');
 const publicacionRoutes = require('./routes/publicacionRoutes');
 const tusersRoutes = require('./routes/tusersRoutes');
+//billetera
+const billeteraRoutes = require('./routes/billeteraRoutes');
+const transaccionRoutes = require('./routes/transaccionRoutes');
+// -------------       -           ----------------------------
 const path = require('path');
 const fs = require('fs');
 
@@ -36,7 +40,7 @@ app.use(express.json());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 // Ruta de bienvenida
-app.get('/ruta', (req, res) => {
+app.get('/', (req, res) => {
   res.send('¡Bienvenido a la API de MLS!');
 });
 
@@ -50,15 +54,9 @@ app.use('/api/auth', authAdminRoutes);
 app.use('/api/aportes', aporteRoutes);
 app.use('/api/publicaciones', publicacionRoutes);
 app.use('/api/tusuarios', tusersRoutes);
+app.use('/api/billetera', billeteraRoutes);
+app.use('/api/transacciones', transaccionRoutes);
 
-// Insertar niveles y usuarios iniciales
-seedNiveles()
-  .then(() => {
-    console.log('Niveles iniciales insertados');
-  })
-  .catch(err => {
-    console.error('Error al insertar niveles:', err);
-  });
 
 // Manejo de errores
 app.use((err, req, res, next) => {
