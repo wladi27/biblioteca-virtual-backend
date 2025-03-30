@@ -2,6 +2,7 @@ const Usuario = require('../models/usuario');
 const ReferralCode = require('../models/ReferralCode');
 const bcrypt = require('bcrypt');
 const mongoose = require('mongoose');
+const Transaccion = require('../models/transaccion');
 
 // Función para construir la pirámide de usuarios
 const construirPiramide = async (id, nivelActual = 1, nivelMaximo = 12) => {
@@ -107,22 +108,23 @@ const agregarUsuario = async (req, res) => {
       return res.status(400).json({ message: 'Todos los campos son obligatorios' });
     }
 
-    // Validar el código de referido
-    let referralCode = null;
+    // Validar el código de referido si se proporcionó
     if (codigo_referido) {
-      referralCode = await ReferralCode.findOne({ code: codigo_referido });
-      if (referralCode) {
-        // Si el código ya está en uso, lo marcamos como usado
-        if (referralCode.used) {
-          codigo_referido = true; // Marcar como true si ya está en uso
-        } else {
-          referralCode.used = true; // Marcar como usado
-          await referralCode.save();
-        }
-      } else {
-        // Si el código no existe, no se guarda nada
-        codigo_referido = undefined;
+      // Verificar si el código existe en la base de datos
+      const referralCode = await ReferralCode.findOne({ code: codigo_referido });
+      
+      if (!referralCode) {
+        return res.status(400).json({ message: 'El código de referido no es válido' });
       }
+      
+      // Verificar si el código ya ha sido usado
+      if (referralCode.used) {
+        return res.status(400).json({ message: 'El código de referido ya ha sido utilizado' });
+      }
+      
+      // Marcar el código como usado en la colección ReferralCode
+      referralCode.used = true;
+      await referralCode.save();
     }
 
     // Verificar si el nombre de usuario ya existe
@@ -255,6 +257,65 @@ const eliminarUsuario = async (req, res) => {
   }
 };
 
+// Función para contar el número total de usuarios en la pirámide
+const contarUsuariosEnPiramide = async (id) => {
+  const piramide = await construirPiramide(id);
+  if (!piramide) return 0;
+
+  // Contar los usuarios recursivamente
+  const contarHijos = (nodo) => {
+    let contador = 1; // Contamos al usuario actual
+    if (nodo.hijos) {
+      nodo.hijos.forEach((hijo) => {
+        contador += contarHijos(hijo);
+      });
+    }
+    return contador;
+  };
+
+  return contarHijos(piramide);
+};
+
+// Endpoint para obtener el saldo del usuario
+const obtenerSaldoUsuario = async (req, res) => {
+  try {
+    const usuarioId = req.params.usuario_id;
+
+    // Validar que el ID no esté vacío
+    if (!usuarioId) {
+      return res.status(400).json({ mensaje: 'ID de usuario es requerido' });
+    }
+
+    // Obtener todas las transacciones del usuario
+    const transacciones = await Transaccion.find({ usuario_id: usuarioId });
+
+    // Calcular el saldo
+    let saldo = 0;
+    transacciones.forEach(transaccion => {
+      switch (transaccion.tipo) {
+        case 'recarga':
+        case 'recibido':
+          saldo += transaccion.monto; // Sumar montos de recargas y recibidos
+          break;
+        case 'envio':
+        case 'retiro':
+          saldo -= transaccion.monto; // Restar montos de envíos y retiros
+          break;
+      }
+    });
+
+    // Si necesitas multiplicar el saldo por el número total de usuarios
+    const totalUsuarios = await contarUsuariosEnPiramide(usuarioId);
+    const preSaldo = totalUsuarios - 1;
+    const saldoFinal = saldo + (preSaldo * 130); // Ajustar el saldo final
+
+    res.status(200).json({ saldo: saldoFinal });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+
 module.exports = {
   agregarUsuario,
   obtenerUsuarios,
@@ -262,4 +323,5 @@ module.exports = {
   eliminarUsuario,
   obtenerPiramideUsuario,
   obtenerPiramideGlobal,
+  obtenerSaldoUsuario,  
 };
