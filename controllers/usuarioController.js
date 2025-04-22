@@ -8,10 +8,11 @@ const Transaccion = require('../models/transaccion');
 const construirPiramide = async (id, nivelActual = 1, nivelMaximo = 12) => {
   if (nivelActual > nivelMaximo) return null;
 
-  // Obtener el usuario actual y sus hijos
+  // Obtener el usuario actual con más campos relevantes
   const usuario = await Usuario.findById(id)
-    .select('nombre_usuario hijo1_id hijo2_id hijo3_id') // Cambiar a nombre_usuario
+    .select('nombre_usuario hijo1_id hijo2_id hijo3_id nivel') // Agregamos nivel
     .lean();
+  
   if (!usuario) return null;
 
   // Obtener los IDs de los hijos (filtramos los valores nulos)
@@ -24,12 +25,73 @@ const construirPiramide = async (id, nivelActual = 1, nivelMaximo = 12) => {
     })
   );
 
-  // Retornar la estructura del usuario actual con sus hijos
+  // Retornar la estructura del usuario actual con sus hijos y nivel
   return {
     _id: usuario._id,
-    nombre_usuario: usuario.nombre_usuario, // Cambiar a nombre_usuario
+    nombre_usuario: usuario.nombre_usuario,
+    nivel: usuario.nivel || 0, // Asegurar que siempre haya un nivel
     hijos: hijos.filter((child) => child !== null), // Filtramos hijos nulos
   };
+};
+
+const obtenerPiramideParaRed = async (req, res) => {
+  try {
+    const usuarioId = req.params.usuario_id;
+    const nivelMaximo = req.query.nivel ? parseInt(req.query.nivel) : 12;
+
+    // Construir la pirámide completa
+    const piramideCompleta = await construirPiramide(usuarioId, 1, nivelMaximo);
+    
+    // Procesar la pirámide para organizarla por niveles
+    const nivelesOrganizados = {};
+    
+    const procesarNivel = (nodo, nivelActual) => {
+      if (!nivelesOrganizados[nivelActual]) {
+        nivelesOrganizados[nivelActual] = [];
+      }
+      
+      nivelesOrganizados[nivelActual].push({
+        _id: nodo._id,
+        nombre_usuario: nodo.nombre_usuario,
+        nivel: nodo.nivel
+      });
+      
+      // Procesar hijos recursivamente
+      if (nodo.hijos && nivelActual < nivelMaximo) {
+        nodo.hijos.forEach(hijo => {
+          procesarNivel(hijo, nivelActual + 1);
+        });
+      }
+    };
+    
+    if (piramideCompleta) {
+      procesarNivel(piramideCompleta, 1);
+    }
+
+    res.status(200).json({
+      piramide: piramideCompleta,
+      niveles: nivelesOrganizados,
+      nivelesCompletados: calcularNivelesCompletados(nivelesOrganizados)
+    });
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+// Función auxiliar para calcular niveles completados
+const calcularNivelesCompletados = (niveles) => {
+  let nivelesCompletados = 0;
+  
+  for (let nivel = 1; nivel <= 12; nivel++) {
+    const cantidadEsperada = Math.pow(3, nivel - 1); // Nivel 1: 3^0=1, Nivel 2: 3^1=3, etc.
+    if (niveles[nivel] && niveles[nivel].length >= cantidadEsperada) {
+      nivelesCompletados++;
+    } else {
+      break;
+    }
+  }
+  
+  return nivelesCompletados;
 };
 
 // Obtener la pirámide de un usuario específico
@@ -246,6 +308,56 @@ const obtenerUsuarioPorId = async (req, res) => {
   }
 };
 
+// Nuevo endpoint para obtener la pirámide completa en formato plano
+const obtenerPiramideCompleta = async (req, res) => {
+  try {
+    const usuarioId = req.params.usuario_id;
+    
+    // Construir la pirámide jerárquica
+    const piramide = await construirPiramide(usuarioId);
+    
+    if (!piramide) {
+      return res.status(404).json({ message: 'Usuario no encontrado' });
+    }
+    
+    // Función recursiva para aplanar la pirámide
+    const aplanarPiramide = (nodo, usuarios = []) => {
+      usuarios.push({
+        _id: nodo._id,
+        nombre_usuario: nodo.nombre_usuario,
+        nivel: nodo.nivel
+      });
+      
+      if (nodo.hijos && nodo.hijos.length > 0) {
+        nodo.hijos.forEach(hijo => {
+          aplanarPiramide(hijo, usuarios);
+        });
+      }
+      
+      return usuarios;
+    };
+    
+    // Obtener todos los usuarios en formato plano
+    const usuariosPiramide = aplanarPiramide(piramide);
+    
+    // Ordenar por nivel y luego por nombre de usuario
+    usuariosPiramide.sort((a, b) => {
+      if (a.nivel !== b.nivel) {
+        return a.nivel - b.nivel;
+      }
+      return a.nombre_usuario.localeCompare(b.nombre_usuario);
+    });
+    
+    res.status(200).json({
+      usuarios: usuariosPiramide
+    });
+    
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+
 // Eliminar un usuario por ID
 const eliminarUsuario = async (req, res) => {
   try {
@@ -323,5 +435,7 @@ module.exports = {
   eliminarUsuario,
   obtenerPiramideUsuario,
   obtenerPiramideGlobal,
-  obtenerSaldoUsuario,  
+  obtenerSaldoUsuario,
+  obtenerPiramideParaRed,  
+  obtenerPiramideCompleta,
 };
