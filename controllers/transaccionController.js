@@ -38,3 +38,36 @@ exports.obtenerTransacciones = async (req, res) => {
     res.status(500).json({ mensaje: 'Error en el servidor', error: error.message });
   }
 };
+
+// Eliminar una transacción por ID
+exports.eliminarTransaccion = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    // Validar que el ID no esté vacío
+    if (!id) {
+      return res.status(400).json({ mensaje: 'ID de transacción es requerido' });
+    }
+
+    // Buscar y eliminar la transacción
+    const transaccionEliminada = await Transaccion.findByIdAndDelete(id);
+
+    // Verificar si se encontró y eliminó la transacción
+    if (!transaccionEliminada) {
+      return res.status(404).json({ mensaje: 'Transacción no encontrada' });
+    }
+
+    // Devolver confirmación de eliminación
+    return res.status(200).json({ 
+      mensaje: 'Transacción eliminada correctamente',
+      transaccion: transaccionEliminada 
+    });
+
+  } catch (error) {
+    // Manejar errores específicos
+    if (error.name === 'CastError') {
+      return res.status(400).json({ mensaje: 'ID de transacción no válido' });
+    }
+    res.status(500).json({ mensaje: 'Error en el servidor', error: error.message });
+  }
+};
