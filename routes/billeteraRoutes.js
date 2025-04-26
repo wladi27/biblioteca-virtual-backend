@@ -14,7 +14,7 @@ router.get('/estado/:usuarioId', billeteraController.verificarEstado);
 router.post('/activar', authMiddleware, billeteraController.activarBilletera);
 
 // Recargar billetera
-router.post('/recargar', authMiddleware, billeteraController.recargarBilletera);
+router.post('/recargar', billeteraController.recargarBilletera);
 
 // Enviar dinero
 router.post('/enviar', authMiddleware, billeteraController.enviarDinero);

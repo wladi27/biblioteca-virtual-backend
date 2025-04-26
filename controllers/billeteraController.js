@@ -62,26 +62,29 @@ exports.activarBilletera = async (req, res) => {
 // Recargar billetera
 exports.recargarBilletera = async (req, res) => {
   try {
-    const { monto } = req.body;
-    const usuarioId = req.user.id;
+    const { monto, usuarioId } = req.body; // Obtener monto y usuarioId del cuerpo de la solicitud
 
-    if (monto <= 0) {
-      return res.status(400).json({ mensaje: 'El monto debe ser mayor que 0' });
+    if (!usuarioId) {
+      return res.status(400).json({ mensaje: 'El ID del usuario es requerido' });
+    }
+
+    if (monto === undefined || monto === null || isNaN(parseFloat(monto)) || parseFloat(monto) <= 0) {
+      return res.status(400).json({ mensaje: 'El monto debe ser un número mayor que 0' });
     }
 
     const billetera = await Billetera.findOne({ usuario_id: usuarioId });
 
     if (!billetera || !billetera.activa) {
-      return res.status(404).json({ mensaje: 'Billetera no encontrada o no activa' });
+      return res.status(404).json({ mensaje: 'Billetera no encontrada o no activa para este usuario' });
     }
 
-    billetera.saldo += monto;
+    billetera.saldo += parseFloat(monto);
     await billetera.save();
 
     const nuevaTransaccion = new Transaccion({
       usuario_id: usuarioId,
       tipo: 'recarga',
-      monto: monto,
+      monto: parseFloat(monto),
       descripcion: `Recarga de ${monto} realizada`,
     });
     await nuevaTransaccion.save();
