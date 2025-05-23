@@ -132,11 +132,11 @@ exports.enviarDinero = async (req, res) => {
 
 
 // Retirar dinero
+// Retirar dinero
 exports.retirarDinero = async (req, res) => {
   try {
     const { monto } = req.body;
     const usuarioId = req.user.id;
-
 
     const billetera = await Billetera.findOne({ usuario_id: usuarioId });
 
@@ -144,12 +144,24 @@ exports.retirarDinero = async (req, res) => {
       return res.status(404).json({ mensaje: 'Billetera no encontrada o no activa' });
     }
 
+
+
+    // Crear la transacción con estado pendiente
     const nuevaTransaccion = new Transaccion({
       usuario_id: usuarioId,
       tipo: 'retiro',
       monto: monto,
       descripcion: `Retiro de COP ${monto} realizado`,
+      estado: 'pendiente', // Establecer estado como pendiente
     });
+    await nuevaTransaccion.save();
+
+    // Actualizar el saldo de la billetera
+    billetera.saldo -= monto;
+    await billetera.save();
+
+    // Cambiar el estado de la transacción a aprobado
+    nuevaTransaccion.estado = 'pendiente';
     await nuevaTransaccion.save();
 
     res.status(200).json({ mensaje: 'Retiro exitoso', saldo: billetera.saldo });
@@ -157,6 +169,7 @@ exports.retirarDinero = async (req, res) => {
     res.status(500).json({ mensaje: 'Error en el servidor', error: error.message });
   }
 };
+
 
 // Eliminar billetera
 exports.eliminarBilletera = async (req, res) => {
