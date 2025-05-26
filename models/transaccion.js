@@ -22,6 +22,11 @@ const transaccionSchema = new mongoose.Schema({
   descripcion: {
     type: String,
   },
+  estado: {
+    type: String,
+    enum: ['pendiente', 'aprobado'],
+    default: 'pendiente', // Estado por defecto
+  },
 });
 
 module.exports = mongoose.model('Transaccion', transaccionSchema);

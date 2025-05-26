@@ -39,6 +39,46 @@ exports.obtenerTransacciones = async (req, res) => {
   }
 };
 
+// Actualizar el estado de una transacción
+exports.actualizarEstadoTransaccion = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { estado } = req.body;
+
+    // Validar que el ID no esté vacío
+    if (!id) {
+      return res.status(400).json({ mensaje: 'ID de transacción es requerido' });
+    }
+
+    // Validar que el estado no esté vacío
+    if (!estado) {
+      return res.status(400).json({ mensaje: 'Estado es requerido' });
+    }
+
+    // Buscar la transacción y actualizar el estado
+    const transaccionActualizada = await Transaccion.findByIdAndUpdate(
+      id,
+      { estado },
+      { new: true } // Devuelve la transacción actualizada
+    );
+
+    // Verificar si se encontró y actualizó la transacción
+    if (!transaccionActualizada) {
+      return res.status(404).json({ mensaje: 'Transacción no encontrada' });
+    }
+
+    // Devolver la transacción actualizada
+    return res.status(200).json(transaccionActualizada);
+  } catch (error) {
+    // Manejar errores específicos
+    if (error.name === 'CastError') {
+      return res.status(400).json({ mensaje: 'ID de transacción no válido' });
+    }
+    res.status(500).json({ mensaje: 'Error en el servidor', error: error.message });
+  }
+};
+
+
 // Eliminar una transacción por ID
 exports.eliminarTransaccion = async (req, res) => {
   try {
