@@ -25,4 +25,10 @@ router.post('/retirar', authMiddleware, billeteraController.retirarDinero);
 // Eliminar billetera
 router.delete('/eliminar', authMiddleware, billeteraController.eliminarBilletera);
 
+// Activar billeteras masivamente
+router.post('/activar-todas', billeteraController.activarBilleterasMasivo);
+
+// Recarga general para todas las billeteras activas
+router.post('/recarga-general', billeteraController.recargaGeneral);
+
 module.exports = router;
