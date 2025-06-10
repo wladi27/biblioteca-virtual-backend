@@ -1,101 +1,78 @@
-// controllers/publicacionController.js
 const Publicacion = require('../models/publicacionModel');
-const path = require('path');
-const fs = require('fs');
 
 // Crear una nueva publicación
-const crearPublicacion = async (req, res) => {
+exports.crearPublicacion = async (req, res) => {
+  try {
     const { titulo, descripcion, status } = req.body;
-    const file = req.file; // Archivo subido
-
-    if (!file) {
-        return res.status(400).json({ error: 'El archivo es requerido' });
-    }
-
-    try {
-        const nuevaPublicacion = new Publicacion({
-            titulo,
-            file: file.path, // Guardar la ruta del archivo
-            descripcion,
-            status
-        });
-        await nuevaPublicacion.save();
-        res.status(201).json(nuevaPublicacion);
-    } catch (error) {
-        res.status(500).json({ error: 'Error al guardar la publicación' });
-    }
+    const fileUrl = req.file ? req.file.path : null; // URL pública de Cloudinary
+    const nuevaPublicacion = new Publicacion({
+      titulo,
+      descripcion,
+      status,
+      file: fileUrl,
+    });
+    await nuevaPublicacion.save();
+    res.status(201).json(nuevaPublicacion);
+  } catch (error) {
+    res.status(500).json({ message: 'Error al crear la publicación', error: error.message });
+  }
 };
 
 // Obtener todas las publicaciones
-const obtenerPublicaciones = async (req, res) => {
-    try {
-        const publicaciones = await Publicacion.find();
-        res.status(200).json(publicaciones);
-    } catch (error) {
-        res.status(500).json({ error: 'Error al obtener las publicaciones' });
-    }
+exports.obtenerPublicaciones = async (req, res) => {
+  try {
+    const publicaciones = await Publicacion.find().sort({ createdAt: -1 });
+    res.status(200).json(publicaciones);
+  } catch (error) {
+    res.status(500).json({ message: 'Error al obtener publicaciones', error: error.message });
+  }
 };
 
 // Obtener una publicación por ID
-const obtenerPublicacionPorId = async (req, res) => {
-    const { id } = req.params;
-
-    try {
-        const publicacion = await Publicacion.findById(id);
-        if (!publicacion) {
-            return res.status(404).json({ error: 'Publicación no encontrada' });
-        }
-        res.status(200).json(publicacion);
-    } catch (error) {
-        res.status(500).json({ error: 'Error al obtener la publicación' });
+exports.obtenerPublicacionPorId = async (req, res) => {
+  try {
+    const publicacion = await Publicacion.findById(req.params.id);
+    if (!publicacion) {
+      return res.status(404).json({ message: 'Publicación no encontrada' });
     }
+    res.status(200).json(publicacion);
+  } catch (error) {
+    res.status(500).json({ message: 'Error al obtener la publicación', error: error.message });
+  }
 };
 
 // Actualizar una publicación por ID
-const actualizarPublicacion = async (req, res) => {
-    const { id } = req.params;
+exports.actualizarPublicacion = async (req, res) => {
+  try {
     const { titulo, descripcion, status } = req.body;
-    const file = req.file; // Archivo subido
+    const fileUrl = req.file ? req.file.path : undefined; // Solo si hay nuevo archivo
 
-    try {
-        const actualizacion = { titulo, descripcion, status };
-        if (file) {
-            actualizacion.file = file.path; // Actualizar la ruta del archivo si se subió uno nuevo
-        }
+    const actualizacion = { titulo, descripcion, status };
+    if (fileUrl) actualizacion.file = fileUrl;
 
-        const publicacionActualizada = await Publicacion.findByIdAndUpdate(id, actualizacion, { new: true });
-        if (!publicacionActualizada) {
-            return res.status(404).json({ error: 'Publicación no encontrada' });
-        }
-        res.status(200).json(publicacionActualizada);
-    } catch (error) {
-        res.status(500).json({ error: 'Error al actualizar la publicación' });
+    const publicacionActualizada = await Publicacion.findByIdAndUpdate(
+      req.params.id,
+      actualizacion,
+      { new: true }
+    );
+    if (!publicacionActualizada) {
+      return res.status(404).json({ message: 'Publicación no encontrada' });
     }
+    res.status(200).json(publicacionActualizada);
+  } catch (error) {
+    res.status(500).json({ message: 'Error al actualizar la publicación', error: error.message });
+  }
 };
 
 // Eliminar una publicación por ID
-const eliminarPublicacion = async (req, res) => {
-    const { id } = req.params;
-
-    try {
-        const publicacionEliminada = await Publicacion.findByIdAndDelete(id);
-        if (!publicacionEliminada) {
-            return res.status(404).json({ error: 'Publicación no encontrada' });
-        }
-        // Eliminar el archivo del sistema de archivos
-        fs.unlink(publicacionEliminada.file, (err) => {
-            if (err) console.error('Error al eliminar el archivo:', err);
-        });
-        res.status(204).json();
-    } catch (error) {
-        res.status(500).json({ error: 'Error al eliminar la publicación' });
+exports.eliminarPublicacion = async (req, res) => {
+  try {
+    const publicacion = await Publicacion.findByIdAndDelete(req.params.id);
+    if (!publicacion) {
+      return res.status(404).json({ message: 'Publicación no encontrada' });
     }
-};
-
-module.exports = {
-    crearPublicacion,
-    obtenerPublicaciones,
-    obtenerPublicacionPorId,
-    actualizarPublicacion,
-    eliminarPublicacion
+    res.status(200).json({ message: 'Publicación eliminada correctamente' });
+  } catch (error) {
+    res.status(500).json({ message: 'Error al eliminar la publicación', error: error.message });
+  }
 };

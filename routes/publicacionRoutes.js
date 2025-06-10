@@ -1,7 +1,7 @@
-// routes/publicacionRoutes.js
 const express = require('express');
 const multer = require('multer');
-const path = require('path'); // Asegúrate de importar el módulo 'path'
+const { CloudinaryStorage } = require('multer-storage-cloudinary');
+const cloudinary = require('../config/cloudinary');
 const {
     crearPublicacion,
     obtenerPublicaciones,
@@ -12,17 +12,21 @@ const {
 
 const router = express.Router();
 
-// Configuración de multer para manejar la carga de archivos
-const storage = multer.diskStorage({
-    destination: (req, file, cb) => {
-        cb(null, 'uploads/'); // Carpeta donde se guardarán los archivos
-    },
-    filename: (req, file, cb) => {
-        cb(null, Date.now() + path.extname(file.originalname)); // Agregar timestamp al nombre del archivo
-    }
+// Configuración de multer-storage-cloudinary
+const storage = new CloudinaryStorage({
+  cloudinary: cloudinary,
+  params: {
+    folder: 'publicaciones',
+    allowed_formats: ['jpg', 'jpeg', 'png', 'gif', 'pdf', 'mp4', 'webp', 'webm', 'ogg'], // Agrega webm y ogg
+    public_id: (req, file) => Date.now() + '-' + file.originalname.replace(/\s/g, ''),
+    resource_type: 'auto', // IMPORTANTE: permite subir imágenes, videos y pdf
+  },
 });
 
-const upload = multer({ storage });
+const upload = multer({
+  storage,
+  limits: { fileSize: 100 * 1024 * 1024 }, // 100 MB
+});
 
 // Rutas para las publicaciones
 router.post('/', upload.single('file'), crearPublicacion);

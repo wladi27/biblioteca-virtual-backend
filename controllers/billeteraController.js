@@ -1,5 +1,6 @@
 const Billetera = require('../models/billetera');
 const Transaccion = require('../models/transaccion');
+const Usuario = require('../models/usuario'); 
 
 // Verificar el estado de la billetera
 exports.verificarEstado = async (req, res) => {
@@ -189,6 +190,58 @@ exports.eliminarBilletera = async (req, res) => {
     await Billetera.deleteOne({ usuario_id: usuarioId });
 
     res.status(200).json({ mensaje: 'Billetera eliminada exitosamente' });
+  } catch (error) {
+    res.status(500).json({ mensaje: 'Error en el servidor', error: error.message });
+  }
+};
+
+// Activar billetera para todos los usuarios que no la tengan activa (optimizado)
+exports.activarBilleterasMasivo = async (req, res) => {
+  try {
+    const usuarios = await Usuario.find();
+    let activadas = 0;
+    // Creamos un array de promesas para procesar en paralelo
+    const promesas = usuarios.map(async (usuario) => {
+      let billetera = await Billetera.findOne({ usuario_id: usuario._id });
+      if (!billetera) {
+        billetera = new Billetera({ usuario_id: usuario._id, activa: true });
+        await billetera.save();
+        activadas++;
+      } else if (!billetera.activa) {
+        billetera.activa = true;
+        await billetera.save();
+        activadas++;
+      }
+    });
+    await Promise.all(promesas);
+    res.status(200).json({ mensaje: `Billeteras activadas o actualizadas: ${activadas}` });
+  } catch (error) {
+    res.status(500).json({ mensaje: 'Error en el servidor', error: error.message });
+  }
+};
+
+// Recargar saldo a todas las billeteras activas (optimizado)
+exports.recargaGeneral = async (req, res) => {
+  try {
+    const { monto } = req.body;
+    if (!monto || isNaN(parseFloat(monto)) || parseFloat(monto) <= 0) {
+      return res.status(400).json({ mensaje: 'El monto debe ser un número mayor que 0' });
+    }
+    const billeteras = await Billetera.find({ activa: true });
+    const promesas = billeteras.map(async (billetera) => {
+      billetera.saldo += parseFloat(monto);
+      await billetera.save();
+      // Registrar transacción de recarga masiva
+      const nuevaTransaccion = new Transaccion({
+        usuario_id: billetera.usuario_id,
+        tipo: 'recarga',
+        monto: parseFloat(monto),
+        descripcion: `Recarga general de ${monto}`,
+      });
+      await nuevaTransaccion.save();
+    });
+    await Promise.all(promesas);
+    res.status(200).json({ mensaje: `Recarga general realizada a ${billeteras.length} billeteras` });
   } catch (error) {
     res.status(500).json({ mensaje: 'Error en el servidor', error: error.message });
   }
