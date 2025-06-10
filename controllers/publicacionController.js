@@ -3,13 +3,12 @@ const Publicacion = require('../models/publicacionModel');
 // Crear una nueva publicación
 exports.crearPublicacion = async (req, res) => {
   try {
-    const { titulo, descripcion, status } = req.body;
-    const fileUrl = req.file ? req.file.path : null; // URL pública de Cloudinary
+    const { titulo, descripcion, status, file } = req.body; // Recibimos la URL del archivo
     const nuevaPublicacion = new Publicacion({
       titulo,
       descripcion,
       status,
-      file: fileUrl,
+      file, // Guardamos la URL del archivo
     });
     await nuevaPublicacion.save();
     res.status(201).json(nuevaPublicacion);
@@ -28,27 +27,11 @@ exports.obtenerPublicaciones = async (req, res) => {
   }
 };
 
-// Obtener una publicación por ID
-exports.obtenerPublicacionPorId = async (req, res) => {
-  try {
-    const publicacion = await Publicacion.findById(req.params.id);
-    if (!publicacion) {
-      return res.status(404).json({ message: 'Publicación no encontrada' });
-    }
-    res.status(200).json(publicacion);
-  } catch (error) {
-    res.status(500).json({ message: 'Error al obtener la publicación', error: error.message });
-  }
-};
-
 // Actualizar una publicación por ID
 exports.actualizarPublicacion = async (req, res) => {
   try {
-    const { titulo, descripcion, status } = req.body;
-    const fileUrl = req.file ? req.file.path : undefined; // Solo si hay nuevo archivo
-
-    const actualizacion = { titulo, descripcion, status };
-    if (fileUrl) actualizacion.file = fileUrl;
+    const { titulo, descripcion, status, file } = req.body; // Recibimos la URL del archivo
+    const actualizacion = { titulo, descripcion, status, file }; // Actualizamos el archivo si se envía
 
     const publicacionActualizada = await Publicacion.findByIdAndUpdate(
       req.params.id,
