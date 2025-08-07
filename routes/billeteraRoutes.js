@@ -16,6 +16,9 @@ router.post('/activar', authMiddleware, billeteraController.activarBilletera);
 // Recargar billetera
 router.post('/recargar', billeteraController.recargarBilletera);
 
+// Recargar billetera por referido directo
+router.post('/recarga-referido', billeteraController.recargarPorReferidoDirecto);
+
 // Enviar dinero
 router.post('/enviar', authMiddleware, billeteraController.enviarDinero);
 

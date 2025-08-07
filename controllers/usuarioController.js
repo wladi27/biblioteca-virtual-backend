@@ -427,6 +427,47 @@ const obtenerSaldoUsuario = async (req, res) => {
   }
 };
 
+// Editar información del usuario (excepto hijos, padre y contraseña)
+const editarUsuario = async (req, res) => {
+  try {
+    const { id } = req.params;
+    // Campos permitidos para editar
+    const camposEditables = [
+      'nombre_completo',
+      'linea_llamadas',
+      'linea_whatsapp',
+      'cuenta_numero',
+      'banco',
+      'titular_cuenta',
+      'correo_electronico',
+      'dni',
+      'nombre_usuario',
+      'codigo_referido'
+    ];
+
+    // Construir objeto de actualización solo con los campos permitidos
+    const actualizacion = {};
+    camposEditables.forEach((campo) => {
+      if (req.body[campo] !== undefined) {
+        actualizacion[campo] = req.body[campo];
+      }
+    });
+
+    const usuarioActualizado = await Usuario.findByIdAndUpdate(
+      id,
+      { $set: actualizacion },
+      { new: true, runValidators: true }
+    );
+
+    if (!usuarioActualizado) {
+      return res.status(404).json({ message: 'Usuario no encontrado' });
+    }
+
+    res.json(usuarioActualizado);
+  } catch (error) {
+    res.status(500).json({ message: 'Error al actualizar el usuario', error: error.message });
+  }
+};
 
 module.exports = {
   agregarUsuario,
@@ -438,4 +479,5 @@ module.exports = {
   obtenerSaldoUsuario,
   obtenerPiramideParaRed,  
   obtenerPiramideCompleta,
+  editarUsuario,
 };

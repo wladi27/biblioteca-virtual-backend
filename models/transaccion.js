@@ -5,6 +5,7 @@ const transaccionSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Usuario',
     required: true,
+    index: true, // <--- Índice para búsquedas rápidas por usuario
   },
   tipo: {
     type: String,
@@ -18,14 +19,15 @@ const transaccionSchema = new mongoose.Schema({
   fecha: {
     type: Date,
     default: Date.now,
+    index: true, // <--- Índice para ordenar por fecha
   },
   descripcion: {
     type: String,
   },
   estado: {
     type: String,
-    enum: ['pendiente', 'aprobado'],
-    default: 'pendiente', // Estado por defecto
+    enum: ['pendiente', 'aprobado', 'rechazado'],
+    default: 'pendiente',
   },
 });
 
