@@ -9,11 +9,12 @@ const crearAporte = async (req, res) => {
     }
 
     try {
-        const nuevoAporte = new Aporte({ usuarioId });
+        const { usuarioId, aporte } = req.body;
+        const nuevoAporte = new Aporte({ usuarioId, aporte });
         await nuevoAporte.save();
         res.status(201).json(nuevoAporte);
-    } catch (error) {
-        res.status(500).json({ error: 'Error al guardar el aporte' });
+    } catch (err) {
+        res.status(500).json({ message: 'Error al crear el aporte' });
     }
 };
 

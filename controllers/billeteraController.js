@@ -246,3 +246,37 @@ exports.recargaGeneral = async (req, res) => {
     res.status(500).json({ mensaje: 'Error en el servidor', error: error.message });
   }
 };
+
+// Recargar billetera por referido directo
+exports.recargarPorReferidoDirecto = async (req, res) => {
+  try {
+    const { usuarioId } = req.body; // ID del usuario que recibe el pago por referido
+
+    if (!usuarioId) {
+      return res.status(400).json({ mensaje: 'El ID del usuario es requerido' });
+    }
+
+    const monto = 500;
+
+    const billetera = await Billetera.findOne({ usuario_id: usuarioId });
+
+    if (!billetera || !billetera.activa) {
+      return res.status(404).json({ mensaje: 'Billetera no encontrada o no activa para este usuario' });
+    }
+
+    billetera.saldo += monto;
+    await billetera.save();
+
+    const nuevaTransaccion = new Transaccion({
+      usuario_id: usuarioId,
+      tipo: 'recarga',
+      monto: monto,
+      descripcion: 'Pago por referido directo',
+    });
+    await nuevaTransaccion.save();
+
+    res.status(200).json({ mensaje: 'Recarga por referido directo exitosa', saldo: billetera.saldo });
+  } catch (error) {
+    res.status(500).json({ mensaje: 'Error en el servidor', error: error.message });
+  }
+};

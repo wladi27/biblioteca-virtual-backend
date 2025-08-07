@@ -56,7 +56,8 @@ app.use('/api/publicaciones', publicacionRoutes);
 app.use('/api/tusuarios', tusersRoutes);
 app.use('/api/billetera', billeteraRoutes);
 app.use('/api/transacciones', transaccionRoutes);
-
+app.use('/api/usuario', require('./routes/usuarioRoutes')); // <--- Agrega esta línea
+app.use('/api/referralRequests', require('./routes/referralRequestRoutes'));
 
 // Manejo de errores
 app.use((err, req, res, next) => {
