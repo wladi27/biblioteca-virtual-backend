@@ -31,4 +31,10 @@ const transaccionSchema = new mongoose.Schema({
   },
 });
 
+// Índice para búsquedas por tipo
+transaccionSchema.index({ tipo: 1 });
+
+// Índice compuesto para búsquedas frecuentes por usuario y tipo
+transaccionSchema.index({ usuario_id: 1, tipo: 1, fecha: -1 });
+
 module.exports = mongoose.model('Transaccion', transaccionSchema);

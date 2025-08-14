@@ -39,6 +39,32 @@ exports.obtenerTransacciones = async (req, res) => {
   }
 };
 
+// Obtener solo las transacciones de tipo "recarga" con paginación
+exports.obtenerRecargas = async (req, res) => {
+  try {
+    const usuarioId = req.params.id;
+    const limit = parseInt(req.query.limit) || 20;
+    const skip = parseInt(req.query.skip) || 0;
+
+    let filtro = { tipo: 'recarga' };
+    if (usuarioId) {
+      filtro.usuario_id = usuarioId;
+    }
+
+    const recargas = await Transaccion
+      .find(filtro)
+      .sort({ fecha: -1 })
+      .skip(skip)
+      .limit(limit)
+      .select('monto fecha usuario_id estado descripcion');
+
+    // Devuelve siempre un array, aunque esté vacío (no 404)
+    return res.status(200).json(recargas);
+  } catch (error) {
+    res.status(500).json({ mensaje: 'Error en el servidor', error: error.message });
+  }
+};
+
 // Actualizar el estado de una transacción
 exports.actualizarEstadoTransaccion = async (req, res) => {
   try {
