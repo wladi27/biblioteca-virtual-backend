@@ -3,13 +3,17 @@ const authMiddleware = require('../middleware/authMiddleware');
 const { 
   obtenerTransacciones, 
   actualizarEstadoTransaccion,
-  eliminarTransaccion  // Importa la función directamente
+  eliminarTransaccion,
+  obtenerRecargas // Importa la función
 } = require('../controllers/transaccionController');
 
 const router = express.Router();
 
 // Ruta para obtener transacciones
 router.get('/transacciones/:id?', obtenerTransacciones);
+
+// Ruta para obtener recargas
+router.get('/recargas/:id?', obtenerRecargas); // Nueva ruta
 
 // Ruta para actualizar el estado de una transacción
 router.patch('/transacciones/:id', actualizarEstadoTransaccion);
