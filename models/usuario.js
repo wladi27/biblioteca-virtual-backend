@@ -18,6 +18,7 @@ const usuarioSchema = new mongoose.Schema({
   hijo1_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null, index: true }, // Indexado
   hijo2_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null, index: true }, // Indexado
   hijo3_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null, index: true }, // Indexado
+  token: { type: String },
 });
 
 // Encriptar la contraseña antes de guardar

@@ -65,6 +65,13 @@ app.use((err, req, res, next) => {
   res.status(500).send('Error interno del servidor');
 });
 
-app.listen(port, () => {
+const http = require('http');
+const { initializeWebSocket } = require('./websocket');
+
+const server = http.createServer(app);
+
+initializeWebSocket(server);
+
+server.listen(port, () => {
   console.log(`Servidor escuchando en http://localhost:${port}`);
 });
