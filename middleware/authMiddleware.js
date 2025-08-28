@@ -9,7 +9,7 @@ const authMiddleware = async (req, res, next) => {
     const decoded = jwt.verify(token, JWT_SECRET);
     const usuario = await Usuario.findById(decoded.id);
 
-    if (!usuario) {
+    if (!usuario || usuario.token !== token) { // Compara el token con el almacenado
       throw new Error();
     }
 
