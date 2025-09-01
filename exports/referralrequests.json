@@ -1,0 +1,3210 @@
+[
+  {
+    "_id": "6899fe1ac4060110d9b769de",
+    "solicitante_id": "67bf9602c7a29c4692bde797",
+    "referido_id": "68951a1153cec61842474215",
+    "estado": "aceptado",
+    "fecha": "2025-08-11T14:28:42.206Z",
+    "__v": 0
+  },
+  {
+    "_id": "689a140e00650252fef09d4b",
+    "solicitante_id": "68991f8b07d8bf3ac2a2c5e8",
+    "referido_id": "689a0e0042d6b0d3eff0b0ad",
+    "estado": "aceptado",
+    "fecha": "2025-08-11T16:02:22.032Z",
+    "__v": 0
+  },
+  {
+    "_id": "689a167d97f0146b7f829011",
+    "solicitante_id": "68991f8b07d8bf3ac2a2c5e8",
+    "referido_id": "689a1562d43928061f20c825",
+    "estado": "aceptado",
+    "fecha": "2025-08-11T16:12:45.966Z",
+    "__v": 0
+  },
+  {
+    "_id": "689a23ae6842da332bdeb83a",
+    "solicitante_id": "67be36add8981e876590105d",
+    "referido_id": "6894ff3572d4dc7ee5c7194a",
+    "estado": "aceptado",
+    "fecha": "2025-08-11T17:09:02.819Z",
+    "__v": 0
+  },
+  {
+    "_id": "689a47414b1a16967102f84f",
+    "solicitante_id": "6860647c6436539523db5743",
+    "referido_id": "687722e8ba7312074a7f2a12",
+    "estado": "aceptado",
+    "fecha": "2025-08-11T19:40:49.688Z",
+    "__v": 0
+  },
+  {
+    "_id": "689a4a8d7f4222803605ab9a",
+    "solicitante_id": "6860647c6436539523db5743",
+    "referido_id": "689a49c94b1a16967102f85a",
+    "estado": "aceptado",
+    "fecha": "2025-08-11T19:54:53.811Z",
+    "__v": 0
+  },
+  {
+    "_id": "689a5b35231d6afb3f2d7bba",
+    "solicitante_id": "6860647c6436539523db5743",
+    "referido_id": "689a588026b9db7c8afd85ec",
+    "estado": "aceptado",
+    "fecha": "2025-08-11T21:05:57.069Z",
+    "__v": 0
+  },
+  {
+    "_id": "689a634cef877a0107dd854a",
+    "solicitante_id": "67be36add8981e876590105d",
+    "referido_id": "689a5afc26b9db7c8afd8608",
+    "estado": "aceptado",
+    "fecha": "2025-08-11T21:40:28.304Z",
+    "__v": 0
+  },
+  {
+    "_id": "689a63fec01e8153f05719db",
+    "solicitante_id": "67be36add8981e876590105d",
+    "referido_id": "689a6082ef877a0107dd849a",
+    "estado": "aceptado",
+    "fecha": "2025-08-11T21:43:26.626Z",
+    "__v": 0
+  },
+  {
+    "_id": "689a6c706d4e1e38d2d492ba",
+    "solicitante_id": "67be36add8981e876590105d",
+    "referido_id": "689a6290ef877a0107dd84a9",
+    "estado": "aceptado",
+    "fecha": "2025-08-11T22:19:28.874Z",
+    "__v": 0
+  },
+  {
+    "_id": "689aae066e0a38281c0d4d13",
+    "solicitante_id": "67be36add8981e876590105d",
+    "referido_id": "689aada7f622f414b87f7cab",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T02:59:18.406Z",
+    "__v": 0
+  },
+  {
+    "_id": "689ab0c2b7f29af3f8a12596",
+    "solicitante_id": "67be36add8981e876590105d",
+    "referido_id": "689aaf5755f01bed28c79648",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T03:10:58.460Z",
+    "__v": 0
+  },
+  {
+    "_id": "689ab6e0f80cbb018daa7692",
+    "solicitante_id": "67be36add8981e876590105d",
+    "referido_id": "689ab67ba6168d55419588ea",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T03:37:04.436Z",
+    "__v": 0
+  },
+  {
+    "_id": "689aba36b7f29af3f8a1278f",
+    "solicitante_id": "67be36add8981e876590105d",
+    "referido_id": "689ab9bdb7f29af3f8a1277f",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T03:51:18.820Z",
+    "__v": 0
+  },
+  {
+    "_id": "689ac2724548c44e6c0d0714",
+    "solicitante_id": "67be36add8981e876590105d",
+    "referido_id": "689abf765795525f77b855e1",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T04:26:26.045Z",
+    "__v": 0
+  },
+  {
+    "_id": "689ac4f1a98e82c566528eb4",
+    "solicitante_id": "67be36add8981e876590105d",
+    "referido_id": "689ac4bd4548c44e6c0d07bd",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T04:37:05.239Z",
+    "__v": 0
+  },
+  {
+    "_id": "689b8726b2d707738f1e3bc1",
+    "solicitante_id": "689a5afc26b9db7c8afd8608",
+    "referido_id": "689b84d3b2d707738f1e3bae",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T18:25:42.655Z",
+    "__v": 0
+  },
+  {
+    "_id": "689b9267853a8c50645f075f",
+    "solicitante_id": "68991bd107d8bf3ac2a2c5b9",
+    "referido_id": "6899d53e054935cb570c15a8",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T19:13:43.279Z",
+    "__v": 0
+  },
+  {
+    "_id": "689ba1cd75a43225310b13a0",
+    "solicitante_id": "689b84d3b2d707738f1e3bae",
+    "referido_id": "689b8887bd2410cd438fb5cf",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T20:19:25.939Z",
+    "__v": 0
+  },
+  {
+    "_id": "689ba7ac5a28a338cd991e57",
+    "solicitante_id": "689b84d3b2d707738f1e3bae",
+    "referido_id": "689ba5eacff4aeb4009d7cea",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T20:44:28.001Z",
+    "__v": 0
+  },
+  {
+    "_id": "689baececd07c9079c750130",
+    "solicitante_id": "689b84d3b2d707738f1e3bae",
+    "referido_id": "689badcc5a28a338cd991e80",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T21:14:54.953Z",
+    "__v": 0
+  },
+  {
+    "_id": "689bb6393e5e5cdc1077bc8f",
+    "solicitante_id": "68991bd107d8bf3ac2a2c5b9",
+    "referido_id": "689a585926b9db7c8afd85e0",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T21:46:33.749Z",
+    "__v": 0
+  },
+  {
+    "_id": "689bb72b3e5e5cdc1077bc97",
+    "solicitante_id": "68991bd107d8bf3ac2a2c5b9",
+    "referido_id": "689a5d0026b9db7c8afd8622",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T21:50:35.238Z",
+    "__v": 0
+  },
+  {
+    "_id": "689bb73e5a28a338cd991ed8",
+    "solicitante_id": "68991bd107d8bf3ac2a2c5b9",
+    "referido_id": "689b59b240f126d7179e951f",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T21:50:54.505Z",
+    "__v": 0
+  },
+  {
+    "_id": "689bb75a3e5e5cdc1077bc9f",
+    "solicitante_id": "68991bd107d8bf3ac2a2c5b9",
+    "referido_id": "689b5d516f9567a9c80704e0",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T21:51:22.341Z",
+    "__v": 0
+  },
+  {
+    "_id": "689bb7c75a28a338cd991ef2",
+    "solicitante_id": "68991bd107d8bf3ac2a2c5b9",
+    "referido_id": "689b5c396f9567a9c80704ce",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T21:53:11.919Z",
+    "__v": 0
+  },
+  {
+    "_id": "689bb7dd5a28a338cd991ef9",
+    "solicitante_id": "68991bd107d8bf3ac2a2c5b9",
+    "referido_id": "689b5e6955645f65281bb4bc",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T21:53:33.884Z",
+    "__v": 0
+  },
+  {
+    "_id": "689bb7f55a28a338cd991f00",
+    "solicitante_id": "68991bd107d8bf3ac2a2c5b9",
+    "referido_id": "689b5f6440f126d7179e9544",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T21:53:57.378Z",
+    "__v": 0
+  },
+  {
+    "_id": "689bb80b3e5e5cdc1077bca9",
+    "solicitante_id": "68991bd107d8bf3ac2a2c5b9",
+    "referido_id": "689b608255645f65281bb4e1",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T21:54:19.487Z",
+    "__v": 0
+  },
+  {
+    "_id": "689bb82e5a28a338cd991f08",
+    "solicitante_id": "68991bd107d8bf3ac2a2c5b9",
+    "referido_id": "689b618c55645f65281bb4f3",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T21:54:54.626Z",
+    "__v": 0
+  },
+  {
+    "_id": "689bb8473e5e5cdc1077bcb1",
+    "solicitante_id": "68991bd107d8bf3ac2a2c5b9",
+    "referido_id": "689b62656f9567a9c8070514",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T21:55:19.248Z",
+    "__v": 0
+  },
+  {
+    "_id": "689bbe653e5e5cdc1077bd1d",
+    "solicitante_id": "689a5afc26b9db7c8afd8608",
+    "referido_id": "689bb8a85a28a338cd991f12",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T22:21:25.213Z",
+    "__v": 0
+  },
+  {
+    "_id": "689bc186587fb4ba2dd69ebc",
+    "solicitante_id": "689bb8a85a28a338cd991f12",
+    "referido_id": "689bba70587fb4ba2dd69e80",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T22:34:46.628Z",
+    "__v": 0
+  },
+  {
+    "_id": "689bc436587fb4ba2dd69f03",
+    "solicitante_id": "689bb8a85a28a338cd991f12",
+    "referido_id": "689bbb1a3e5e5cdc1077bcf6",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T22:46:14.973Z",
+    "__v": 0
+  },
+  {
+    "_id": "689bc55c587fb4ba2dd69f1f",
+    "solicitante_id": "689bb8a85a28a338cd991f12",
+    "referido_id": "689bbbd23e5e5cdc1077bd05",
+    "estado": "aceptado",
+    "fecha": "2025-08-12T22:51:08.302Z",
+    "__v": 0
+  },
+  {
+    "_id": "689cb5a5b658ea1b275d7f0e",
+    "solicitante_id": "6897e4cf348f967f2b07b682",
+    "referido_id": "6884447586a1fb0c3c327dd6",
+    "estado": "rechazado",
+    "fecha": "2025-08-13T15:56:21.310Z",
+    "__v": 0
+  },
+  {
+    "_id": "689cb679a044be7ee7a39868",
+    "solicitante_id": "687db997ff6fe07931a09bb0",
+    "referido_id": "6884447586a1fb0c3c327dd6",
+    "estado": "aceptado",
+    "fecha": "2025-08-13T15:59:53.417Z",
+    "__v": 0
+  },
+  {
+    "_id": "689cb68cfdab300239184a20",
+    "solicitante_id": "687db997ff6fe07931a09bb0",
+    "referido_id": "6897e4cf348f967f2b07b682",
+    "estado": "aceptado",
+    "fecha": "2025-08-13T16:00:12.835Z",
+    "__v": 0
+  },
+  {
+    "_id": "689cb6a3a044be7ee7a39870",
+    "solicitante_id": "687db997ff6fe07931a09bb0",
+    "referido_id": "689c867e1d982ba32af1bba1",
+    "estado": "aceptado",
+    "fecha": "2025-08-13T16:00:35.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "689ccea3ab0beabc006d02c6",
+    "solicitante_id": "687db997ff6fe07931a09bb0",
+    "referido_id": "688199a5beaccd78cc642eee",
+    "estado": "aceptado",
+    "fecha": "2025-08-13T17:42:59.725Z",
+    "__v": 0
+  },
+  {
+    "_id": "689ccee0ab0beabc006d02cd",
+    "solicitante_id": "687db997ff6fe07931a09bb0",
+    "referido_id": "6884447586a1fb0c3c327dd6",
+    "estado": "aceptado",
+    "fecha": "2025-08-13T17:44:00.791Z",
+    "__v": 0
+  },
+  {
+    "_id": "689ccef9079fad7b42eaf2b2",
+    "solicitante_id": "687db997ff6fe07931a09bb0",
+    "referido_id": "6897e4cf348f967f2b07b682",
+    "estado": "aceptado",
+    "fecha": "2025-08-13T17:44:25.523Z",
+    "__v": 0
+  },
+  {
+    "_id": "689ccf0d079fad7b42eaf2b9",
+    "solicitante_id": "687db997ff6fe07931a09bb0",
+    "referido_id": "689c867e1d982ba32af1bba1",
+    "estado": "aceptado",
+    "fecha": "2025-08-13T17:44:45.731Z",
+    "__v": 0
+  },
+  {
+    "_id": "689ce03667291ae7214d8728",
+    "solicitante_id": "67be36add8981e876590105d",
+    "referido_id": "689cdb4267291ae7214d86d4",
+    "estado": "aceptado",
+    "fecha": "2025-08-13T18:57:58.478Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d32f254a98d3639349dcd",
+    "solicitante_id": "687db997ff6fe07931a09bb0",
+    "referido_id": "689d2ce0ffe10d4fe33e3fe7",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T00:50:58.827Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d3770683d14028df1f153",
+    "solicitante_id": "67be36add8981e876590105d",
+    "referido_id": "689d3717492da0cab09c6b4e",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T01:10:08.672Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d4fc6a6508931eed8ca2f",
+    "solicitante_id": "686da8b6493f32a591842739",
+    "referido_id": "68705c9b52c43566efe2945e",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T02:53:58.248Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d4ff6a6508931eed8ca3a",
+    "solicitante_id": "686da8b6493f32a591842739",
+    "referido_id": "68705c9b52c43566efe2945e",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T02:54:46.987Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d5199dc9f02e5ef27bf0f",
+    "solicitante_id": "686da8b6493f32a591842739",
+    "referido_id": "689d5147a6508931eed8ca51",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T03:01:45.630Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d51a3a6508931eed8ca6b",
+    "solicitante_id": "67be36add8981e876590105d",
+    "referido_id": "689d5165dc9f02e5ef27bef7",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T03:01:55.567Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d52ec3917f5afbdd72d44",
+    "solicitante_id": "686da8b6493f32a591842739",
+    "referido_id": "689d52b2a6508931eed8d0af",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T03:07:24.203Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d547c3917f5afbdd73385",
+    "solicitante_id": "686da8b6493f32a591842739",
+    "referido_id": "689d54493917f5afbdd73370",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T03:14:04.884Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d55caa6508931eed8d0fe",
+    "solicitante_id": "686da8b6493f32a591842739",
+    "referido_id": "689d559565a373bd33dd48cb",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T03:19:38.095Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d55dda6508931eed8d108",
+    "solicitante_id": "6899d53e054935cb570c15a8",
+    "referido_id": "689d554c65a373bd33dd48c0",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T03:19:57.295Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d58a5a6508931eed8d13f",
+    "solicitante_id": "689d554c65a373bd33dd48c0",
+    "referido_id": "689d583c65a373bd33dd490d",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T03:31:49.739Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d5ae1a6508931eed8d15e",
+    "solicitante_id": "689d554c65a373bd33dd48c0",
+    "referido_id": "689d5a8aa6508931eed8d14f",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T03:41:21.596Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d5d299696cde757e95a5d",
+    "solicitante_id": "689d554c65a373bd33dd48c0",
+    "referido_id": "689d5ccf9696cde757e95a4b",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T03:51:05.413Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d5f29e4942a4702352f49",
+    "solicitante_id": "689d554c65a373bd33dd48c0",
+    "referido_id": "689d5ede65a373bd33dd4942",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T03:59:37.384Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d62f3df98a2f8deb43c30",
+    "solicitante_id": "689d554c65a373bd33dd48c0",
+    "referido_id": "689d628f143639fba1de574a",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T04:15:47.752Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d65d75259e153dab1d819",
+    "solicitante_id": "689d554c65a373bd33dd48c0",
+    "referido_id": "689d657bdf98a2f8deb43c40",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T04:28:07.240Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d672e5259e153dab1d834",
+    "solicitante_id": "689d554c65a373bd33dd48c0",
+    "referido_id": "689d66fc3eb240d1ef23c5e0",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T04:33:50.733Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d695a8d0015366fa551a4",
+    "solicitante_id": "689d554c65a373bd33dd48c0",
+    "referido_id": "689d690e3eb240d1ef23c5ff",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T04:43:06.577Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d6aefdf98a2f8deb43c70",
+    "solicitante_id": "689d554c65a373bd33dd48c0",
+    "referido_id": "689d6a1e5259e153dab1d863",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T04:49:51.862Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d6c0b8d0015366fa551df",
+    "solicitante_id": "689d554c65a373bd33dd48c0",
+    "referido_id": "689d6bbe8d0015366fa551d0",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T04:54:35.522Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d6db35259e153dab1d8a5",
+    "solicitante_id": "689d554c65a373bd33dd48c0",
+    "referido_id": "689d6d188d0015366fa551ed",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T05:01:39.097Z",
+    "__v": 0
+  },
+  {
+    "_id": "689d6f048d0015366fa55221",
+    "solicitante_id": "689d554c65a373bd33dd48c0",
+    "referido_id": "689d6e958d0015366fa55210",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T05:07:16.636Z",
+    "__v": 0
+  },
+  {
+    "_id": "689dbd03e92c9c5d4e6fc459",
+    "solicitante_id": "67be36add8981e876590105d",
+    "referido_id": "689d3a46492da0cab09c6c16",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T10:40:03.438Z",
+    "__v": 0
+  },
+  {
+    "_id": "689dc1c6b9d047838a5c4534",
+    "solicitante_id": "67be36add8981e876590105d",
+    "referido_id": "689dc105e92c9c5d4e6fc78a",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T11:00:22.205Z",
+    "__v": 0
+  },
+  {
+    "_id": "689dc346f2f3228c4cf7e71a",
+    "solicitante_id": "67be36add8981e876590105d",
+    "referido_id": "689dc2ddf2f3228c4cf7e67b",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T11:06:46.190Z",
+    "__v": 0
+  },
+  {
+    "_id": "689dc896884412a19d1c42f1",
+    "solicitante_id": "689cc8a5cf73e0752a62faed",
+    "referido_id": "689cf0d40abf46683d3a703c",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T11:29:26.660Z",
+    "__v": 0
+  },
+  {
+    "_id": "689e1d0f55a65dc22a564582",
+    "solicitante_id": "68705c9b52c43566efe2945e",
+    "referido_id": "689d5147a6508931eed8ca51",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T17:29:51.328Z",
+    "__v": 0
+  },
+  {
+    "_id": "689e26785bd8803b8ef61866",
+    "solicitante_id": "689d5147a6508931eed8ca51",
+    "referido_id": "686da8b6493f32a591842739",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T18:10:00.051Z",
+    "__v": 0
+  },
+  {
+    "_id": "689e69f42c68585344c647aa",
+    "solicitante_id": "686da8b6493f32a591842739",
+    "referido_id": "68705c9b52c43566efe2945e",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T22:57:56.545Z",
+    "__v": 0
+  },
+  {
+    "_id": "689e74e594c90b6adcfcfc16",
+    "solicitante_id": "689a5afc26b9db7c8afd8608",
+    "referido_id": "689e5b8c2e656350ce4e2a7c",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T23:44:37.428Z",
+    "__v": 0
+  },
+  {
+    "_id": "689e758694c90b6adcfcfc32",
+    "solicitante_id": "689a5afc26b9db7c8afd8608",
+    "referido_id": "689e5c1d2e656350ce4e2a89",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T23:47:18.298Z",
+    "__v": 0
+  },
+  {
+    "_id": "689e76cf4130b2e5ae446a58",
+    "solicitante_id": "689a5afc26b9db7c8afd8608",
+    "referido_id": "689e5c9c18fa8d8a0b9566fa",
+    "estado": "aceptado",
+    "fecha": "2025-08-14T23:52:47.963Z",
+    "__v": 0
+  },
+  {
+    "_id": "689e7abf08c2b7e4160a9089",
+    "solicitante_id": "689e46a6eb4fd5b4461734ed",
+    "referido_id": "689e48abb0e53a27656cc398",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T00:09:35.538Z",
+    "__v": 0
+  },
+  {
+    "_id": "689e7ace4130b2e5ae446a87",
+    "solicitante_id": "689e46a6eb4fd5b4461734ed",
+    "referido_id": "689e50c6ebeb4650b7416934",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T00:09:50.688Z",
+    "__v": 0
+  },
+  {
+    "_id": "689e7ae708c2b7e4160a9092",
+    "solicitante_id": "689e46a6eb4fd5b4461734ed",
+    "referido_id": "689e724c94c90b6adcfcfb9b",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T00:10:15.510Z",
+    "__v": 0
+  },
+  {
+    "_id": "689e7af94130b2e5ae446a8f",
+    "solicitante_id": "689e46a6eb4fd5b4461734ed",
+    "referido_id": "689e724d94c90b6adcfcfba6",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T00:10:33.226Z",
+    "__v": 0
+  },
+  {
+    "_id": "689e7b0e08c2b7e4160a9099",
+    "solicitante_id": "689e46a6eb4fd5b4461734ed",
+    "referido_id": "689e724d94c90b6adcfcfbad",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T00:10:54.906Z",
+    "__v": 0
+  },
+  {
+    "_id": "689e7b2008c2b7e4160a90a0",
+    "solicitante_id": "689e46a6eb4fd5b4461734ed",
+    "referido_id": "689e724e94c90b6adcfcfbb4",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T00:11:12.657Z",
+    "__v": 0
+  },
+  {
+    "_id": "689e7b4e4130b2e5ae446a99",
+    "solicitante_id": "689e46a6eb4fd5b4461734ed",
+    "referido_id": "689e724f94c90b6adcfcfbbb",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T00:11:58.113Z",
+    "__v": 0
+  },
+  {
+    "_id": "689e7b6208c2b7e4160a90a8",
+    "solicitante_id": "689e46a6eb4fd5b4461734ed",
+    "referido_id": "689e725094c90b6adcfcfbc2",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T00:12:18.839Z",
+    "__v": 0
+  },
+  {
+    "_id": "689e7b9f08c2b7e4160a90af",
+    "solicitante_id": "689e46a6eb4fd5b4461734ed",
+    "referido_id": "689e725094c90b6adcfcfbc9",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T00:13:19.165Z",
+    "__v": 0
+  },
+  {
+    "_id": "689e7bb44130b2e5ae446aa2",
+    "solicitante_id": "689e46a6eb4fd5b4461734ed",
+    "referido_id": "689e725194c90b6adcfcfbd0",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T00:13:40.257Z",
+    "__v": 0
+  },
+  {
+    "_id": "689e7bc908c2b7e4160a90b7",
+    "solicitante_id": "689e46a6eb4fd5b4461734ed",
+    "referido_id": "689e725294c90b6adcfcfbd7",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T00:14:01.059Z",
+    "__v": 0
+  },
+  {
+    "_id": "689e7be34130b2e5ae446aaa",
+    "solicitante_id": "689e46a6eb4fd5b4461734ed",
+    "referido_id": "689e725294c90b6adcfcfbde",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T00:14:27.220Z",
+    "__v": 0
+  },
+  {
+    "_id": "689ea48cf5c50cc344cfaedd",
+    "solicitante_id": "689cc8a5cf73e0752a62faed",
+    "referido_id": "689e95aff5c50cc344cfae2e",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T03:07:56.286Z",
+    "__v": 0
+  },
+  {
+    "_id": "689ea581a3e1a7b457bac96d",
+    "solicitante_id": "689cc8a5cf73e0752a62faed",
+    "referido_id": "689e95b1f5c50cc344cfae43",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T03:12:01.832Z",
+    "__v": 0
+  },
+  {
+    "_id": "689ea5e4f3fde2aacda92e44",
+    "solicitante_id": "689cc8a5cf73e0752a62faed",
+    "referido_id": "689e95b1f5c50cc344cfae3c",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T03:13:40.611Z",
+    "__v": 0
+  },
+  {
+    "_id": "689ea63fa4b1171644ec5ced",
+    "solicitante_id": "689cc8a5cf73e0752a62faed",
+    "referido_id": "689e95b0f5c50cc344cfae35",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T03:15:11.389Z",
+    "__v": 0
+  },
+  {
+    "_id": "689ea676a3e1a7b457bac993",
+    "solicitante_id": "689cc8a5cf73e0752a62faed",
+    "referido_id": "689e95b2f5c50cc344cfae4a",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T03:16:06.201Z",
+    "__v": 0
+  },
+  {
+    "_id": "689ea7bda3e1a7b457bac9ac",
+    "solicitante_id": "67f077b26cfab5712652a964",
+    "referido_id": "680ede2a6ee385164b53698d",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T03:21:33.298Z",
+    "__v": 0
+  },
+  {
+    "_id": "689f22476198043bacf552c6",
+    "solicitante_id": "68705c9b52c43566efe2945e",
+    "referido_id": "689f2178f015c0aa8b05a6cb",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T12:04:23.919Z",
+    "__v": 0
+  },
+  {
+    "_id": "689f226ef015c0aa8b05a6f5",
+    "solicitante_id": "68705c9b52c43566efe2945e",
+    "referido_id": "689f2178f015c0aa8b05a6cb",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T12:05:02.925Z",
+    "__v": 0
+  },
+  {
+    "_id": "689f24a66198043bacf55310",
+    "solicitante_id": "68705c9b52c43566efe2945e",
+    "referido_id": "689f2379282115ccdef38a8f",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T12:14:30.474Z",
+    "__v": 0
+  },
+  {
+    "_id": "689f26b56198043bacf55333",
+    "solicitante_id": "689f267b78c26d17ccce669d",
+    "referido_id": "686da8b6493f32a591842739",
+    "estado": "rechazado",
+    "fecha": "2025-08-15T12:23:17.325Z",
+    "__v": 0
+  },
+  {
+    "_id": "689f272778c26d17ccce66b9",
+    "solicitante_id": "68705c9b52c43566efe2945e",
+    "referido_id": "689f267b78c26d17ccce669d",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T12:25:11.537Z",
+    "__v": 0
+  },
+  {
+    "_id": "689f2906282115ccdef38af6",
+    "solicitante_id": "68705c9b52c43566efe2945e",
+    "referido_id": "689f28a6282115ccdef38ae1",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T12:33:10.989Z",
+    "__v": 0
+  },
+  {
+    "_id": "689f293778c26d17ccce6709",
+    "solicitante_id": "68705c9b52c43566efe2945e",
+    "referido_id": "689f28a6282115ccdef38ae1",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T12:33:59.224Z",
+    "__v": 0
+  },
+  {
+    "_id": "689faa9334a3d7980026bd38",
+    "solicitante_id": "6899d53e054935cb570c15a8",
+    "referido_id": "689e46a6eb4fd5b4461734ed",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T21:45:55.717Z",
+    "__v": 0
+  },
+  {
+    "_id": "689fc8c60618d939c6fd0209",
+    "solicitante_id": "67be36add8981e876590105d",
+    "referido_id": "689fc86978ce9f0d973b6948",
+    "estado": "aceptado",
+    "fecha": "2025-08-15T23:54:46.909Z",
+    "__v": 0
+  },
+  {
+    "_id": "689fdb3e1a812d4f0e3b0cd0",
+    "solicitante_id": "689d3a46492da0cab09c6c16",
+    "referido_id": "689d4798683d14028df1f21c",
+    "estado": "aceptado",
+    "fecha": "2025-08-16T01:13:34.262Z",
+    "__v": 0
+  },
+  {
+    "_id": "689fe1fb82aac4ca1d667b2d",
+    "solicitante_id": "689fdd03434519f1887f2b9e",
+    "referido_id": "689fdd09434519f1887f2ba5",
+    "estado": "aceptado",
+    "fecha": "2025-08-16T01:42:19.711Z",
+    "__v": 0
+  },
+  {
+    "_id": "689fe21455002af228cfc00b",
+    "solicitante_id": "689fdd03434519f1887f2b9e",
+    "referido_id": "689fdd0f434519f1887f2bac",
+    "estado": "aceptado",
+    "fecha": "2025-08-16T01:42:44.841Z",
+    "__v": 0
+  },
+  {
+    "_id": "689fe28e82aac4ca1d667b42",
+    "solicitante_id": "689fdd03434519f1887f2b9e",
+    "referido_id": "689fdd15434519f1887f2bb3",
+    "estado": "aceptado",
+    "fecha": "2025-08-16T01:44:46.487Z",
+    "__v": 0
+  },
+  {
+    "_id": "689fe2d655002af228cfc017",
+    "solicitante_id": "689fdd03434519f1887f2b9e",
+    "referido_id": "689fdd1b434519f1887f2bba",
+    "estado": "aceptado",
+    "fecha": "2025-08-16T01:45:58.858Z",
+    "__v": 0
+  },
+  {
+    "_id": "689fe34b82aac4ca1d667b49",
+    "solicitante_id": "689fdd03434519f1887f2b9e",
+    "referido_id": "689fdd21434519f1887f2bc1",
+    "estado": "aceptado",
+    "fecha": "2025-08-16T01:47:55.505Z",
+    "__v": 0
+  },
+  {
+    "_id": "689fe36bc796abdd58a86da6",
+    "solicitante_id": "689fdd03434519f1887f2b9e",
+    "referido_id": "689fdd27434519f1887f2bc8",
+    "estado": "aceptado",
+    "fecha": "2025-08-16T01:48:27.175Z",
+    "__v": 0
+  },
+  {
+    "_id": "689fe38a82aac4ca1d667b51",
+    "solicitante_id": "689fdd03434519f1887f2b9e",
+    "referido_id": "689fdd2d434519f1887f2bcf",
+    "estado": "aceptado",
+    "fecha": "2025-08-16T01:48:58.860Z",
+    "__v": 0
+  },
+  {
+    "_id": "689fe3aa82aac4ca1d667b58",
+    "solicitante_id": "689fdd03434519f1887f2b9e",
+    "referido_id": "689fdd33434519f1887f2bd6",
+    "estado": "aceptado",
+    "fecha": "2025-08-16T01:49:30.073Z",
+    "__v": 0
+  },
+  {
+    "_id": "689fe3c2c796abdd58a86daf",
+    "solicitante_id": "689fdd03434519f1887f2b9e",
+    "referido_id": "689fdd39434519f1887f2bdd",
+    "estado": "aceptado",
+    "fecha": "2025-08-16T01:49:54.121Z",
+    "__v": 0
+  },
+  {
+    "_id": "689fe3d382aac4ca1d667b60",
+    "solicitante_id": "689fdd03434519f1887f2b9e",
+    "referido_id": "689fdd3f434519f1887f2be4",
+    "estado": "aceptado",
+    "fecha": "2025-08-16T01:50:11.704Z",
+    "__v": 0
+  },
+  {
+    "_id": "689fe3eb82aac4ca1d667b67",
+    "solicitante_id": "689fdd03434519f1887f2b9e",
+    "referido_id": "689fdd452ba576a1244ba132",
+    "estado": "aceptado",
+    "fecha": "2025-08-16T01:50:35.546Z",
+    "__v": 0
+  },
+  {
+    "_id": "689fe3fec796abdd58a86db8",
+    "solicitante_id": "689fdd03434519f1887f2b9e",
+    "referido_id": "689fdd4b434519f1887f2bf0",
+    "estado": "aceptado",
+    "fecha": "2025-08-16T01:50:54.144Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a07d9ea481691a8940fde6",
+    "solicitante_id": "689be3505a15ab9ff669be72",
+    "referido_id": "68a0734c56fbe4ed57da4842",
+    "estado": "pendiente",
+    "fecha": "2025-08-16T12:46:22.047Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a07de0a7d598c7a9c0c9cb",
+    "solicitante_id": "689be3505a15ab9ff669be72",
+    "referido_id": "68a0733f56fbe4ed57da4834",
+    "estado": "pendiente",
+    "fecha": "2025-08-16T12:47:28.908Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a07e14a6909b99f1888244",
+    "solicitante_id": "689be3505a15ab9ff669be72",
+    "referido_id": "68a0734556fbe4ed57da483b",
+    "estado": "pendiente",
+    "fecha": "2025-08-16T12:48:20.240Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a19cfdc5780ac0fff2588a",
+    "solicitante_id": "6899d53e054935cb570c15a8",
+    "referido_id": "689fdd03434519f1887f2b9e",
+    "estado": "aceptado",
+    "fecha": "2025-08-17T09:12:29.105Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a22fd133db4c1aaadd3f2a",
+    "solicitante_id": "680fe6e90e47129f3c2abb8a",
+    "referido_id": "68a22ce28a160ff9447763ff",
+    "estado": "aceptado",
+    "fecha": "2025-08-17T19:38:57.190Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a3b0b9fb3f052c0f354aba",
+    "solicitante_id": "689d3a46492da0cab09c6c16",
+    "referido_id": "689fcb07964278a7812bd026",
+    "estado": "aceptado",
+    "fecha": "2025-08-18T23:01:13.903Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a3b24999d3af79b153ad26",
+    "solicitante_id": "689d3a46492da0cab09c6c16",
+    "referido_id": "689fcc05f5f33e598931b85c",
+    "estado": "aceptado",
+    "fecha": "2025-08-18T23:07:53.712Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a45db21ccb7e680070d841",
+    "solicitante_id": "689e0b498cc3febef65f2c41",
+    "referido_id": "689e19c0f82acf0b36714960",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T11:19:14.781Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a45dce60e140bdac1d17ef",
+    "solicitante_id": "689e0b498cc3febef65f2c41",
+    "referido_id": "689e1b24f82acf0b3671497b",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T11:19:42.307Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a45ddd60e140bdac1d17f6",
+    "solicitante_id": "689e0b498cc3febef65f2c41",
+    "referido_id": "689e1bc7f82acf0b3671498b",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T11:19:57.716Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4a1ab327f128127775cc3",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202b7ac274d55436ec52c",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T16:09:15.351Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4a1e4327f128127775ccb",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202b8ac274d55436ec533",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T16:10:12.704Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4a204667515a393385c99",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202b9ac274d55436ec53a",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T16:10:44.327Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4b5819f2d597a88323594",
+    "solicitante_id": "680fe6e90e47129f3c2abb8a",
+    "referido_id": "68a3eaf0c831f2d14b6c143b",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T17:33:53.487Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4b667ee3397c629c73ac1",
+    "solicitante_id": "689a585926b9db7c8afd85e0",
+    "referido_id": "68a4b54f9f2d597a88323530",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T17:37:43.876Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4b9c8120e433fd4cbfae1",
+    "solicitante_id": "68a4b54f9f2d597a88323530",
+    "referido_id": "68a4b5509f2d597a88323537",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T17:52:08.393Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4b9f3120e433fd4cbfaf2",
+    "solicitante_id": "68a4b54f9f2d597a88323530",
+    "referido_id": "68a4b5509f2d597a8832353e",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T17:52:51.702Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4ba04dfc17c581650b236",
+    "solicitante_id": "68a4b54f9f2d597a88323530",
+    "referido_id": "68a4b5519f2d597a88323545",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T17:53:08.657Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4ba16dfc17c581650b23d",
+    "solicitante_id": "68a4b54f9f2d597a88323530",
+    "referido_id": "68a4b5529f2d597a8832354c",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T17:53:26.863Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4ba27dfc17c581650b244",
+    "solicitante_id": "68a4b54f9f2d597a88323530",
+    "referido_id": "68a4b5529f2d597a88323553",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T17:53:43.818Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4c7419638c1b12fd1f8ae",
+    "solicitante_id": "689a585926b9db7c8afd85e0",
+    "referido_id": "68a4c6aabd4eb4a93043ec3f",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T18:49:37.154Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4c9298cdb127e959e6802",
+    "solicitante_id": "68a4c6aabd4eb4a93043ec3f",
+    "referido_id": "68a4c6abbd4eb4a93043ec46",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T18:57:45.181Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4c9629638c1b12fd1f8c2",
+    "solicitante_id": "68a4c6aabd4eb4a93043ec3f",
+    "referido_id": "68a4c6acbd4eb4a93043ec4d",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T18:58:42.284Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4c987dd8f18d4c69258ca",
+    "solicitante_id": "68a4c6aabd4eb4a93043ec3f",
+    "referido_id": "68a4c6adbd4eb4a93043ec54",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T18:59:19.246Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4c9b89638c1b12fd1f8cb",
+    "solicitante_id": "68a4c6aabd4eb4a93043ec3f",
+    "referido_id": "68a4c6aebd4eb4a93043ec5b",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T19:00:08.008Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4c9cbdd8f18d4c69258d3",
+    "solicitante_id": "68a4c6aabd4eb4a93043ec3f",
+    "referido_id": "68a4c6aebd4eb4a93043ec62",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T19:00:27.524Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4c9e29638c1b12fd1f8d4",
+    "solicitante_id": "68a4c6aabd4eb4a93043ec3f",
+    "referido_id": "68a4c6b0bd4eb4a93043ec70",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T19:00:50.623Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4ca25dd8f18d4c69258e4",
+    "solicitante_id": "68a4c6aabd4eb4a93043ec3f",
+    "referido_id": "68a4c6b0bd4eb4a93043ec77",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T19:01:57.235Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4ca889638c1b12fd1f8f8",
+    "solicitante_id": "68a4c6aabd4eb4a93043ec3f",
+    "referido_id": "68a4c6b1bd4eb4a93043ec7e",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T19:03:36.424Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4caa3dd8f18d4c69258f3",
+    "solicitante_id": "68a4c6aabd4eb4a93043ec3f",
+    "referido_id": "68a4c6b2bd4eb4a93043ec85",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T19:04:03.239Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4cab49638c1b12fd1f901",
+    "solicitante_id": "68a4c6aabd4eb4a93043ec3f",
+    "referido_id": "68a4c6b2bd4eb4a93043ec8c",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T19:04:20.171Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4cac6dd8f18d4c69258fc",
+    "solicitante_id": "68a4c6aabd4eb4a93043ec3f",
+    "referido_id": "68a4c6b3bd4eb4a93043ec93",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T19:04:38.402Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4cbb68cdb127e959e6816",
+    "solicitante_id": "68a4c6aabd4eb4a93043ec3f",
+    "referido_id": "68a4c6afbd4eb4a93043ec69",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T19:08:38.498Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4cc6ca941f5925047417e",
+    "solicitante_id": "680fe6e90e47129f3c2abb8a",
+    "referido_id": "68a4c937dd8f18d4c69258bc",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T19:11:40.108Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4d33dc1bccf411c1a0c4c",
+    "solicitante_id": "68a4b54f9f2d597a88323530",
+    "referido_id": "68a4b5539f2d597a8832355a",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T19:40:45.331Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4d427a430322c994c3c3b",
+    "solicitante_id": "68a4b54f9f2d597a88323530",
+    "referido_id": "68a4b5549f2d597a88323561",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T19:44:39.774Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4d8d6e20846fae0d1f97e",
+    "solicitante_id": "68a4b54f9f2d597a88323530",
+    "referido_id": "68a4b5549f2d597a88323568",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T20:04:38.875Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4d901e20846fae0d1f989",
+    "solicitante_id": "68a4b54f9f2d597a88323530",
+    "referido_id": "68a4b5559f2d597a8832356f",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T20:05:21.011Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4d99df5e13108de8fd65d",
+    "solicitante_id": "68a4b54f9f2d597a88323530",
+    "referido_id": "68a4b5569f2d597a88323576",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T20:07:57.876Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4d9c214d6b5c4190c2dc9",
+    "solicitante_id": "68a4b54f9f2d597a88323530",
+    "referido_id": "68a4b5569f2d597a8832357d",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T20:08:34.563Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4da83f5e13108de8fd666",
+    "solicitante_id": "68a4b54f9f2d597a88323530",
+    "referido_id": "68a4b5579f2d597a88323584",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T20:11:47.240Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a4e8eee60e93b1d99c672f",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202baac274d55436ec542",
+    "estado": "aceptado",
+    "fecha": "2025-08-19T21:13:18.611Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a520f9e55ec61344a50f81",
+    "solicitante_id": "689a585926b9db7c8afd85e0",
+    "referido_id": "68a4e0fc9d7745b91b7ea610",
+    "estado": "aceptado",
+    "fecha": "2025-08-20T01:12:25.027Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a5242c6730eb2712497fde",
+    "solicitante_id": "68a4e0fc9d7745b91b7ea610",
+    "referido_id": "68a4e0fe9d7745b91b7ea617",
+    "estado": "aceptado",
+    "fecha": "2025-08-20T01:26:04.583Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a526c36730eb2712497fea",
+    "solicitante_id": "68a4e0fc9d7745b91b7ea610",
+    "referido_id": "68a4e1039d7745b91b7ea61e",
+    "estado": "aceptado",
+    "fecha": "2025-08-20T01:37:07.242Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a5272c3b272842f28e8a78",
+    "solicitante_id": "68a4e0fc9d7745b91b7ea610",
+    "referido_id": "68a4e1039d7745b91b7ea625",
+    "estado": "aceptado",
+    "fecha": "2025-08-20T01:38:52.243Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a527670fd2ee89847e18aa",
+    "solicitante_id": "68a4e0fc9d7745b91b7ea610",
+    "referido_id": "68a4e1059d7745b91b7ea62c",
+    "estado": "aceptado",
+    "fecha": "2025-08-20T01:39:51.645Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a5278f3b272842f28e8a81",
+    "solicitante_id": "68a4e0fc9d7745b91b7ea610",
+    "referido_id": "68a4e1069d7745b91b7ea633",
+    "estado": "aceptado",
+    "fecha": "2025-08-20T01:40:31.248Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a527c20fd2ee89847e18b3",
+    "solicitante_id": "68a4e0fc9d7745b91b7ea610",
+    "referido_id": "68a4e1079d7745b91b7ea63a",
+    "estado": "aceptado",
+    "fecha": "2025-08-20T01:41:22.461Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a527e70fd2ee89847e18bc",
+    "solicitante_id": "68a4e0fc9d7745b91b7ea610",
+    "referido_id": "68a4e1089d7745b91b7ea641",
+    "estado": "aceptado",
+    "fecha": "2025-08-20T01:41:59.223Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a528213b272842f28e8a8a",
+    "solicitante_id": "68a4e0fc9d7745b91b7ea610",
+    "referido_id": "68a4e10a9d7745b91b7ea648",
+    "estado": "aceptado",
+    "fecha": "2025-08-20T01:42:57.606Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a528440fd2ee89847e18c5",
+    "solicitante_id": "68a4e0fc9d7745b91b7ea610",
+    "referido_id": "68a4e10a9d7745b91b7ea64f",
+    "estado": "aceptado",
+    "fecha": "2025-08-20T01:43:32.751Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a528683b272842f28e8a93",
+    "solicitante_id": "68a4e0fc9d7745b91b7ea610",
+    "referido_id": "68a4e10c9d7745b91b7ea656",
+    "estado": "aceptado",
+    "fecha": "2025-08-20T01:44:08.719Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a5288e0fd2ee89847e18ce",
+    "solicitante_id": "68a4e0fc9d7745b91b7ea610",
+    "referido_id": "68a4e10e9d7745b91b7ea65d",
+    "estado": "aceptado",
+    "fecha": "2025-08-20T01:44:46.882Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a528b73b272842f28e8a9c",
+    "solicitante_id": "68a4e0fc9d7745b91b7ea610",
+    "referido_id": "68a4e1179d7745b91b7ea664",
+    "estado": "aceptado",
+    "fecha": "2025-08-20T01:45:27.819Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a781d0fdc787f9ef6a580d",
+    "solicitante_id": "689e8ba5dcf9eca27a0be01a",
+    "referido_id": "689f54999804d9c44733c1e9",
+    "estado": "aceptado",
+    "fecha": "2025-08-21T20:30:08.680Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a7821fd199e69568fc92c7",
+    "solicitante_id": "689d450aa396fc5518acb387",
+    "referido_id": "689e8ba5dcf9eca27a0be01a",
+    "estado": "aceptado",
+    "fecha": "2025-08-21T20:31:27.836Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a7ab03437071acc5559baf",
+    "solicitante_id": "687db997ff6fe07931a09bb0",
+    "referido_id": "68a749c537d58d12f4b12623",
+    "estado": "aceptado",
+    "fecha": "2025-08-21T23:25:55.698Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a7d60b28e3e01448bd4bd7",
+    "solicitante_id": "687db997ff6fe07931a09bb0",
+    "referido_id": "68a749c737d58d12f4b12631",
+    "estado": "aceptado",
+    "fecha": "2025-08-22T02:29:31.993Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a8c8f368f8c26b7b4469da",
+    "solicitante_id": "689a5d0026b9db7c8afd8622",
+    "referido_id": "68a8a7c752efbd443d8fefb2",
+    "estado": "aceptado",
+    "fecha": "2025-08-22T19:45:55.195Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a8c904fbb46af61c1d574e",
+    "solicitante_id": "689a5d0026b9db7c8afd8622",
+    "referido_id": "68a8ae30057301acbff67f99",
+    "estado": "aceptado",
+    "fecha": "2025-08-22T19:46:12.267Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a8c911fbb46af61c1d5755",
+    "solicitante_id": "689a5d0026b9db7c8afd8622",
+    "referido_id": "68a8aec2057301acbff67fb2",
+    "estado": "aceptado",
+    "fecha": "2025-08-22T19:46:25.320Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a8d5d0f3c31c3d869892a5",
+    "solicitante_id": "68a8a7c752efbd443d8fefb2",
+    "referido_id": "68a8d0a8090b5651454b8f96",
+    "estado": "aceptado",
+    "fecha": "2025-08-22T20:40:48.484Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a8d5e5090b5651454b8fff",
+    "solicitante_id": "68a8a7c752efbd443d8fefb2",
+    "referido_id": "68a8d0aa090b5651454b8fa4",
+    "estado": "aceptado",
+    "fecha": "2025-08-22T20:41:09.116Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a8d636f3c31c3d869892b4",
+    "solicitante_id": "68a8a7c752efbd443d8fefb2",
+    "referido_id": "68a8d0a9090b5651454b8f9d",
+    "estado": "aceptado",
+    "fecha": "2025-08-22T20:42:30.079Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a8d652090b5651454b9008",
+    "solicitante_id": "68a8a7c752efbd443d8fefb2",
+    "referido_id": "68a8d0ab090b5651454b8fab",
+    "estado": "aceptado",
+    "fecha": "2025-08-22T20:42:58.762Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a8d668f3c31c3d869892bd",
+    "solicitante_id": "68a8a7c752efbd443d8fefb2",
+    "referido_id": "68a8d0ab090b5651454b8fb2",
+    "estado": "aceptado",
+    "fecha": "2025-08-22T20:43:20.977Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a8d67f090b5651454b9011",
+    "solicitante_id": "68a8a7c752efbd443d8fefb2",
+    "referido_id": "68a8d0ac090b5651454b8fb9",
+    "estado": "aceptado",
+    "fecha": "2025-08-22T20:43:43.111Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a8d690f3c31c3d869892c6",
+    "solicitante_id": "68a8a7c752efbd443d8fefb2",
+    "referido_id": "68a8d0ad090b5651454b8fc0",
+    "estado": "aceptado",
+    "fecha": "2025-08-22T20:44:00.736Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a8d6a3090b5651454b901a",
+    "solicitante_id": "68a8a7c752efbd443d8fefb2",
+    "referido_id": "68a8d0ae090b5651454b8fc7",
+    "estado": "aceptado",
+    "fecha": "2025-08-22T20:44:19.984Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a8d6b1f3c31c3d869892cf",
+    "solicitante_id": "68a8a7c752efbd443d8fefb2",
+    "referido_id": "68a8d0ae090b5651454b8fce",
+    "estado": "aceptado",
+    "fecha": "2025-08-22T20:44:33.750Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a8d6be090b5651454b9023",
+    "solicitante_id": "68a8a7c752efbd443d8fefb2",
+    "referido_id": "68a8d0af090b5651454b8fd5",
+    "estado": "aceptado",
+    "fecha": "2025-08-22T20:44:46.832Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a8d6d0f3c31c3d869892d8",
+    "solicitante_id": "68a8a7c752efbd443d8fefb2",
+    "referido_id": "68a8d0b0090b5651454b8fdc",
+    "estado": "aceptado",
+    "fecha": "2025-08-22T20:45:04.696Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a8d8030269f32a36c173cb",
+    "solicitante_id": "68a8a7c752efbd443d8fefb2",
+    "referido_id": "68a8d0b0090b5651454b8fe3",
+    "estado": "aceptado",
+    "fecha": "2025-08-22T20:50:11.497Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a90f208a7ae958ceb174df",
+    "solicitante_id": "68a8ae30057301acbff67f99",
+    "referido_id": "68a9058ec4b82b6c6c62d600",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T00:45:20.086Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a90f458a7ae958ceb174e6",
+    "solicitante_id": "68a8ae30057301acbff67f99",
+    "referido_id": "68a90590c4b82b6c6c62d607",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T00:45:57.616Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a90f5b09538fd6921be19a",
+    "solicitante_id": "68a8ae30057301acbff67f99",
+    "referido_id": "68a90591c4b82b6c6c62d60e",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T00:46:19.078Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a90f708a7ae958ceb174ef",
+    "solicitante_id": "68a8ae30057301acbff67f99",
+    "referido_id": "68a90592c4b82b6c6c62d615",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T00:46:40.824Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a90f8709538fd6921be1a3",
+    "solicitante_id": "68a8ae30057301acbff67f99",
+    "referido_id": "68a90593c4b82b6c6c62d61c",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T00:47:03.937Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a90fa38a7ae958ceb174f8",
+    "solicitante_id": "68a8ae30057301acbff67f99",
+    "referido_id": "68a90595c4b82b6c6c62d623",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T00:47:31.044Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a90fb509538fd6921be1ac",
+    "solicitante_id": "68a8ae30057301acbff67f99",
+    "referido_id": "68a90596c4b82b6c6c62d62a",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T00:47:49.239Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a90fcd8a7ae958ceb17501",
+    "solicitante_id": "68a8ae30057301acbff67f99",
+    "referido_id": "68a90598c4b82b6c6c62d631",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T00:48:13.654Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a90fdf09538fd6921be1b5",
+    "solicitante_id": "68a8ae30057301acbff67f99",
+    "referido_id": "68a90599c4b82b6c6c62d638",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T00:48:31.302Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a90ff28a7ae958ceb1750a",
+    "solicitante_id": "68a8ae30057301acbff67f99",
+    "referido_id": "68a9059ac4b82b6c6c62d63f",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T00:48:50.437Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a9100509538fd6921be1be",
+    "solicitante_id": "68a8ae30057301acbff67f99",
+    "referido_id": "68a9059bc4b82b6c6c62d646",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T00:49:09.513Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a9101d8a7ae958ceb17513",
+    "solicitante_id": "68a8ae30057301acbff67f99",
+    "referido_id": "68a9059dc4b82b6c6c62d64d",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T00:49:33.370Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a928bdb35cc143a418f2f8",
+    "solicitante_id": "68a8aec2057301acbff67fb2",
+    "referido_id": "68a9236e48095a0f8db6062a",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T02:34:37.448Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a928d827b62a8cfe194865",
+    "solicitante_id": "68a8aec2057301acbff67fb2",
+    "referido_id": "68a9236f48095a0f8db6063b",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T02:35:04.450Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a928ef212978a8e0081300",
+    "solicitante_id": "68a8aec2057301acbff67fb2",
+    "referido_id": "68a9237048095a0f8db60642",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T02:35:27.119Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a9290427b62a8cfe19486e",
+    "solicitante_id": "68a8aec2057301acbff67fb2",
+    "referido_id": "68a9237148095a0f8db60649",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T02:35:48.253Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a92923212978a8e0081309",
+    "solicitante_id": "68a8aec2057301acbff67fb2",
+    "referido_id": "68a9237248095a0f8db60650",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T02:36:19.041Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a9293627b62a8cfe194877",
+    "solicitante_id": "68a8aec2057301acbff67fb2",
+    "referido_id": "68a9237248095a0f8db60657",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T02:36:38.024Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a92946212978a8e0081312",
+    "solicitante_id": "68a8aec2057301acbff67fb2",
+    "referido_id": "68a9237348095a0f8db6065e",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T02:36:54.310Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a9295627b62a8cfe194880",
+    "solicitante_id": "68a8aec2057301acbff67fb2",
+    "referido_id": "68a9237448095a0f8db60665",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T02:37:10.853Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a9296a212978a8e008131b",
+    "solicitante_id": "68a8aec2057301acbff67fb2",
+    "referido_id": "68a9237548095a0f8db6066c",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T02:37:30.408Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a9298327b62a8cfe194889",
+    "solicitante_id": "68a8aec2057301acbff67fb2",
+    "referido_id": "68a9237548095a0f8db60673",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T02:37:55.874Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a92995212978a8e0081324",
+    "solicitante_id": "68a8aec2057301acbff67fb2",
+    "referido_id": "68a9237648095a0f8db6067a",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T02:38:13.023Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a929a9212978a8e008132b",
+    "solicitante_id": "68a8aec2057301acbff67fb2",
+    "referido_id": "68a927e8212978a8e00812dd",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T02:38:33.028Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a9329086d27f28e7b4c7e0",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202baac274d55436ec542",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T03:16:32.806Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a9339586d27f28e7b4c808",
+    "solicitante_id": "68a202bbac274d55436ec54a",
+    "referido_id": "68a202baac274d55436ec542",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T03:20:53.641Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a935c969dd7ea622f836d8",
+    "solicitante_id": "68a202bcac274d55436ec551",
+    "referido_id": "68a202bbac274d55436ec54a",
+    "estado": "rechazado",
+    "fecha": "2025-08-23T03:30:17.324Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a9f320ebe325df12d7f516",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202bbac274d55436ec54a",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T16:58:08.590Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a9fb223ec5bfe2f92f3d02",
+    "solicitante_id": "680ee207d939658122cd8ce5",
+    "referido_id": "680ede2a6ee385164b53698d",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T17:32:18.574Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a9fb504eaec289f296148d",
+    "solicitante_id": "680ee0b1d0fbbc061b094a56",
+    "referido_id": "680ede2a6ee385164b53698d",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T17:33:04.054Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a9fb7f3ec5bfe2f92f3d0f",
+    "solicitante_id": "67f077b26cfab5712652a964",
+    "referido_id": "680ede2a6ee385164b53698d",
+    "estado": "rechazado",
+    "fecha": "2025-08-23T17:33:51.079Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a9fd774eaec289f29614bd",
+    "solicitante_id": "680ee207d939658122cd8ce5",
+    "referido_id": "680ede2a6ee385164b53698d",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T17:42:15.712Z",
+    "__v": 0
+  },
+  {
+    "_id": "68a9fdcb3ec5bfe2f92f3d49",
+    "solicitante_id": "680ee0b1d0fbbc061b094a56",
+    "referido_id": "680ee207d939658122cd8ce5",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T17:43:39.847Z",
+    "__v": 0
+  },
+  {
+    "_id": "68aa09856fccbfd10b0bbfe8",
+    "solicitante_id": "689d450aa396fc5518acb387",
+    "referido_id": "68a9d7d59537635a0d5e56cc",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T18:33:41.763Z",
+    "__v": 0
+  },
+  {
+    "_id": "68aa09c7fc8d961f46e3dee0",
+    "solicitante_id": "689d450aa396fc5518acb387",
+    "referido_id": "68a9d7d49537635a0d5e56b3",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T18:34:47.970Z",
+    "__v": 0
+  },
+  {
+    "_id": "68aa0a03dc3e1d108c78767c",
+    "solicitante_id": "689d450aa396fc5518acb387",
+    "referido_id": "68a9d7d69537635a0d5e56d3",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T18:35:47.197Z",
+    "__v": 0
+  },
+  {
+    "_id": "68aa4b104d9c664033198a18",
+    "solicitante_id": "686f1252dbc0924cb2c97c7d",
+    "referido_id": "6875d94af9f53500ef3fc5ae",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T23:13:20.843Z",
+    "__v": 0
+  },
+  {
+    "_id": "68aa4b29259b03c8a87f15e4",
+    "solicitante_id": "686f1252dbc0924cb2c97c7d",
+    "referido_id": "68893b9c17956fca56050542",
+    "estado": "aceptado",
+    "fecha": "2025-08-23T23:13:45.395Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ab8848ed24d06b6be234c7",
+    "solicitante_id": "67be4753c9dec708553a16c6",
+    "referido_id": "68a3ecdda46fa5ce706125ae",
+    "estado": "aceptado",
+    "fecha": "2025-08-24T21:46:48.306Z",
+    "__v": 0
+  },
+  {
+    "_id": "68abc41dbe9c9e4dce1b85ee",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202bcac274d55436ec551",
+    "estado": "aceptado",
+    "fecha": "2025-08-25T02:02:05.301Z",
+    "__v": 0
+  },
+  {
+    "_id": "68abc4cb0f352c07a76d1484",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202bdac274d55436ec558",
+    "estado": "aceptado",
+    "fecha": "2025-08-25T02:04:59.062Z",
+    "__v": 0
+  },
+  {
+    "_id": "68abc5bc1dc21606dc336ccd",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202bdac274d55436ec55f",
+    "estado": "aceptado",
+    "fecha": "2025-08-25T02:09:00.032Z",
+    "__v": 0
+  },
+  {
+    "_id": "68abc66c1dc21606dc336ce4",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202beac274d55436ec566",
+    "estado": "aceptado",
+    "fecha": "2025-08-25T02:11:56.083Z",
+    "__v": 0
+  },
+  {
+    "_id": "68adf92901b61b55ef6ba5fc",
+    "solicitante_id": "689b59b240f126d7179e951f",
+    "referido_id": "68adf41f96f6c683a46ee226",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T18:12:57.359Z",
+    "__v": 0
+  },
+  {
+    "_id": "68adfaf2eba33fecab0f3760",
+    "solicitante_id": "689b59b240f126d7179e951f",
+    "referido_id": "68adf6251802a999d9f341d9",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T18:20:34.632Z",
+    "__v": 0
+  },
+  {
+    "_id": "68adfc524b9601da0ea3dd88",
+    "solicitante_id": "689b59b240f126d7179e951f",
+    "referido_id": "68adf79601b61b55ef6ba582",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T18:26:26.045Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae0f5a9e25022f19a15479",
+    "solicitante_id": "68adf41f96f6c683a46ee226",
+    "referido_id": "68adf42296f6c683a46ee23d",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T19:47:38.373Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae0f707816ef0970d452a2",
+    "solicitante_id": "68adf41f96f6c683a46ee226",
+    "referido_id": "68adf42396f6c683a46ee244",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T19:48:00.435Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae0f879e25022f19a15482",
+    "solicitante_id": "68adf41f96f6c683a46ee226",
+    "referido_id": "68adf42396f6c683a46ee24b",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T19:48:23.205Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae0f9b7816ef0970d452ab",
+    "solicitante_id": "68adf41f96f6c683a46ee226",
+    "referido_id": "68adf42496f6c683a46ee252",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T19:48:43.941Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae0fc49e25022f19a1548b",
+    "solicitante_id": "68adf41f96f6c683a46ee226",
+    "referido_id": "68adf42596f6c683a46ee259",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T19:49:24.319Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae0fe87816ef0970d452b4",
+    "solicitante_id": "68adf41f96f6c683a46ee226",
+    "referido_id": "68adf42696f6c683a46ee260",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T19:50:00.788Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae0ffe9e25022f19a15494",
+    "solicitante_id": "68adf41f96f6c683a46ee226",
+    "referido_id": "68adf42696f6c683a46ee267",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T19:50:22.823Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae10129e25022f19a1549b",
+    "solicitante_id": "68adf41f96f6c683a46ee226",
+    "referido_id": "68adf42796f6c683a46ee26e",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T19:50:42.027Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae10267816ef0970d452bf",
+    "solicitante_id": "68adf41f96f6c683a46ee226",
+    "referido_id": "68adf42896f6c683a46ee275",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T19:51:02.357Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae103b9e25022f19a154a4",
+    "solicitante_id": "68adf41f96f6c683a46ee226",
+    "referido_id": "68adf42896f6c683a46ee27c",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T19:51:23.959Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae104c7816ef0970d452c8",
+    "solicitante_id": "68adf41f96f6c683a46ee226",
+    "referido_id": "68adf42996f6c683a46ee283",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T19:51:40.531Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae169174fe39a361350fcd",
+    "solicitante_id": "68adf6251802a999d9f341d9",
+    "referido_id": "68adf6261802a999d9f341f2",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:18:25.599Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae16a574fe39a361350fd4",
+    "solicitante_id": "68adf6251802a999d9f341d9",
+    "referido_id": "68adf6271802a999d9f341f9",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:18:45.766Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae16baf9e0cf302ac803bb",
+    "solicitante_id": "68adf6251802a999d9f341d9",
+    "referido_id": "68adf6281802a999d9f34200",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:19:06.750Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae16cc74fe39a361350fdd",
+    "solicitante_id": "68adf6251802a999d9f341d9",
+    "referido_id": "68adf6291802a999d9f34207",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:19:24.200Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae16dff9e0cf302ac803c4",
+    "solicitante_id": "68adf6251802a999d9f341d9",
+    "referido_id": "68adf62a1802a999d9f3420e",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:19:43.318Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae16f274fe39a361350fe6",
+    "solicitante_id": "68adf6251802a999d9f341d9",
+    "referido_id": "68adf62b1802a999d9f34215",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:20:02.170Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae1705f9e0cf302ac803cd",
+    "solicitante_id": "68adf6251802a999d9f341d9",
+    "referido_id": "68adf62b1802a999d9f3421c",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:20:21.345Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae171d74fe39a361350fef",
+    "solicitante_id": "68adf6251802a999d9f341d9",
+    "referido_id": "68adf62c1802a999d9f34223",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:20:45.900Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae172df9e0cf302ac803d6",
+    "solicitante_id": "68adf6251802a999d9f341d9",
+    "referido_id": "68adf62d1802a999d9f3422a",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:21:01.922Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae174074fe39a361350ff8",
+    "solicitante_id": "68adf6251802a999d9f341d9",
+    "referido_id": "68adf62d1802a999d9f34231",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:21:20.266Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae1750f9e0cf302ac803df",
+    "solicitante_id": "68adf6251802a999d9f341d9",
+    "referido_id": "68adf62e1802a999d9f34238",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:21:36.415Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae176574fe39a361351001",
+    "solicitante_id": "68adf6251802a999d9f341d9",
+    "referido_id": "68adf62f1802a999d9f3423f",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:21:57.777Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae1b0f3cb2d2173b4f7c17",
+    "solicitante_id": "68adf79601b61b55ef6ba582",
+    "referido_id": "68adf79701b61b55ef6ba59b",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:37:35.394Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae1b25cc0adff447c43d12",
+    "solicitante_id": "68adf79601b61b55ef6ba582",
+    "referido_id": "68adf79801b61b55ef6ba5a2",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:37:57.748Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae1b39cc0adff447c43d19",
+    "solicitante_id": "68adf79601b61b55ef6ba582",
+    "referido_id": "68adf79901b61b55ef6ba5a9",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:38:17.738Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae1b483cb2d2173b4f7c22",
+    "solicitante_id": "68adf79601b61b55ef6ba582",
+    "referido_id": "68adf79a01b61b55ef6ba5b0",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:38:32.805Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae1b603cb2d2173b4f7c29",
+    "solicitante_id": "68adf79601b61b55ef6ba582",
+    "referido_id": "68adf79b01b61b55ef6ba5b7",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:38:56.155Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae1b6ecc0adff447c43d24",
+    "solicitante_id": "68adf79601b61b55ef6ba582",
+    "referido_id": "68adf79b01b61b55ef6ba5be",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:39:10.941Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae1b7d3cb2d2173b4f7c32",
+    "solicitante_id": "68adf79601b61b55ef6ba582",
+    "referido_id": "68adf79c01b61b55ef6ba5c5",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:39:25.635Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae1b8fcc0adff447c43d2d",
+    "solicitante_id": "68adf79601b61b55ef6ba582",
+    "referido_id": "68adf79d01b61b55ef6ba5d3",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:39:43.377Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae1baf3cb2d2173b4f7c3b",
+    "solicitante_id": "68adf79601b61b55ef6ba582",
+    "referido_id": "68adf79e01b61b55ef6ba5da",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:40:15.619Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae1bd3cc0adff447c43d36",
+    "solicitante_id": "68adf79601b61b55ef6ba582",
+    "referido_id": "68adf79f01b61b55ef6ba5e1",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:40:51.158Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae1be83cb2d2173b4f7c44",
+    "solicitante_id": "68adf79601b61b55ef6ba582",
+    "referido_id": "68adf7a001b61b55ef6ba5e8",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T20:41:12.116Z",
+    "__v": 0
+  },
+  {
+    "_id": "68ae2055223d0202f4f338d6",
+    "solicitante_id": "68adf79601b61b55ef6ba582",
+    "referido_id": "68adf79d01b61b55ef6ba5cc",
+    "estado": "aceptado",
+    "fecha": "2025-08-26T21:00:05.182Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af18899ee0915f355f20cf",
+    "solicitante_id": "68af0cda5bfcd54696512b43",
+    "referido_id": "68af0cdc5bfcd54696512b54",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T14:39:05.856Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af189b9ee0915f355f20d6",
+    "solicitante_id": "68af0cda5bfcd54696512b43",
+    "referido_id": "68af0cdd5bfcd54696512b5b",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T14:39:23.492Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af1b4f32a9aceb22ab5271",
+    "solicitante_id": "68af0e455bfcd54696512b62",
+    "referido_id": "68af0e465bfcd54696512b69",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T14:50:55.901Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af1b61ef6cc1c4986499bc",
+    "solicitante_id": "68af0e455bfcd54696512b62",
+    "referido_id": "68af0e475bfcd54696512b70",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T14:51:13.719Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af1cf732a9aceb22ab5294",
+    "solicitante_id": "68af0fa2aef82c42cfbaa841",
+    "referido_id": "68af0fa4aef82c42cfbaa85a",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T14:57:59.300Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af1d0732a9aceb22ab529b",
+    "solicitante_id": "68af0fa2aef82c42cfbaa841",
+    "referido_id": "68af0fa5aef82c42cfbaa862",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T14:58:15.332Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af1e92ef6cc1c4986499f8",
+    "solicitante_id": "68af10bdaef82c42cfbaa875",
+    "referido_id": "68af10beaef82c42cfbaa87c",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T15:04:50.235Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af1ea0ef6cc1c4986499ff",
+    "solicitante_id": "68af10bdaef82c42cfbaa875",
+    "referido_id": "68af10bfaef82c42cfbaa883",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T15:05:04.169Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af203932a9aceb22ab52d0",
+    "solicitante_id": "68af11d6aef82c42cfbaa88a",
+    "referido_id": "68af11d8aef82c42cfbaa891",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T15:11:53.736Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af204832a9aceb22ab52d7",
+    "solicitante_id": "68af11d6aef82c42cfbaa88a",
+    "referido_id": "68af11d9aef82c42cfbaa898",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T15:12:08.920Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af2c96cd1a8101aabb43b2",
+    "solicitante_id": "68af12d4aef82c42cfbaa89f",
+    "referido_id": "68af12d5aef82c42cfbaa8a6",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T16:04:38.245Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af2ca6cd1a8101aabb43b8",
+    "solicitante_id": "68af12d4aef82c42cfbaa89f",
+    "referido_id": "68af12d6aef82c42cfbaa8ad",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T16:04:54.550Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af2e84944172a8f3a855d3",
+    "solicitante_id": "68af141baef82c42cfbaa8b4",
+    "referido_id": "68af141caef82c42cfbaa8bb",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T16:12:52.374Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af2e91944172a8f3a855da",
+    "solicitante_id": "68af141baef82c42cfbaa8b4",
+    "referido_id": "68af141daef82c42cfbaa8c2",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T16:13:05.271Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af3037944172a8f3a855f7",
+    "solicitante_id": "68af1510aef82c42cfbaa8c9",
+    "referido_id": "68af1510aef82c42cfbaa8d0",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T16:20:07.855Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af304aa926757865a24654",
+    "solicitante_id": "68af1510aef82c42cfbaa8c9",
+    "referido_id": "68af1511aef82c42cfbaa8d7",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T16:20:26.201Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af30eda926757865a24664",
+    "solicitante_id": "689b62656f9567a9c8070514",
+    "referido_id": "68af0cda5bfcd54696512b43",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T16:23:09.553Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af3166944172a8f3a85621",
+    "solicitante_id": "689b618c55645f65281bb4f3",
+    "referido_id": "68af0e455bfcd54696512b62",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T16:25:10.139Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af32210c50b45dc46e0f6f",
+    "solicitante_id": "689b608255645f65281bb4e1",
+    "referido_id": "68af0fa2aef82c42cfbaa841",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T16:28:17.324Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af32b472ce959ceaf9dcd7",
+    "solicitante_id": "689b5f6440f126d7179e9544",
+    "referido_id": "68af10bdaef82c42cfbaa875",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T16:30:44.927Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af331d944172a8f3a85647",
+    "solicitante_id": "689b5e6955645f65281bb4bc",
+    "referido_id": "68af11d6aef82c42cfbaa88a",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T16:32:29.437Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af338d72ce959ceaf9dce6",
+    "solicitante_id": "689b5d516f9567a9c80704e0",
+    "referido_id": "68af12d4aef82c42cfbaa89f",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T16:34:21.219Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af33ed944172a8f3a8566a",
+    "solicitante_id": "689b5c396f9567a9c80704ce",
+    "referido_id": "68af141baef82c42cfbaa8b4",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T16:35:57.048Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af3488fb3d3f4ded858fce",
+    "solicitante_id": "689b5ac255645f65281bb494",
+    "referido_id": "68af1510aef82c42cfbaa8c9",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T16:38:32.767Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af91005fe64aac2783be62",
+    "solicitante_id": "68af8b8b085ce9415b1e8c82",
+    "referido_id": "68af8b8c085ce9415b1e8c89",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T23:13:04.945Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af9118a16386a702855fa2",
+    "solicitante_id": "68af8b8b085ce9415b1e8c82",
+    "referido_id": "68af8b8d085ce9415b1e8c90",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T23:13:28.624Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af912fa16386a702855fa9",
+    "solicitante_id": "68af8b8b085ce9415b1e8c82",
+    "referido_id": "68af8b8e085ce9415b1e8c97",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T23:13:51.163Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af91425fe64aac2783be6b",
+    "solicitante_id": "68af8b8b085ce9415b1e8c82",
+    "referido_id": "68af8b8f085ce9415b1e8c9e",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T23:14:10.972Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af9154a16386a702855fb1",
+    "solicitante_id": "68af8b8b085ce9415b1e8c82",
+    "referido_id": "68af8b8f085ce9415b1e8ca5",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T23:14:28.180Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af9165a16386a702855fb8",
+    "solicitante_id": "68af8b8b085ce9415b1e8c82",
+    "referido_id": "68af8b90085ce9415b1e8cac",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T23:14:45.652Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af9179a16386a702855fbf",
+    "solicitante_id": "68af8b8b085ce9415b1e8c82",
+    "referido_id": "68af8b91085ce9415b1e8cb3",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T23:15:05.298Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af918ca16386a702855fc6",
+    "solicitante_id": "68af8b8b085ce9415b1e8c82",
+    "referido_id": "68af8b91085ce9415b1e8cba",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T23:15:24.924Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af91a1a16386a702855fcd",
+    "solicitante_id": "68af8b8b085ce9415b1e8c82",
+    "referido_id": "68af8b92085ce9415b1e8cc1",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T23:15:45.204Z",
+    "__v": 0
+  },
+  {
+    "_id": "68af91b35fe64aac2783be77",
+    "solicitante_id": "68af8b8b085ce9415b1e8c82",
+    "referido_id": "68af8b93085ce9415b1e8cc8",
+    "estado": "aceptado",
+    "fecha": "2025-08-27T23:16:03.315Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b09f16b9d335c075ac9403",
+    "solicitante_id": "685e3ca4114d7d08b59e2063",
+    "referido_id": "685e404a114d7d08b59e207b",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T18:25:26.605Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0a15debbef79477b6f453",
+    "solicitante_id": "685e3ca4114d7d08b59e2063",
+    "referido_id": "6862f0865ae11f16c09adf4e",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T18:35:09.499Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0a27731ab086d769929b6",
+    "solicitante_id": "685e3ca4114d7d08b59e2063",
+    "referido_id": "6862f24ac30c9f882fba4675",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T18:39:51.204Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0a399b9d335c075ac9476",
+    "solicitante_id": "685e404a114d7d08b59e207b",
+    "referido_id": "68641a6034972a31af77bf1e",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T18:44:41.223Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0a3f1b9d335c075ac9489",
+    "solicitante_id": "685e404a114d7d08b59e207b",
+    "referido_id": "68643347e12b67f2952c97d1",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T18:46:09.269Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0a441b9d335c075ac94a6",
+    "solicitante_id": "685e404a114d7d08b59e207b",
+    "referido_id": "686450483a74a2e4346c5c54",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T18:47:29.771Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0a4e8b9d335c075ac94cb",
+    "solicitante_id": "6862f0865ae11f16c09adf4e",
+    "referido_id": "68662ce877067cea7c5f0f27",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T18:50:16.164Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0a52231ab086d76992a1f",
+    "solicitante_id": "6862f0865ae11f16c09adf4e",
+    "referido_id": "68662d9d760eaa371723badb",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T18:51:14.036Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0a581e2cde1bd79334951",
+    "solicitante_id": "6862f0865ae11f16c09adf4e",
+    "referido_id": "68662e54760eaa371723baec",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T18:52:49.683Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0a605ebbef79477b6f4fe",
+    "solicitante_id": "6862f24ac30c9f882fba4675",
+    "referido_id": "68662fcb77067cea7c5f0f3c",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T18:55:01.874Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0a68b31ab086d76992a54",
+    "solicitante_id": "6862f24ac30c9f882fba4675",
+    "referido_id": "686630800f6c04eaff4c388b",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T18:57:15.609Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0a6db31ab086d76992a65",
+    "solicitante_id": "6862f24ac30c9f882fba4675",
+    "referido_id": "686631330f6c04eaff4c389c",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T18:58:35.148Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0a73a31ab086d76992a74",
+    "solicitante_id": "68641a6034972a31af77bf1e",
+    "referido_id": "687779c923328ca54ff8e569",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T19:00:10.445Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0a986b9d335c075ac954a",
+    "solicitante_id": "68641a6034972a31af77bf1e",
+    "referido_id": "68777e0afd0c0e9b62546c67",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T19:09:58.310Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0a9ca15a0509bb13a5636",
+    "solicitante_id": "68641a6034972a31af77bf1e",
+    "referido_id": "6877c8cb51f84f51640779e4",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T19:11:06.290Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0aa49c15e5e18085a1693",
+    "solicitante_id": "68643347e12b67f2952c97d1",
+    "referido_id": "6877cad251f84f51640779fc",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T19:13:13.814Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0aa905167e631fcb25a63",
+    "solicitante_id": "68643347e12b67f2952c97d1",
+    "referido_id": "6877cbe851f84f5164077a10",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T19:14:24.326Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0aac65167e631fcb25a97",
+    "solicitante_id": "68643347e12b67f2952c97d1",
+    "referido_id": "6877ce846a8df62aab055da7",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T19:15:18.363Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0ab4e0c653ff80ecb9efb",
+    "solicitante_id": "686450483a74a2e4346c5c54",
+    "referido_id": "6877cf63d22eebd5a78c7d0e",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T19:17:34.025Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0ab87c15e5e18085a16d7",
+    "solicitante_id": "686450483a74a2e4346c5c54",
+    "referido_id": "6877d0526a8df62aab055dc4",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T19:18:31.457Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0abe00c653ff80ecb9f10",
+    "solicitante_id": "686450483a74a2e4346c5c54",
+    "referido_id": "689f272278c26d17ccce66b0",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T19:20:00.287Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0ac85b809cffebf967540",
+    "solicitante_id": "68662ce877067cea7c5f0f27",
+    "referido_id": "689f2ae36198043bacf5539a",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T19:22:45.639Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0acc7c15e5e18085a177b",
+    "solicitante_id": "68662ce877067cea7c5f0f27",
+    "referido_id": "689f2fe06198043bacf553fa",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T19:23:51.744Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0b152b6062ff2cca755fb",
+    "solicitante_id": "68662ce877067cea7c5f0f27",
+    "referido_id": "68777c08fd0c0e9b62546c4a",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T19:43:14.233Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0e40a7d6ba5ca9298be4c",
+    "solicitante_id": "68b0dfee7d6ba5ca9298bdcd",
+    "referido_id": "68b0dfef7d6ba5ca9298bdd4",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T23:19:38.807Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0e4277d6ba5ca9298be53",
+    "solicitante_id": "68b0dfee7d6ba5ca9298bdcd",
+    "referido_id": "68b0dff07d6ba5ca9298bddb",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T23:20:07.478Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0e44f926263e274097dbe",
+    "solicitante_id": "68b0dfee7d6ba5ca9298bdcd",
+    "referido_id": "68b0e2367d6ba5ca9298be26",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T23:20:47.438Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0e9d12c9ec2d0e1713054",
+    "solicitante_id": "68b0e84bed84de6dce144c7f",
+    "referido_id": "68b0e84ded84de6dce144c86",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T23:44:17.408Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0e9e45531cb1c1220933b",
+    "solicitante_id": "68b0e84bed84de6dce144c7f",
+    "referido_id": "68b0e84ded84de6dce144c8d",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T23:44:36.850Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0e9fb703836c04047bea5",
+    "solicitante_id": "68b0e84bed84de6dce144c7f",
+    "referido_id": "68b0e84eed84de6dce144c94",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T23:44:59.004Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b0ea0f2c9ec2d0e171305e",
+    "solicitante_id": "68b0e84bed84de6dce144c7f",
+    "referido_id": "68b0e84fed84de6dce144c9b",
+    "estado": "aceptado",
+    "fecha": "2025-08-28T23:45:19.437Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b10386a1ffc0a1cca0ac57",
+    "solicitante_id": "68af0cda5bfcd54696512b43",
+    "referido_id": "68b102ef34f862642be3feee",
+    "estado": "aceptado",
+    "fecha": "2025-08-29T01:33:58.787Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b20baaebb90207c5b6ca80",
+    "solicitante_id": "68af8b8b085ce9415b1e8c82",
+    "referido_id": "68b0dfee7d6ba5ca9298bdcd",
+    "estado": "aceptado",
+    "fecha": "2025-08-29T20:20:58.651Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b20bbeebb90207c5b6ca87",
+    "solicitante_id": "68af8b8b085ce9415b1e8c82",
+    "referido_id": "68b0e84bed84de6dce144c7f",
+    "estado": "aceptado",
+    "fecha": "2025-08-29T20:21:18.758Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b264d359a35c94867c5fc7",
+    "solicitante_id": "680ede2a6ee385164b53698d",
+    "referido_id": "689f631bd25574ed1eedbd86",
+    "estado": "aceptado",
+    "fecha": "2025-08-30T02:41:23.788Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b2659ece028e01dc7495d3",
+    "solicitante_id": "680ee0b1d0fbbc061b094a56",
+    "referido_id": "689f631bd25574ed1eedbd86",
+    "estado": "aceptado",
+    "fecha": "2025-08-30T02:44:46.208Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b265efe6fad9b7d6e8fc5b",
+    "solicitante_id": "67f077b26cfab5712652a964",
+    "referido_id": "689f631bd25574ed1eedbd86",
+    "estado": "aceptado",
+    "fecha": "2025-08-30T02:46:07.493Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b337bcb53711bb4d706251",
+    "solicitante_id": "6871d2dfc59a12eed4507b81",
+    "referido_id": "68b336c0b53711bb4d706209",
+    "estado": "aceptado",
+    "fecha": "2025-08-30T17:41:16.404Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b33980b53711bb4d706272",
+    "solicitante_id": "6871d2dfc59a12eed4507b81",
+    "referido_id": "68b336c2b53711bb4d706211",
+    "estado": "aceptado",
+    "fecha": "2025-08-30T17:48:48.418Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b3529f91d41307d8b77705",
+    "solicitante_id": "6871d2dfc59a12eed4507b81",
+    "referido_id": "68b336c54778962d5ecbb6ee",
+    "estado": "aceptado",
+    "fecha": "2025-08-30T19:35:59.116Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b352ef91d41307d8b7770e",
+    "solicitante_id": "6871d2dfc59a12eed4507b81",
+    "referido_id": "68b336c7b53711bb4d70621d",
+    "estado": "aceptado",
+    "fecha": "2025-08-30T19:37:19.355Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b35313eaca4b1275f8ebc0",
+    "solicitante_id": "6871d2dfc59a12eed4507b81",
+    "referido_id": "68b336c8b53711bb4d706224",
+    "estado": "aceptado",
+    "fecha": "2025-08-30T19:37:55.843Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b3536beaca4b1275f8ebc7",
+    "solicitante_id": "6871d2dfc59a12eed4507b81",
+    "referido_id": "68b336c94778962d5ecbb6ff",
+    "estado": "aceptado",
+    "fecha": "2025-08-30T19:39:23.135Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b353b7dd3662580cf80738",
+    "solicitante_id": "6871d2dfc59a12eed4507b81",
+    "referido_id": "68b336cab53711bb4d706230",
+    "estado": "aceptado",
+    "fecha": "2025-08-30T19:40:39.856Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b353ebdd3662580cf80741",
+    "solicitante_id": "6871d2dfc59a12eed4507b81",
+    "referido_id": "68b336cbb53711bb4d706237",
+    "estado": "aceptado",
+    "fecha": "2025-08-30T19:41:31.415Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b3543e91d41307d8b7771e",
+    "solicitante_id": "6871d2dfc59a12eed4507b81",
+    "referido_id": "68b336ccb53711bb4d70623e",
+    "estado": "aceptado",
+    "fecha": "2025-08-30T19:42:54.706Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b35464dd3662580cf8074c",
+    "solicitante_id": "6871d2dfc59a12eed4507b81",
+    "referido_id": "68b336cdb53711bb4d706245",
+    "estado": "aceptado",
+    "fecha": "2025-08-30T19:43:32.522Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b3628ccbaa2f4edb47ba2d",
+    "solicitante_id": "689d450aa396fc5518acb387",
+    "referido_id": "68b361149828004984e96fc8",
+    "estado": "aceptado",
+    "fecha": "2025-08-30T20:43:56.200Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4ef89005e81b0e907e807",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202beac274d55436ec566",
+    "estado": "rechazado",
+    "fecha": "2025-09-01T00:57:45.066Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4f13eae883e63215d9382",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202bf7ebfb72ef2913cbd",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:05:02.156Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4f1ac33372e4d766c82cf",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202bf7ebfb72ef2913cc4",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:06:52.738Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4f1f9a24699d54a76016b",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202c0ac274d55436ec577",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:08:09.707Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4f2e933372e4d766c82e8",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202c07ebfb72ef2913ccc",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:12:09.331Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4f36bae883e63215d93b0",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202c1ac274d55436ec583",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:14:19.944Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4f3b4005e81b0e907e86e",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202c2ac274d55436ec58a",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:15:32.403Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4f416a24699d54a7601ef",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202c37ebfb72ef2913cdd",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:17:10.201Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4f42aa24699d54a7601f6",
+    "solicitante_id": "688bdc562c1f85eeb4a02946",
+    "referido_id": "68b4f21fa24699d54a760171",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:17:30.064Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4f44e005e81b0e907e88c",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202c3ac274d55436ec596",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:18:06.949Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4f4a1005e81b0e907e899",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202c47ebfb72ef2913ce9",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:19:29.376Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4f4e7005e81b0e907e8aa",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a202c57ebfb72ef2913cf0",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:20:39.175Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4f625a24699d54a760239",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a04993fd49254ad6d2b9",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:25:57.364Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4f70352a7bc6c4b83e8b6",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a04a93fd49254ad6d2c0",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:29:39.959Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4f85452a7bc6c4b83e8ea",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a04b93fd49254ad6d2c7",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:35:16.259Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4f915187beaf55bd7ee7d",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a04c93fd49254ad6d2ce",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:38:29.002Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4f96669aa2197e8b186a2",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a04c93fd49254ad6d2d5",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:39:50.540Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4f9eb397a65d1b2ee1305",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a04d93fd49254ad6d2dc",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:42:03.492Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4fa4569aa2197e8b186f1",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a04e93fd49254ad6d2e3",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:43:33.211Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4fa8469aa2197e8b18706",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a04e93fd49254ad6d2eb",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:44:36.807Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4fac7187beaf55bd7f035",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a04f93fd49254ad6d2f3",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:45:43.662Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4fb033be60682860dda14",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a04f93fd49254ad6d2fb",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:46:43.389Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4fb5e3be60682860dda38",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a05093fd49254ad6d302",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:48:14.739Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4fb97397a65d1b2ee1353",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a05093fd49254ad6d309",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:49:11.239Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4fbd569aa2197e8b188bd",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a05193fd49254ad6d310",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:50:13.480Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4fc4069aa2197e8b188c4",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a05193fd49254ad6d317",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:52:00.022Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4fc9869aa2197e8b188d9",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a05293fd49254ad6d31e",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:53:28.803Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4fcac187beaf55bd7f08e",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a05293fd49254ad6d325",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:53:48.911Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4fcfa397a65d1b2ee1382",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a05393fd49254ad6d32c",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:55:06.131Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4fd36187beaf55bd7f0af",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a05493fd49254ad6d333",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:56:06.641Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4fd8d187beaf55bd7f0c5",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a05493fd49254ad6d33a",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:57:33.722Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4fda4187beaf55bd7f0cc",
+    "solicitante_id": "67edfe8bad6fe445ac25d286",
+    "referido_id": "68a4a055c69d23ef9e8a6ec9",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T01:57:56.028Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4fe6569aa2197e8b18c16",
+    "solicitante_id": "67be886cfd1049b91e991cc6",
+    "referido_id": "68b4fccd187beaf55bd7f09d",
+    "estado": "pendiente",
+    "fecha": "2025-09-01T02:01:09.952Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4ff1369aa2197e8b18c2b",
+    "solicitante_id": "68b361149828004984e96fc8",
+    "referido_id": "68b361159828004984e96fe2",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T02:04:03.036Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4ff15187beaf55bd7f0fc",
+    "solicitante_id": "67be886cfd1049b91e991cc6",
+    "referido_id": "68b4fcce69aa2197e8b188f4",
+    "estado": "pendiente",
+    "fecha": "2025-09-01T02:04:05.921Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4ff2669aa2197e8b18c35",
+    "solicitante_id": "68b361149828004984e96fc8",
+    "referido_id": "68b361179828004984e96fe9",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T02:04:22.848Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b4ff3269aa2197e8b18c3c",
+    "solicitante_id": "68b361149828004984e96fc8",
+    "referido_id": "68b361189828004984e96ff0",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T02:04:34.985Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b504b342e637cd0763ab35",
+    "solicitante_id": "67be886cfd1049b91e991cc6",
+    "referido_id": "68b50411187beaf55bd7f179",
+    "estado": "pendiente",
+    "fecha": "2025-09-01T02:28:03.872Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b5065253ad37d18e65160c",
+    "solicitante_id": "67be886cfd1049b91e991cc6",
+    "referido_id": "68b50412187beaf55bd7f180",
+    "estado": "pendiente",
+    "fecha": "2025-09-01T02:34:58.122Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b507993b32cc597f977af6",
+    "solicitante_id": "67be886cfd1049b91e991cc6",
+    "referido_id": "68b50413187beaf55bd7f187",
+    "estado": "pendiente",
+    "fecha": "2025-09-01T02:40:25.554Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b51f06aa824f9b52dfb3db",
+    "solicitante_id": "68af0cda5bfcd54696512b43",
+    "referido_id": "68b51558d4677400618c0d65",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T04:20:22.085Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b51f93d074557d8bf90909",
+    "solicitante_id": "68af0e455bfcd54696512b62",
+    "referido_id": "68b516ed53ad37d18e651cd6",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T04:22:43.330Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b521fe7505f61edb0aef31",
+    "solicitante_id": "68af0fa2aef82c42cfbaa841",
+    "referido_id": "68b5183f53ad37d18e651cde",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T04:33:02.762Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b522792bd49f4abb9ca388",
+    "solicitante_id": "68af141baef82c42cfbaa8b4",
+    "referido_id": "68b51ccd20439f2362c46443",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T04:35:05.099Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b522e3d074557d8bf90942",
+    "solicitante_id": "68af11d6aef82c42cfbaa88a",
+    "referido_id": "68b51aa4cd2884f9f77b39c6",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T04:36:51.353Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b5235ad074557d8bf90960",
+    "solicitante_id": "68af12d4aef82c42cfbaa89f",
+    "referido_id": "68b51bac53ad37d18e651cee",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T04:38:50.898Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b523bf2bd49f4abb9ca3ac",
+    "solicitante_id": "68af10bdaef82c42cfbaa875",
+    "referido_id": "68b5197953ad37d18e651ce5",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T04:40:31.336Z",
+    "__v": 0
+  },
+  {
+    "_id": "68b524ac2bd49f4abb9ca3c0",
+    "solicitante_id": "68af1510aef82c42cfbaa8c9",
+    "referido_id": "68b51dfed074557d8bf908eb",
+    "estado": "aceptado",
+    "fecha": "2025-09-01T04:44:28.888Z",
+    "__v": 0
+  }
+]

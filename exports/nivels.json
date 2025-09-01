@@ -1,0 +1,98 @@
+[
+  {
+    "_id": "67e88cc927b39b7d343aba5a",
+    "numero_nivel": 1,
+    "comision": {
+      "$numberDecimal": "405"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "67e88cc927b39b7d343aba5b",
+    "numero_nivel": 2,
+    "comision": {
+      "$numberDecimal": "1205"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "67e88cc927b39b7d343aba5c",
+    "numero_nivel": 3,
+    "comision": {
+      "$numberDecimal": "3645"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "67e88cc927b39b7d343aba5d",
+    "numero_nivel": 4,
+    "comision": {
+      "$numberDecimal": "10935"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "67e88cc927b39b7d343aba5e",
+    "numero_nivel": 5,
+    "comision": {
+      "$numberDecimal": "32805"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "67e88cc927b39b7d343aba5f",
+    "numero_nivel": 6,
+    "comision": {
+      "$numberDecimal": "84200"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "67e88cc927b39b7d343aba60",
+    "numero_nivel": 7,
+    "comision": {
+      "$numberDecimal": "285386"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "67e88cc927b39b7d343aba61",
+    "numero_nivel": 8,
+    "comision": {
+      "$numberDecimal": "724991"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "67e88cc927b39b7d343aba62",
+    "numero_nivel": 9,
+    "comision": {
+      "$numberDecimal": "2273387"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "67e88cc927b39b7d343aba63",
+    "numero_nivel": 10,
+    "comision": {
+      "$numberDecimal": "6420160"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "67e88cc927b39b7d343aba64",
+    "numero_nivel": 11,
+    "comision": {
+      "$numberDecimal": "20460479"
+    },
+    "__v": 0
+  },
+  {
+    "_id": "67e88cc927b39b7d343aba65",
+    "numero_nivel": 12,
+    "comision": {
+      "$numberDecimal": "61381936"
+    },
+    "__v": 0
+  }
+]

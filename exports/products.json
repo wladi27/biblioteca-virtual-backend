@@ -1,0 +1,37 @@
+[
+  {
+    "_id": "67c9c80a5e0e1758db5d02c0",
+    "name": "Nombre del Producto",
+    "price": 29.99,
+    "description": "Descripción detallada del producto.",
+    "__v": 0
+  },
+  {
+    "_id": "67c9cded5e0e1758db5d02c5",
+    "name": "uheafuh",
+    "price": 83.87,
+    "description": "Test",
+    "__v": 0
+  },
+  {
+    "_id": "67c9ce8e5e0e1758db5d02c9",
+    "name": "testt2",
+    "price": 21.87,
+    "description": "test2",
+    "__v": 0
+  },
+  {
+    "_id": "67c9ced95e0e1758db5d02cd",
+    "name": "test3",
+    "price": 45.87,
+    "description": "test3",
+    "__v": 0
+  },
+  {
+    "_id": "67c9cf0d5e0e1758db5d02cf",
+    "name": "Nombre del Producto",
+    "price": 29.99,
+    "description": "Descripción detallada del producto.",
+    "__v": 0
+  }
+]

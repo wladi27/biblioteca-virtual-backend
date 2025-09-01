@@ -1,0 +1,3254 @@
+[
+  {
+    "_id": "67be4826aa72986f16bec953",
+    "usuarioId": "67be02be2fed45952ad6fd94",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67be6379e4802b2c116df379",
+    "usuarioId": "67be635f03da8869aadd373f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67be9ef09ec6b939a3996b96",
+    "usuarioId": "67be9eae9ec6b939a3996b84",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67bea33238b0492048f127cc",
+    "usuarioId": "67bea314e49d4e0ff670eff9",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67bea817e1d2206210c73f3d",
+    "usuarioId": "67bea7fc70602f739a5a3fa0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67beabf9cf24ed1c23b916bb",
+    "usuarioId": "67beaafd451d41c33a7d0396",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67bf1adb702472904f8d2016",
+    "usuarioId": "67be36add8981e876590105d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67bf1fd238b42debb7f85d54",
+    "usuarioId": "67bf1f715899efff576da02f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67bf4d57a31aa189dfc90698",
+    "usuarioId": "67bf4d264ab309396e66fe77",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67bf4ec14ab309396e66fe92",
+    "usuarioId": "67bf4dc9a31aa189dfc906a5",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67bf53b403dfd780fd377603",
+    "usuarioId": "67bf523d4ab309396e66ff08",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67bf54e94ab309396e66ff1e",
+    "usuarioId": "67bf548503dfd780fd37760a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67bf567f25882d745454ab56",
+    "usuarioId": "67bf566e25882d745454ab4b",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67bf818dffee7c270b5aabc7",
+    "usuarioId": "67be635f03da8869aadd373f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67bfc01728de496d2f3fe42f",
+    "usuarioId": "67bf65c8956c673d42330d1a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c09cbfd448979e718c2dc8",
+    "usuarioId": "67c09a7e1d390c488f150a24",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c0a50d65fd383345ccd257",
+    "usuarioId": "67bf50ec4ab309396e66fef5",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c0a6fff39a9940f9b16490",
+    "usuarioId": "67be08fcea8e5b34c79b2b27",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c24741c1c42067d9b4c59c",
+    "usuarioId": "67c247224cd69ccb04aa68b2",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c2482087cf4cfab188d55d",
+    "usuarioId": "67c247224cd69ccb04aa68b2",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c25e0194908259dad9867a",
+    "usuarioId": "67c25dd7908200b00a0e5b54",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c77c8cc8648b448082bf8c",
+    "usuarioId": "67c1b5730b9cf4259b662362",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c77d2dccd4a90af742b687",
+    "usuarioId": "67c0c0b4a41ae83397880526",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c77d39c7cb14eca67798e7",
+    "usuarioId": "67c0c26583703c81691c4292",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c7b0351cdaa2807ebf4c59",
+    "usuarioId": "67c7afee02e273ff34d30c9d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c7b198896c9befe9fec818",
+    "usuarioId": "67c7afee02e273ff34d30c9d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c7bf01df8a27839ddfe3aa",
+    "usuarioId": "67c7b78326008a15cd5048e3",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c7bf9120bf111ab6694c26",
+    "usuarioId": "67c7b78326008a15cd5048e3",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c7c28f1e804e51b934f3a8",
+    "usuarioId": "67c7c25b1e804e51b934f39d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c7c3c66292cf5a9188ff22",
+    "usuarioId": "67c7c327d3ac31347f1bb2c0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c7c4bb56fee72ca4e2507e",
+    "usuarioId": "67c7c4696292cf5a9188ff25",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c7c5223ed69f2d1e0085a9",
+    "usuarioId": "67c7c4796292cf5a9188ff2d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c7ce4f1b25ee0898d32b0e",
+    "usuarioId": "67c7cdf0a5444552f100af33",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c7d81744b5aaaf28ea50c0",
+    "usuarioId": "67c7d7c0835c38d9c4e5bc16",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c7da9efd913fe8a60edb3f",
+    "usuarioId": "67c7d176a5444552f100af48",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c7db1ca26f80b22e66361b",
+    "usuarioId": "67c7cdf0a5444552f100af33",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c7db97a26f80b22e663630",
+    "usuarioId": "67c7c4796292cf5a9188ff2d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c7dd0f541d93e01fa48196",
+    "usuarioId": "67c7dcd2a26f80b22e663636",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c7e046130cc6985bb96311",
+    "usuarioId": "67c7e017789584bf5179c5b3",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c7e43fe72bcd66fa06b1b5",
+    "usuarioId": "67c7e3fa789584bf5179c5ca",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c7e7dc789584bf5179c5eb",
+    "usuarioId": "67c7e7aa789584bf5179c5de",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c7eb8eff3a78401f7f0125",
+    "usuarioId": "67c7eb5c541d93e01fa481c8",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c7ef92728423dacafc8d6d",
+    "usuarioId": "67c7ef5cc7d7bb5540c18d26",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c83787c455093945a14a40",
+    "usuarioId": "67c8371c527118ff275aec7b",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67c8bf9c6e39d4c91f7851e0",
+    "usuarioId": "67c8bcce09fbc0c1d24cafa6",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ca1e37f7066f651e80e033",
+    "usuarioId": "67c853b1c0c38344a4df83f7",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ca2f4f22874d54fbfbd87c",
+    "usuarioId": "67be3e037509f6f413685fcd",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ca3147d306048a2db9c40e",
+    "usuarioId": "67c9fdfd958e8f39977b224b",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ca32cfb7928b7425398f8d",
+    "usuarioId": "67ca0174eb3b240dee0b8c65",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ca33d3b7928b7425398ffa",
+    "usuarioId": "67ca024fb3e39c822e7b53c8",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ca3438b7928b7425399003",
+    "usuarioId": "67ca03e3ce41d08ad150c588",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ca470d73181df4b8760aa0",
+    "usuarioId": "67c8f264ab8f80a6ee6760de",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ca47b01552abf9329f5a54",
+    "usuarioId": "67c8f04aab8f80a6ee6760c8",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ca47f578b62a2b283f1030",
+    "usuarioId": "67c90b1bd170230b8cdf6552",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ca629185a43a736da39d45",
+    "usuarioId": "67ca624885a43a736da39d37",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67cb0c426a3ec4e1e6ba2e7d",
+    "usuarioId": "67c8b3b176f6109f3c1d6288",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67cb0d64ac1f19c9e4d43dfb",
+    "usuarioId": "67c867bea0547ab752d75ac0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67cb1a84f04a8811414be75c",
+    "usuarioId": "67cb1a2c657a72932260675f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67cb24195fab4fc62bdb1938",
+    "usuarioId": "67cae7cd405ea7211ff7396d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67cb2939fd71785b1687690f",
+    "usuarioId": "67be35b810bd9f1d0f573023",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67cb29a181bcdbe2f9889331",
+    "usuarioId": "67cb0f44b06b84287a211707",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67cb2aa728babc46685fed3f",
+    "usuarioId": "67c8b32a76f6109f3c1d627f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67cb41c2060e901730074bd6",
+    "usuarioId": "67c90c727424e3dafcd8885c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67cb6407bdf1c26cf0a5089d",
+    "usuarioId": "67cb634637cec887c81e62b0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67cb74e4776fdb2947263cbb",
+    "usuarioId": "67cb73f6efb49b3d62393252",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67cb76b188f04deb528d6151",
+    "usuarioId": "67cb72de4173fb79495ea521",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67cb85700c2cc945c7d3c505",
+    "usuarioId": "67cb854db088fc3e4ae39fa5",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67cc0fadec203bbe2b5c58e1",
+    "usuarioId": "67cc0f8c8c24d597a26b1cff",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67cc704f06ab0c2bc6d5a479",
+    "usuarioId": "67cc7026d57993d0baf6ff24",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67cc9628643ddd445373f65c",
+    "usuarioId": "67cb4bac6206b8f152d90b6d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ccca522b9974d6bdf207b8",
+    "usuarioId": "67cbeb1b130cae0a44744ece",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ccedcd965c2d66d35f8b7e",
+    "usuarioId": "67cced6fd647d59c38533394",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ccef4d4858ef5f9f8c9043",
+    "usuarioId": "67ccef398680c77dfbca358f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ccf0227b0d90569cf10cb8",
+    "usuarioId": "67cceff423188d4c2315c485",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ccf0e11f2cbf90220f8135",
+    "usuarioId": "67ccf0ca1f2cbf90220f812b",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ce2c1de2466207606f3d43",
+    "usuarioId": "67ce2be3e2466207606f3d3a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ce52fdb42ef3d6b421f12f",
+    "usuarioId": "67be4753c9dec708553a16c6",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67cec065159f64c44d07cf96",
+    "usuarioId": "67be652ebed9d29c66236a17",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67cec1f74fad9f194b9f9d2f",
+    "usuarioId": "67be8398062e83ccc1e0624f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67cf9c0d2c58d2261565c746",
+    "usuarioId": "67cf9b47b40b10c142e95868",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67d04c41f08f05a97bc2de4a",
+    "usuarioId": "67d04c0a8dbaf0fff8d7d29c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67d04d3d8dbaf0fff8d7d2a8",
+    "usuarioId": "67d04d1bf08f05a97bc2de58",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67d073dede0ca3a7c2daa9ae",
+    "usuarioId": "67cfacc220aa2c60fd836dd9",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67d0746d64c4b83e70b6de8f",
+    "usuarioId": "67cfaba21c2bff1372b162ae",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67d09efdb04004f4cb1f210d",
+    "usuarioId": "67cfa9102e55824346a3ca10",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67d0e7149079b981909f4278",
+    "usuarioId": "67d0e69498822e6d3b15c771",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67d0e909cae2d965df8d590c",
+    "usuarioId": "67d0e882aecc55152707eab1",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67d0ea2a89561391252c56eb",
+    "usuarioId": "67d0e9eacae2d965df8d5912",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67d2fda4cd7fb792336f25be",
+    "usuarioId": "67d2f80865aff239e7b35ad2",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67d2feaf0645313b5bb84582",
+    "usuarioId": "67d2fa4a324bfbea78d114e1",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67d498586d2f61186639872e",
+    "usuarioId": "67d4982f15c7e410846c7ffa",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67d498ef15c7e410846c800b",
+    "usuarioId": "67d498da6d2f611866398734",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67d4c5c84198a73d3c65109a",
+    "usuarioId": "67be02be2fed45952ad6fd94",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67d86f3f2bd9d2491211c652",
+    "usuarioId": "67be02be2fed45952ad6fd94",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67e5becbf56df20e3386d995",
+    "usuarioId": "67e5be9e5aae9c0a4f25e06f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67e5c6fd82bfad72fd7cb4af",
+    "usuarioId": "67e5c6de719cabedaa050585",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67e600b5c23801428a3ad113",
+    "usuarioId": "67e600904cb6a4370b98fa48",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67e601bf4cb6a4370b98fa58",
+    "usuarioId": "67e601a7c23801428a3ad12c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67e6024ac23801428a3ad136",
+    "usuarioId": "67e60130c23801428a3ad11e",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67e71e196f8ae89400f5cd91",
+    "usuarioId": "67e71dc641ce11211e4058ea",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67e852af934a0d73fd2f7f8b",
+    "usuarioId": "67e85290934a0d73fd2f7f81",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67e861623b6a0ca85fb45dc1",
+    "usuarioId": "67be635f03da8869aadd373f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67e867e4c82f5202950757e4",
+    "usuarioId": "67e86631d03e69b5b7b05501",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67e86b94c82f5202950758e7",
+    "usuarioId": "67e86631d03e69b5b7b05501",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67e86bc3ac3c3a5260ed8a28",
+    "usuarioId": "67be66d7f0a374bca8de1ff8",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67e86cabd43bcada78dadc34",
+    "usuarioId": "67e86353e443e89d68bd077e",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ea055b466150a30bf89066",
+    "usuarioId": "67ea04db5165f1c12bb63257",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ea0662e33b86f5a440cf78",
+    "usuarioId": "67ea05e3466150a30bf8906b",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ea08ba466150a30bf8909f",
+    "usuarioId": "67e60130c23801428a3ad11e",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67eafc3b0a3a5c4ae104665c",
+    "usuarioId": "67eafbf86d899b676e852a05",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67eb1c55c0122ad672f4e145",
+    "usuarioId": "67eb189be702494b84ac63b0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67eb20f7f6d7f67a638d3ef9",
+    "usuarioId": "67eb1fe25257cb4d31580683",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67eb4727f66adbddf6c597e4",
+    "usuarioId": "67eb46ed95bd69c732b62de8",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67eb48647c8db7882065652c",
+    "usuarioId": "67eb46ed95bd69c732b62de8",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67eb52f9fe38f6a1684744f6",
+    "usuarioId": "67eb52cdfe38f6a1684744ee",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67eb59daed48b2c25d09ae74",
+    "usuarioId": "67eb599eee0e32c5f1ccbfeb",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ebec68a21ad69d8a9da7ad",
+    "usuarioId": "67be02be2fed45952ad6fd94",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ec94916511ba4c5ebbc65c",
+    "usuarioId": "67ec9210345aed037d464a16",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ec966bcb1b1a66d2425096",
+    "usuarioId": "67ec9646f3c974470ba1e4b0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ed9ee3d5782ba0f1438e3a",
+    "usuarioId": "67ed965fb5f3d052ac9d1b9c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67edd93ca131213dcd72162b",
+    "usuarioId": "67edd2c5f2ed8cd5254df14e",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ede81eb41d3f16c55aa810",
+    "usuarioId": "67ede70611e0a90a6b078d9a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ede8bf11e0a90a6b078db6",
+    "usuarioId": "67ede8a8ee20c68cb0a19d40",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ede97f06be949e5a29e6c3",
+    "usuarioId": "67ede96411e0a90a6b078dcf",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67edea5906be949e5a29e72d",
+    "usuarioId": "67edea37ee20c68cb0a19d88",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ee97e8d03a6c0d1ba9060c",
+    "usuarioId": "67ed6004bd355438f5438f4b",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67eecf277fb4dd26529fb3a7",
+    "usuarioId": "67eece87342678b0f1aa19ee",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67eed511266f95067dc8ad0b",
+    "usuarioId": "67eed4dcb5846d354f7bce6c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67eee005798e8689fd4083d8",
+    "usuarioId": "67eed272b5846d354f7bce50",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ef2f11a08b3a5c49a64916",
+    "usuarioId": "67edfe8bad6fe445ac25d286",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ef45b3d63fd404dff62276",
+    "usuarioId": "67ef41465729fb78692d16d6",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67efe4110e00196913194246",
+    "usuarioId": "67efe3f5ef443f575404e06d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f047ff2112246027d7a291",
+    "usuarioId": "67f047892db4539914032b01",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f09835e9de78206c8ee16c",
+    "usuarioId": "67f077b26cfab5712652a964",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f317861beba76f1c01b9bd",
+    "usuarioId": "67f315caebd063371de46df5",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f432f696409f7dff4f3950",
+    "usuarioId": "67cc78d263663951e54f141a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f47c42c8bdb46f4c33de79",
+    "usuarioId": "67eed272b5846d354f7bce50",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f47d890f5b3ca80b9e13ee",
+    "usuarioId": "67eed383b5846d354f7bce59",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f47e0ff6ea47f465313deb",
+    "usuarioId": "67eed47cb5846d354f7bce62",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f47e3b63a0c78d86ee793b",
+    "usuarioId": "67eee9e88f5764707e1100e0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f48a4f9f34299db96510fc",
+    "usuarioId": "67f489d59f34299db96510f2",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f72dd694f91d3e2cb501ea",
+    "usuarioId": "67f72dbc4faf1dfad23b133e",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f72e90cf472b6c3852c35d",
+    "usuarioId": "67f72e6f94f91d3e2cb501ef",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f7ff145e18b93f2c157a63",
+    "usuarioId": "67f7fed64f501cb93861979d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f804b39e49f15492fdc15e",
+    "usuarioId": "67f804694f501cb938619871",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f8058bc35de7e84d0148f3",
+    "usuarioId": "67f805664f501cb938619881",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f80824c35de7e84d0148fb",
+    "usuarioId": "67f807f69e49f15492fdc16c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fa6c910f36f45771d07b4a",
+    "usuarioId": "67f9ac2681ef7060d3c501a0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fa77cb0ca11bbd65d7bd98",
+    "usuarioId": "67fa66c1a980a87405af440a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fa7fe19f692c2612b565c1",
+    "usuarioId": "67fa7f549f692c2612b565b0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fa8a8a625eab3c27b260f1",
+    "usuarioId": "67fa721cfde2e9e5af3594fc",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fa905cf3d6fdff6d75f6fd",
+    "usuarioId": "67fa721cfde2e9e5af3594fc",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fabb45a0b47f06eb48b9fa",
+    "usuarioId": "67f9d7be2a4c2209b4beba83",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fb1ad82448ea200a18f6a3",
+    "usuarioId": "67fb1ac1a57cedbb3a53c579",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fc033d0cd4e8124c2c2024",
+    "usuarioId": "67fa66c1a980a87405af440a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fc54680c9e5739b4f03067",
+    "usuarioId": "67fc53fac1727405c9863f5b",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fd86ac2de74892ac6e1d1c",
+    "usuarioId": "67fd869a8f9ca6b0b0c21f29",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fd8dde05a472a7cd183899",
+    "usuarioId": "67fd8acc18568196368724aa",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fd8e9f1223b6086662078f",
+    "usuarioId": "67fd8e5805a472a7cd18389f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fe4f67bb0d0f254e231e87",
+    "usuarioId": "67fe4f3485cde87e24fdda91",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68000892fe8809bfccca0870",
+    "usuarioId": "67ff15a5e7d071d41a470ed5",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "680157f1eef55ef6ac0bac22",
+    "usuarioId": "68015754c1b924ace1cb7c65",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6805230617acb6e7b52e296a",
+    "usuarioId": "680522f6880ba0b4fd1dd2ec",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "680531505ea79d4f64148ad0",
+    "usuarioId": "68052f6e50e81c4f27f3fc02",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6805327cc84f43e120128054",
+    "usuarioId": "68053044c84f43e12012803d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "680532cb5ea79d4f64148adf",
+    "usuarioId": "680530ccc84f43e120128047",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "680edb7f6d4cadf9d4dabbca",
+    "usuarioId": "67f077b26cfab5712652a964",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "680ee7f9d68dfa7008487b98",
+    "usuarioId": "680ede2a6ee385164b53698d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "680fe7a6447ce7235fccefe0",
+    "usuarioId": "680fe6e90e47129f3c2abb8a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68112711f9590258969b8e9c",
+    "usuarioId": "67be02be2fed45952ad6fd94",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68113be28208408784f462e8",
+    "usuarioId": "680ee0b1d0fbbc061b094a56",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68117c65df755c18fc3af4ca",
+    "usuarioId": "680ee207d939658122cd8ce5",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68117f1eb981a60136138e15",
+    "usuarioId": "680ede2a6ee385164b53698d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68118237774a2981575043a5",
+    "usuarioId": "68115b21d473c63907251f01",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68118339aecf1eebbab42486",
+    "usuarioId": "68115d7bd473c63907251f1e",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "681183a35d84647e2c292390",
+    "usuarioId": "68115ee6d473c63907251f2e",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "681e650b2ebe9d0445bfaa60",
+    "usuarioId": "67fea116a3717727eebbab15",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6823d9eabcdf244f9c23e1bb",
+    "usuarioId": "6823cbb15c2b5fed81f469d8",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6823e0a59feeb12b02431aff",
+    "usuarioId": "6823cbb15c2b5fed81f469d8",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "683ca5a844fd43bc19a9af58",
+    "usuarioId": "683c9f3b926f87a2486bcf4c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "683dfc955c78c07467099487",
+    "usuarioId": "683a18d427372b394421a800",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6851ca862d9a353ccbf6700a",
+    "usuarioId": "68254135f2ff629aa20a360e",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "685237cf67a5022f3437053e",
+    "usuarioId": "685237b967a5022f34370535",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6857132198e8799e75529e1c",
+    "usuarioId": "6857120d61664d47bb640a6a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "685b5f123ede94cf4d2c8d49",
+    "usuarioId": "67be02be2fed45952ad6fd94",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "685c44693748f12cb5dda476",
+    "usuarioId": "67be5c2e2d3464ddc3990c33",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "685d44707926f5587d933358",
+    "usuarioId": "685d42fb571c9f6622bf7882",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "685d70676ac5c4db0a854ab4",
+    "usuarioId": "67be36add8981e876590105d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "685dbb06c30babd0a1aa2a11",
+    "usuarioId": "67b83e01f7fbeb9549e73c64",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "685dcd3f62942fb34ccc372f",
+    "usuarioId": "67be36add8981e876590105d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "685ee3476e541a64544c859b",
+    "usuarioId": "685e91c444898550beefe455",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "685f0d9de06a11e4396241ed",
+    "usuarioId": "67b83e01f7fbeb9549e73c64",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "685f15a97d8c1427bc38d1e2",
+    "usuarioId": "67c0bac0069251de12b10573",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "685f4b026f8334a70f8b5be6",
+    "usuarioId": "6857120d61664d47bb640a6a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "685f5749b285c64464365454",
+    "usuarioId": "685bebe36648119236ac17c7",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "685f81017295a0f9159c7f33",
+    "usuarioId": "685f80a87295a0f9159c7ce2",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6860051e2a18889fc0eaac59",
+    "usuarioId": "685e3ca4114d7d08b59e2063",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6860162b51c4f700e5db8b47",
+    "usuarioId": "685f5839b285c644643654b5",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686016f0cd89999b67647ca8",
+    "usuarioId": "6860163051c4f700e5db8b51",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68601e107e833ddce1b9da8c",
+    "usuarioId": "685bebe36648119236ac17c7",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686030112d9e58eec87c0ebe",
+    "usuarioId": "685e404a114d7d08b59e207b",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686030d42d9e58eec87c0f63",
+    "usuarioId": "67be886cfd1049b91e991cc6",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686056b1ddaadff6aad66d66",
+    "usuarioId": "6857120d61664d47bb640a6a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68605a59570f579ef504634d",
+    "usuarioId": "685f6575ec442421aebb9bbd",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686064aca9a45486f576571c",
+    "usuarioId": "6860647c6436539523db5743",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6860a1c5105b099d155ff9ed",
+    "usuarioId": "68609c1f4a9d1bd7bd1af26a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6860b9b42d2ca2c7e08feca7",
+    "usuarioId": "6860b99b2b4a129b09495a5c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68612741d9c418aefb29bfef",
+    "usuarioId": "68612453520493655fe52513",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686136e80207aeec8b8dd584",
+    "usuarioId": "68612453520493655fe52513",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686137360b50f70614757a1a",
+    "usuarioId": "68612453520493655fe52513",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686140b32c3254698eb52e03",
+    "usuarioId": "68612453520493655fe52513",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6861490fd579035060f4bfa1",
+    "usuarioId": "67be36add8981e876590105d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686278baa1d5140d6930cef5",
+    "usuarioId": "67be02be2fed45952ad6fd94",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68629be632b2f1f3e45628ca",
+    "usuarioId": "685e3ca4114d7d08b59e2063",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6862ae479a85af847d50f46c",
+    "usuarioId": "685e404a114d7d08b59e207b",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6862f09a5ae11f16c09adf57",
+    "usuarioId": "6862f0865ae11f16c09adf4e",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6862f25c5ae11f16c09adf62",
+    "usuarioId": "6862f24ac30c9f882fba4675",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686560a8bf104946df8ea5f1",
+    "usuarioId": "68655f153c1b66597d6b8492",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686593301384f1f6ef300c41",
+    "usuarioId": "685e3ca4114d7d08b59e2063",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686593e91384f1f6ef300c4c",
+    "usuarioId": "685e404a114d7d08b59e207b",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6865947c319c2afdfebff77a",
+    "usuarioId": "6862f0865ae11f16c09adf4e",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6865aa2a40833f7a31db477a",
+    "usuarioId": "68641a6034972a31af77bf1e",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6865ac0583f1df98e09a6382",
+    "usuarioId": "68643347e12b67f2952c97d1",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6865ac9b40833f7a31db478c",
+    "usuarioId": "686450483a74a2e4346c5c54",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686632e277067cea7c5f0f50",
+    "usuarioId": "68662ce877067cea7c5f0f27",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686633f40f6c04eaff4c38b2",
+    "usuarioId": "68662d9d760eaa371723badb",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866355f77067cea7c5f0f64",
+    "usuarioId": "68662e54760eaa371723baec",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686636000f6c04eaff4c38bd",
+    "usuarioId": "68662fcb77067cea7c5f0f3c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866367c760eaa371723bb13",
+    "usuarioId": "686630800f6c04eaff4c388b",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686637060f6c04eaff4c38c5",
+    "usuarioId": "686631330f6c04eaff4c389c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866a3e6d7ac2871920b8a07",
+    "usuarioId": "68655f153c1b66597d6b8492",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866c7242ef5a7320ad995ae",
+    "usuarioId": "68641a6034972a31af77bf1e",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866eb0bdda5ad39034c7af8",
+    "usuarioId": "6866eaa359bc46b63d6c40bf",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866f7e9f43d87b10e8ba29c",
+    "usuarioId": "6866eaa359bc46b63d6c40bf",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6867241c57b117a5a9ba1403",
+    "usuarioId": "686723cb949d9d047ac7bcac",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68680aa0336e9a19b52a1722",
+    "usuarioId": "686809be1155a4da38aed366",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6868358d7ab382a13748b8bf",
+    "usuarioId": "6866eaa359bc46b63d6c40bf",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68692992915a42af289d310a",
+    "usuarioId": "6866f92bf43d87b10e8ba2bf",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686958910b46bccada324ae1",
+    "usuarioId": "6869587af947d65f3b05bce2",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6869b3edd8295e8efae6d956",
+    "usuarioId": "6869b21652511a4465573046",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686c2a8fd8940eee10411f2f",
+    "usuarioId": "686c2a0ff6759ae0f8cec250",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686d744f832bcdb5dccb055c",
+    "usuarioId": "686d6c7ee7eeff571ede66dc",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686eec49755dd91355f48913",
+    "usuarioId": "686eeb8ba22be27201705522",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686f0b4ddbc0924cb2c97c63",
+    "usuarioId": "686da8b6493f32a591842739",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "686f134bdbc0924cb2c97c87",
+    "usuarioId": "686f1252dbc0924cb2c97c7d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687035b02a5adcc4cc74af07",
+    "usuarioId": "686ee2635c1f6590abc8fb0d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68706d9638560f08f4e6c3d8",
+    "usuarioId": "68705c9b52c43566efe2945e",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68711bdd1551247dd661c990",
+    "usuarioId": "68711bc71117db502d96a87f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6871200e8d6275eecf7aa54a",
+    "usuarioId": "68711fe31117db502d96a8df",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6871415693676139e43fcf76",
+    "usuarioId": "68714094f7f54465f1759d7d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68717fdc8e4aa8fc76073abb",
+    "usuarioId": "686d6fd7e7eeff571ede6837",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6871d30cc59a12eed4507b8a",
+    "usuarioId": "6871d2dfc59a12eed4507b81",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687301363a89b1b1719c19ff",
+    "usuarioId": "67c7c4696292cf5a9188ff25",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687324862a938166545bff2a",
+    "usuarioId": "687324612a938166545bff21",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6873f9ce64046dac8646cbb2",
+    "usuarioId": "6862fa2fc45e951f977fea5f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68747dfbdc84620079387d05",
+    "usuarioId": "685ddf110f38572525a3c62f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687593882446ccc7c510d728",
+    "usuarioId": "687593712446ccc7c510d71e",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6875c8ec94396001f88fa706",
+    "usuarioId": "6875c841440b83d07596687a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6875d960b2f67f7d8e2c964c",
+    "usuarioId": "6875d94af9f53500ef3fc5ae",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687673e64c502953e525875a",
+    "usuarioId": "6875bd8bf674862ce5397056",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6876bfdac2e47dd029b528e4",
+    "usuarioId": "6876bf90881513b7b16548df",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6876c8587a2d85241ccf7fde",
+    "usuarioId": "6876c7227ff8ee926e4e6af0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68772351d8038eef214da818",
+    "usuarioId": "687722e8ba7312074a7f2a12",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687779ed23328ca54ff8e572",
+    "usuarioId": "687779c923328ca54ff8e569",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68777cd423328ca54ff8e588",
+    "usuarioId": "68777c08fd0c0e9b62546c4a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68777e31fd0c0e9b62546c70",
+    "usuarioId": "68777e0afd0c0e9b62546c67",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6877c7754f39e4fe849d3635",
+    "usuarioId": "6877c759428d9ab261a0cc66",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6877c8f151f84f51640779ed",
+    "usuarioId": "6877c8cb51f84f51640779e4",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6877caed51f84f5164077a05",
+    "usuarioId": "6877cad251f84f51640779fc",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6877cbffd22eebd5a78c7ce2",
+    "usuarioId": "6877cbe851f84f5164077a10",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6877ce9f6a8df62aab055daf",
+    "usuarioId": "6877ce846a8df62aab055da7",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6877cf7a6a8df62aab055db7",
+    "usuarioId": "6877cf63d22eebd5a78c7d0e",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6877d0c0d22eebd5a78c7d20",
+    "usuarioId": "6877d0526a8df62aab055dc4",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6877d8cade15e2a213629d10",
+    "usuarioId": "68692d80915a42af289d3132",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687908c286c528662be3ed62",
+    "usuarioId": "6879021693de316d26f63bc3",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68790b6b58e44e0e6bc612c9",
+    "usuarioId": "6879021693de316d26f63bc3",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68790ee186c528662be3ed7e",
+    "usuarioId": "68790d2958e44e0e6bc612d6",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6879295891e9f0d1f86274e4",
+    "usuarioId": "687543b9dd4cad6285532f02",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68796b86d5899fef14471b3e",
+    "usuarioId": "68796b26ac39a5077e4ccbb7",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68798143daba10889d208254",
+    "usuarioId": "687970c05b405d1b3e270125",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687983903855be9cb6df52e1",
+    "usuarioId": "68791895c5fbecf85b644326",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687986c23855be9cb6df52ef",
+    "usuarioId": "68791a481bb918c62e20bd17",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6879877f3855be9cb6df52fd",
+    "usuarioId": "68791a481bb918c62e20bd17",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687989767ea6982e068286b9",
+    "usuarioId": "68791a481bb918c62e20bd17",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68798ca43855be9cb6df5332",
+    "usuarioId": "687914e8c5fbecf85b6442f9",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6879abd536b9e08000ab4349",
+    "usuarioId": "68790d2958e44e0e6bc612d6",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6879af9b468c7566f160a73d",
+    "usuarioId": "68791a481bb918c62e20bd17",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6879b2d0468c7566f160a779",
+    "usuarioId": "67c1d8d331cf2ce56ef90dd4",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6879b46f601aea3fa48cf202",
+    "usuarioId": "6879b443468c7566f160a7ac",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6879b4fd2cf16396ae26e82d",
+    "usuarioId": "685be22f71e9c6d785f2be9b",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687abe7dbd24ec7479d378f9",
+    "usuarioId": "687abe64bd24ec7479d378eb",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687b03187613848a6dae7324",
+    "usuarioId": "687992346ae487a7920cb285",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687b8ef0725e46a4d73ce695",
+    "usuarioId": "687b8ece9546916aaa0bac1c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687be99ebabb4f0f8a3d4230",
+    "usuarioId": "686ee2635c1f6590abc8fb0d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687cf10a3d7b420837a8d5f5",
+    "usuarioId": "687cf0343d7b420837a8d5df",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687dba26a846561f01ab50b7",
+    "usuarioId": "687db997ff6fe07931a09bb0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687e3ccd27db3f9435f9bd70",
+    "usuarioId": "687960f61e61446c63fdccd4",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687e5e131d233472cd7505a2",
+    "usuarioId": "685c833e3dc06c641b8ea050",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687e6cd4c8cdbc87782ac03b",
+    "usuarioId": "687e6cc139ed77ad43d7c0bc",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687ebebbd39177fd3956f302",
+    "usuarioId": "685c760f81f08a14ab093ee3",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687ebec84705888f9c8f0113",
+    "usuarioId": "685effa820e421761101770f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687eee9baa931e63ad5d92fb",
+    "usuarioId": "687eed93ee4bd5eb23090a44",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687ef2a6391cf54d1718cc80",
+    "usuarioId": "6879d256d370a7eadb28ead3",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687f023421274080caf6e43c",
+    "usuarioId": "68796b26ac39a5077e4ccbb7",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687f06930d7dd424b9214127",
+    "usuarioId": "687f067ccd715c8a36a729de",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687f73ae7e02b39dec4de41d",
+    "usuarioId": "687a48c2e7c0ca323edb861c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687f74937e02b39dec4de420",
+    "usuarioId": "687a493fe7c0ca323edb8625",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687f8390d77f0b8605fdabfd",
+    "usuarioId": "687f067ccd715c8a36a729de",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687f8be8de9847dae443732f",
+    "usuarioId": "67fd8e5805a472a7cd18389f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "687fc196cac2d50e2c26495d",
+    "usuarioId": "6879c82304ab0083c7987308",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6880d69610f78a4c6130f10c",
+    "usuarioId": "6880d6796a80adcade5838ee",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6880f71c114e6fe1b5d08692",
+    "usuarioId": "687f067ccd715c8a36a729de",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68812e61cd9acca46e9227d9",
+    "usuarioId": "6879c82304ab0083c7987308",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6881309167d82c1280838495",
+    "usuarioId": "68805a1bea42a5338f5eab0e",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68816ef2b361d5bc85f7b7e5",
+    "usuarioId": "68816e14b361d5bc85f7b7d7",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6881857f4a602b08182c55fe",
+    "usuarioId": "687f8f0ebbe69eb72cac0b9f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6881857f69f92a5a564aa388",
+    "usuarioId": "687f8f0ebbe69eb72cac0b9f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "688185d14a602b08182c5601",
+    "usuarioId": "687f8f0ebbe69eb72cac0b9f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68818ecc073b00bb10b185a5",
+    "usuarioId": "688063237bced21dda4593f2",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68819a0f7c9a10a0b6734cd7",
+    "usuarioId": "688199a5beaccd78cc642eee",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6883f6c3d5145b800360ebab",
+    "usuarioId": "687992346ae487a7920cb285",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "688422cdcd2283f96f9f0bb5",
+    "usuarioId": "68842227e1a35c48a8618107",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6884fd5628eef38e922bde0b",
+    "usuarioId": "6884447586a1fb0c3c327dd6",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68852cbb3530d900e12c8181",
+    "usuarioId": "6885233ebdc3ce91a4e56f1d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68854d6ba8ef5051a7e14d9c",
+    "usuarioId": "68854af0a8ef5051a7e14d91",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68861e9a9864036496e64172",
+    "usuarioId": "67be4753c9dec708553a16c6",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68868523afae51881a132611",
+    "usuarioId": "68867a202e6e318d52e6cfa0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6886b43cf9a8e408a6f48d4f",
+    "usuarioId": "6886b3f406a34f05f7c4c593",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68892c6c9606b1d201c0e619",
+    "usuarioId": "68892abd29882be154520b03",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6889420df63019ea185a257f",
+    "usuarioId": "6886bf412849295c3b99fcaa",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68894a4d82587c05c954de2a",
+    "usuarioId": "688543f9b3f282b49ef2ef57",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "688952cf3dcc9e85caa8a323",
+    "usuarioId": "6866e1848a945bdb78ceb7d4",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "6889714995ccafd2b21668f9",
+    "usuarioId": "6886c465e93ece0df2d34871",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "688992518c08c65f3937bd16",
+    "usuarioId": "67c7c4696292cf5a9188ff25",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "688ace78867a34e4ef8c482d",
+    "usuarioId": "688aa89fb2b5f2828f78488a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "688c2d60b5a66acc7e833ecd",
+    "usuarioId": "688c2d210f1fac4c6b0ed927",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "688c393a09d3c7056d6027fe",
+    "usuarioId": "688c37a680790a0c051b69b6",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "688d4f3b78f1ab735dd637a2",
+    "usuarioId": "688d4ef591f55ad19033e990",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "688d69690074dfe93c8693b7",
+    "usuarioId": "688d68f1f5c52d61628ed836",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "688e000416db999e4943cdd8",
+    "usuarioId": "688d0fcba4db68d3deb36726",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "688ec11d679404f8299ccbe7",
+    "usuarioId": "688ec10763a28d32b328fb27",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "688fc8cfcf8b1ea667dbde9f",
+    "usuarioId": "688fc89a8857135ab58ad1d6",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6890d0573634461f2faa2af7",
+    "usuarioId": "6890d03f3634461f2faa2aef",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "6891463e8c2ab67e20b3bea5",
+    "usuarioId": "689143d027cf393b16d0fdf1",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "68917d52d16b42cfaf91e665",
+    "usuarioId": "6801a814687de7326a6c1e8a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68921419547479090d6c6a01",
+    "usuarioId": "689161c194f7c410c0156dad",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68922a200a3fdead74cfea78",
+    "usuarioId": "67bf9602c7a29c4692bde797",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68922b4efa50815484385187",
+    "usuarioId": "67bf9602c7a29c4692bde797",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6892d28062ceecab7a4c225c",
+    "usuarioId": "6885233ebdc3ce91a4e56f1d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68933ca616f0838b860be56d",
+    "usuarioId": "688a0cd2de847443078d4ebb",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68933cbe351af47ccfba83c2",
+    "usuarioId": "688a0cd2de847443078d4ebb",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6894ff4572d4dc7ee5c71954",
+    "usuarioId": "6894ff3572d4dc7ee5c7194a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689507a0fb38470a4c6d5402",
+    "usuarioId": "68867b022e6e318d52e6cfae",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "68962337a2b9c2fa86f2c6df",
+    "usuarioId": "6886c68cdefd47cd21d3b2ec",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6896244d5c747347b8627e1f",
+    "usuarioId": "6886c68cdefd47cd21d3b2ec",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6896252bfd485db25a2e6156",
+    "usuarioId": "6886c68cdefd47cd21d3b2ec",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689626e95c747347b8627e2a",
+    "usuarioId": "688ffc0dc8a76d598a83fede",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689629eca2b9c2fa86f2c709",
+    "usuarioId": "689629a9a2b9c2fa86f2c701",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689637674b21dcaa48a666b9",
+    "usuarioId": "689636d302d10bedc77349fd",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6896392602d10bedc7734a2c",
+    "usuarioId": "689638ff02d10bedc7734a23",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689643ab9287fbe77071a6b7",
+    "usuarioId": "68964269a872678da789934c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689647506958885c4268323f",
+    "usuarioId": "687992346ae487a7920cb285",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689648d65bd2e989468c6963",
+    "usuarioId": "68964269a872678da789934c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689649c16958885c42683248",
+    "usuarioId": "689636d302d10bedc77349fd",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68965af53a4168d74f43e0db",
+    "usuarioId": "68965acbf9f981814c30117d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6896676ef9bf670ce898fa4e",
+    "usuarioId": "68966743f9bf670ce898fa45",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68966a6d161382f4f5715462",
+    "usuarioId": "68966a0641e9920b00b3e91f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68966c82161382f4f571547f",
+    "usuarioId": "68966c1a161382f4f5715476",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "68966e15161382f4f571548c",
+    "usuarioId": "68966def161382f4f5715484",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68967025161382f4f571549a",
+    "usuarioId": "68967006161382f4f5715491",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689671db64d694eeb352d744",
+    "usuarioId": "6896716a3b2ceb69985251eb",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6896723fa6c84f85fd3894cb",
+    "usuarioId": "6896716a3b2ceb69985251eb",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68967463f57ebcb743cf10b8",
+    "usuarioId": "68967427f57ebcb743cf10b0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68967ed851fe55ded702e46c",
+    "usuarioId": "6886c68cdefd47cd21d3b2ec",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "6896a3db14825089df1a536f",
+    "usuarioId": "6896374002d10bedc7734a06",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897c77b14a8fe111ed82933",
+    "usuarioId": "689629a9a2b9c2fa86f2c701",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897ef66ba955243a9881d04",
+    "usuarioId": "6897eb903b783030a2a97d53",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689896c59a6e835e90588a0f",
+    "usuarioId": "68966c1a161382f4f5715476",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "68991a5abb58b5ba65b67494",
+    "usuarioId": "6886c465e93ece0df2d34871",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68991c0eb5185a5fb27dd6d4",
+    "usuarioId": "68991bd107d8bf3ac2a2c5b9",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68991c3eb5185a5fb27dd6d8",
+    "usuarioId": "689638ff02d10bedc7734a23",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689920dcb5185a5fb27dd718",
+    "usuarioId": "68991f8b07d8bf3ac2a2c5e8",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "6899241e0f941bac68998fa9",
+    "usuarioId": "6897e4cf348f967f2b07b682",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689926419c65d3151a2135ba",
+    "usuarioId": "689925539c65d3151a2135ae",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68992a7ee9bc8337dec8f99b",
+    "usuarioId": "6899294f64a7275eccaf59c5",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689933c4673af0328110e485",
+    "usuarioId": "68854af0a8ef5051a7e14d91",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68993da6446ce48be676b4a1",
+    "usuarioId": "68967006161382f4f5715491",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689a14bd97f0146b7f828ffe",
+    "usuarioId": "68991f8b07d8bf3ac2a2c5e8",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689a5b15fb6b6f507c8b6e21",
+    "usuarioId": "689a5afc26b9db7c8afd8608",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b5b656f9567a9c80704c0",
+    "usuarioId": "6899294f64a7275eccaf59c5",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b5deb55645f65281bb4b6",
+    "usuarioId": "6897eb903b783030a2a97d53",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b601255645f65281bb4db",
+    "usuarioId": "6897e4cf348f967f2b07b682",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b775304d470bacc40e741",
+    "usuarioId": "68991bd107d8bf3ac2a2c5b9",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b779204d470bacc40e748",
+    "usuarioId": "6899d53e054935cb570c15a8",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b7833b2d707738f1e3b0f",
+    "usuarioId": "689a585926b9db7c8afd85e0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b7854b2d707738f1e3b18",
+    "usuarioId": "689a5d0026b9db7c8afd8622",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b793bb2d707738f1e3b1f",
+    "usuarioId": "689a585926b9db7c8afd85e0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b7baa1f817ba19df62b59",
+    "usuarioId": "689b5c396f9567a9c80704ce",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b7bc4b2d707738f1e3b33",
+    "usuarioId": "689b5e6955645f65281bb4bc",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b7be1c71c480fb40656f5",
+    "usuarioId": "689b5f6440f126d7179e9544",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b7bf91f817ba19df62b64",
+    "usuarioId": "689b608255645f65281bb4e1",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b7c11b2d707738f1e3b3c",
+    "usuarioId": "689b618c55645f65281bb4f3",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b7c24b2d707738f1e3b44",
+    "usuarioId": "689b62656f9567a9c8070514",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b84f6b2d707738f1e3bb8",
+    "usuarioId": "689b84d3b2d707738f1e3bae",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b93f47814ed903bea9050",
+    "usuarioId": "6899d53e054935cb570c15a8",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9912ece878bf60a83fcb",
+    "usuarioId": "689b8887bd2410cd438fb5cf",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ba592cff4aeb4009d7ce3",
+    "usuarioId": "689b8887bd2410cd438fb5cf",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ba66f5a28a338cd991e3d",
+    "usuarioId": "689ba5eacff4aeb4009d7cea",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689bae005a28a338cd991e88",
+    "usuarioId": "689badcc5a28a338cd991e80",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689bbd0a3e5e5cdc1077bd13",
+    "usuarioId": "689bb8a85a28a338cd991f12",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689bc0246a0a58a1cc456078",
+    "usuarioId": "689bba70587fb4ba2dd69e80",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689bc1e26a0a58a1cc456092",
+    "usuarioId": "689bb8a85a28a338cd991f12",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689bc3793e5e5cdc1077bd61",
+    "usuarioId": "689bbb1a3e5e5cdc1077bcf6",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689bc4ba3e5e5cdc1077bd72",
+    "usuarioId": "689bbbd23e5e5cdc1077bd05",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c01fa79da637807a0793e",
+    "usuarioId": "689be3505a15ab9ff669be72",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c86b5dc8bac15b834191b",
+    "usuarioId": "689c867e1d982ba32af1bba1",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689cc8bd079fad7b42eaf26a",
+    "usuarioId": "689cc8a5cf73e0752a62faed",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ccda62e60214d686858b8",
+    "usuarioId": "6879021693de316d26f63bc3",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689cdfcc1a1d519edccd4c55",
+    "usuarioId": "689cdb4267291ae7214d86d4",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "689cf0e5089d722fe5ba9673",
+    "usuarioId": "689cf0d40abf46683d3a703c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689d0198ac3daf730645a16e",
+    "usuarioId": "689cf0d40abf46683d3a703c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689d02aecc380ad2c2a8f2ad",
+    "usuarioId": "689badcc5a28a338cd991e80",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689d030472446a011f1cd3c8",
+    "usuarioId": "6899d53e054935cb570c15a8",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689d13c57aa4a39ee82b3bdb",
+    "usuarioId": "688c15b91ab20b91ada8cb0b",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "689d2d0e54a98d3639349d70",
+    "usuarioId": "689d2ce0ffe10d4fe33e3fe7",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689d3c1471c43e9fa8abaa85",
+    "usuarioId": "689d3a46492da0cab09c6c16",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689d3c1571c43e9fa8abaa87",
+    "usuarioId": "689d3a46492da0cab09c6c16",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689d4536a396fc5518acb390",
+    "usuarioId": "689d450aa396fc5518acb387",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "689d4536683d14028df1f1f8",
+    "usuarioId": "689d450aa396fc5518acb387",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "689d4536a6508931eed8c9cb",
+    "usuarioId": "689d450aa396fc5518acb387",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "689d4536a6508931eed8c9cd",
+    "usuarioId": "689d450aa396fc5518acb387",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "689d4536cf3855347ac77449",
+    "usuarioId": "689d450aa396fc5518acb387",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "689d47bfa6508931eed8c9e4",
+    "usuarioId": "689d4798683d14028df1f21c",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "689d522665a373bd33dd4891",
+    "usuarioId": "689d450aa396fc5518acb387",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e3a9300218bec82d69f46",
+    "usuarioId": "689e3a762a3d414c6e86b1d4",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e5d1118fa8d8a0b956703",
+    "usuarioId": "689e5b8c2e656350ce4e2a7c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e6cd22c68585344c647bf",
+    "usuarioId": "689211ba547479090d6c69f3",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e745039c15030ddf14812",
+    "usuarioId": "689e5b8c2e656350ce4e2a7c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e74a394c90b6adcfcfc0c",
+    "usuarioId": "689e614ce5b99e661f584f42",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e754394c90b6adcfcfc2a",
+    "usuarioId": "689e5c1d2e656350ce4e2a89",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e761394c90b6adcfcfc3f",
+    "usuarioId": "689e5c9c18fa8d8a0b9566fa",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e77414130b2e5ae446a6e",
+    "usuarioId": "689e63ece5b99e661f584f79",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "689e79444130b2e5ae446a75",
+    "usuarioId": "689e6660eb6201d25878c76f",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e8bd3dcf9eca27a0be029",
+    "usuarioId": "689e8ba5dcf9eca27a0be01a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e8d020606d745fe03fcbc",
+    "usuarioId": "689e724e94c90b6adcfcfbb4",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e949408c2b7e4160a9f9d",
+    "usuarioId": "689143d027cf393b16d0fdf1",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e98ca8a3a16f4c3129469",
+    "usuarioId": "689143d027cf393b16d0fdf1",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e993378cb7888b0ff6845",
+    "usuarioId": "689e95aff5c50cc344cfae2e",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e9d2837e3c21ddcf13dcb",
+    "usuarioId": "689cc1b6cf73e0752a62f7e1",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e9d41f5c50cc344cfae97",
+    "usuarioId": "689cc31730b9e7dbb0336076",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e9d6f57169ca3c223aa0d",
+    "usuarioId": "689143d027cf393b16d0fdf1",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e9dbb3b72df4937d1b94d",
+    "usuarioId": "689cc43430b9e7dbb033608b",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e9df53b72df4937d1b957",
+    "usuarioId": "689cc46a30b9e7dbb0336095",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e9f238a3a16f4c31298b6",
+    "usuarioId": "689143d027cf393b16d0fdf1",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea2240c3233f5d7e14c63",
+    "usuarioId": "689e95aff5c50cc344cfae2e",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea24340aee0d5439b7d03",
+    "usuarioId": "689e95b0f5c50cc344cfae35",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea265f5c50cc344cfaeb7",
+    "usuarioId": "689e95b1f5c50cc344cfae3c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea2800c3233f5d7e14c6d",
+    "usuarioId": "689e95b2f5c50cc344cfae4a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea2a0f5c50cc344cfaec1",
+    "usuarioId": "689e95b2f5c50cc344cfae4a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea3bd40aee0d5439b7d15",
+    "usuarioId": "689e95b1f5c50cc344cfae43",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689eae5ba4b1171644ec5d41",
+    "usuarioId": "689d35d35791d24ae703f74c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f2742282115ccdef38acb",
+    "usuarioId": "689f272278c26d17ccce66b0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f2e186198043bacf553d7",
+    "usuarioId": "689f2ae36198043bacf5539a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f2ff7282115ccdef38eef",
+    "usuarioId": "689f2fe06198043bacf553fa",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f34b7886eab42b26ed30a",
+    "usuarioId": "689f272278c26d17ccce66b0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f49760d1d688c3b059157",
+    "usuarioId": "689f2ae36198043bacf5539a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f49da0bda4e9b08e12cea",
+    "usuarioId": "689f2fe06198043bacf553fa",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f4ab20bda4e9b08e12ced",
+    "usuarioId": "689f4a952a3fc8f87c85be70",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f53989804d9c44733c1e1",
+    "usuarioId": "689f4f6ef1845c2b42aff228",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "689f55299804d9c44733c1fa",
+    "usuarioId": "689f54999804d9c44733c1e9",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5529675064b53acc13c5",
+    "usuarioId": "689f54999804d9c44733c1e9",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f6cabca047de88e29ab6d",
+    "usuarioId": "689d331854a98d3639349dd5",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f6d5b21ff643157b1bd0c",
+    "usuarioId": "689d35d35791d24ae703f74c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f701c6fabd622d5371fdf",
+    "usuarioId": "689e755739c15030ddf14822",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f7051ab5428d3153e5c79",
+    "usuarioId": "689d331854a98d3639349dd5",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f70923c172e7821da3315",
+    "usuarioId": "689e79ec94c90b6adcfcfcd0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f7d016f34fe11d3328187",
+    "usuarioId": "689e830908c2b7e4160a9ee8",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689fc5505f35e6649b3ab400",
+    "usuarioId": "689fc4e69edd4edd507fc083",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "689fd3c8a132178bf06f1076",
+    "usuarioId": "689d5147a6508931eed8ca51",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689fee6516c1bc8a46536fb7",
+    "usuarioId": "689d3a46492da0cab09c6c16",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689feeaadcb84167391aa093",
+    "usuarioId": "689fcb07964278a7812bd026",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689feed861a15a8016281346",
+    "usuarioId": "689fcc05f5f33e598931b85c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "689fef27e6a81ba91a0ccc9b",
+    "usuarioId": "689d3a46492da0cab09c6c16",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a073a96db4bf16baf285cd",
+    "usuarioId": "68a0733f56fbe4ed57da4834",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a07573b19c2615309e2724",
+    "usuarioId": "68a0734556fbe4ed57da483b",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a07b1699eb7620765ecbb3",
+    "usuarioId": "68a0734c56fbe4ed57da4842",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a0a5071a266c32a36873c0",
+    "usuarioId": "689e8ba5dcf9eca27a0be01a",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a0fd914862fdb34f01ee48",
+    "usuarioId": "6890110bedf6d4a2dece1264",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "68a11f541ef8c5da4cf6a10e",
+    "usuarioId": "689be3505a15ab9ff669be72",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a22d098a160ff944776411",
+    "usuarioId": "68a22ce28a160ff9447763ff",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "68a25ae925c5bfc5626a12fe",
+    "usuarioId": "68a25aab4b0838ce5dfa9fb1",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a3527439f1e49e0991ef8e",
+    "usuarioId": "689d554c65a373bd33dd48c0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a374579f639e39154f3af3",
+    "usuarioId": "689e849dfe554623c1d35e94",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a377b52c065173e9b8001c",
+    "usuarioId": "689d140d7aa4a39ee82b3be6",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a378142c065173e9b80020",
+    "usuarioId": "689d140d7aa4a39ee82b3be6",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a3cd1adeef2a5bd94de155",
+    "usuarioId": "68a202a7ac274d55436ec51d",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "68a3d00cdeef2a5bd94de172",
+    "usuarioId": "68a39f5ca490ef10a8579b94",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a3d01cd768aae24edccb84",
+    "usuarioId": "68a3a1d9be7713929f7a6ef0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a3d02c125a206e5dbee714",
+    "usuarioId": "68a3a354b06f471a4aa5be92",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a3d634125a206e5dbee75a",
+    "usuarioId": "689f212ff015c0aa8b05a6c2",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a3d652ea5d46df19b88832",
+    "usuarioId": "689f2235f015c0aa8b05a6e1",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a3d678ea5d46df19b88838",
+    "usuarioId": "689f22c36198043bacf552df",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a3d800ea5d46df19b88856",
+    "usuarioId": "67c867bea0547ab752d75ac0",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a3db52ea5d46df19b888a5",
+    "usuarioId": "689e0b498cc3febef65f2c41",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a3dc0f266285bfc17bd21b",
+    "usuarioId": "689e19c0f82acf0b36714960",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a3dc35266285bfc17bd220",
+    "usuarioId": "689e1b24f82acf0b3671497b",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a3dc48266285bfc17bd225",
+    "usuarioId": "689e1bc7f82acf0b3671498b",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a3e0bd3cbb0f42c25f4771",
+    "usuarioId": "689e1bc7f82acf0b3671498b",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "68a4b3553674ac155d386541",
+    "usuarioId": "68a3eaf0c831f2d14b6c143b",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a4c94f9638c1b12fd1f8bd",
+    "usuarioId": "68a4c937dd8f18d4c69258bc",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a51282d5542b4ca60d6108",
+    "usuarioId": "68a4ed7d3b9da135484a21ae",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "68a62b146cc0e081fbeba807",
+    "usuarioId": "688a0cd2de847443078d4ebb",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "68a68b2666ba993ab86f02d1",
+    "usuarioId": "68a5f7b0dda9b14ec8b3c135",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "68a74a0975b5021c76939a1d",
+    "usuarioId": "68a749c537d58d12f4b12623",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a780f0fdc787f9ef6a57eb",
+    "usuarioId": "689d331854a98d3639349dd5",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a8d059090b5651454b8f93",
+    "usuarioId": "68954906c4dfb046bd766007",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a9f821593c2bf27bc1f394",
+    "usuarioId": "689f631bd25574ed1eedbd86",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68acd23e1ff073e5a88c558d",
+    "usuarioId": "687543b9dd4cad6285532f02",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "68acf405ecf2c1b5b1e9f078",
+    "usuarioId": "67f047892db4539914032b01",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b0e70f926263e274097df2",
+    "usuarioId": "68b0dfee7d6ba5ca9298bdcd",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b0e736926263e274097eca",
+    "usuarioId": "68b0dfef7d6ba5ca9298bdd4",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b0e750d397d3b9c24f96e9",
+    "usuarioId": "68b0dff07d6ba5ca9298bddb",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b0e7722c9ec2d0e17129aa",
+    "usuarioId": "68b0e2367d6ba5ca9298be26",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b1bab1b2ad498bf69f8c51",
+    "usuarioId": "689143d027cf393b16d0fdf1",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b1dbad4cca2807c0da5014",
+    "usuarioId": "689143d027cf393b16d0fdf1",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b1e71273ca955a5de1c883",
+    "usuarioId": "689143d027cf393b16d0fdf1",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b26110a16cf0606ceed45d",
+    "usuarioId": "689f631bd25574ed1eedbd86",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b363962335f686a6641847",
+    "usuarioId": "68b361149828004984e96fc8",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b4f76b69aa2197e8b1863a",
+    "usuarioId": "68a87b03a2a33bfc6cfd3121",
+    "aporte": false,
+    "__v": 0
+  },
+  {
+    "_id": "68b4f8c669aa2197e8b1866c",
+    "usuarioId": "68a5fc90d32a7aa6d80668c5",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b4f92e69aa2197e8b18688",
+    "usuarioId": "68a5fb5fd32a7aa6d80668b9",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b4f94469aa2197e8b18699",
+    "usuarioId": "68a5fa84d32a7aa6d80668a9",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b4f95b3be60682860dd998",
+    "usuarioId": "68a5f98dd32a7aa6d8066890",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b4f97e69aa2197e8b186a9",
+    "usuarioId": "68a5f7b0dda9b14ec8b3c135",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b4f996187beaf55bd7ee8d",
+    "usuarioId": "688d68f1f5c52d61628ed836",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b5039dfc61ae7fd7ad9dce",
+    "usuarioId": "68b5034a42e637cd0763aaa8",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b508ca187beaf55bd7f436",
+    "usuarioId": "689f632d0d4a62b27105807c",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b508e053ad37d18e651648",
+    "usuarioId": "689f63280d4a62b271058075",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b5093b397a65d1b2ee16d2",
+    "usuarioId": "689f6322d25574ed1eedbd8d",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b5096042e637cd0763ab5b",
+    "usuarioId": "680ee207d939658122cd8ce5",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b5097642e637cd0763ab66",
+    "usuarioId": "680ee0b1d0fbbc061b094a56",
+    "aporte": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b509b43b32cc597f977b2d",
+    "usuarioId": "67f077b26cfab5712652a964",
+    "aporte": true,
+    "__v": 0
+  }
+]

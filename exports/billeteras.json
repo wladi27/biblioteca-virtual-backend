@@ -1,0 +1,8059 @@
+[
+  {
+    "_id": "67dc3b9f1c08048850e20041",
+    "usuario_id": "67bf9602c7a29c4692bde797",
+    "saldo": 75405,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67dd2526858c035e2495b3fe",
+    "usuario_id": "67be35b810bd9f1d0f573023",
+    "saldo": 4364,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67e40cb3298fd2d44b93d73c",
+    "usuario_id": "67be02be2fed45952ad6fd94",
+    "saldo": 147364,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67e947b89f144226e4c3330a",
+    "usuario_id": "67be36add8981e876590105d",
+    "saldo": 46258,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67e94873368ccf0a1eb215b0",
+    "usuario_id": "67be08fcea8e5b34c79b2b27",
+    "saldo": 14364,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67e9ca1c9cd87e6bb2d73999",
+    "usuario_id": "67c853b1c0c38344a4df83f7",
+    "saldo": 4364,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ea0b5527db42e1c517fd7e",
+    "usuario_id": "67be4753c9dec708553a16c6",
+    "saldo": -42136,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ea0c7827db42e1c517fe1c",
+    "usuario_id": "67be8398062e83ccc1e0624f",
+    "saldo": -25436,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ea0cae466150a30bf891c2",
+    "usuario_id": "67e5be9e5aae9c0a4f25e06f",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ea0ce1466150a30bf891cf",
+    "usuario_id": "67e5c6de719cabedaa050585",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67eb27165185c18f5e90d09f",
+    "usuario_id": "67c8b3b176f6109f3c1d6288",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67eb41e6b5d1fd5695852eb8",
+    "usuario_id": "67eb189be702494b84ac63b0",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67eb5151fe38f6a1684744d9",
+    "usuario_id": "67be5c2e2d3464ddc3990c33",
+    "saldo": -43636,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67eb51a3fe38f6a1684744e5",
+    "usuario_id": "67cfa9102e55824346a3ca10",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67eb53e0739e0fe65e29a6ad",
+    "usuario_id": "67eb52cdfe38f6a1684744ee",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ed251cc0f3a9582bad4665",
+    "usuario_id": "67ed24ecd001c719cc7a478e",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67edafcf68a1f5454b0f790c",
+    "usuario_id": "67cbeb1b130cae0a44744ece",
+    "saldo": -12676,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67edba986d30aa1211add9db",
+    "usuario_id": "67edac2c32858f661acbf501",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ede533ee20c68cb0a19d1e",
+    "usuario_id": "67c0c26583703c81691c4292",
+    "saldo": 4364,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ede81311e0a90a6b078dae",
+    "usuario_id": "67ede70611e0a90a6b078d9a",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67edf32f8a6b6e05e38572d9",
+    "usuario_id": "67be886cfd1049b91e991cc6",
+    "saldo": -13936,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67edf4e11e1533eae1c29a91",
+    "usuario_id": "67be652ebed9d29c66236a17",
+    "saldo": -14136,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67edfb52ad6fe445ac25d263",
+    "usuario_id": "67edd2c5f2ed8cd5254df14e",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ee9856d03a6c0d1ba90616",
+    "usuario_id": "67ed6004bd355438f5438f4b",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ef32dea08b3a5c49a64943",
+    "usuario_id": "67edfe8bad6fe445ac25d286",
+    "saldo": 42704,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ef34739d2f8b0784245c45",
+    "usuario_id": "67cc78d263663951e54f141a",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67efe753d8f97291bf97b623",
+    "usuario_id": "67efe3f5ef443f575404e06d",
+    "saldo": 7904,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f05e329ed2d33d59f0e84b",
+    "usuario_id": "67f05df48e105d93975ade5c",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f05e888e105d93975ade68",
+    "usuario_id": "67d0e882aecc55152707eab1",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f17381ea533151daf00f4d",
+    "usuario_id": "67f077b26cfab5712652a964",
+    "saldo": 10204,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f2a5745515ec45db2806d1",
+    "usuario_id": "67f047892db4539914032b01",
+    "saldo": 4534,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f3139b83705904930eecee",
+    "usuario_id": "67ca2d8fa6f9c7344a54a1b6",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f4002897fa00eb7469e2d6",
+    "usuario_id": "67f3fff197fa00eb7469e2ca",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f4025293b5d012746a3baa",
+    "usuario_id": "67bf5aba4ab309396e66ff41",
+    "saldo": 6694,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f47e4a63a0c78d86ee7942",
+    "usuario_id": "67eee9e88f5764707e1100e0",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f48db963eb172726a95490",
+    "usuario_id": "67f489d59f34299db96510f2",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f495c3ab5bd443db5f991d",
+    "usuario_id": "67f45244192f8a78f676dfa8",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f4a21519698e76bfd34460",
+    "usuario_id": "67f47bc363a0c78d86ee792b",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f6b9aadd53b27a42eb1092",
+    "usuario_id": "67f6b9577149ef86ee854754",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f8300474d2ca7389e9ad26",
+    "usuario_id": "67f82fa13753f2395c08510f",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f84c22de446653c4d3a16d",
+    "usuario_id": "67ef41465729fb78692d16d6",
+    "saldo": 4664,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67f9d821edf790e04afd3deb",
+    "usuario_id": "67f9d7be2a4c2209b4beba83",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fa6f01e696a4d9d66d3e0b",
+    "usuario_id": "67f9ac2681ef7060d3c501a0",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fa778d228c8e2fbca4a5b0",
+    "usuario_id": "67fa66c1a980a87405af440a",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fa84679f692c2612b565e4",
+    "usuario_id": "67fa7f549f692c2612b565b0",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fa8cd2625eab3c27b2610c",
+    "usuario_id": "67fa721cfde2e9e5af3594fc",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fb1d59fd8588247d9e1b53",
+    "usuario_id": "67fb1ac1a57cedbb3a53c579",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fc2d5cd2735271eac391d0",
+    "usuario_id": "67fc2869bf85bb32f92af33c",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fd8ee41223b60866620797",
+    "usuario_id": "67fd8e5805a472a7cd18389f",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fe50faf59981621dae2b98",
+    "usuario_id": "67fe4f3485cde87e24fdda91",
+    "saldo": 8054,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67fe8bfd439ea39b8283171d",
+    "usuario_id": "67fc57db05c5fc378ac27e6a",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ff100252384fffce6cbb48",
+    "usuario_id": "67ff0fc452384fffce6cbb39",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ff140613a7654e44819c00",
+    "usuario_id": "67ff13ebe7d071d41a470d60",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ff15eee7d071d41a470ee5",
+    "usuario_id": "67ff15a5e7d071d41a470ed5",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "67ff190052384fffce6cbb93",
+    "usuario_id": "67ff18dae648b58688fb78da",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "680145c457e545c667ec776c",
+    "usuario_id": "67c0cb253f0f819d503fee24",
+    "saldo": 4364,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6801579a890db7850940885d",
+    "usuario_id": "68015754c1b924ace1cb7c65",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6801661824648ca5a22b8461",
+    "usuario_id": "67ed965fb5f3d052ac9d1b9c",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "680176f17aba5fb650796453",
+    "usuario_id": "680176d20e8669cc77495654",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6801a8399278b0deaad5eed9",
+    "usuario_id": "6801a814687de7326a6c1e8a",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6801a84bf913e8e12e62016b",
+    "usuario_id": "67c8bcce09fbc0c1d24cafa6",
+    "saldo": 4364,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6803d8edfdf9ae87f521901d",
+    "usuario_id": "67bf4dc9a31aa189dfc906a5",
+    "saldo": -4036,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6805241e17acb6e7b52e297a",
+    "usuario_id": "680522f6880ba0b4fd1dd2ec",
+    "saldo": 6409,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68067947ac32777e9dd80caa",
+    "usuario_id": "67f467a3bac7bf766496a778",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6806797459cfb2df52025e38",
+    "usuario_id": "67f06c86d6088c9a28da5bd4",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "680679dffbb73c81845a90b9",
+    "usuario_id": "67cfaba21c2bff1372b162ae",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68087c2c8c82a0a56a5f0db6",
+    "usuario_id": "67e71dc641ce11211e4058ea",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "680ed0c6a5003b5c530c85d8",
+    "usuario_id": "67bf4d264ab309396e66fe77",
+    "saldo": 6364,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "680ed2afa84aa24a6a388461",
+    "usuario_id": "67be6aebe4802b2c116df3f0",
+    "saldo": 4364,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "680ede7e6d4cadf9d4dabbee",
+    "usuario_id": "680ede2a6ee385164b53698d",
+    "saldo": 16164,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "680ee857885ee22fcde8f739",
+    "usuario_id": "680ee0b1d0fbbc061b094a56",
+    "saldo": 14264,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "680ee87fd68dfa7008487bad",
+    "usuario_id": "680ee207d939658122cd8ce5",
+    "saldo": 12004,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "680ef552c03be4cde7dd66f8",
+    "usuario_id": "680ef526e22aaebff420b1ac",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "680fe709c2fc291eb4299d0a",
+    "usuario_id": "680fe6e90e47129f3c2abb8a",
+    "saldo": 5984,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68115b93d3b7cf09eb83bc96",
+    "usuario_id": "68115b21d473c63907251f01",
+    "saldo": 9234,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6811834aeedd50b6dbd7c0a1",
+    "usuario_id": "68115d7bd473c63907251f1e",
+    "saldo": 9714,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "681183b1d41cbb32b6cfaf44",
+    "usuario_id": "68115ee6d473c63907251f2e",
+    "saldo": 8214,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "681e9edbc3277f285a61af37",
+    "usuario_id": "67fea116a3717727eebbab15",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6824eed9ff5cddfe4dfe7f94",
+    "usuario_id": "6823cbb15c2b5fed81f469d8",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "683b3abef2a6e063e43bdbde",
+    "usuario_id": "683b3a70f2a6e063e43bdbd2",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "683e0120d1bab4bb8b02d404",
+    "usuario_id": "683a18d427372b394421a800",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "683e08f0f01463ff98dc5778",
+    "usuario_id": "6802df8c680af64e25345b6f",
+    "saldo": 4404,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6841f15b12fdca277da4e337",
+    "usuario_id": "681a9d0ea1e5c4c99e416c83",
+    "saldo": 4324,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471edd77c23fa6f9d66c86",
+    "usuario_id": "67be3e037509f6f413685fcd",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471edd77c23fa6f9d66c8b",
+    "usuario_id": "67be635f03da8869aadd373f",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471edd77c23fa6f9d66c8f",
+    "usuario_id": "67be66d7f0a374bca8de1ff8",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ede77c23fa6f9d66c95",
+    "usuario_id": "67be931d86b175d0628218f7",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ede77c23fa6f9d66c98",
+    "usuario_id": "67be9eae9ec6b939a3996b84",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ede77c23fa6f9d66c9b",
+    "usuario_id": "67bea314e49d4e0ff670eff9",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ede77c23fa6f9d66c9e",
+    "usuario_id": "67bea7fc70602f739a5a3fa0",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471edf77c23fa6f9d66ca1",
+    "usuario_id": "67beaafd451d41c33a7d0396",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471edf77c23fa6f9d66ca4",
+    "usuario_id": "67bf1f715899efff576da02f",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471edf77c23fa6f9d66ca9",
+    "usuario_id": "67bf50ec4ab309396e66fef5",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471edf77c23fa6f9d66cac",
+    "usuario_id": "67bf523d4ab309396e66ff08",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471edf77c23fa6f9d66caf",
+    "usuario_id": "67bf548503dfd780fd37760a",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee077c23fa6f9d66cb2",
+    "usuario_id": "67bf566e25882d745454ab4b",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee077c23fa6f9d66cb6",
+    "usuario_id": "67bf65c8956c673d42330d1a",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee077c23fa6f9d66cba",
+    "usuario_id": "67bfcb64bfa198c222c5ba8a",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee077c23fa6f9d66cbd",
+    "usuario_id": "67c09a7e1d390c488f150a24",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee077c23fa6f9d66cc0",
+    "usuario_id": "67c0a73bf39a9940f9b164a0",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee177c23fa6f9d66cc3",
+    "usuario_id": "67c0a7fd65fd383345ccd276",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee177c23fa6f9d66cc6",
+    "usuario_id": "67c0a89265fd383345ccd280",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee177c23fa6f9d66cc9",
+    "usuario_id": "67c0aafe65fd383345ccd2a3",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee177c23fa6f9d66ccc",
+    "usuario_id": "67b83e01f7fbeb9549e73c64",
+    "saldo": 39823,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee177c23fa6f9d66ccf",
+    "usuario_id": "67c0bac0069251de12b10573",
+    "saldo": 43323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee177c23fa6f9d66cd2",
+    "usuario_id": "67c0c0b4a41ae83397880526",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee277c23fa6f9d66cd6",
+    "usuario_id": "67c0c6d9f97d1d919b8b575c",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee277c23fa6f9d66cd9",
+    "usuario_id": "67c0c9a33f0f819d503fee1a",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee277c23fa6f9d66cdd",
+    "usuario_id": "67c0d3a6541ba8de119446ab",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee277c23fa6f9d66ce0",
+    "usuario_id": "67c1b5730b9cf4259b662362",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee277c23fa6f9d66ce3",
+    "usuario_id": "67c1d8d331cf2ce56ef90dd4",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee377c23fa6f9d66ce6",
+    "usuario_id": "67c1d9fdb8de006b653aee4c",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee377c23fa6f9d66ce9",
+    "usuario_id": "67c247224cd69ccb04aa68b2",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee377c23fa6f9d66cec",
+    "usuario_id": "67c25dd7908200b00a0e5b54",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee377c23fa6f9d66cef",
+    "usuario_id": "67c2722e817832c16d0ad264",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee377c23fa6f9d66cf2",
+    "usuario_id": "67c7afee02e273ff34d30c9d",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee377c23fa6f9d66cf5",
+    "usuario_id": "67c7b78326008a15cd5048e3",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee477c23fa6f9d66cf8",
+    "usuario_id": "67c7c25b1e804e51b934f39d",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee477c23fa6f9d66cfb",
+    "usuario_id": "67c7c327d3ac31347f1bb2c0",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee477c23fa6f9d66cfe",
+    "usuario_id": "67c7c4696292cf5a9188ff25",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee477c23fa6f9d66d01",
+    "usuario_id": "67c7c4796292cf5a9188ff2d",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee477c23fa6f9d66d04",
+    "usuario_id": "67c7cdf0a5444552f100af33",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee477c23fa6f9d66d07",
+    "usuario_id": "67c7d176a5444552f100af48",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee577c23fa6f9d66d0a",
+    "usuario_id": "67c7d7c0835c38d9c4e5bc16",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee577c23fa6f9d66d0d",
+    "usuario_id": "67c7dcd2a26f80b22e663636",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee577c23fa6f9d66d10",
+    "usuario_id": "67c7e017789584bf5179c5b3",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee577c23fa6f9d66d13",
+    "usuario_id": "67c7e3fa789584bf5179c5ca",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee577c23fa6f9d66d16",
+    "usuario_id": "67c7e7aa789584bf5179c5de",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee677c23fa6f9d66d19",
+    "usuario_id": "67c7eb5c541d93e01fa481c8",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee677c23fa6f9d66d1c",
+    "usuario_id": "67c7ef5cc7d7bb5540c18d26",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee677c23fa6f9d66d1f",
+    "usuario_id": "67c8371c527118ff275aec7b",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee677c23fa6f9d66d23",
+    "usuario_id": "67c867bea0547ab752d75ac0",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee677c23fa6f9d66d26",
+    "usuario_id": "67c8b32a76f6109f3c1d627f",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee777c23fa6f9d66d2a",
+    "usuario_id": "67c8b6be3cd156ed1589610a",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee777c23fa6f9d66d2e",
+    "usuario_id": "67c8c753e699ab8fc0012610",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee777c23fa6f9d66d31",
+    "usuario_id": "67c8cb14b233ff5b7f95bb6c",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee777c23fa6f9d66d34",
+    "usuario_id": "67c8cc3c14a50fd10e04f366",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee877c23fa6f9d66d37",
+    "usuario_id": "67c8cdb80b53aef3245074ad",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee877c23fa6f9d66d3a",
+    "usuario_id": "67c8ce7f14a50fd10e04f375",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee877c23fa6f9d66d3d",
+    "usuario_id": "67c8cf2114a50fd10e04f37c",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee877c23fa6f9d66d40",
+    "usuario_id": "67c8d9a3769c84e4778986be",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee877c23fa6f9d66d43",
+    "usuario_id": "67c8e82eacc779cdc04ebb22",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee877c23fa6f9d66d46",
+    "usuario_id": "67c8ea8f46e422b055ffcfee",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee977c23fa6f9d66d49",
+    "usuario_id": "67c8f04aab8f80a6ee6760c8",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee977c23fa6f9d66d4c",
+    "usuario_id": "67c8f264ab8f80a6ee6760de",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee977c23fa6f9d66d4f",
+    "usuario_id": "67c90b1bd170230b8cdf6552",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee977c23fa6f9d66d52",
+    "usuario_id": "67c90c727424e3dafcd8885c",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ee977c23fa6f9d66d55",
+    "usuario_id": "67c91b1e1e5e4377eba49cf1",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eea77c23fa6f9d66d58",
+    "usuario_id": "67c9f11daef8eb8785982210",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eea77c23fa6f9d66d5b",
+    "usuario_id": "67c9fdfd958e8f39977b224b",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eea77c23fa6f9d66d5e",
+    "usuario_id": "67ca0174eb3b240dee0b8c65",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eea77c23fa6f9d66d61",
+    "usuario_id": "67ca024fb3e39c822e7b53c8",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eea77c23fa6f9d66d64",
+    "usuario_id": "67ca03e3ce41d08ad150c588",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eea77c23fa6f9d66d67",
+    "usuario_id": "67ca2beba6f9c7344a54a1ab",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eeb77c23fa6f9d66d6b",
+    "usuario_id": "67ca3a0c3a1bbb571b8ba999",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eeb77c23fa6f9d66d6e",
+    "usuario_id": "67ca624885a43a736da39d37",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eeb77c23fa6f9d66d71",
+    "usuario_id": "67cae7cd405ea7211ff7396d",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eeb77c23fa6f9d66d74",
+    "usuario_id": "67cb0f44b06b84287a211707",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eeb77c23fa6f9d66d77",
+    "usuario_id": "67cb1a2c657a72932260675f",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eec77c23fa6f9d66d7a",
+    "usuario_id": "67cb4bac6206b8f152d90b6d",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eec77c23fa6f9d66d7d",
+    "usuario_id": "67cb634637cec887c81e62b0",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eec77c23fa6f9d66d80",
+    "usuario_id": "67cb72a8f9b542dca140be16",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eed77c23fa6f9d66d83",
+    "usuario_id": "67cb72de4173fb79495ea521",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eed77c23fa6f9d66d86",
+    "usuario_id": "67cb73f6efb49b3d62393252",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eed77c23fa6f9d66d89",
+    "usuario_id": "67cb854db088fc3e4ae39fa5",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eee77c23fa6f9d66d8c",
+    "usuario_id": "67cb89de2394cedd0f6f5a2b",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eee77c23fa6f9d66d8f",
+    "usuario_id": "67cb900ffcbb26d517c94b4a",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eee77c23fa6f9d66d93",
+    "usuario_id": "67cc0f8c8c24d597a26b1cff",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eef77c23fa6f9d66d96",
+    "usuario_id": "67cc7026d57993d0baf6ff24",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eef77c23fa6f9d66d9a",
+    "usuario_id": "67ccadd7ac262adb122dc287",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef077c23fa6f9d66d9d",
+    "usuario_id": "67cce1f718c8d705fef1f57a",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef077c23fa6f9d66da0",
+    "usuario_id": "67cce25018c8d705fef1f581",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef077c23fa6f9d66da3",
+    "usuario_id": "67cce2db18c8d705fef1f588",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef077c23fa6f9d66da6",
+    "usuario_id": "67cce33b18c8d705fef1f58f",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef177c23fa6f9d66da9",
+    "usuario_id": "67cce3c218c8d705fef1f596",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef177c23fa6f9d66dac",
+    "usuario_id": "67cce917965c2d66d35f8b50",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef177c23fa6f9d66daf",
+    "usuario_id": "67cce977965c2d66d35f8b5e",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef177c23fa6f9d66db2",
+    "usuario_id": "67ccea25965c2d66d35f8b65",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef177c23fa6f9d66db5",
+    "usuario_id": "67cceabf965c2d66d35f8b6c",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef277c23fa6f9d66db8",
+    "usuario_id": "67cced6fd647d59c38533394",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef277c23fa6f9d66dbb",
+    "usuario_id": "67ccedbcf4a86b07f39c9d7f",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef277c23fa6f9d66dbe",
+    "usuario_id": "67ccee32965c2d66d35f8b81",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef277c23fa6f9d66dc1",
+    "usuario_id": "67ccef398680c77dfbca358f",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef377c23fa6f9d66dc4",
+    "usuario_id": "67cceff423188d4c2315c485",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef377c23fa6f9d66dc7",
+    "usuario_id": "67ccf0ca1f2cbf90220f812b",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef377c23fa6f9d66dca",
+    "usuario_id": "67cd9eb3ee2ae2d02534fa71",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef377c23fa6f9d66dcd",
+    "usuario_id": "67cde214b8daca002d1b2f02",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef377c23fa6f9d66dd0",
+    "usuario_id": "67cde427b8daca002d1b2f11",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef477c23fa6f9d66dd3",
+    "usuario_id": "67cde5b4cb03c19ffc674bb5",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef477c23fa6f9d66dd6",
+    "usuario_id": "67ce2be3e2466207606f3d3a",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef477c23fa6f9d66dd9",
+    "usuario_id": "67cf9b47b40b10c142e95868",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef477c23fa6f9d66dde",
+    "usuario_id": "67cfacc220aa2c60fd836dd9",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef577c23fa6f9d66de1",
+    "usuario_id": "67d03fb2ad14e9e27ac45c42",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef577c23fa6f9d66de4",
+    "usuario_id": "67d04c0a8dbaf0fff8d7d29c",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef577c23fa6f9d66de7",
+    "usuario_id": "67d04d1bf08f05a97bc2de58",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef577c23fa6f9d66dea",
+    "usuario_id": "67d0e69498822e6d3b15c771",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef677c23fa6f9d66dee",
+    "usuario_id": "67d0e9eacae2d965df8d5912",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef677c23fa6f9d66df1",
+    "usuario_id": "67d2f80865aff239e7b35ad2",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef677c23fa6f9d66df4",
+    "usuario_id": "67d2fa4a324bfbea78d114e1",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef777c23fa6f9d66df7",
+    "usuario_id": "67d4982f15c7e410846c7ffa",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef777c23fa6f9d66dfa",
+    "usuario_id": "67d498da6d2f611866398734",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef777c23fa6f9d66dfd",
+    "usuario_id": "67d89f67a462035ef8f66066",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef777c23fa6f9d66e00",
+    "usuario_id": "67d89fd9a462035ef8f66074",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef777c23fa6f9d66e03",
+    "usuario_id": "67d8a079a462035ef8f6607b",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef877c23fa6f9d66e06",
+    "usuario_id": "67dae57978836b79c910669b",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef877c23fa6f9d66e09",
+    "usuario_id": "67dae5ca78836b79c91066a9",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef877c23fa6f9d66e0c",
+    "usuario_id": "67dae62d78836b79c91066b0",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef877c23fa6f9d66e0f",
+    "usuario_id": "67dc824165c1131d850635f2",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef977c23fa6f9d66e12",
+    "usuario_id": "67dc9076c628c394deaf62ee",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef977c23fa6f9d66e15",
+    "usuario_id": "67dc90f4045fcee70b715698",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef977c23fa6f9d66e18",
+    "usuario_id": "67dc9195045fcee70b7156a5",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471ef977c23fa6f9d66e1b",
+    "usuario_id": "67dc91de045fcee70b7156ac",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efa77c23fa6f9d66e1e",
+    "usuario_id": "67dc925a045fcee70b7156b4",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efa77c23fa6f9d66e23",
+    "usuario_id": "67e6005c4cb6a4370b98fa41",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efa77c23fa6f9d66e26",
+    "usuario_id": "67e600904cb6a4370b98fa48",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efa77c23fa6f9d66e29",
+    "usuario_id": "67e600a54cb6a4370b98fa50",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efb77c23fa6f9d66e2c",
+    "usuario_id": "67e6011ac23801428a3ad117",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efb77c23fa6f9d66e2f",
+    "usuario_id": "67e60130c23801428a3ad11e",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efb77c23fa6f9d66e32",
+    "usuario_id": "67e6016dc23801428a3ad125",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efb77c23fa6f9d66e35",
+    "usuario_id": "67e601a7c23801428a3ad12c",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efb77c23fa6f9d66e38",
+    "usuario_id": "67e601d44cb6a4370b98fa5b",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efc77c23fa6f9d66e3c",
+    "usuario_id": "67e85290934a0d73fd2f7f81",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efc77c23fa6f9d66e3f",
+    "usuario_id": "67e86353e443e89d68bd077e",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efc77c23fa6f9d66e42",
+    "usuario_id": "67e86631d03e69b5b7b05501",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efc77c23fa6f9d66e45",
+    "usuario_id": "67e88d888eaedb07b0c66e3f",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efd77c23fa6f9d66e48",
+    "usuario_id": "67e88dd68eaedb07b0c66e46",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efd77c23fa6f9d66e4b",
+    "usuario_id": "67e88e358eaedb07b0c66e4e",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efd77c23fa6f9d66e4e",
+    "usuario_id": "67e88e968eaedb07b0c66e55",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efd77c23fa6f9d66e51",
+    "usuario_id": "67ea04db5165f1c12bb63257",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efd77c23fa6f9d66e54",
+    "usuario_id": "67ea05e3466150a30bf8906b",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efd77c23fa6f9d66e57",
+    "usuario_id": "67ea06e52e0945941bae85d8",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efe77c23fa6f9d66e5a",
+    "usuario_id": "67ea07412e0945941bae85e5",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efe77c23fa6f9d66e5d",
+    "usuario_id": "67ea074b2e0945941bae85ec",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efe77c23fa6f9d66e60",
+    "usuario_id": "67ea079a2e0945941bae85f3",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efe77c23fa6f9d66e63",
+    "usuario_id": "67ea07e2466150a30bf8907e",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471efe77c23fa6f9d66e66",
+    "usuario_id": "67ea07e6466150a30bf89087",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eff77c23fa6f9d66e69",
+    "usuario_id": "67ea09ab27db42e1c517fb98",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eff77c23fa6f9d66e6c",
+    "usuario_id": "67eaef723bfdb694d1bb7f83",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eff77c23fa6f9d66e6f",
+    "usuario_id": "67eaefc6b0b82561cd94b0f9",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eff77c23fa6f9d66e72",
+    "usuario_id": "67eaf029b0b82561cd94b100",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471eff77c23fa6f9d66e75",
+    "usuario_id": "67eaf536161d95ef1cb6abc2",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0077c23fa6f9d66e78",
+    "usuario_id": "67eaf58a161d95ef1cb6abd4",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0077c23fa6f9d66e7b",
+    "usuario_id": "67eaf5e4161d95ef1cb6abdc",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0077c23fa6f9d66e7e",
+    "usuario_id": "67eafbf86d899b676e852a05",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0077c23fa6f9d66e82",
+    "usuario_id": "67eb1fe25257cb4d31580683",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0077c23fa6f9d66e85",
+    "usuario_id": "67eb46ed95bd69c732b62de8",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0177c23fa6f9d66e88",
+    "usuario_id": "67eb493d7c8db7882065653e",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0177c23fa6f9d66e8b",
+    "usuario_id": "67eb4c86828d83b5dddf18b2",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0177c23fa6f9d66e8e",
+    "usuario_id": "67eb4dfb0e6df95895c6e7d1",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0177c23fa6f9d66e92",
+    "usuario_id": "67eb599eee0e32c5f1ccbfeb",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0177c23fa6f9d66e95",
+    "usuario_id": "67eb5a76ed48b2c25d09ae7b",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0277c23fa6f9d66e98",
+    "usuario_id": "67ec9210345aed037d464a16",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0277c23fa6f9d66e9b",
+    "usuario_id": "67ec9646f3c974470ba1e4b0",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0377c23fa6f9d66ea4",
+    "usuario_id": "67ede8a8ee20c68cb0a19d40",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0377c23fa6f9d66ea7",
+    "usuario_id": "67ede96411e0a90a6b078dcf",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0377c23fa6f9d66eaa",
+    "usuario_id": "67edea37ee20c68cb0a19d88",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0377c23fa6f9d66eae",
+    "usuario_id": "67eece87342678b0f1aa19ee",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0377c23fa6f9d66eb1",
+    "usuario_id": "67eed272b5846d354f7bce50",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0377c23fa6f9d66eb4",
+    "usuario_id": "67eed383b5846d354f7bce59",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0477c23fa6f9d66eb7",
+    "usuario_id": "67eed47cb5846d354f7bce62",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0477c23fa6f9d66eba",
+    "usuario_id": "67eed4dcb5846d354f7bce6c",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0477c23fa6f9d66ebd",
+    "usuario_id": "67eed6bc266f95067dc8ad28",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0477c23fa6f9d66ec1",
+    "usuario_id": "67ef3c39f280eed56f37c1d7",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0577c23fa6f9d66ec6",
+    "usuario_id": "67f02cb43a5ab97ecf5a70ca",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0577c23fa6f9d66ec9",
+    "usuario_id": "67f02e43fd3d988d0c82b0d9",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0577c23fa6f9d66ecc",
+    "usuario_id": "67f02ed9628d8c081f3d1227",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0677c23fa6f9d66ed3",
+    "usuario_id": "67f1ddc94ce7ecf64ad49640",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0677c23fa6f9d66ed6",
+    "usuario_id": "67f315caebd063371de46df5",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0677c23fa6f9d66eda",
+    "usuario_id": "67f443a12fddc0080d9894dd",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0777c23fa6f9d66ede",
+    "usuario_id": "67f454b878b44cee97109de6",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0777c23fa6f9d66ee4",
+    "usuario_id": "67f48f31bb502fc4bb92a57d",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0777c23fa6f9d66ee7",
+    "usuario_id": "67f49016ef51eb1bd360a909",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0877c23fa6f9d66eea",
+    "usuario_id": "67f491a5ef51eb1bd360a921",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0877c23fa6f9d66eed",
+    "usuario_id": "67f49246ef51eb1bd360a933",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0877c23fa6f9d66ef0",
+    "usuario_id": "67f4931a9f34299db9651131",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0877c23fa6f9d66ef3",
+    "usuario_id": "67f4947563eb172726a954db",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0877c23fa6f9d66ef6",
+    "usuario_id": "67f496a3ff04161afba176dd",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0977c23fa6f9d66ef9",
+    "usuario_id": "67f4980563eb172726a954e9",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0977c23fa6f9d66efc",
+    "usuario_id": "67f4995e81985b335e1b0750",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0977c23fa6f9d66eff",
+    "usuario_id": "67f49b9081985b335e1b0765",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0977c23fa6f9d66f02",
+    "usuario_id": "67f49cf781985b335e1b076e",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0a77c23fa6f9d66f05",
+    "usuario_id": "67f49f9ab78bbdbbfaf75fc0",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0a77c23fa6f9d66f08",
+    "usuario_id": "67f4a13bb78bbdbbfaf75fcc",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0a77c23fa6f9d66f0b",
+    "usuario_id": "67f4a200b78bbdbbfaf75fd8",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0a77c23fa6f9d66f0f",
+    "usuario_id": "67f6bcebaec12a6340490dc5",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0a77c23fa6f9d66f12",
+    "usuario_id": "67f72dbc4faf1dfad23b133e",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0b77c23fa6f9d66f15",
+    "usuario_id": "67f72e6f94f91d3e2cb501ef",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0b77c23fa6f9d66f18",
+    "usuario_id": "67f72f06cf472b6c3852c362",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0b77c23fa6f9d66f1b",
+    "usuario_id": "67f7fed64f501cb93861979d",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0b77c23fa6f9d66f1e",
+    "usuario_id": "67f8003c5e18b93f2c157b24",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0b77c23fa6f9d66f21",
+    "usuario_id": "67f804694f501cb938619871",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0c77c23fa6f9d66f24",
+    "usuario_id": "67f805664f501cb938619881",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0c77c23fa6f9d66f27",
+    "usuario_id": "67f807f69e49f15492fdc16c",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0c77c23fa6f9d66f2b",
+    "usuario_id": "67f84a0ade446653c4d3a13e",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0c77c23fa6f9d66f2e",
+    "usuario_id": "67f918050f034145239220c8",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0d77c23fa6f9d66f31",
+    "usuario_id": "67f94ca66d18a8dd8c8b5f03",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0d77c23fa6f9d66f39",
+    "usuario_id": "67fa8b2c625eab3c27b260fc",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0d77c23fa6f9d66f3c",
+    "usuario_id": "67fac08877a74059adfe1c97",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0e77c23fa6f9d66f3f",
+    "usuario_id": "67fac0bb5ff18a2b4fb3c3be",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0e77c23fa6f9d66f42",
+    "usuario_id": "67fac3e6551ef0cbef04412b",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0e77c23fa6f9d66f46",
+    "usuario_id": "67fbef1ae6ea221fe5fa9276",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0e77c23fa6f9d66f4a",
+    "usuario_id": "67fc53fac1727405c9863f5b",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0f77c23fa6f9d66f4e",
+    "usuario_id": "67fd869a8f9ca6b0b0c21f29",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0f77c23fa6f9d66f51",
+    "usuario_id": "67fd8acc18568196368724aa",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f0f77c23fa6f9d66f58",
+    "usuario_id": "67ff134213a7654e44819be9",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1077c23fa6f9d66f63",
+    "usuario_id": "68052f6e50e81c4f27f3fc02",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1077c23fa6f9d66f66",
+    "usuario_id": "68053044c84f43e12012803d",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1177c23fa6f9d66f69",
+    "usuario_id": "680530ccc84f43e120128047",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1177c23fa6f9d66f6c",
+    "usuario_id": "6807c2e8d1c4ae3e75b566a6",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1277c23fa6f9d66f6f",
+    "usuario_id": "680cfcba76f5f37f3223e21a",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1277c23fa6f9d66f76",
+    "usuario_id": "680f805dd3171da8b82504fd",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1377c23fa6f9d66f7a",
+    "usuario_id": "680ff14b939534b2ebc60bff",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1377c23fa6f9d66f80",
+    "usuario_id": "6817d7d48a783f198f32132c",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1377c23fa6f9d66f83",
+    "usuario_id": "6817d81f8a783f198f32133e",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1477c23fa6f9d66f86",
+    "usuario_id": "6817d85d8a783f198f321345",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1477c23fa6f9d66f89",
+    "usuario_id": "6817d96b7844b87da4cb465b",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1477c23fa6f9d66f8c",
+    "usuario_id": "6817d9b07844b87da4cb4662",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1577c23fa6f9d66f8f",
+    "usuario_id": "6817da157844b87da4cb4669",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1677c23fa6f9d66f92",
+    "usuario_id": "6817da8728c89c4e545924d6",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1677c23fa6f9d66f95",
+    "usuario_id": "6817dad128c89c4e545924dd",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1677c23fa6f9d66f98",
+    "usuario_id": "6817db2328c89c4e545924e4",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1677c23fa6f9d66f9b",
+    "usuario_id": "6817db9a28c89c4e5459276f",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1777c23fa6f9d66f9e",
+    "usuario_id": "6817dca0f07683533a8d3523",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1777c23fa6f9d66fa1",
+    "usuario_id": "6817de5628c89c4e54592a01",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1777c23fa6f9d66fa4",
+    "usuario_id": "6817ded928c89c4e54592c92",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1777c23fa6f9d66fa7",
+    "usuario_id": "6817dfd84ae20503f82eb646",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1777c23fa6f9d66faa",
+    "usuario_id": "6817e06b4ae20503f82eb64d",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1877c23fa6f9d66fad",
+    "usuario_id": "6817e0c84ae20503f82eb654",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1877c23fa6f9d66fb0",
+    "usuario_id": "6817e12228c89c4e54592ca9",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1877c23fa6f9d66fb3",
+    "usuario_id": "6817e1a928c89c4e54592f4a",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1877c23fa6f9d66fb8",
+    "usuario_id": "68254135f2ff629aa20a360e",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1977c23fa6f9d66fbd",
+    "usuario_id": "683c9f3b926f87a2486bcf4c",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68471f1977c23fa6f9d66fc0",
+    "usuario_id": "6841254e7e3223ea3439e38f",
+    "saldo": 4323,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6850f259290f803a9e217c49",
+    "usuario_id": "6850ebd43aa825af99f590cb",
+    "saldo": 4120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6852384a7731fe66bb963dff",
+    "usuario_id": "685237b967a5022f34370535",
+    "saldo": 4120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68532f82aa53a4e910a2d690",
+    "usuario_id": "68532f25aa53a4e910a2d682",
+    "saldo": 4120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6854038776a3783e3a5eec8d",
+    "usuario_id": "6854020c7b26a905490d3057",
+    "saldo": 4120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6854e0dbe598ce638212e84c",
+    "usuario_id": "6854e089c489c0a1ef94e859",
+    "saldo": 4120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6856df0c9922332b7b14c7e0",
+    "usuario_id": "68557d94a40b0fe977edb94a",
+    "saldo": 4120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6857162252147f09bb956585",
+    "usuario_id": "6857120d61664d47bb640a6a",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "685b6c4ae3dafca63fcbf41e",
+    "usuario_id": "685b6b27e3dafca63fcbf402",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "685be1ac71e9c6d785f2be94",
+    "usuario_id": "685be18419fbf4367a0344cb",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "685be619881250470ca1afa3",
+    "usuario_id": "685b6647e3dafca63fcbf379",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "685bfddc6f13ac126744e618",
+    "usuario_id": "685bfbd39e86d953b84c5c15",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "685c83befe70dc15e6d27f8b",
+    "usuario_id": "685c833e3dc06c641b8ea050",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "685c90a375d6e9ec83c03dab",
+    "usuario_id": "685c8d4b75d6e9ec83c03ac4",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "685d79943f9e9213c713ff2b",
+    "usuario_id": "685d42fb571c9f6622bf7882",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "685de5c8468a09c1e520bfb6",
+    "usuario_id": "685dd728fe58e3cc9e2c42d6",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "685e054d6bf5e120a68d44f9",
+    "usuario_id": "685e0522ebe2ee74f2b4ef52",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "685e4f5434f4eed85c9c1887",
+    "usuario_id": "685e3ca4114d7d08b59e2063",
+    "saldo": 7390,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "685ee3c76e541a64544c85bf",
+    "usuario_id": "685e91c444898550beefe455",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "685f1046e06a11e4396241fc",
+    "usuario_id": "685f0b6431ac556779dde1f0",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "685f1896b54701226acfd1cd",
+    "usuario_id": "685ddf110f38572525a3c62f",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "685f39acc2eae3b4fa7dea53",
+    "usuario_id": "685f3326dbd89df1b4918a5a",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "685f5762db8e88b3075e01f8",
+    "usuario_id": "685bebe36648119236ac17c7",
+    "saldo": 44880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "685f6034feea49e01b34a218",
+    "usuario_id": "685f5839b285c644643654b5",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "685fd3db37fc6079b3aed137",
+    "usuario_id": "685fd380852637e22e3ebe9f",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "685fd584c0d68164bf4769df",
+    "usuario_id": "685fd54637fc6079b3aed14c",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6860177acd89999b67647cad",
+    "usuario_id": "6860163051c4f700e5db8b51",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68609d574c8df4170ff83ecf",
+    "usuario_id": "68609c1f4a9d1bd7bd1af26a",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6860aa6a05828f71e118d996",
+    "usuario_id": "685f6575ec442421aebb9bbd",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6860bbf02b4a129b09495a6f",
+    "usuario_id": "6860b99b2b4a129b09495a5c",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686124a7cf09da1b3aba4054",
+    "usuario_id": "68612453520493655fe52513",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68613fbb903ad6b1190ac01e",
+    "usuario_id": "686134806ff29452b7dce76e",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6864199534972a31af77bf13",
+    "usuario_id": "685e404a114d7d08b59e207b",
+    "saldo": 7335,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686439495f1345a629788347",
+    "usuario_id": "68643347e12b67f2952c97d1",
+    "saldo": 7320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6864ceafe0f74609cf83f963",
+    "usuario_id": "6862f0865ae11f16c09adf4e",
+    "saldo": 7335,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6864ceceb61dd4e527ee0751",
+    "usuario_id": "6862f24ac30c9f882fba4675",
+    "saldo": 7335,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6864cefbe0f74609cf83f96f",
+    "usuario_id": "68641a6034972a31af77bf1e",
+    "saldo": 7320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6864cf3cb61dd4e527ee075f",
+    "usuario_id": "686450483a74a2e4346c5c54",
+    "saldo": 7320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68651e8df9c1a12fe553f018",
+    "usuario_id": "6864aa0942f4ba915e925ca2",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68655f3dbf104946df8ea5e7",
+    "usuario_id": "68655f153c1b66597d6b8492",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866394877067cea7c5f0f7d",
+    "usuario_id": "68662d9d760eaa371723badb",
+    "saldo": 4320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686639879bca88ef4f4788d2",
+    "usuario_id": "68662e54760eaa371723baec",
+    "saldo": 4320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686639c50f6c04eaff4c38db",
+    "usuario_id": "68662fcb77067cea7c5f0f3c",
+    "saldo": 4320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686639f89bca88ef4f4788de",
+    "usuario_id": "686630800f6c04eaff4c388b",
+    "saldo": 4320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68663a269bca88ef4f4788e7",
+    "usuario_id": "686631330f6c04eaff4c389c",
+    "saldo": 4320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68663a859bca88ef4f4788f7",
+    "usuario_id": "68662ce877067cea7c5f0f27",
+    "saldo": 5820,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d024f57d682ed3cec730",
+    "usuario_id": "6858bcb85f4c291caeb114a7",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d024f57d682ed3cec732",
+    "usuario_id": "6858bbfc5f4c291caeb1149d",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d024f57d682ed3cec73a",
+    "usuario_id": "685be22f71e9c6d785f2be9b",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d024f57d682ed3cec738",
+    "usuario_id": "6858c396ec3eefc89161c5fc",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d024f57d682ed3cec736",
+    "usuario_id": "6858c4053a43052470946ede",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d024f57d682ed3cec734",
+    "usuario_id": "6858c1653a43052470946eac",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d024f57d682ed3cec740",
+    "usuario_id": "685c4eac3b560d2f5c26a566",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d024f57d682ed3cec73c",
+    "usuario_id": "685c09d9f843c6a99c80919e",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d024f57d682ed3cec73e",
+    "usuario_id": "685c760f81f08a14ab093ee3",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d024f57d682ed3cec746",
+    "usuario_id": "685f0469aa9963f27113ac5e",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d024f57d682ed3cec744",
+    "usuario_id": "685effa820e421761101770f",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d024f57d682ed3cec748",
+    "usuario_id": "685f5c6198b3efcae1fa24b3",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d024f57d682ed3cec742",
+    "usuario_id": "685cbd4f963748e3b18b5881",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d024f57d682ed3cec750",
+    "usuario_id": "6861f9d568cf37eaafd2a6ad",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d024f57d682ed3cec74a",
+    "usuario_id": "685f5d2898b3efcae1fa24c9",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d024f57d682ed3cec74c",
+    "usuario_id": "685f80a87295a0f9159c7ce2",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d024f57d682ed3cec74e",
+    "usuario_id": "6860647c6436539523db5743",
+    "saldo": 5380,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d025f57d682ed3cec756",
+    "usuario_id": "6861fbc368cf37eaafd2a6db",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d024f57d682ed3cec752",
+    "usuario_id": "6861f985415d5a65273fc95d",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d025f57d682ed3cec754",
+    "usuario_id": "6861fade68cf37eaafd2a6c2",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d025f57d682ed3cec75a",
+    "usuario_id": "6861f86568cf37eaafd2a165",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d025f57d682ed3cec758",
+    "usuario_id": "6861f8b468cf37eaafd2a16d",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d025f57d682ed3cec75e",
+    "usuario_id": "6861fcbe68cf37eaafd2a6f0",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d025f57d682ed3cec75c",
+    "usuario_id": "6861fbfd68cf37eaafd2a6e2",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d025f57d682ed3cec760",
+    "usuario_id": "6861fd59f411e843b8d4469c",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d025f57d682ed3cec766",
+    "usuario_id": "6861fd19f411e843b8d44695",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d025f57d682ed3cec764",
+    "usuario_id": "6862fa2fc45e951f977fea5f",
+    "saldo": 3840,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d025f57d682ed3cec762",
+    "usuario_id": "6861faa068cf37eaafd2a6bb",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d025f57d682ed3cec76a",
+    "usuario_id": "6861fb3768cf37eaafd2a6ca",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d025f57d682ed3cec76c",
+    "usuario_id": "6861fa3368cf37eaafd2a6b4",
+    "saldo": 3840,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866d025f57d682ed3cec768",
+    "usuario_id": "6861fc6968cf37eaafd2a6e9",
+    "saldo": 3880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6866eac3ea9ed7aa05ba93e4",
+    "usuario_id": "6866eaa359bc46b63d6c40bf",
+    "saldo": 3840,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68680a96a1e8bd6fe2474304",
+    "usuario_id": "686723cb949d9d047ac7bcac",
+    "saldo": 3840,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68680a96a1e8bd6fe2474302",
+    "usuario_id": "6866e1848a945bdb78ceb7d4",
+    "saldo": 3840,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68680a96a1e8bd6fe2474306",
+    "usuario_id": "6866f92bf43d87b10e8ba2bf",
+    "saldo": 3840,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68680a96a1e8bd6fe2474308",
+    "usuario_id": "686809be1155a4da38aed366",
+    "saldo": 3840,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68692daff6b5f5fe7e452b12",
+    "usuario_id": "68692d80915a42af289d3132",
+    "saldo": 3800,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686959c5e47b8e964f53b9a3",
+    "usuario_id": "6869587af947d65f3b05bce2",
+    "saldo": 3800,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6869ff1e751bf429d9446864",
+    "usuario_id": "6869b21652511a4465573046",
+    "saldo": 3800,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686c2a32d8940eee10411f24",
+    "usuario_id": "686c2a0ff6759ae0f8cec250",
+    "saldo": 3720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686d6ca35ab9eb30e4f1ce09",
+    "usuario_id": "686d6c7ee7eeff571ede66dc",
+    "saldo": 3680,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686d747131f178f13057602e",
+    "usuario_id": "686d6fd7e7eeff571ede6837",
+    "saldo": 3680,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686da91e3c4534a8b3389ca9",
+    "usuario_id": "686da8b6493f32a591842739",
+    "saldo": 7685,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686dd2a5ff13e9aadadef374",
+    "usuario_id": "686d5f8af26cc88a0a1029ec",
+    "saldo": 3680,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686dd2a5ff13e9aadadef376",
+    "usuario_id": "686d5fd0f26cc88a0a1029f3",
+    "saldo": 3680,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686dd2a5ff13e9aadadef378",
+    "usuario_id": "686d6021f26cc88a0a1029fa",
+    "saldo": 3680,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686dd2a5ff13e9aadadef37a",
+    "usuario_id": "686d605ef26cc88a0a102a01",
+    "saldo": 3680,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686dd2a5ff13e9aadadef37c",
+    "usuario_id": "686d61a6f26cc88a0a102d6d",
+    "saldo": 3680,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686dd2a5ff13e9aadadef37e",
+    "usuario_id": "686d62c6f26cc88a0a102f22",
+    "saldo": 3680,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686dd2a5ff13e9aadadef380",
+    "usuario_id": "686d6157f26cc88a0a102d66",
+    "saldo": 3680,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686dd2a5ff13e9aadadef384",
+    "usuario_id": "686d71c8e7eeff571ede684e",
+    "saldo": 3680,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686dd2a5ff13e9aadadef382",
+    "usuario_id": "686d60e1f26cc88a0a102bb3",
+    "saldo": 3680,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686dd2a5ff13e9aadadef386",
+    "usuario_id": "686d72f8e7eeff571ede6861",
+    "saldo": 3680,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686dd2a5ff13e9aadadef388",
+    "usuario_id": "686d73f3832bcdb5dccb0550",
+    "saldo": 3680,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686f167ac8bb971f9aa9fb42",
+    "usuario_id": "686ee2635c1f6590abc8fb0d",
+    "saldo": 5640,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686f167ac8bb971f9aa9fb44",
+    "usuario_id": "686f1252dbc0924cb2c97c7d",
+    "saldo": 4640,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "686f167ac8bb971f9aa9fb46",
+    "usuario_id": "686eeb8ba22be27201705522",
+    "saldo": 3640,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68705cc352c43566efe29472",
+    "usuario_id": "68705c9b52c43566efe2945e",
+    "saldo": 7100,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687063a4d2ab55910c101987",
+    "usuario_id": "68706346931c15d71d0fdc0b",
+    "saldo": 3600,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687063a4d2ab55910c101989",
+    "usuario_id": "6870418bbb90c6fbe63bbf71",
+    "saldo": 3600,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687063a4d2ab55910c10198b",
+    "usuario_id": "68705eebb63b1bcffb2b6507",
+    "saldo": 3600,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687063a4d2ab55910c10198d",
+    "usuario_id": "687062555b61e839ece9d794",
+    "saldo": 3600,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687063a4d2ab55910c101991",
+    "usuario_id": "68705c6652c43566efe29455",
+    "saldo": 3600,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687063a4d2ab55910c10198f",
+    "usuario_id": "687042c3bb90c6fbe63bbf85",
+    "saldo": 3600,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687063a4d2ab55910c101993",
+    "usuario_id": "6870443dbb90c6fbe63bbf97",
+    "saldo": 3600,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687063a4d2ab55910c101997",
+    "usuario_id": "6870438ebb90c6fbe63bbf8e",
+    "saldo": 3600,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687063a4d2ab55910c101995",
+    "usuario_id": "68705d7752c43566efe2947b",
+    "saldo": 3600,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687063a4d2ab55910c101999",
+    "usuario_id": "687045cc8aedcc3500c0f671",
+    "saldo": 3600,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6871c60d683e38db9be97d00",
+    "usuario_id": "68708083c17ece6b77393a7e",
+    "saldo": 3560,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6871c60d683e38db9be97d02",
+    "usuario_id": "68708416bf90e909e5344607",
+    "saldo": 3560,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6871c60d683e38db9be97d08",
+    "usuario_id": "68714094f7f54465f1759d7d",
+    "saldo": 3560,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6871c60d683e38db9be97d04",
+    "usuario_id": "687084c1386207eae233edc8",
+    "saldo": 3560,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6871c60d683e38db9be97d06",
+    "usuario_id": "68711fe31117db502d96a8df",
+    "saldo": 3560,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6871c60d683e38db9be97d0c",
+    "usuario_id": "6871891e1f80a596510ba704",
+    "saldo": 3560,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6871c60d683e38db9be97d0a",
+    "usuario_id": "68711bc71117db502d96a87f",
+    "saldo": 3560,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6871c60d683e38db9be97d0e",
+    "usuario_id": "68718aa51f80a596510ba70d",
+    "saldo": 3560,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6871c60d683e38db9be97d10",
+    "usuario_id": "68718b261f80a596510ba716",
+    "saldo": 3560,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6871c60d683e38db9be97d12",
+    "usuario_id": "68718f2930587f0a53732292",
+    "saldo": 3560,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6871c60d683e38db9be97d16",
+    "usuario_id": "687190ddf82a3eeb0e3af8bd",
+    "saldo": 3560,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6871c60d683e38db9be97d14",
+    "usuario_id": "68718e9a30587f0a53732289",
+    "saldo": 3560,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6871c60d683e38db9be97d18",
+    "usuario_id": "68719161f82a3eeb0e3af8c6",
+    "saldo": 3560,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6871c60d683e38db9be97d1a",
+    "usuario_id": "68719216f82a3eeb0e3af8cf",
+    "saldo": 3560,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6871c60e683e38db9be97d1c",
+    "usuario_id": "68718fad30587f0a5373229b",
+    "saldo": 3560,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68731696f5a7b752e3f084c2",
+    "usuario_id": "6872d0da73b8762150eb59c7",
+    "saldo": 3520,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68731696f5a7b752e3f084c4",
+    "usuario_id": "6871d2dfc59a12eed4507b81",
+    "saldo": 8520,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68731696f5a7b752e3f084c6",
+    "usuario_id": "6872d3307acb404c89ff5330",
+    "saldo": 3520,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68731696f5a7b752e3f084c8",
+    "usuario_id": "6872d1de73b8762150eb59d9",
+    "saldo": 3520,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68731696f5a7b752e3f084ca",
+    "usuario_id": "6872d17373b8762150eb59d0",
+    "saldo": 3520,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68731696f5a7b752e3f084ce",
+    "usuario_id": "6872d41a7acb404c89ff5346",
+    "saldo": 3520,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68731696f5a7b752e3f084cc",
+    "usuario_id": "6872d3a07acb404c89ff533d",
+    "saldo": 3520,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6874704bca53c3a24a87bad5",
+    "usuario_id": "687324612a938166545bff21",
+    "saldo": 3480,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6875bdb5fe0b94798394adc3",
+    "usuario_id": "6875bd8bf674862ce5397056",
+    "saldo": 3440,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6875c8bd440b83d075966887",
+    "usuario_id": "6875c841440b83d07596687a",
+    "saldo": 3440,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6875cb0d2d9a79572ad24065",
+    "usuario_id": "687543b9dd4cad6285532f02",
+    "saldo": 3940,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6875cb0d2d9a79572ad24067",
+    "usuario_id": "687593712446ccc7c510d71e",
+    "saldo": 3440,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6875cb0d2d9a79572ad24069",
+    "usuario_id": "68757d229fae74583fea95a7",
+    "saldo": 3440,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68765fe9e38afb2849e66a29",
+    "usuario_id": "6875d94af9f53500ef3fc5ae",
+    "saldo": 3400,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6876c42d9757366a4e9b68be",
+    "usuario_id": "6876bf90881513b7b16548df",
+    "saldo": 3360,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6876cec83417d2941a17be85",
+    "usuario_id": "6876c7227ff8ee926e4e6af0",
+    "saldo": 3360,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f92fbd734dbb1aad441",
+    "usuario_id": "687679b15bb179e510eb5a21",
+    "saldo": 3400,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f92fbd734dbb1aad445",
+    "usuario_id": "6876788b5bb179e510eb5a0c",
+    "saldo": 3400,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f92fbd734dbb1aad443",
+    "usuario_id": "68767a6477375e9435208b40",
+    "saldo": 3400,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f92fbd734dbb1aad447",
+    "usuario_id": "687679525bb179e510eb5a1a",
+    "saldo": 3400,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f93fbd734dbb1aad44f",
+    "usuario_id": "6875cc90a381e4532de75ee8",
+    "saldo": 3360,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f93fbd734dbb1aad44d",
+    "usuario_id": "687679f25bb179e510eb5a28",
+    "saldo": 3320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f93fbd734dbb1aad44b",
+    "usuario_id": "687674a54c502953e5258765",
+    "saldo": 3320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f93fbd734dbb1aad451",
+    "usuario_id": "6876da331ee282af2293760e",
+    "saldo": 3320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f93fbd734dbb1aad453",
+    "usuario_id": "6876db4b1ee282af22937617",
+    "saldo": 3320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f93fbd734dbb1aad449",
+    "usuario_id": "687678e35bb179e510eb5a13",
+    "saldo": 3320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f93fbd734dbb1aad457",
+    "usuario_id": "6876e602033ef7e53a91220a",
+    "saldo": 3320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f93fbd734dbb1aad455",
+    "usuario_id": "6876dbe91ee282af22937620",
+    "saldo": 3320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f93fbd734dbb1aad45b",
+    "usuario_id": "6876e748033ef7e53a91221c",
+    "saldo": 3320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f93fbd734dbb1aad459",
+    "usuario_id": "68767ac277375e9435208b48",
+    "saldo": 3320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f93fbd734dbb1aad45f",
+    "usuario_id": "6876e86f033ef7e53a91222e",
+    "saldo": 3320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f93fbd734dbb1aad45d",
+    "usuario_id": "6876e804033ef7e53a912225",
+    "saldo": 3320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f93fbd734dbb1aad461",
+    "usuario_id": "6876e8ff033ef7e53a912237",
+    "saldo": 3320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f93fbd734dbb1aad463",
+    "usuario_id": "68771bce83f75da6b6111610",
+    "saldo": 3320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f93fbd734dbb1aad465",
+    "usuario_id": "6876e9a5033ef7e53a912245",
+    "saldo": 3320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f93fbd734dbb1aad467",
+    "usuario_id": "68771c5683f75da6b6111619",
+    "saldo": 3320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f93fbd734dbb1aad469",
+    "usuario_id": "68771cfa83f75da6b6111622",
+    "saldo": 3320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68771f93fbd734dbb1aad46b",
+    "usuario_id": "6876e6c7033ef7e53a912213",
+    "saldo": 3320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6878249f8bf686a3f4408b1b",
+    "usuario_id": "6877d0526a8df62aab055dc4",
+    "saldo": 3720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687824d1505a81c174ea28f9",
+    "usuario_id": "6877cf63d22eebd5a78c7d0e",
+    "saldo": 3720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687824e9f19bafa7968a09b3",
+    "usuario_id": "6877ce846a8df62aab055da7",
+    "saldo": 3720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687824fdf19bafa7968a09bd",
+    "usuario_id": "6877cbe851f84f5164077a10",
+    "saldo": 3720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687825138bf686a3f4408b2b",
+    "usuario_id": "6877cad251f84f51640779fc",
+    "saldo": 3720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6878252b8bf686a3f4408b35",
+    "usuario_id": "6877c8cb51f84f51640779e4",
+    "saldo": 3720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68782548505a81c174ea290c",
+    "usuario_id": "68777e0afd0c0e9b62546c67",
+    "saldo": 3720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687825608bf686a3f4408b40",
+    "usuario_id": "68777c08fd0c0e9b62546c4a",
+    "saldo": 3720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6878257b505a81c174ea2918",
+    "usuario_id": "687779c923328ca54ff8e569",
+    "saldo": 3720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6878ff2293de316d26f6311d",
+    "usuario_id": "687722e8ba7312074a7f2a12",
+    "saldo": 3280,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6878ff2293de316d26f6311f",
+    "usuario_id": "6877c759428d9ab261a0cc66",
+    "saldo": 3280,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687909f486c528662be3ed70",
+    "usuario_id": "6879021693de316d26f63bc3",
+    "saldo": 3200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6879155b1bb918c62e20bced",
+    "usuario_id": "687914e8c5fbecf85b6442f9",
+    "saldo": 3200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6879722cd842d13f37b2d9a2",
+    "usuario_id": "68796b26ac39a5077e4ccbb7",
+    "saldo": 4700,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68797fab976ca0f04e96c24a",
+    "usuario_id": "68790d2958e44e0e6bc612d6",
+    "saldo": 4700,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6879ca9dbc31b79f805c0cdd",
+    "usuario_id": "6879c82304ab0083c7987308",
+    "saldo": 3200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6879cfba9efedb39f8d4a36a",
+    "usuario_id": "687960f61e61446c63fdccd4",
+    "saldo": 4200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687affc5bdefc2a803ab6d7a",
+    "usuario_id": "68791a481bb918c62e20bd17",
+    "saldo": 3200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687affc5bdefc2a803ab6d76",
+    "usuario_id": "687912b5c5fbecf85b6442e0",
+    "saldo": 3200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687affc5bdefc2a803ab6d78",
+    "usuario_id": "68791895c5fbecf85b644326",
+    "saldo": 3200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687affc5bdefc2a803ab6d84",
+    "usuario_id": "6879d256d370a7eadb28ead3",
+    "saldo": 3200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687affc5bdefc2a803ab6d82",
+    "usuario_id": "6879b443468c7566f160a7ac",
+    "saldo": 3200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687affc5bdefc2a803ab6d7e",
+    "usuario_id": "687970c05b405d1b3e270125",
+    "saldo": 3200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687affc5bdefc2a803ab6d80",
+    "usuario_id": "687992346ae487a7920cb285",
+    "saldo": 5700,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687affc5bdefc2a803ab6d7c",
+    "usuario_id": "68795efc67bd9dabbeb89850",
+    "saldo": 3200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687affc5bdefc2a803ab6d86",
+    "usuario_id": "687a48c2e7c0ca323edb861c",
+    "saldo": 3200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687affc5bdefc2a803ab6d8a",
+    "usuario_id": "687ab0e5c5b08542cfa6d86e",
+    "saldo": 3200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687affc5bdefc2a803ab6d88",
+    "usuario_id": "687a493fe7c0ca323edb8625",
+    "saldo": 3200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687affc5bdefc2a803ab6d8c",
+    "usuario_id": "687aba0923b9caed8d207fc4",
+    "saldo": 3200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687affc5bdefc2a803ab6d8e",
+    "usuario_id": "687abe64bd24ec7479d378eb",
+    "saldo": 3200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687c58e24ccb8b3f4d3431f4",
+    "usuario_id": "687b8ece9546916aaa0bac1c",
+    "saldo": 3160,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687cf07d539b0cb78be6f62d",
+    "usuario_id": "687cf0343d7b420837a8d5df",
+    "saldo": 4120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687da2ee106dd79ff93652b8",
+    "usuario_id": "687d7e785c65c257183ddc1d",
+    "saldo": 3120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687da2ee106dd79ff93652ba",
+    "usuario_id": "687d7f6b5c65c257183ddc29",
+    "saldo": 3120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687da2ee106dd79ff93652bc",
+    "usuario_id": "687d801e0f0026e93ae23a6f",
+    "saldo": 3120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687da2ee106dd79ff93652be",
+    "usuario_id": "687d80a40f0026e93ae23a7c",
+    "saldo": 3120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687da2ee106dd79ff93652c0",
+    "usuario_id": "687d81470f0026e93ae23a85",
+    "saldo": 3120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687da2ee106dd79ff93652c2",
+    "usuario_id": "687d82020f0026e93ae23a8e",
+    "saldo": 3120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687dc2b6643e635f372a73a6",
+    "usuario_id": "687db997ff6fe07931a09bb0",
+    "saldo": 10080,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687e6e0680abb562bbe352a2",
+    "usuario_id": "687e6cc139ed77ad43d7c0bc",
+    "saldo": 3080,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687f0181d9a08b27d123f9fa",
+    "usuario_id": "687eed93ee4bd5eb23090a44",
+    "saldo": 3080,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687f0181d9a08b27d123f9f4",
+    "usuario_id": "687ecb855d4b938213e0ac8c",
+    "saldo": 3080,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687f0181d9a08b27d123f9f2",
+    "usuario_id": "687dc0b3e29f89da396cef55",
+    "saldo": 3080,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687f0181d9a08b27d123f9f6",
+    "usuario_id": "687ecc015d4b938213e0ac95",
+    "saldo": 3080,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687f0181d9a08b27d123f9f8",
+    "usuario_id": "687ecaea5d4b938213e0ac83",
+    "saldo": 3080,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687f07771fed0323a7f99edb",
+    "usuario_id": "687f067ccd715c8a36a729de",
+    "saldo": 3040,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "687f8fb2bbe69eb72cac0baf",
+    "usuario_id": "687f8f0ebbe69eb72cac0b9f",
+    "saldo": 3040,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6880553e67290eb4d99f39f0",
+    "usuario_id": "6880549567290eb4d99f39de",
+    "saldo": 3000,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68805a66ea42a5338f5eab1d",
+    "usuario_id": "68805a1bea42a5338f5eab0e",
+    "saldo": 3000,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6880d24089b194da4752af83",
+    "usuario_id": "688063237bced21dda4593f2",
+    "saldo": 3000,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6880da5973465e52fd353d18",
+    "usuario_id": "6880d6796a80adcade5838ee",
+    "saldo": 2960,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688199d8f5eb7ae72efdf24c",
+    "usuario_id": "688199a5beaccd78cc642eee",
+    "saldo": 2960,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6881a64ccb2942fd8f58e17a",
+    "usuario_id": "68816e14b361d5bc85f7b7d7",
+    "saldo": 2960,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68830a2a0d701eaa7f95bd32",
+    "usuario_id": "6882a6fb834a8cc672ba236f",
+    "saldo": 2920,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68830a2a0d701eaa7f95bd30",
+    "usuario_id": "68821b3dd5a439a7d99d31f6",
+    "saldo": 2920,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68842487a09ca42a1c4e664e",
+    "usuario_id": "68842227e1a35c48a8618107",
+    "saldo": 2800,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68844526f7fdc092a3096b8b",
+    "usuario_id": "6884447586a1fb0c3c327dd6",
+    "saldo": 2800,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68844bb1ef98972996fd3246",
+    "usuario_id": "6883d33d50b36606cc51cbb5",
+    "saldo": 2800,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68852ce1690eda1da59ccf73",
+    "usuario_id": "6885233ebdc3ce91a4e56f1d",
+    "saldo": 2760,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68859facf2c2461796f31479",
+    "usuario_id": "688543f9b3f282b49ef2ef57",
+    "saldo": 2760,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68859facf2c2461796f3147b",
+    "usuario_id": "68854af0a8ef5051a7e14d91",
+    "saldo": 2760,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68859facf2c2461796f3147d",
+    "usuario_id": "688569eb5f682f6d70d17f25",
+    "saldo": 2760,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68867b6a5d478d62f20cc4d6",
+    "usuario_id": "68867b022e6e318d52e6cfae",
+    "saldo": 2720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6886d71ef544c6ad9d75811b",
+    "usuario_id": "68867a202e6e318d52e6cfa0",
+    "saldo": 2720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6886d71ef544c6ad9d75811f",
+    "usuario_id": "6886bf412849295c3b99fcaa",
+    "saldo": 2720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6886d71ef544c6ad9d75811d",
+    "usuario_id": "6886b3f406a34f05f7c4c593",
+    "saldo": 2720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6886d71ef544c6ad9d758123",
+    "usuario_id": "6886c7684b189c0c23722029",
+    "saldo": 2720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6886d71ef544c6ad9d758127",
+    "usuario_id": "6886ca2e4b189c0c23722043",
+    "saldo": 2720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6886d71ef544c6ad9d758125",
+    "usuario_id": "6886c465e93ece0df2d34871",
+    "saldo": 2720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6886d71ef544c6ad9d758121",
+    "usuario_id": "6886c68cdefd47cd21d3b2ec",
+    "saldo": 2720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68898784aa425cc1902eebd1",
+    "usuario_id": "68893b9c17956fca56050542",
+    "saldo": 2440,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68898784aa425cc1902eebcf",
+    "usuario_id": "68892abd29882be154520b03",
+    "saldo": 2440,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688a104fff37c0d1506e8b7c",
+    "usuario_id": "688a0cd2de847443078d4ebb",
+    "saldo": 2200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688aeb4fc16c7319a5fbdbad",
+    "usuario_id": "688aa89fb2b5f2828f78488a",
+    "saldo": 2200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688bfe509ddbfde120e4e047",
+    "usuario_id": "688bc6cd5c85df84602fc20c",
+    "saldo": 2120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688c0e007588215bcc3bbc1d",
+    "usuario_id": "688c0cbea3857bbb9f69787f",
+    "saldo": 2120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688c1d9fe7f7f1d7fe0ba5ca",
+    "usuario_id": "688c1d6367386c6f4ed565bc",
+    "saldo": 2120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688c3298b5a66acc7e834146",
+    "usuario_id": "688bc4fb03a04a4088f68932",
+    "saldo": 2120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688c3298b5a66acc7e83414a",
+    "usuario_id": "688c15b91ab20b91ada8cb0b",
+    "saldo": 2120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688c3298b5a66acc7e83414c",
+    "usuario_id": "688c2effb5a66acc7e833eec",
+    "saldo": 2120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688c3298b5a66acc7e834148",
+    "usuario_id": "688bc97d03a04a4088f6894d",
+    "saldo": 2120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688c3298b5a66acc7e834150",
+    "usuario_id": "688bdc562c1f85eeb4a02946",
+    "saldo": 2620,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688c3298b5a66acc7e83414e",
+    "usuario_id": "688c10387588215bcc3bbc26",
+    "saldo": 2120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688c3298b5a66acc7e834152",
+    "usuario_id": "688c2d210f1fac4c6b0ed927",
+    "saldo": 2120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688c3298b5a66acc7e834154",
+    "usuario_id": "688beadb211dd01ada5ba86d",
+    "saldo": 2120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688c3299b5a66acc7e834156",
+    "usuario_id": "688bd3521d5db240eefe1f9b",
+    "saldo": 2120,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688d024132ec644fd0d26db9",
+    "usuario_id": "688c37a680790a0c051b69b6",
+    "saldo": 1880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688d024132ec644fd0d26dbb",
+    "usuario_id": "688cc4bd814d57c0d338e382",
+    "saldo": 1880,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688d11bb91e96bc3085e2842",
+    "usuario_id": "688d0fcba4db68d3deb36726",
+    "saldo": 1720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688d6f628e6ca4734be789fe",
+    "usuario_id": "688d68f1f5c52d61628ed836",
+    "saldo": 1720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688d94deb6bd43fd10fcee72",
+    "usuario_id": "688d0ae98d63a5dbb46de2c9",
+    "saldo": 1720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688d94deb6bd43fd10fcee74",
+    "usuario_id": "688d072ced0a88612f535bf3",
+    "saldo": 1720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688d94deb6bd43fd10fcee76",
+    "usuario_id": "688d4cfb91f55ad19033e980",
+    "saldo": 1720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688d94deb6bd43fd10fcee78",
+    "usuario_id": "688d8cce443a76ce9c6b9769",
+    "saldo": 1720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688d94deb6bd43fd10fcee7a",
+    "usuario_id": "688d4ef591f55ad19033e990",
+    "saldo": 1720,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688e710a68651c9142cad6c0",
+    "usuario_id": "688dfd581c47864831377b08",
+    "saldo": 1240,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688ec26263a28d32b328fda3",
+    "usuario_id": "688e8544819ca3cd36c59278",
+    "saldo": 1240,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688ec26263a28d32b328fda5",
+    "usuario_id": "688ebbba676f56fb80e00c4a",
+    "saldo": 1240,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688ec26263a28d32b328fda7",
+    "usuario_id": "688ec10763a28d32b328fb27",
+    "saldo": 1240,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688ec26263a28d32b328fda9",
+    "usuario_id": "688ec1ae63a28d32b328fb39",
+    "saldo": 1240,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688ec7b8ae5bf99d5184e9b7",
+    "usuario_id": "688ec41863a28d32b328fdd1",
+    "saldo": 1000,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688ec7b8ae5bf99d5184e9b9",
+    "usuario_id": "688ec26863a28d32b328fdaf",
+    "saldo": 1000,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688edadd41992ca0df9552d2",
+    "usuario_id": "688ecd372d366882e40baf49",
+    "saldo": 760,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "688ffc3cc8a76d598a83fee9",
+    "usuario_id": "688ffc0dc8a76d598a83fede",
+    "saldo": 360,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6890d06f3634461f2faa2afd",
+    "usuario_id": "6890d03f3634461f2faa2aef",
+    "saldo": 360,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68916211c87f8ef0fbdeaf46",
+    "usuario_id": "689161c194f7c410c0156dad",
+    "saldo": 360,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689170fff30111e1ca67e8d6",
+    "usuario_id": "6891541179db5c80c7811142",
+    "saldo": 360,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689185b72325af3d6eb37471",
+    "usuario_id": "689143d027cf393b16d0fdf1",
+    "saldo": 360,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689185b72325af3d6eb3746f",
+    "usuario_id": "6890110bedf6d4a2dece1264",
+    "saldo": 360,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689185b72325af3d6eb37473",
+    "usuario_id": "688fc89a8857135ab58ad1d6",
+    "saldo": 360,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6892076e0a12e1b36970206e",
+    "usuario_id": "6892073f0a12e1b369701dfe",
+    "saldo": 320,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6894b73b7bd07bfd993cef35",
+    "usuario_id": "689211ba547479090d6c69f3",
+    "saldo": 280,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689788b14b03024c71ad8b55",
+    "usuario_id": "689787f718c03a99dd7a5fe0",
+    "saldo": 200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897b025bf699d8d72a7c3aa",
+    "usuario_id": "689629a9a2b9c2fa86f2c701",
+    "saldo": 200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897c12baf9d4b22fb738093",
+    "usuario_id": "6894ff3572d4dc7ee5c7194a",
+    "saldo": 200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897c12baf9d4b22fb738097",
+    "usuario_id": "68954906c4dfb046bd766007",
+    "saldo": 200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897c12baf9d4b22fb738099",
+    "usuario_id": "689636d302d10bedc77349fd",
+    "saldo": 200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897c12baf9d4b22fb73809b",
+    "usuario_id": "6896374002d10bedc7734a06",
+    "saldo": 200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897c12baf9d4b22fb73809f",
+    "usuario_id": "68965acbf9f981814c30117d",
+    "saldo": 200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897c12baf9d4b22fb7380a3",
+    "usuario_id": "68966743f9bf670ce898fa45",
+    "saldo": 200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897c12baf9d4b22fb7380a1",
+    "usuario_id": "68964269a872678da789934c",
+    "saldo": 200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897c12baf9d4b22fb7380a7",
+    "usuario_id": "68967006161382f4f5715491",
+    "saldo": 200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897c12baf9d4b22fb7380a5",
+    "usuario_id": "68966a0641e9920b00b3e91f",
+    "saldo": 200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897c12baf9d4b22fb73809d",
+    "usuario_id": "689638ff02d10bedc7734a23",
+    "saldo": 200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897c12baf9d4b22fb7380a9",
+    "usuario_id": "68966c1a161382f4f5715476",
+    "saldo": 200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897c12baf9d4b22fb7380ab",
+    "usuario_id": "68966def161382f4f5715484",
+    "saldo": 200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897c12baf9d4b22fb7380ad",
+    "usuario_id": "6896716a3b2ceb69985251eb",
+    "saldo": 200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897c12baf9d4b22fb7380b1",
+    "usuario_id": "68967427f57ebcb743cf10b0",
+    "saldo": 200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897c12baf9d4b22fb7380af",
+    "usuario_id": "6896ba81f405951c119e6b0f",
+    "saldo": 200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897c12baf9d4b22fb7380b3",
+    "usuario_id": "6896b828f405951c119e6ae6",
+    "saldo": 200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897c12baf9d4b22fb738095",
+    "usuario_id": "68951a1153cec61842474215",
+    "saldo": 200,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897e4f9348f967f2b07b68d",
+    "usuario_id": "6897e4cf348f967f2b07b682",
+    "saldo": 160,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "6897fca080f948579259734c",
+    "usuario_id": "6897eb903b783030a2a97d53",
+    "saldo": 160,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689925c40f941bac68998fcb",
+    "usuario_id": "68991bd107d8bf3ac2a2c5b9",
+    "saldo": 6160,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68993817bcf91d58536d7d5e",
+    "usuario_id": "6897c52ebb1cde6f0e378cf6",
+    "saldo": 160,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68993817bcf91d58536d7d64",
+    "usuario_id": "6899294f64a7275eccaf59c5",
+    "saldo": 160,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68993817bcf91d58536d7d60",
+    "usuario_id": "68991f8b07d8bf3ac2a2c5e8",
+    "saldo": 1160,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68993817bcf91d58536d7d62",
+    "usuario_id": "689925539c65d3151a2135ae",
+    "saldo": 160,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689a161296313ea587233e90",
+    "usuario_id": "689a1562d43928061f20c825",
+    "saldo": 80,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689a816260f42ac084c74e1b",
+    "usuario_id": "689a5afc26b9db7c8afd8608",
+    "saldo": 2580,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a11",
+    "usuario_id": "6899c9a9a63200f9af226bc0",
+    "saldo": 80,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a13",
+    "usuario_id": "6899d53e054935cb570c15a8",
+    "saldo": 1580,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a15",
+    "usuario_id": "689a0e0042d6b0d3eff0b0ad",
+    "saldo": 80,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a17",
+    "usuario_id": "689a585926b9db7c8afd85e0",
+    "saldo": 1580,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a19",
+    "usuario_id": "689a49c94b1a16967102f85a",
+    "saldo": 80,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a1d",
+    "usuario_id": "689a5d0026b9db7c8afd8622",
+    "saldo": 1580,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a21",
+    "usuario_id": "689a6290ef877a0107dd84a9",
+    "saldo": 80,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a1f",
+    "usuario_id": "689a6082ef877a0107dd849a",
+    "saldo": 80,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a25",
+    "usuario_id": "689a8cb70b8b9d3f27bf2b65",
+    "saldo": 80,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a23",
+    "usuario_id": "689a8b9329de3c2149b656cb",
+    "saldo": 80,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a2b",
+    "usuario_id": "689b59b240f126d7179e951f",
+    "saldo": 1580,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a29",
+    "usuario_id": "689aada7f622f414b87f7cab",
+    "saldo": 80,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a27",
+    "usuario_id": "689a93d051fc6c1e13f7c12d",
+    "saldo": 80,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a2d",
+    "usuario_id": "689b5c396f9567a9c80704ce",
+    "saldo": 580,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a33",
+    "usuario_id": "689ab67ba6168d55419588ea",
+    "saldo": 80,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a35",
+    "usuario_id": "689aaf5755f01bed28c79648",
+    "saldo": 80,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a39",
+    "usuario_id": "689ac4bd4548c44e6c0d07bd",
+    "saldo": 80,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a37",
+    "usuario_id": "689b5ac255645f65281bb494",
+    "saldo": 580,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a3f",
+    "usuario_id": "689b5f6440f126d7179e9544",
+    "saldo": 580,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a3b",
+    "usuario_id": "689b5d516f9567a9c80704e0",
+    "saldo": 580,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a41",
+    "usuario_id": "689b608255645f65281bb4e1",
+    "saldo": 580,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a3d",
+    "usuario_id": "689b5e6955645f65281bb4bc",
+    "saldo": 580,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a31",
+    "usuario_id": "689abf765795525f77b855e1",
+    "saldo": 80,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a47",
+    "usuario_id": "689b84d3b2d707738f1e3bae",
+    "saldo": 1580,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a43",
+    "usuario_id": "689b618c55645f65281bb4f3",
+    "saldo": 580,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a49",
+    "usuario_id": "689b74d1ff3df078f0af38c1",
+    "saldo": 80,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a45",
+    "usuario_id": "689b62656f9567a9c8070514",
+    "saldo": 580,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a4b",
+    "usuario_id": "689b8887bd2410cd438fb5cf",
+    "saldo": 80,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a4d",
+    "usuario_id": "689b676755645f65281bb51e",
+    "saldo": 80,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a2f",
+    "usuario_id": "689ab9bdb7f29af3f8a1277f",
+    "saldo": 80,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689b9365853a8c50645f0a1b",
+    "usuario_id": "689a588026b9db7c8afd85ec",
+    "saldo": 80,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689bc1da587fb4ba2dd69ed9",
+    "usuario_id": "689bb8a85a28a338cd991f12",
+    "saldo": 1040,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0b8f1de7911c0a154f",
+    "usuario_id": "689bbbd23e5e5cdc1077bd05",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0b8f1de7911c0a1549",
+    "usuario_id": "689b96ebece878bf60a83d18",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0b8f1de7911c0a154b",
+    "usuario_id": "689ba5eacff4aeb4009d7cea",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0b8f1de7911c0a154d",
+    "usuario_id": "689bbb1a3e5e5cdc1077bcf6",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0b8f1de7911c0a1551",
+    "usuario_id": "689bc9df6a0a58a1cc456103",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0b8f1de7911c0a1553",
+    "usuario_id": "689bba70587fb4ba2dd69e80",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0b8f1de7911c0a1555",
+    "usuario_id": "689bc8b6954d367bd00b93d8",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0b8f1de7911c0a1557",
+    "usuario_id": "689bca7f6a0a58a1cc456113",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0b8f1de7911c0a155d",
+    "usuario_id": "689bc93e6a0a58a1cc4560f3",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0b8f1de7911c0a155f",
+    "usuario_id": "689bcb84954d367bd00b940a",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0b8f1de7911c0a155b",
+    "usuario_id": "689bcb046a0a58a1cc456120",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0b8f1de7911c0a1563",
+    "usuario_id": "689bcc7d587fb4ba2dd69f69",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0b8f1de7911c0a1559",
+    "usuario_id": "689badcc5a28a338cd991e80",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0b8f1de7911c0a1561",
+    "usuario_id": "689bcc0d6a0a58a1cc456136",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0c8f1de7911c0a1565",
+    "usuario_id": "689bf2a965c30d4dcffb2023",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0c8f1de7911c0a1567",
+    "usuario_id": "689bdbc165476e7b4e623e74",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0c8f1de7911c0a156b",
+    "usuario_id": "689bd8dd65476e7b4e623e16",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0c8f1de7911c0a1571",
+    "usuario_id": "689bcced6a0a58a1cc45614a",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0c8f1de7911c0a156d",
+    "usuario_id": "689bf3244bf82e998c400cac",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0c8f1de7911c0a1577",
+    "usuario_id": "689beebe4bf82e998c400c4f",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0c8f1de7911c0a1579",
+    "usuario_id": "689be3505a15ab9ff669be72",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0c8f1de7911c0a157b",
+    "usuario_id": "689bf1bfbf93bc8465faeb3d",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0c8f1de7911c0a1573",
+    "usuario_id": "689bd94165476e7b4e623e2b",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0c8f1de7911c0a1569",
+    "usuario_id": "689bdc3f5a15ab9ff669bd9f",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0c8f1de7911c0a156f",
+    "usuario_id": "689c867e1d982ba32af1bba1",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0c8f1de7911c0a1575",
+    "usuario_id": "689bf0f765c30d4dcffb2000",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0c8f1de7911c0a1583",
+    "usuario_id": "689bf2334bf82e998c400c95",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0c8f1de7911c0a1585",
+    "usuario_id": "689bdb485a15ab9ff669bd85",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0c8f1de7911c0a157f",
+    "usuario_id": "689c9714bc46a75f40c66ebb",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0c8f1de7911c0a1581",
+    "usuario_id": "689bef994bf82e998c400c67",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0c8f1de7911c0a157d",
+    "usuario_id": "689bd9fa5a15ab9ff669bd5e",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689c9e0c8f1de7911c0a1587",
+    "usuario_id": "689bdff265476e7b4e623ea9",
+    "saldo": 40,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689d08b672446a011f1cd434",
+    "usuario_id": "689d089acc380ad2c2a8f2f2",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689d31a8c5106aa61d692faa",
+    "usuario_id": "689d2ce0ffe10d4fe33e3fe7",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689d384d879b8306b7539495",
+    "usuario_id": "689d35d35791d24ae703f74c",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689d3ce3683d14028df1f1c5",
+    "usuario_id": "689d3a46492da0cab09c6c16",
+    "saldo": 1500,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689d46c9683d14028df1f201",
+    "usuario_id": "689d450aa396fc5518acb387",
+    "saldo": 3000,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689d5171dc9f02e5ef27bf01",
+    "usuario_id": "689d5147a6508931eed8ca51",
+    "saldo": 500,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689d52d3a6508931eed8d0bc",
+    "usuario_id": "689d52b2a6508931eed8d0af",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689d54673917f5afbdd7337d",
+    "usuario_id": "689d54493917f5afbdd73370",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689d55b03917f5afbdd73398",
+    "usuario_id": "689d559565a373bd33dd48cb",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e206155a65dc22a5645a3",
+    "usuario_id": "689d554c65a373bd33dd48c0",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e4706b0e53a27656cc38c",
+    "usuario_id": "689e46a6eb4fd5b4461734ed",
+    "saldo": 6000,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e61f0de6be39fd0f70d01",
+    "usuario_id": "689e61c690aadcb1ad2d74a9",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e62c790aadcb1ad2d74c1",
+    "usuario_id": "689e62b7de6be39fd0f70d25",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e63c5e5b99e661f584f72",
+    "usuario_id": "689e6384eb6201d25878c6d3",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e7c3b08c2b7e4160a90c1",
+    "usuario_id": "689e48abb0e53a27656cc398",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e7cb6ddac292f08e212bc",
+    "usuario_id": "689e50c6ebeb4650b7416934",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e7d2dddac292f08e212e6",
+    "usuario_id": "689e724c94c90b6adcfcfb9b",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e7d644130b2e5ae446ac5",
+    "usuario_id": "689e724d94c90b6adcfcfba6",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e800141b3d8b991696daf",
+    "usuario_id": "689e724d94c90b6adcfcfbad",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e80a408c2b7e4160a9ed2",
+    "usuario_id": "689e724e94c90b6adcfcfbb4",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e846608c2b7e4160a9f05",
+    "usuario_id": "689cc8a5cf73e0752a62faed",
+    "saldo": 2500,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e85f5fe554623c1d35eaf",
+    "usuario_id": "689e6660eb6201d25878c76f",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e8617dcf9eca27a0bdffc",
+    "usuario_id": "689e63ece5b99e661f584f79",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e86e0fe554623c1d35ebb",
+    "usuario_id": "689e614ce5b99e661f584f42",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e9093f7bfce41b28ebbec",
+    "usuario_id": "689e724f94c90b6adcfcfbbb",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e9287f7bfce41b28ebc12",
+    "usuario_id": "689e725094c90b6adcfcfbc2",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e92bdf5c50cc344cfadfd",
+    "usuario_id": "689e725094c90b6adcfcfbc9",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e936df8eafe7d91da5a3c",
+    "usuario_id": "689e725294c90b6adcfcfbd7",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689e93b508c2b7e4160a9f8e",
+    "usuario_id": "689e725294c90b6adcfcfbde",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea552f5c50cc344cfb27b",
+    "usuario_id": "689cc1b6cf73e0752a62f7e1",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb28b",
+    "usuario_id": "689cc8fb079fad7b42eaf271",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb28d",
+    "usuario_id": "689cfa06640b94251337871b",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb28f",
+    "usuario_id": "689cfb3acc380ad2c2a8f279",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb293",
+    "usuario_id": "689cf0d40abf46683d3a703c",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb291",
+    "usuario_id": "689cc82fcf73e0752a62fae4",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb289",
+    "usuario_id": "689cc732cf73e0752a62fad8",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb297",
+    "usuario_id": "689cfd79cc380ad2c2a8f293",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2a1",
+    "usuario_id": "689d06e272446a011f1cd412",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb29f",
+    "usuario_id": "689d060be6a792d2be77fbba",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb29b",
+    "usuario_id": "689d020aac3daf730645a17f",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2a3",
+    "usuario_id": "689d078a72446a011f1cd424",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb299",
+    "usuario_id": "689cfcaccc380ad2c2a8f286",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb295",
+    "usuario_id": "689cdb4267291ae7214d86d4",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea552f5c50cc344cfb285",
+    "usuario_id": "689cc63630b9e7dbb03360b3",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea552f5c50cc344cfb27f",
+    "usuario_id": "689cc43430b9e7dbb033608b",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2a5",
+    "usuario_id": "689d099c72446a011f1cd442",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea552f5c50cc344cfb27d",
+    "usuario_id": "689cc31730b9e7dbb0336076",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2a9",
+    "usuario_id": "689d068b72446a011f1cd3fc",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2a7",
+    "usuario_id": "689d0a675d07f910f1ec5ccc",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2ab",
+    "usuario_id": "689d0830cc380ad2c2a8f2ce",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2ad",
+    "usuario_id": "689d0606e6a792d2be77fbb1",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2b7",
+    "usuario_id": "689d04ad72446a011f1cd3ed",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2b3",
+    "usuario_id": "689d0b9672446a011f1cd458",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2af",
+    "usuario_id": "689d10fc7aa4a39ee82b3ba4",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2b1",
+    "usuario_id": "689d13c27aa4a39ee82b3bd5",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2c5",
+    "usuario_id": "689d00edd3dc35f1d5ea1fe0",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2c3",
+    "usuario_id": "689d0919e6a792d2be77fbd4",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb287",
+    "usuario_id": "689cc68830b9e7dbb03360bd",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea552f5c50cc344cfb281",
+    "usuario_id": "689cc46a30b9e7dbb0336095",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea552f5c50cc344cfb283",
+    "usuario_id": "689cc576079fad7b42eaf255",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2e3",
+    "usuario_id": "689d1cd48c53a6ba889b88b9",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2f1",
+    "usuario_id": "689d3717492da0cab09c6b4e",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2b9",
+    "usuario_id": "689d098ae6a792d2be77fbdf",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2e1",
+    "usuario_id": "689d1bce8525243f56f6d358",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2bb",
+    "usuario_id": "689d12c838f60f5bb842b3e9",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2cd",
+    "usuario_id": "689d140d7aa4a39ee82b3be6",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2bd",
+    "usuario_id": "689d12db38f60f5bb842b3f2",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2cf",
+    "usuario_id": "689d14432ec48b023e6f01ee",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2e7",
+    "usuario_id": "689d1db439a7b40ae4443013",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2d9",
+    "usuario_id": "689d16d22ec48b023e6f0201",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2ed",
+    "usuario_id": "689d22398c53a6ba889b8bf2",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2f3",
+    "usuario_id": "689d38bd5791d24ae703f823",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2cb",
+    "usuario_id": "689d13517aa4a39ee82b3bc4",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2df",
+    "usuario_id": "689d1c5a39a7b40ae4442ff6",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2bf",
+    "usuario_id": "689d0553e6a792d2be77fba6",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2e5",
+    "usuario_id": "689d1d4339a7b40ae4443003",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2db",
+    "usuario_id": "689d17d42ec48b023e6f0213",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2d5",
+    "usuario_id": "689d15cad81bc5a687ee0137",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2d1",
+    "usuario_id": "689d14c3d81bc5a687ee0125",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2c1",
+    "usuario_id": "689d049572446a011f1cd3e4",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2f5",
+    "usuario_id": "689d4798683d14028df1f21c",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2d3",
+    "usuario_id": "689d1542d81bc5a687ee012e",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2dd",
+    "usuario_id": "689d174f2ec48b023e6f020a",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2ef",
+    "usuario_id": "689d331854a98d3639349dd5",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2c7",
+    "usuario_id": "689d088fcc380ad2c2a8f2e6",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2c9",
+    "usuario_id": "689d117c7aa4a39ee82b3bb2",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2e9",
+    "usuario_id": "689d218d8525243f56f6df70",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2d7",
+    "usuario_id": "689d16412ec48b023e6f01f8",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea553f5c50cc344cfb2eb",
+    "usuario_id": "689d22c38525243f56f6df86",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea56d4f277c817ab40093",
+    "usuario_id": "689d50c43917f5afbdd72a09",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea56d4f277c817ab4008f",
+    "usuario_id": "689d124838f60f5bb842b3e0",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea56d4f277c817ab40091",
+    "usuario_id": "689d5165dc9f02e5ef27bef7",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea56d4f277c817ab4008b",
+    "usuario_id": "689cc561079fad7b42eaf24c",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea56d4f277c817ab40097",
+    "usuario_id": "689d5a8aa6508931eed8d14f",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea56d4f277c817ab40095",
+    "usuario_id": "689d569ba6508931eed8d123",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea56d4f277c817ab4008d",
+    "usuario_id": "689d078472446a011f1cd41b",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a75d",
+    "usuario_id": "689d5ccf9696cde757e95a4b",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a75f",
+    "usuario_id": "689d628f143639fba1de574a",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a761",
+    "usuario_id": "689d5ede65a373bd33dd4942",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a763",
+    "usuario_id": "689d66fc3eb240d1ef23c5e0",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a765",
+    "usuario_id": "689d690e3eb240d1ef23c5ff",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a767",
+    "usuario_id": "689d6bbe8d0015366fa551d0",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a769",
+    "usuario_id": "689d6a1e5259e153dab1d863",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a76b",
+    "usuario_id": "689d6d188d0015366fa551ed",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a76d",
+    "usuario_id": "689d6e958d0015366fa55210",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a76f",
+    "usuario_id": "689dc2ddf2f3228c4cf7e67b",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a777",
+    "usuario_id": "689e3a762a3d414c6e86b1d4",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a775",
+    "usuario_id": "689e1bc7f82acf0b3671498b",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a773",
+    "usuario_id": "689e1b24f82acf0b3671497b",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a771",
+    "usuario_id": "689e19c0f82acf0b36714960",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a77f",
+    "usuario_id": "689e4c4261d142abf0779636",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a77d",
+    "usuario_id": "689e4c4161d142abf077962f",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a77b",
+    "usuario_id": "689e0b498cc3febef65f2c41",
+    "saldo": 1500,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a779",
+    "usuario_id": "689e3fd1df03f5f904a193a1",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a781",
+    "usuario_id": "689e4c4461d142abf0779644",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a7b9",
+    "usuario_id": "689e52cb2e656350ce4e2a0d",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a78d",
+    "usuario_id": "689e4c4661d142abf0779660",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a789",
+    "usuario_id": "689e4c4661d142abf0779659",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a7a7",
+    "usuario_id": "689e52ca2e656350ce4e29ff",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a7af",
+    "usuario_id": "689e549d5b86e5037af030a8",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a7ad",
+    "usuario_id": "689e5c9c18fa8d8a0b9566fa",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a7a3",
+    "usuario_id": "689e4c4e61d142abf07796ad",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a79f",
+    "usuario_id": "689e52c62e656350ce4e29d1",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a7a1",
+    "usuario_id": "689e4c4f61d142abf07796b4",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a7b1",
+    "usuario_id": "689e5b8c2e656350ce4e2a7c",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a7b5",
+    "usuario_id": "689e52ce2e656350ce4e2a30",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a7b7",
+    "usuario_id": "689e4c4c61d142abf0779698",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a78b",
+    "usuario_id": "689e4c4761d142abf0779667",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a785",
+    "usuario_id": "689e4c4561d142abf0779652",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a795",
+    "usuario_id": "689e4c4961d142abf077967c",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a7ab",
+    "usuario_id": "689e52c82e656350ce4e29ea",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a7a5",
+    "usuario_id": "689e52c92e656350ce4e29f8",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a7a9",
+    "usuario_id": "689e52c92e656350ce4e29f1",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a78f",
+    "usuario_id": "689e4c4861d142abf077966e",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a7b3",
+    "usuario_id": "689e5c1d2e656350ce4e2a89",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a783",
+    "usuario_id": "689e4c4361d142abf077963d",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a793",
+    "usuario_id": "689e4c4a61d142abf0779683",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a797",
+    "usuario_id": "689e4c4a61d142abf077968a",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a79d",
+    "usuario_id": "689e4c4d61d142abf077969f",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a79b",
+    "usuario_id": "689e4c4e61d142abf07796a6",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a791",
+    "usuario_id": "689e4c4861d142abf0779675",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a799",
+    "usuario_id": "689e4c4b61d142abf0779691",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a787",
+    "usuario_id": "689e4c4461d142abf077964b",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a7bd",
+    "usuario_id": "689e52cc2e656350ce4e2a14",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a7c3",
+    "usuario_id": "689e55a9a1f0578e10d05994",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a7bf",
+    "usuario_id": "689e52cd2e656350ce4e2a22",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a7c1",
+    "usuario_id": "689e52cb2e656350ce4e2a06",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a7bb",
+    "usuario_id": "689e52ce2e656350ce4e2a29",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5be82328978d317a7c5",
+    "usuario_id": "689e52cc2e656350ce4e2a1b",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7c9",
+    "usuario_id": "689e77cd94c90b6adcfcfc7a",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7c7",
+    "usuario_id": "689e725194c90b6adcfcfbd0",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7cb",
+    "usuario_id": "689e77cd94c90b6adcfcfc81",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7cd",
+    "usuario_id": "689e75fd4130b2e5ae446a15",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7d1",
+    "usuario_id": "689e75fe4130b2e5ae446a1e",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7d7",
+    "usuario_id": "689e76014130b2e5ae446a3a",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7d9",
+    "usuario_id": "689e76004130b2e5ae446a33",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7d5",
+    "usuario_id": "689e75ff4130b2e5ae446a2c",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7d3",
+    "usuario_id": "689e75ff4130b2e5ae446a25",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7dd",
+    "usuario_id": "689e76024130b2e5ae446a48",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7cf",
+    "usuario_id": "689e755739c15030ddf14822",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7eb",
+    "usuario_id": "689e77cf94c90b6adcfcfc8f",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7e7",
+    "usuario_id": "689e77cc94c90b6adcfcfc73",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7e3",
+    "usuario_id": "689e77cb94c90b6adcfcfc65",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7e1",
+    "usuario_id": "689e77ca94c90b6adcfcfc5e",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7ef",
+    "usuario_id": "689e77cf94c90b6adcfcfc96",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7db",
+    "usuario_id": "689e76014130b2e5ae446a41",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7ed",
+    "usuario_id": "689e77d094c90b6adcfcfc9d",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7e5",
+    "usuario_id": "689e77cc94c90b6adcfcfc6c",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7df",
+    "usuario_id": "689e77c994c90b6adcfcfc57",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7e9",
+    "usuario_id": "689e77ce94c90b6adcfcfc88",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7f7",
+    "usuario_id": "689e8ba5dcf9eca27a0be01a",
+    "saldo": 500,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7f5",
+    "usuario_id": "689e830908c2b7e4160a9ee8",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7f1",
+    "usuario_id": "689e77d194c90b6adcfcfca4",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7f3",
+    "usuario_id": "689e79ec94c90b6adcfcfcd0",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7f9",
+    "usuario_id": "689e849dfe554623c1d35e94",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7ff",
+    "usuario_id": "689e95b1f5c50cc344cfae3c",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7fd",
+    "usuario_id": "689e95aff5c50cc344cfae2e",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a7fb",
+    "usuario_id": "689dc105e92c9c5d4e6fc78a",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a801",
+    "usuario_id": "689e95b2f5c50cc344cfae4a",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a803",
+    "usuario_id": "689e95b1f5c50cc344cfae43",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a809",
+    "usuario_id": "689e98e88a3a16f4c312947a",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a807",
+    "usuario_id": "689e98e78a3a16f4c3129473",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5bf82328978d317a805",
+    "usuario_id": "689e98e68a3a16f4c312946c",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5da4d46d0fee8320205",
+    "usuario_id": "689d657bdf98a2f8deb43c40",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5db4d46d0fee8320209",
+    "usuario_id": "689e95b0f5c50cc344cfae35",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5da4d46d0fee8320207",
+    "usuario_id": "689d583c65a373bd33dd490d",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5db4d46d0fee832020b",
+    "usuario_id": "689e98e98a3a16f4c3129481",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5db4d46d0fee832020d",
+    "usuario_id": "689e98e98a3a16f4c3129488",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5db4d46d0fee8320211",
+    "usuario_id": "689e98ea8a3a16f4c312948f",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5db4d46d0fee832020f",
+    "usuario_id": "689e98eb8a3a16f4c3129496",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5db4d46d0fee8320217",
+    "usuario_id": "689e98ee8a3a16f4c31294b2",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5db4d46d0fee8320215",
+    "usuario_id": "689e98ed8a3a16f4c31294ab",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5db4d46d0fee8320213",
+    "usuario_id": "689e98eb8a3a16f4c312949d",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5db4d46d0fee8320219",
+    "usuario_id": "689e98ef8a3a16f4c31294c0",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5db4d46d0fee832021b",
+    "usuario_id": "689e98ee8a3a16f4c31294b9",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5db4d46d0fee832021d",
+    "usuario_id": "689e98ec8a3a16f4c31294a4",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5db4d46d0fee832021f",
+    "usuario_id": "689e98f18a3a16f4c31294d5",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5db4d46d0fee8320227",
+    "usuario_id": "689e98f38a3a16f4c31294ea",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5db4d46d0fee8320225",
+    "usuario_id": "689e98f38a3a16f4c31294f1",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5db4d46d0fee8320221",
+    "usuario_id": "689e98f08a3a16f4c31294ce",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689ea5db4d46d0fee8320223",
+    "usuario_id": "689e98f28a3a16f4c31294dc",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f21ce282115ccdef38a6a",
+    "usuario_id": "689f2178f015c0aa8b05a6cb",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f2444282115ccdef38aa2",
+    "usuario_id": "689f2379282115ccdef38a8f",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f27786198043bacf5534f",
+    "usuario_id": "689f267b78c26d17ccce669d",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f28c778c26d17ccce66d7",
+    "usuario_id": "689f28a6282115ccdef38ae1",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f2b21282115ccdef38b11",
+    "usuario_id": "689f2ae36198043bacf5539a",
+    "saldo": 440,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f2b4f282115ccdef38ec2",
+    "usuario_id": "689f272278c26d17ccce66b0",
+    "saldo": 440,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f2cb7282115ccdef38ed5",
+    "usuario_id": "689f2c406198043bacf553b7",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f4bb40d1d688c3b059164",
+    "usuario_id": "689f4a952a3fc8f87c85be70",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5b200d4a62b271058042",
+    "usuario_id": "689f54999804d9c44733c1e9",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f453ad818ecb718e1a4",
+    "usuario_id": "689e98f08a3a16f4c31294c7",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f453ad818ecb718e1a6",
+    "usuario_id": "689ec1fd4095c80a349cf97a",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f453ad818ecb718e1aa",
+    "usuario_id": "689eac73f3fde2aacda92ebf",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f453ad818ecb718e1a8",
+    "usuario_id": "689e98f28a3a16f4c31294e3",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f453ad818ecb718e1ac",
+    "usuario_id": "689ec2c64095c80a349cf985",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f453ad818ecb718e1ae",
+    "usuario_id": "689ec4094095c80a349cf98f",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1b4",
+    "usuario_id": "689f33e722dae499d7ac4498",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1b8",
+    "usuario_id": "689f33e822dae499d7ac449f",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1b6",
+    "usuario_id": "689ec40a4095c80a349cf99d",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1b0",
+    "usuario_id": "689ec40c4095c80a349cf9ab",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1b2",
+    "usuario_id": "689f2fe06198043bacf553fa",
+    "saldo": 440,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1c2",
+    "usuario_id": "689eca706d53454c36334d77",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1bc",
+    "usuario_id": "689ec40c4095c80a349cf9b2",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1be",
+    "usuario_id": "689ec40e4095c80a349cf9c0",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1c8",
+    "usuario_id": "689ec40b4095c80a349cf9a4",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1c6",
+    "usuario_id": "689f2235f015c0aa8b05a6e1",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1c4",
+    "usuario_id": "689eca6e6d53454c36334d69",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1ce",
+    "usuario_id": "689f33e522dae499d7ac448a",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1cc",
+    "usuario_id": "689f33e622dae499d7ac4491",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1d0",
+    "usuario_id": "689f33e422dae499d7ac4483",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1c0",
+    "usuario_id": "689eca6f6d53454c36334d70",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1de",
+    "usuario_id": "689f33e822dae499d7ac44a6",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1ca",
+    "usuario_id": "689ec40e4095c80a349cf9c7",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1da",
+    "usuario_id": "689f33e922dae499d7ac44ad",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1d6",
+    "usuario_id": "689ec40d4095c80a349cf9b9",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1e0",
+    "usuario_id": "689f4f6ef1845c2b42aff228",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1d4",
+    "usuario_id": "689f212ff015c0aa8b05a6c2",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1dc",
+    "usuario_id": "689f358d6198043bacf5541b",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1d8",
+    "usuario_id": "689f22c36198043bacf552df",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f5f463ad818ecb718e1ba",
+    "usuario_id": "689ec40a4095c80a349cf996",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f649a7a970cd2a441d434",
+    "usuario_id": "689f631bd25574ed1eedbd86",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689f7c268dde70635e51d4e6",
+    "usuario_id": "689f7be9386062cadb0c5ef0",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689fb45b590a0b3600440535",
+    "usuario_id": "689fb4052ec06573162ad403",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689fcdc8b0fe759aa49d0582",
+    "usuario_id": "689fc4e69edd4edd507fc083",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689fcfbc86bd8de60e30d290",
+    "usuario_id": "689fcb07964278a7812bd026",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689fe21982aac4ca1d667b3a",
+    "usuario_id": "689fdd03434519f1887f2b9e",
+    "saldo": 6000,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689fe4aae8666ae88bc4b6b6",
+    "usuario_id": "689fdd09434519f1887f2ba5",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689fe4e16525d9d46ae8a27d",
+    "usuario_id": "689fdd0f434519f1887f2bac",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689fe593c796abdd58a86dc6",
+    "usuario_id": "689fdd15434519f1887f2bb3",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689fe5de8adb063e5604a5ba",
+    "usuario_id": "689fdd1b434519f1887f2bba",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689fe628ba2465f4ef94cb0d",
+    "usuario_id": "689fdd21434519f1887f2bc1",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689fe6757cf257bc816e63fb",
+    "usuario_id": "689fdd27434519f1887f2bc8",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689fe6b1ba11a45f5e17aa50",
+    "usuario_id": "689fdd2d434519f1887f2bcf",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689fe70ca3e88d93c4139adf",
+    "usuario_id": "689fdd33434519f1887f2bd6",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689fe751ba11a45f5e17aa5b",
+    "usuario_id": "689fdd39434519f1887f2bdd",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "689feb272fc4235f108d8235",
+    "usuario_id": "689fdd452ba576a1244ba132",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a22def33db4c1aaadd3eec",
+    "usuario_id": "68a22ce28a160ff9447763ff",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a26805d5394c667d28314b",
+    "usuario_id": "68a267d2d5394c667d283140",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a268b222943d1b8e035092",
+    "usuario_id": "68a26897d5394c667d28315c",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a3eb18a46fa5ce70612592",
+    "usuario_id": "68a3eaf0c831f2d14b6c143b",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a3ed1a24a32d1522aa9eef",
+    "usuario_id": "68a3ecdda46fa5ce706125ae",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a4ca669638c1b12fd1f8ed",
+    "usuario_id": "68a4c6aabd4eb4a93043ec3f",
+    "saldo": 6000,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a4d97214d6b5c4190c2dbe",
+    "usuario_id": "68a4b54f9f2d597a88323530",
+    "saldo": 6000,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a4ebdb542ddff48271fa75",
+    "usuario_id": "68a4c937dd8f18d4c69258bc",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a528d46730eb2712497ff3",
+    "usuario_id": "68a4e0fc9d7745b91b7ea610",
+    "saldo": 6000,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a5299f0fd2ee89847e18dc",
+    "usuario_id": "68a4e0fe9d7745b91b7ea617",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a52c628f496ac3edd2469b",
+    "usuario_id": "68a4e1039d7745b91b7ea61e",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a52f08982aaaffb3dd87d7",
+    "usuario_id": "68a4e1039d7745b91b7ea625",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a52f77982aaaffb3dd87e4",
+    "usuario_id": "68a4e1059d7745b91b7ea62c",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a53028982aaaffb3dd87f8",
+    "usuario_id": "68a4e1069d7745b91b7ea633",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a530b2982aaaffb3dd880a",
+    "usuario_id": "68a4e1079d7745b91b7ea63a",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a5313f1a94f8b259ef6ae4",
+    "usuario_id": "68a4e1089d7745b91b7ea641",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a531f28f496ac3edd246dd",
+    "usuario_id": "68a4e10a9d7745b91b7ea648",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a532ac1a94f8b259ef6af4",
+    "usuario_id": "68a4e10a9d7745b91b7ea64f",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a533251a94f8b259ef6aff",
+    "usuario_id": "68a4e10c9d7745b91b7ea656",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a53397982aaaffb3dd8830",
+    "usuario_id": "68a4e10e9d7745b91b7ea65d",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a5340e982aaaffb3dd8840",
+    "usuario_id": "68a4e1179d7745b91b7ea664",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a535341a94f8b259ef6b22",
+    "usuario_id": "68a4c6abbd4eb4a93043ec46",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a53563bd5756bbb1fb8a54",
+    "usuario_id": "68a4c6acbd4eb4a93043ec4d",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a53594982aaaffb3dd8853",
+    "usuario_id": "68a4c6adbd4eb4a93043ec54",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a535c48f496ac3edd2472d",
+    "usuario_id": "68a4c6aebd4eb4a93043ec5b",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a535f01a94f8b259ef6b36",
+    "usuario_id": "68a4c6aebd4eb4a93043ec62",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a53615982aaaffb3dd8865",
+    "usuario_id": "68a4c6afbd4eb4a93043ec69",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a5363e1a94f8b259ef6b4b",
+    "usuario_id": "68a4c6b0bd4eb4a93043ec70",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a5366c1a94f8b259ef6b5d",
+    "usuario_id": "68a4c6b0bd4eb4a93043ec77",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a536931a94f8b259ef6b67",
+    "usuario_id": "68a4c6b1bd4eb4a93043ec7e",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a536bb8f496ac3edd24748",
+    "usuario_id": "68a4c6b2bd4eb4a93043ec85",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a536fa982aaaffb3dd8889",
+    "usuario_id": "68a4c6b2bd4eb4a93043ec8c",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a53736bd5756bbb1fb8a8d",
+    "usuario_id": "68a4c6b3bd4eb4a93043ec93",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a5398a8f496ac3edd2476b",
+    "usuario_id": "68a4b5509f2d597a88323537",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a539bcbd5756bbb1fb8aa4",
+    "usuario_id": "68a4b5509f2d597a8832353e",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a53a4d8f496ac3edd24780",
+    "usuario_id": "68a4b5519f2d597a88323545",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a53a948f496ac3edd2478a",
+    "usuario_id": "68a4b5529f2d597a8832354c",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a53ab71a94f8b259ef6bb1",
+    "usuario_id": "68a4b5529f2d597a88323553",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a53b108f496ac3edd247b6",
+    "usuario_id": "68a4b5539f2d597a8832355a",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a53b4d8f496ac3edd247c1",
+    "usuario_id": "68a4b5549f2d597a88323561",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a53b6f8f496ac3edd247cc",
+    "usuario_id": "68a4b5549f2d597a88323568",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a53bc18f496ac3edd247dd",
+    "usuario_id": "68a4b5559f2d597a8832356f",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a53c21bd5756bbb1fb8ab6",
+    "usuario_id": "68a4b5569f2d597a88323576",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a53cbdbd5756bbb1fb8acb",
+    "usuario_id": "68a4b5569f2d597a8832357d",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a53cf31a94f8b259ef6bf6",
+    "usuario_id": "68a4b5579f2d597a88323584",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a60107da6403a29cb1f684",
+    "usuario_id": "68a5f7b0dda9b14ec8b3c135",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a607662eff76542bc76d7d",
+    "usuario_id": "68a5fa84d32a7aa6d80668a9",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a6079af388464b856ffde2",
+    "usuario_id": "68a5f98dd32a7aa6d8066890",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a607c106f16de6343dee8e",
+    "usuario_id": "68a5fc90d32a7aa6d80668c5",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a74d516ee660b7858c71d7",
+    "usuario_id": "68a749c537d58d12f4b12623",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a74d846ee660b7858c71e6",
+    "usuario_id": "68a749c637d58d12f4b1262a",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a7d5a079d91fe556140cd1",
+    "usuario_id": "68a749c737d58d12f4b12631",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a8d58df3c31c3d86989292",
+    "usuario_id": "68a8a7c752efbd443d8fefb2",
+    "saldo": 6000,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a8ff906da8a838a5ea16e0",
+    "usuario_id": "68a8d0a8090b5651454b8f96",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a9001ec4b82b6c6c62d569",
+    "usuario_id": "68a8d0a9090b5651454b8f9d",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a9005bc4b82b6c6c62d577",
+    "usuario_id": "68a8d0aa090b5651454b8fa4",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a9007dc4b82b6c6c62d581",
+    "usuario_id": "68a8d0ab090b5651454b8fab",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a90106149b4936f03685c3",
+    "usuario_id": "68a8d0ab090b5651454b8fb2",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a90217c4b82b6c6c62d59c",
+    "usuario_id": "68a8d0ac090b5651454b8fb9",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a9026d6da8a838a5ea1721",
+    "usuario_id": "68a8d0ad090b5651454b8fc0",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a902b6c4b82b6c6c62d5bd",
+    "usuario_id": "68a8d0ae090b5651454b8fc7",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a90318fc75cfde5641379e",
+    "usuario_id": "68a8d0ae090b5651454b8fce",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a90359c4b82b6c6c62d5d3",
+    "usuario_id": "68a8d0af090b5651454b8fd5",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a90396149b4936f03685e3",
+    "usuario_id": "68a8d0b0090b5651454b8fdc",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a903c5c4b82b6c6c62d5e0",
+    "usuario_id": "68a8d0b0090b5651454b8fe3",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a906f4c4b82b6c6c62d65d",
+    "usuario_id": "68a9058ec4b82b6c6c62d600",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a907bd40bf6623e82d3899",
+    "usuario_id": "68a90590c4b82b6c6c62d607",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a90bd5f6693bac6fe9523f",
+    "usuario_id": "68a8ae30057301acbff67f99",
+    "saldo": 6000,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a9132b8d2b7d0a348826d5",
+    "usuario_id": "68a90591c4b82b6c6c62d60e",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a9138f8d2b7d0a348826e3",
+    "usuario_id": "68a90592c4b82b6c6c62d615",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a913d18a7ae958ceb17548",
+    "usuario_id": "68a90593c4b82b6c6c62d61c",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a914248d2b7d0a348826f5",
+    "usuario_id": "68a90595c4b82b6c6c62d623",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a9145b09538fd6921be1ea",
+    "usuario_id": "68a90596c4b82b6c6c62d62a",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a9148f924158652ff3255e",
+    "usuario_id": "68a90598c4b82b6c6c62d631",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a914c08d2b7d0a34882714",
+    "usuario_id": "68a90599c4b82b6c6c62d638",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a914fb09538fd6921be1f6",
+    "usuario_id": "68a9059ac4b82b6c6c62d63f",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a9152d8a7ae958ceb1756a",
+    "usuario_id": "68a9059bc4b82b6c6c62d646",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a9155c924158652ff3257e",
+    "usuario_id": "68a9059dc4b82b6c6c62d64d",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a928a4b35cc143a418f2ef",
+    "usuario_id": "68a8aec2057301acbff67fb2",
+    "saldo": 6000,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a929de212978a8e0081334",
+    "usuario_id": "68a9236e48095a0f8db6062a",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a92a0fb35cc143a418f326",
+    "usuario_id": "68a9236f48095a0f8db6063b",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a92a3c27b62a8cfe1948e4",
+    "usuario_id": "68a9237048095a0f8db60642",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a92a8d212978a8e0081348",
+    "usuario_id": "68a9237148095a0f8db60649",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a92ab85d42adc0c1b61334",
+    "usuario_id": "68a9237248095a0f8db60650",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a92ae1b35cc143a418f345",
+    "usuario_id": "68a9237248095a0f8db60657",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a92b0ee3257512e2b22743",
+    "usuario_id": "68a9237348095a0f8db6065e",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a92b38addfa8e7c79c7fc1",
+    "usuario_id": "68a9237448095a0f8db60665",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a92b5fabf3273bc93e0857",
+    "usuario_id": "68a9237548095a0f8db6066c",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a92b8de3257512e2b22752",
+    "usuario_id": "68a9237548095a0f8db60673",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a92bbef6b1f511c63ae0a5",
+    "usuario_id": "68a9237648095a0f8db6067a",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a92be027b62a8cfe194997",
+    "usuario_id": "68a927e8212978a8e00812dd",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68a9d80d1ceeb7bd2c11e915",
+    "usuario_id": "68a9d7d49537635a0d5e56b3",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae14969e25022f19a154f5",
+    "usuario_id": "68adf41f96f6c683a46ee226",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae155df9e0cf302ac80399",
+    "usuario_id": "68adf42296f6c683a46ee23d",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae1680f9e0cf302ac803af",
+    "usuario_id": "68adf6251802a999d9f341d9",
+    "saldo": 6000,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae19123cb2d2173b4f7bc6",
+    "usuario_id": "68adf6291802a999d9f34207",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae193674fe39a361351032",
+    "usuario_id": "68adf62a1802a999d9f3420e",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae1965cc0adff447c43cc9",
+    "usuario_id": "68adf62b1802a999d9f34215",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae198e7816ef0970d45350",
+    "usuario_id": "68adf62b1802a999d9f3421c",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae19bdcc0adff447c43cdf",
+    "usuario_id": "68adf62c1802a999d9f34223",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae1a1874fe39a36135104d",
+    "usuario_id": "68adf62d1802a999d9f3422a",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae1a4a74fe39a361351056",
+    "usuario_id": "68adf62d1802a999d9f34231",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae1a6e7816ef0970d45367",
+    "usuario_id": "68adf62e1802a999d9f34238",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae1a91cc0adff447c43cf0",
+    "usuario_id": "68adf62f1802a999d9f3423f",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae1aebcc0adff447c43d07",
+    "usuario_id": "68adf79601b61b55ef6ba582",
+    "saldo": 6000,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae1d80e749d34baeb586b7",
+    "usuario_id": "68adf79701b61b55ef6ba59b",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae1dd6223d0202f4f33873",
+    "usuario_id": "68adf79801b61b55ef6ba5a2",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae1e023cb2d2173b4f7c51",
+    "usuario_id": "68adf79901b61b55ef6ba5a9",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae1e2d3cb2d2173b4f7c5e",
+    "usuario_id": "68adf79a01b61b55ef6ba5b0",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae1e55223d0202f4f3388b",
+    "usuario_id": "68adf79b01b61b55ef6ba5b7",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae1e7acc0adff447c43d60",
+    "usuario_id": "68adf79b01b61b55ef6ba5be",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae1ea3223d0202f4f338a5",
+    "usuario_id": "68adf79c01b61b55ef6ba5c5",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae1ecb223d0202f4f338b3",
+    "usuario_id": "68adf79d01b61b55ef6ba5cc",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae1ef3cc0adff447c43d75",
+    "usuario_id": "68adf79d01b61b55ef6ba5d3",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae1f17e749d34baeb586ea",
+    "usuario_id": "68adf79e01b61b55ef6ba5da",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae1f3be749d34baeb586f6",
+    "usuario_id": "68adf79f01b61b55ef6ba5e1",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae1f5ccc0adff447c43d94",
+    "usuario_id": "68adf7a001b61b55ef6ba5e8",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae902cb7d0b11fb1f51516",
+    "usuario_id": "68a749c837d58d12f4b12638",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae9053b7d0b11fb1f51520",
+    "usuario_id": "68a749c937d58d12f4b1263f",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68ae9073d7414c1cea4ddd70",
+    "usuario_id": "68a749c937d58d12f4b12646",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af1727ef6cc1c49864996b",
+    "usuario_id": "68af0cda5bfcd54696512b43",
+    "saldo": 2000,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af17f6ef6cc1c498649979",
+    "usuario_id": "68af0cdc5bfcd54696512b54",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af1846ef6cc1c498649984",
+    "usuario_id": "68af0cdd5bfcd54696512b5b",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af1a369ee0915f355f20e6",
+    "usuario_id": "68af0e455bfcd54696512b62",
+    "saldo": 1500,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af1aa9aef82c42cfbaa8f8",
+    "usuario_id": "68af0e465bfcd54696512b69",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af1aeb32a9aceb22ab5253",
+    "usuario_id": "68af0e475bfcd54696512b70",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af1c19ef6cc1c4986499d2",
+    "usuario_id": "68af0fa2aef82c42cfbaa841",
+    "saldo": 1500,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af1c76aef82c42cfbaa92e",
+    "usuario_id": "68af0fa4aef82c42cfbaa85a",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af1caf32a9aceb22ab5289",
+    "usuario_id": "68af0fa5aef82c42cfbaa862",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af1dc332a9aceb22ab52af",
+    "usuario_id": "68af10bdaef82c42cfbaa875",
+    "saldo": 1500,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af1e12aef82c42cfbaa948",
+    "usuario_id": "68af10beaef82c42cfbaa87c",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af1e4032a9aceb22ab52bc",
+    "usuario_id": "68af10bfaef82c42cfbaa883",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af1f66ef6cc1c498649a0f",
+    "usuario_id": "68af11d6aef82c42cfbaa88a",
+    "saldo": 1500,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af1fcb9ee0915f355f2132",
+    "usuario_id": "68af11d8aef82c42cfbaa891",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af1ff8aef82c42cfbaa961",
+    "usuario_id": "68af11d9aef82c42cfbaa898",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af2b4bcd1a8101aabb4393",
+    "usuario_id": "68af12d5aef82c42cfbaa8a6",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af2bcbcd1a8101aabb43a6",
+    "usuario_id": "68af12d4aef82c42cfbaa89f",
+    "saldo": 1500,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af2c55e1e4ddd6a32be0a1",
+    "usuario_id": "68af12d6aef82c42cfbaa8ad",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af2da1a926757865a24627",
+    "usuario_id": "68af141baef82c42cfbaa8b4",
+    "saldo": 1500,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af2df6944172a8f3a855bd",
+    "usuario_id": "68af141caef82c42cfbaa8bb",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af2e3f0c50b45dc46e0f11",
+    "usuario_id": "68af141daef82c42cfbaa8c2",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af2f5e0c50b45dc46e0f32",
+    "usuario_id": "68af1510aef82c42cfbaa8c9",
+    "saldo": 1500,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af2fd40c50b45dc46e0f3c",
+    "usuario_id": "68af1510aef82c42cfbaa8d0",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af2ffb0c50b45dc46e0f44",
+    "usuario_id": "68af1511aef82c42cfbaa8d7",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af7deb63eb0c05c1ce9bbc",
+    "usuario_id": "68acc68c899bb4257e4bc09f",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af8c42085ce9415b1e8cd5",
+    "usuario_id": "68af8b8b085ce9415b1e8c82",
+    "saldo": 6000,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af8cd85fe64aac2783be26",
+    "usuario_id": "68af8b8c085ce9415b1e8c89",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af8d1f085ce9415b1e8ce7",
+    "usuario_id": "68af8b8d085ce9415b1e8c90",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af8d6588710838a6506b89",
+    "usuario_id": "68af8b8e085ce9415b1e8c97",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af8f21e9008032fdf85993",
+    "usuario_id": "68af8b8f085ce9415b1e8c9e",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af8f76a16386a702855f76",
+    "usuario_id": "68af8b8f085ce9415b1e8ca5",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af8fc0a16386a702855f88",
+    "usuario_id": "68af8b90085ce9415b1e8cac",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af8ff95fe64aac2783be4c",
+    "usuario_id": "68af8b91085ce9415b1e8cb3",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af9028e9008032fdf859ab",
+    "usuario_id": "68af8b91085ce9415b1e8cba",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af9065a16386a702855f95",
+    "usuario_id": "68af8b92085ce9415b1e8cc1",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68af90b0e9008032fdf859b8",
+    "usuario_id": "68af8b93085ce9415b1e8cc8",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68afa7afefa60f47157ca588",
+    "usuario_id": "68acbdd59850e21d66d9db70",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b0e2b1e2d58590e0ad804e",
+    "usuario_id": "68b0dfee7d6ba5ca9298bdcd",
+    "saldo": 1500,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b0e2f2703836c04047bcad",
+    "usuario_id": "68b0dfef7d6ba5ca9298bdd4",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b0e320926263e274097da6",
+    "usuario_id": "68b0dff07d6ba5ca9298bddb",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b0e3497d6ba5ca9298be44",
+    "usuario_id": "68b0e2367d6ba5ca9298be26",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b0e88a2c9ec2d0e1712a86",
+    "usuario_id": "68b0e84bed84de6dce144c7f",
+    "saldo": 2000,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b0e8dc5531cb1c12208d72",
+    "usuario_id": "68b0e84ded84de6dce144c86",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b0e9072c9ec2d0e1712a92",
+    "usuario_id": "68b0e84ded84de6dce144c8d",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b0e93cbe0f523ae23e82ac",
+    "usuario_id": "68b0e84eed84de6dce144c94",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b0e97abe0f523ae23e82b3",
+    "usuario_id": "68b0e84fed84de6dce144c9b",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b103cba1ffc0a1cca0ac65",
+    "usuario_id": "68b102ef34f862642be3feee",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b3384815f7c95dfea10cec",
+    "usuario_id": "68b336c0b53711bb4d706209",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b33921b53711bb4d706265",
+    "usuario_id": "68b336c2b53711bb4d706211",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b355a2dd014f96bf055c26",
+    "usuario_id": "68b336c54778962d5ecbb6ee",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b355cedd014f96bf055c3a",
+    "usuario_id": "68b336c7b53711bb4d70621d",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b355fedd014f96bf055c4f",
+    "usuario_id": "68b336c8b53711bb4d706224",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b3563891d41307d8b7773b",
+    "usuario_id": "68b336c94778962d5ecbb6ff",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b356af91d41307d8b77751",
+    "usuario_id": "68b336cbb53711bb4d706237",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b356e6dd3662580cf80790",
+    "usuario_id": "68b336ccb53711bb4d70623e",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b3570edd3662580cf8079e",
+    "usuario_id": "68b336cdb53711bb4d706245",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b35739dd3662580cf807aa",
+    "usuario_id": "68b336cab53711bb4d706230",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b4f34152a7bc6c4b83e7fa",
+    "usuario_id": "68b4f21fa24699d54a760171",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b4f7e669aa2197e8b1864b",
+    "usuario_id": "689f6322d25574ed1eedbd8d",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b5001142e637cd0763aa80",
+    "usuario_id": "68b361189828004984e96ff0",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b50766397a65d1b2ee16a7",
+    "usuario_id": "68b5034a42e637cd0763aaa8",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b50aa3d4677400618c0c76",
+    "usuario_id": "689f63280d4a62b271058075",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b50fafdff2d2d278ffb766",
+    "usuario_id": "689f77024f499ab43ff00d47",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b5125254d207644a67de39",
+    "usuario_id": "68b5120e53ad37d18e651c6a",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b51eccaa824f9b52dfb3d1",
+    "usuario_id": "68b51558d4677400618c0d65",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b51f58d074557d8bf908ff",
+    "usuario_id": "68b516ed53ad37d18e651cd6",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b521a22bd49f4abb9ca36a",
+    "usuario_id": "68b5183f53ad37d18e651cde",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b522522bd49f4abb9ca37b",
+    "usuario_id": "68b51ccd20439f2362c46443",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b522bf7505f61edb0aef4d",
+    "usuario_id": "68b51aa4cd2884f9f77b39c6",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b52335d074557d8bf90954",
+    "usuario_id": "68b51bac53ad37d18e651cee",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b5239b7505f61edb0aef63",
+    "usuario_id": "68b5197953ad37d18e651ce5",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  },
+  {
+    "_id": "68b52410d074557d8bf90987",
+    "usuario_id": "68b51dfed074557d8bf908eb",
+    "saldo": 0,
+    "activa": true,
+    "__v": 0
+  }
+]
