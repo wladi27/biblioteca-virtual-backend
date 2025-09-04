@@ -3,12 +3,12 @@ require('dotenv').config(); // Para leer variables de entorno desde un archivo .
 
 // 1. Configura tus cadenas de conexión
 // Es una mejor práctica usar variables de entorno para las credenciales.
-const sourceUri = process.env.SOURCE_MONGO_URI || "mongodb+srv://wladimir:W27330449@mls.s2hdk.mongodb.net/";
-const destUri = process.env.DEST_MONGO_URI || "mongodb://wladi:Wladi.0127!@72.60.70.200:27000";
+const sourceUri = process.env.SOURCE_MONGO_URI || "mongodb://wladi:Wladi.0127!@72.60.70.200:27000";
+const destUri = process.env.DEST_MONGO_URI || "mongodb+srv://wladimir:W27330449@mls.s2hdk.mongodb.net/";
 
 // 2. Nombres de las bases de datos
-const sourceDBName = 'test';
-const destDBName = 'biblioteca_db'; // Puede ser el mismo o uno nuevo
+const sourceDBName = 'biblioteca_db';
+const destDBName = 'test'; // Puede ser el mismo o uno nuevo
 
 async function migrate() {
   if (!sourceUri || !destUri) {

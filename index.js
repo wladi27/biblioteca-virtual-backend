@@ -3,6 +3,7 @@ const connectDB = require('./config/db');
 const cors = require('cors'); 
 const seedNiveles = require('./seed/seedNiveles');
 const seedUsuarios = require('./seed/seedUsuarios'); // Importar seedUsuarios
+const seedDolar = require('./seed/seedDolar');
 const authRoutes = require('./routes/auth'); 
 const referralCodesRoutes = require('./routes/referralCodes');
 const usuariosRouter = require('./routes/usuarios');
@@ -28,6 +29,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 connectDB();
+seedDolar();
 
 // Configuración de CORS para permitir todos los dominios
 app.use(cors({
@@ -58,6 +60,7 @@ app.use('/api/billetera', billeteraRoutes);
 app.use('/api/transacciones', transaccionRoutes);
 app.use('/api/usuario', require('./routes/usuarioRoutes')); // <--- Agrega esta línea
 app.use('/api/referralRequests', require('./routes/referralRequestRoutes'));
+app.use('/api/dolar', require('./routes/dolarRoutes'));
 
 // Manejo de errores
 app.use((err, req, res, next) => {

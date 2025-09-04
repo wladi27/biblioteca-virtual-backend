@@ -3,10 +3,14 @@ const {
   crearSolicitud,
   listarSolicitudesRecibidas,
   listarSolicitudesEnviadas,
-  cambiarEstado
+  cambiarEstado,
+  listarTodasLasSolicitudes
 } = require('../controllers/referralRequestController');
 
 const router = express.Router();
+
+// Obtener todas las solicitudes
+router.get('/', listarTodasLasSolicitudes);
 
 // Crear solicitud de referido
 router.post('/', crearSolicitud);

@@ -1,19 +1,32 @@
 const mongoose = require('mongoose');
 const ReferralRequest = require('../models/referralRequest');
+const Usuario = require('../models/usuario');
+const connectDB = require('../config/db');
 
-// Cambia la URI por la de tu base de datos si es necesario
-const MONGODB_URI = 'mongodb+srv://wladimir:W27330449@mls.s2hdk.mongodb.net/?retryWrites=true&w=majority&appName=mls';
-
-async function deleteAllReferralRequests() {
+const deleteAllReferralRequests = async () => {
   try {
-    await mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true });
-    const result = await ReferralRequest.deleteMany({});
-    console.log(`Eliminados ${result.deletedCount} registros de referidos directos.`);
-    await mongoose.disconnect();
-  } catch (error) {
-    console.error('Error al eliminar registros:', error);
-    process.exit(1);
+    await connectDB();
+    
+    // Eliminar todas las solicitudes de referido
+    const deleteResult = await ReferralRequest.deleteMany({});
+    console.log(`Se eliminaron ${deleteResult.deletedCount} solicitudes de referido.`);
+
+    // Resetear los campos de referido en todos los usuarios
+    const updateResult = await Usuario.updateMany({}, {
+      $set: {
+        padre_id: null,
+        hijo1_id: null,
+        hijo2_id: null,
+        hijo3_id: null
+      }
+    });
+    console.log(`Se actualizaron ${updateResult.nModified} usuarios para resetear los campos de referido.`);
+
+    mongoose.connection.close();
+  } catch (err) {
+    console.error('Error al procesar las solicitudes de referido y usuarios:', err);
+    mongoose.connection.close();
   }
-}
+};
 
 deleteAllReferralRequests();
