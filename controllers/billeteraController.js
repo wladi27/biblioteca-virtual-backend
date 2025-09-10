@@ -250,13 +250,19 @@ exports.recargaGeneral = async (req, res) => {
 // Recargar billetera por referido directo
 exports.recargarPorReferidoDirecto = async (req, res) => {
   try {
-    const { usuarioId } = req.body; // ID del usuario que recibe el pago por referido
+    const { usuarioId, nivel } = req.body; // ID del usuario que recibe el pago y el nivel del referido
 
     if (!usuarioId) {
       return res.status(400).json({ mensaje: 'El ID del usuario es requerido' });
     }
 
-    const monto = 500;
+    // Validar que el nivel sea un número
+    if (nivel === undefined || nivel === null || isNaN(parseInt(nivel))) {
+      return res.status(400).json({ mensaje: 'El nivel es requerido y debe ser un número' });
+    }
+
+    // Determinar el monto basado en el nivel
+    const monto = parseInt(nivel) >= 1792 ? 1400 : 500;
 
     const billetera = await Billetera.findOne({ usuario_id: usuarioId });
 
@@ -271,7 +277,7 @@ exports.recargarPorReferidoDirecto = async (req, res) => {
       usuario_id: usuarioId,
       tipo: 'recarga',
       monto: monto,
-      descripcion: 'Pago por referido directo',
+      descripcion: `Pago por referido directo de ${monto}`,
     });
     await nuevaTransaccion.save();
 
