@@ -1,5 +1,6 @@
 const ReferralRequest = require('../models/referralRequest');
 const Usuario = require('../models/usuario');
+const Aporte = require('../models/aporteModel');
 
 // Crear solicitud de referido
 exports.crearSolicitud = async (req, res) => {
@@ -96,6 +97,13 @@ exports.cambiarEstado = async (req, res) => {
 
     if (solicitud.estado !== 'pendiente') {
         return res.status(400).json({ message: `Esta solicitud ya fue ${solicitud.estado}.` });
+    }
+
+    if (estado === 'aceptado') {
+      const aporte = await Aporte.findOne({ usuarioId: solicitud.referido_id, aporte: true });
+      if (!aporte) {
+        return res.status(400).json({ message: 'Debes realizar el aporte para aceptar la solicitud.' });
+      }
     }
 
     solicitud.estado = estado;
