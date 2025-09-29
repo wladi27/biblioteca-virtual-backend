@@ -5,7 +5,8 @@ const {
   listarSolicitudesRecibidas,
   listarSolicitudesEnviadas,
   cambiarEstado,
-  listarTodasLasSolicitudes
+  listarTodasLasSolicitudes,
+  aceptarTodasLasSolicitudes
 } = require('../controllers/referralRequestController');
 
 const router = express.Router();
@@ -27,5 +28,8 @@ router.patch('/:id', cambiarEstado);
 
 // Crear solicitud de referido desde el referido hacia el patrocinador
 router.post('/from-referred', crearSolicitudDesdeReferido);
+
+// Aceptar todas las solicitudes pendientes
+router.post('/aceptar-todas', aceptarTodasLasSolicitudes);
 
 module.exports = router;

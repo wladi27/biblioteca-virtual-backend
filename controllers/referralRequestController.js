@@ -198,3 +198,81 @@ exports.listarTodasLasSolicitudes = async (req, res) => {
     res.status(500).json({ message: 'Error al obtener todas las solicitudes', error: error.message });
   }
 };
+
+// Aceptar todas las solicitudes pendientes que cumplan con las condiciones
+exports.aceptarTodasLasSolicitudes = async (req, res) => {
+  const { userId } = req.body;
+
+  if (!userId) {
+    return res.status(400).json({ message: 'El ID del usuario es requerido.' });
+  }
+
+  try {
+    // Busca todas las solicitudes pendientes para el usuario actual (que es el referido_id)
+    const solicitudesPendientes = await ReferralRequest.find({
+      referido_id: userId,
+      estado: 'pendiente'
+    }).populate('solicitante_id', 'nivel');
+
+    if (solicitudesPendientes.length === 0) {
+      return res.status(200).json({ message: 'No hay solicitudes pendientes para procesar.' });
+    }
+
+    const resultados = {
+      aceptadas: [],
+      fallidas: []
+    };
+
+    for (const solicitud of solicitudesPendientes) {
+      let userIdForAporteCheck;
+      let referrerUserIdForRecarga;
+      let referredUserLevel;
+
+      // Determinar el referido y el referente basado en el tipo de solicitud
+      if (solicitud.requestType === 'referred_initiated') {
+        userIdForAporteCheck = solicitud.solicitante_id._id;
+        referrerUserIdForRecarga = solicitud.referido_id;
+      } else {
+        userIdForAporteCheck = solicitud.referido_id;
+        referrerUserIdForRecarga = solicitud.solicitante_id._id;
+      }
+      
+      // Verificar si el usuario referido ha hecho el aporte
+      const aporte = await Aporte.findOne({ usuarioId: userIdForAporteCheck, aporte: true });
+
+      if (aporte) {
+        // Si el aporte existe, aceptar la solicitud
+        solicitud.estado = 'aceptado';
+        await solicitud.save();
+
+        // Obtener el nivel del usuario que hizo el aporte
+        const referredUser = await Usuario.findById(userIdForAporteCheck);
+        referredUserLevel = referredUser.nivel;
+
+        // Aquí se podría llamar a la lógica de recarga/comisión
+        // Por simplicidad, solo se cambia el estado y se añade a la lista de aceptadas
+        // La lógica de recarga se manejará en el frontend para consistencia
+        resultados.aceptadas.push({
+          solicitudId: solicitud._id,
+          referredUserId: userIdForAporteCheck,
+          referredUserLevel: referredUserLevel,
+          referrerUserId: referrerUserIdForRecarga
+        });
+      } else {
+        // Si no hay aporte, se añade a la lista de fallidas
+        resultados.fallidas.push({
+          solicitudId: solicitud._id,
+          reason: 'El usuario referido no ha realizado el aporte.'
+        });
+      }
+    }
+
+    res.status(200).json({
+      message: `Proceso completado. Aceptadas: ${resultados.aceptadas.length}. Fallidas: ${resultados.fallidas.length}.`,
+      resultados
+    });
+
+  } catch (error) {
+    res.status(500).json({ message: 'Error al procesar las solicitudes.', error: error.message });
+  }
+};
