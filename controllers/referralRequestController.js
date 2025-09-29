@@ -50,10 +50,71 @@ exports.crearSolicitud = async (req, res) => {
         current_id = request ? request.solicitante_id : null;
     }
 
-    const solicitud = await ReferralRequest.create({ solicitante_id, referido_id });
+    const solicitud = await ReferralRequest.create({ solicitante_id, referido_id, requestType: 'referrer_initiated' });
     res.status(201).json({ message: 'Solicitud de referido creada con éxito.', solicitud });
   } catch (error) {
     res.status(500).json({ message: 'Error al crear la solicitud de referido.', error: error.message });
+  }
+};
+
+// Crear solicitud de referido desde el referido hacia el patrocinador
+exports.crearSolicitudDesdeReferido = async (req, res) => {
+  try {
+    const { solicitante_id, patrocinador_id } = req.body; // solicitante_id es el referido, patrocinador_id es el patrocinador
+
+    // No puedes referirte a ti mismo
+    if (solicitante_id === patrocinador_id) {
+      return res.status(400).json({ message: 'No puedes referirte a ti mismo.' });
+    }
+
+    // Verifica que ambos usuarios existan
+    const solicitante = await Usuario.findById(solicitante_id); // Este es el referido
+    const patrocinador = await Usuario.findById(patrocinador_id); // Este es el patrocinador
+
+    if (!solicitante || !patrocinador) {
+      return res.status(404).json({ message: 'Usuario (patrocinador o referido) no encontrado.' });
+    }
+
+    // Un usuario (solicitante_id) solo puede ser referido por una persona (solicitud aceptada)
+    // En este flujo, el solicitante_id es el referido, por lo que verificamos si ya tiene un patrocinador aceptado
+    const existingAcceptedRequestForReferred = await ReferralRequest.findOne({
+        solicitante_id, // El referido ya tiene un patrocinador aceptado
+        estado: 'aceptado'
+    });
+
+    if (existingAcceptedRequestForReferred) {
+        return res.status(400).json({ message: 'Ya tienes un patrocinador asignado.' });
+    }
+
+    // Un usuario (solicitante_id) no puede tener multiples solicitudes pendientes
+    const existingPendingRequestForReferred = await ReferralRequest.findOne({
+        solicitante_id, // El referido ya tiene una solicitud pendiente
+        estado: 'pendiente'
+    });
+
+    if (existingPendingRequestForReferred) {
+        return res.status(400).json({ message: 'Ya tienes una solicitud de patrocinio pendiente.' });
+    }
+
+    // Prevenir referencias circulares (el patrocinador no puede ser un referido del solicitante)
+    let current_id = patrocinador_id;
+    while (current_id) {
+        if (current_id.toString() === solicitante_id.toString()) {
+            return res.status(400).json({ message: 'No puedes solicitar patrocinio a alguien que ya es tu referido (referencia circular detectada).' });
+        }
+        // Buscamos si el current_id es referido por alguien
+        const request = await ReferralRequest.findOne({ referido_id: current_id, estado: 'aceptado' });
+        current_id = request ? request.solicitante_id : null;
+    }
+
+    const solicitud = await ReferralRequest.create({
+      solicitante_id: solicitante_id, // El referido
+      referido_id: patrocinador_id, // El patrocinador
+      requestType: 'referred_initiated'
+    });
+    res.status(201).json({ message: 'Solicitud de patrocinio creada con éxito.', solicitud });
+  } catch (error) {
+    res.status(500).json({ message: 'Error al crear la solicitud de patrocinio.', error: error.message });
   }
 };
 
@@ -100,9 +161,18 @@ exports.cambiarEstado = async (req, res) => {
     }
 
     if (estado === 'aceptado') {
-      const aporte = await Aporte.findOne({ usuarioId: solicitud.referido_id, aporte: true });
+      let userIdForAporteCheck;
+      if (solicitud.requestType === 'referred_initiated') {
+        // Si la solicitud fue iniciada por el referido, el aporte debe ser del solicitante_id (el referido)
+        userIdForAporteCheck = solicitud.solicitante_id;
+      } else {
+        // Si la solicitud fue iniciada por el referente, el aporte debe ser del referido_id (el referido)
+        userIdForAporteCheck = solicitud.referido_id;
+      }
+
+      const aporte = await Aporte.findOne({ usuarioId: userIdForAporteCheck, aporte: true });
       if (!aporte) {
-        return res.status(400).json({ message: 'Debes realizar el aporte para aceptar la solicitud.' });
+        return res.status(400).json({ message: 'El usuario referido debe haber realizado el aporte para aceptar la solicitud.' });
       }
     }
 

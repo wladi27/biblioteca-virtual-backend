@@ -22,6 +22,11 @@ const referralRequestSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
     index: true
+  },
+  requestType: {
+    type: String,
+    enum: ['referrer_initiated', 'referred_initiated'],
+    default: 'referrer_initiated'
   }
 });
 

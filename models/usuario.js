@@ -15,10 +15,12 @@ const usuarioSchema = new mongoose.Schema({
   codigo_referido: { type: String }, // Campo opcional
   padre_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null, index: true }, // Indexado
   nivel: { type: Number, default: 1, index: true }, // Indexado
+  nivel_piramide: { type: Number, default: 0 },
   hijo1_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null, index: true }, // Indexado
   hijo2_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null, index: true }, // Indexado
   hijo3_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null, index: true }, // Indexado
   token: { type: String },
+  pais: { type: String },
 });
 
 // Encriptar la contraseña antes de guardar
