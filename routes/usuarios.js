@@ -5,6 +5,10 @@ const usuarioController = require('../controllers/usuarioController');
 // Rutas para usuarios
 router.post('/', usuarioController.agregarUsuario);
 router.get('/', usuarioController.obtenerUsuarios);
+
+// Ruta para buscar usuarios (debe ir antes de las rutas con parámetros como /:usuario_id)
+router.get('/search', usuarioController.searchUsuarios);
+
 router.get('/:usuario_id', usuarioController.obtenerUsuarioPorId);
 router.delete('/:usuario_id', usuarioController.eliminarUsuario);
 

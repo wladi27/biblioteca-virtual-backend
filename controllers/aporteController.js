@@ -74,10 +74,46 @@ const eliminarAporte = async (req, res) => {
     }
 };
 
+// Obtener aportes por usuarioId
+const obtenerAportesPorUsuario = async (req, res) => {
+    const { usuarioId } = req.params;
+    try {
+        const aportes = await Aporte.find({ usuarioId: usuarioId, aporte: false }); // Solo los no validados
+        res.status(200).json(aportes);
+    } catch (error) {
+        res.status(500).json({ error: 'Error al obtener los aportes del usuario' });
+    }
+};
+
+// Validar todos los aportes de un usuario
+const validarAportesMasivamente = async (req, res) => {
+    const { usuarioId } = req.body;
+    if (!usuarioId) {
+        return res.status(400).json({ error: 'El ID del usuario es requerido' });
+    }
+
+    try {
+        const result = await Aporte.updateMany(
+            { usuarioId: usuarioId, aporte: false },
+            { $set: { aporte: true } }
+        );
+
+        if (result.nModified === 0) {
+            return res.status(404).json({ message: 'No se encontraron aportes pendientes para este usuario.' });
+        }
+
+        res.status(200).json({ message: `${result.nModified} aportes han sido validados.` });
+    } catch (error) {
+        res.status(500).json({ error: 'Error al validar los aportes masivamente' });
+    }
+};
+
 module.exports = {
     crearAporte,
     obtenerAportes,
     obtenerAportePorId,
     actualizarAporte,
-    eliminarAporte
+    eliminarAporte,
+    obtenerAportesPorUsuario,
+    validarAportesMasivamente
 };
