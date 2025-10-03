@@ -481,11 +481,12 @@ const searchUsuarios = async (req, res) => {
       return res.status(400).json({ message: 'Query parameter is required' });
     }
 
+    // DEBUGGING: Exact match search
     const usuarios = await Usuario.find({
       $or: [
-        { nombre_usuario: { $regex: query, $options: 'i' } },
-        { nombre_completo: { $regex: query, $options: 'i' } },
-        { correo_electronico: { $regex: query, $options: 'i' } }
+        { nombre_usuario: query },
+        { nombre_completo: query },
+        { correo_electronico: query }
       ]
     }).select('nombre_usuario nombre_completo correo_electronico');
 
