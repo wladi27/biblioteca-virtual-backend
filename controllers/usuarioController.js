@@ -474,6 +474,27 @@ const editarUsuario = async (req, res) => {
   }
 };
 
+const searchUsuarios = async (req, res) => {
+  try {
+    const { query } = req.query;
+    if (!query) {
+      return res.status(400).json({ message: 'Query parameter is required' });
+    }
+
+    const usuarios = await Usuario.find({
+      $or: [
+        { nombre_usuario: { $regex: query, $options: 'i' } },
+        { nombre_completo: { $regex: query, $options: 'i' } },
+        { correo_electronico: { $regex: query, $options: 'i' } }
+      ]
+    }).select('nombre_usuario nombre_completo correo_electronico');
+
+    res.json(usuarios);
+  } catch (error) {
+    res.status(500).json({ message: 'Error searching for users', error: error.message });
+  }
+};
+
 module.exports = {
   agregarUsuario,
   obtenerUsuarios,
@@ -485,4 +506,5 @@ module.exports = {
   obtenerPiramideParaRed,  
   obtenerPiramideCompleta,
   editarUsuario,
+  searchUsuarios,
 };

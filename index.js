@@ -47,7 +47,7 @@ app.get('/', (req, res) => {
 });
 
 // Rutas de la API
-app.use('/usuarios', usuariosRouter);
+app.use('/api/usuarios', usuariosRouter);
 app.use('/api/referralCodes', referralCodesRoutes);
 app.use('/niveles', require('./routes/niveles'));
 app.use('/auth', authRoutes);
@@ -58,7 +58,6 @@ app.use('/api/publicaciones', publicacionRoutes);
 app.use('/api/tusuarios', tusersRoutes);
 app.use('/api/billetera', billeteraRoutes);
 app.use('/api/transacciones', transaccionRoutes);
-app.use('/api/usuario', require('./routes/usuarioRoutes')); // <--- Agrega esta línea
 app.use('/api/referralRequests', require('./routes/referralRequestRoutes'));
 app.use('/api/dolar', require('./routes/dolarRoutes'));
 

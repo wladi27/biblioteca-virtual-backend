@@ -1,0 +1,168 @@
+Script started on 2025-09-29 15:07:26-04:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="155" LINES="9"]
+[?2004h]0;hp@hp-HP-Laptop-14-bs0xx: ~/Escritorio/mls/biblioteca-virtual-backend[01;32mhp@hp-HP-Laptop-14-bs0xx[00m:[01;34m~/Escritorio/mls/biblioteca-virtual-backend[00m$ cd scripts/
+[?2004l[?2004h]0;hp@hp-HP-Laptop-14-bs0xx: ~/Escritorio/mls/biblioteca-virtual-backend/scripts[01;32mhp@hp-HP-Laptop-14-bs0xx[00m:[01;34m~/Escritorio/mls/biblioteca-virtual-backend/scripts[00m$ nodoe [K[K[Ke ec[K[K[K[K[K[K[Kls
+[?2004lbackupUsuarios.js             deleteRecargaReferidoTransactions.js  exportarUsuarios.js               insertarAportes.js   reparacion.log
+deleteAllReferralRequests.js  encontrarPatrocinadoresActivos.js     importarUsuariosConReparacion.js  insertarUsuarios.js  repararPiramide.js
+[?2004h]0;hp@hp-HP-Laptop-14-bs0xx: ~/Escritorio/mls/biblioteca-virtual-backend/scripts[01;32mhp@hp-HP-Laptop-14-bs0xx[00m:[01;34m~/Escritorio/mls/biblioteca-virtual-backend/scripts[00m$ node  [K[7mencontrarPatrocinadoresActivos.js[27mencontrarPatrocinadoresActivos.js
+[?2004lConectando a: [90mundefined[39m
+Error de conexión a MongoDB: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (/home/hp/Escritorio/mls/biblioteca-virtual-backend/node_modules/[4mmongoose[24m/lib/drivers/node-mongodb-native/connection.js:225:11)
+    at NativeConnection.openUri (/home/hp/Escritorio/mls/biblioteca-virtual-backend/node_modules/[4mmongoose[24m/lib/connection.js:1016:34)
+    at Mongoose.connect (/home/hp/Escritorio/mls/biblioteca-virtual-backend/node_modules/[4mmongoose[24m/lib/mongoose.js:446:15)
+    at connectDB (/home/hp/Escritorio/mls/biblioteca-virtual-backend/config/db.js:7:20)
+    at encontrarPatrocinadoresActivos [90m(/home/hp/Escritorio/mls/biblioteca-virtual-backend/scripts/[39mencontrarPatrocinadoresActivos.js:9:11[90m)[39m
+    at Object.<anonymous> [90m(/home/hp/Escritorio/mls/biblioteca-virtual-backend/scripts/[39mencontrarPatrocinadoresActivos.js:76:1[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1706:14)[39m
+[90m    at Object..js (node:internal/modules/cjs/loader:1839:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1441:32)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1263:12)[39m
+Ocurrió un error al ejecutar el script: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (/home/hp/Escritorio/mls/biblioteca-virtual-backend/node_modules/[4mmongoose[24m/lib/drivers/node-mongodb-native/connection.js:225:11)
+    at NativeConnection.openUri (/home/hp/Escritorio/mls/biblioteca-virtual-backend/node_modules/[4mmongoose[24m/lib/connection.js:1016:34)
+    at Mongoose.connect (/home/hp/Escritorio/mls/biblioteca-virtual-backend/node_modules/[4mmongoose[24m/lib/mongoose.js:446:15)
+    at connectDB (/home/hp/Escritorio/mls/biblioteca-virtual-backend/config/db.js:7:20)
+    at encontrarPatrocinadoresActivos [90m(/home/hp/Escritorio/mls/biblioteca-virtual-backend/scripts/[39mencontrarPatrocinadoresActivos.js:9:11[90m)[39m
+    at Object.<anonymous> [90m(/home/hp/Escritorio/mls/biblioteca-virtual-backend/scripts/[39mencontrarPatrocinadoresActivos.js:76:1[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1706:14)[39m
+[90m    at Object..js (node:internal/modules/cjs/loader:1839:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1441:32)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1263:12)[39m
+[?2004h]0;hp@hp-HP-Laptop-14-bs0xx: ~/Escritorio/mls/biblioteca-virtual-backend/scripts[01;32mhp@hp-HP-Laptop-14-bs0xx[00m:[01;34m~/Escritorio/mls/biblioteca-virtual-backend/scripts[00m$ [K]0;hp@hp-HP-Laptop-14-bs0xx: ~/Escritorio/mls/biblioteca-virtual-backend/scripts[01;32mhp@hp-HP-Laptop-14-bs0xx[00m:[01;34m~/Escritorio/mls/biblioteca-virtual-backend/scripts[00m$ [K]0;hp@hp-HP-Laptop-14-bs0xx: ~/Escritorio/mls/biblioteca-virtual-backend/scripts[01;32mhp@hp-HP-Laptop-14-bs0xx[00m:[01;34m~/Escritorio/mls/biblioteca-virtual-backend/scripts[00m$ [K]0;hp@hp-HP-Laptop-14-bs0xx: ~/Escritorio/mls/biblioteca-virtual-backend/scripts[01;32mhp@hp-HP-Laptop-14-bs0xx[00m:[01;34m~/Escritorio/mls/biblioteca-virtual-backend/scripts[00m$ [K]0;hp@hp-HP-Laptop-14-bs0xx: ~/Escritorio/mls/biblioteca-virtual-backend/scripts[01;32mhp@hp-HP-Laptop-14-bs0xx[00m:[01;34m~/Escritorio/mls/biblioteca-virtual-backend/scripts[00m$ node encontrarPatrocinadoresActivos.js
+[?2004lConectando a: [90mundefined[39m
+Error de conexión a MongoDB: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (/home/hp/Escritorio/mls/biblioteca-virtual-backend/node_modules/[4mmongoose[24m/lib/drivers/node-mongodb-native/connection.js:225:11)
+    at NativeConnection.openUri (/home/hp/Escritorio/mls/biblioteca-virtual-backend/node_modules/[4mmongoose[24m/lib/connection.js:1016:34)
+    at Mongoose.connect (/home/hp/Escritorio/mls/biblioteca-virtual-backend/node_modules/[4mmongoose[24m/lib/mongoose.js:446:15)
+    at connectDB (/home/hp/Escritorio/mls/biblioteca-virtual-backend/config/db.js:7:20)
+    at encontrarPatrocinadoresActivos [90m(/home/hp/Escritorio/mls/biblioteca-virtual-backend/scripts/[39mencontrarPatrocinadoresActivos.js:9:11[90m)[39m
+    at Object.<anonymous> [90m(/home/hp/Escritorio/mls/biblioteca-virtual-backend/scripts/[39mencontrarPatrocinadoresActivos.js:76:1[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1706:14)[39m
+[90m    at Object..js (node:internal/modules/cjs/loader:1839:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1441:32)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1263:12)[39m
+Ocurrió un error al ejecutar el script: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (/home/hp/Escritorio/mls/biblioteca-virtual-backend/node_modules/[4mmongoose[24m/lib/drivers/node-mongodb-native/connection.js:225:11)
+    at NativeConnection.openUri (/home/hp/Escritorio/mls/biblioteca-virtual-backend/node_modules/[4mmongoose[24m/lib/connection.js:1016:34)
+    at Mongoose.connect (/home/hp/Escritorio/mls/biblioteca-virtual-backend/node_modules/[4mmongoose[24m/lib/mongoose.js:446:15)
+    at connectDB (/home/hp/Escritorio/mls/biblioteca-virtual-backend/config/db.js:7:20)
+    at encontrarPatrocinadoresActivos [90m(/home/hp/Escritorio/mls/biblioteca-virtual-backend/scripts/[39mencontrarPatrocinadoresActivos.js:9:11[90m)[39m
+    at Object.<anonymous> [90m(/home/hp/Escritorio/mls/biblioteca-virtual-backend/scripts/[39mencontrarPatrocinadoresActivos.js:76:1[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1706:14)[39m
+[90m    at Object..js (node:internal/modules/cjs/loader:1839:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1441:32)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1263:12)[39m
+[?2004h]0;hp@hp-HP-Laptop-14-bs0xx: ~/Escritorio/mls/biblioteca-virtual-backend/scripts[01;32mhp@hp-HP-Laptop-14-bs0xx[00m:[01;34m~/Escritorio/mls/biblioteca-virtual-backend/scripts[00m$ node encontrarPatrocinadoresActivos.jsls[Knode encontrarPatrocinadoresActivos.js[Knode encontrarPatrocinadoresActivos.js
+[?2004lConectando a: [90mundefined[39m
+Error de conexión a MongoDB: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (/home/hp/Escritorio/mls/biblioteca-virtual-backend/node_modules/[4mmongoose[24m/lib/drivers/node-mongodb-native/connection.js:225:11)
+    at NativeConnection.openUri (/home/hp/Escritorio/mls/biblioteca-virtual-backend/node_modules/[4mmongoose[24m/lib/connection.js:1016:34)
+    at Mongoose.connect (/home/hp/Escritorio/mls/biblioteca-virtual-backend/node_modules/[4mmongoose[24m/lib/mongoose.js:446:15)
+    at connectDB (/home/hp/Escritorio/mls/biblioteca-virtual-backend/config/db.js:7:20)
+    at encontrarPatrocinadoresActivos [90m(/home/hp/Escritorio/mls/biblioteca-virtual-backend/scripts/[39mencontrarPatrocinadoresActivos.js:8:11[90m)[39m
+    at Object.<anonymous> [90m(/home/hp/Escritorio/mls/biblioteca-virtual-backend/scripts/[39mencontrarPatrocinadoresActivos.js:88:1[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1706:14)[39m
+[90m    at Object..js (node:internal/modules/cjs/loader:1839:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1441:32)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1263:12)[39m
+Ocurrió un error al ejecutar el script: MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+    at NativeConnection.createClient (/home/hp/Escritorio/mls/biblioteca-virtual-backend/node_modules/[4mmongoose[24m/lib/drivers/node-mongodb-native/connection.js:225:11)
+    at NativeConnection.openUri (/home/hp/Escritorio/mls/biblioteca-virtual-backend/node_modules/[4mmongoose[24m/lib/connection.js:1016:34)
+    at Mongoose.connect (/home/hp/Escritorio/mls/biblioteca-virtual-backend/node_modules/[4mmongoose[24m/lib/mongoose.js:446:15)
+    at connectDB (/home/hp/Escritorio/mls/biblioteca-virtual-backend/config/db.js:7:20)
+    at encontrarPatrocinadoresActivos [90m(/home/hp/Escritorio/mls/biblioteca-virtual-backend/scripts/[39mencontrarPatrocinadoresActivos.js:8:11[90m)[39m
+    at Object.<anonymous> [90m(/home/hp/Escritorio/mls/biblioteca-virtual-backend/scripts/[39mencontrarPatrocinadoresActivos.js:88:1[90m)[39m
+[90m    at Module._compile (node:internal/modules/cjs/loader:1706:14)[39m
+[90m    at Object..js (node:internal/modules/cjs/loader:1839:10)[39m
+[90m    at Module.load (node:internal/modules/cjs/loader:1441:32)[39m
+[90m    at Function._load (node:internal/modules/cjs/loader:1263:12)[39m
+[?2004h]0;hp@hp-HP-Laptop-14-bs0xx: ~/Escritorio/mls/biblioteca-virtual-backend/scripts[01;32mhp@hp-HP-Laptop-14-bs0xx[00m:[01;34m~/Escritorio/mls/biblioteca-virtual-backend/scripts[00m$ cls
+[?2004lOrden «cls» no encontrada, pero hay 20 similares.
+[?2004h]0;hp@hp-HP-Laptop-14-bs0xx: ~/Escritorio/mls/biblioteca-virtual-backend/scripts[01;32mhp@hp-HP-Laptop-14-bs0xx[00m:[01;34m~/Escritorio/mls/biblioteca-virtual-backend/scripts[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;hp@hp-HP-Laptop-14-bs0xx: ~/Escritorio/mls/biblioteca-virtual-backend/scripts[01;32mhp@hp-HP-Laptop-14-bs0xx[00m:[01;34m~/Escritorio/mls/biblioteca-virtual-backend/scripts[00m$ clear[2Psnode encontrarPatrocinadoresActivos.js
+[?2004l❌ Error conectando a MongoDB: Invalid scheme, expected connection string to start with "mongodb://" or "mongodb+srv://"
+[?2004h]0;hp@hp-HP-Laptop-14-bs0xx: ~/Escritorio/mls/biblioteca-virtual-backend/scripts[01;32mhp@hp-HP-Laptop-14-bs0xx[00m:[01;34m~/Escritorio/mls/biblioteca-virtual-backend/scripts[00m$ node encontrarPatrocinadoresActivos.js
+[?2004l(node:81514) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:81514) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+✅ Conectado a MongoDB
+💥 Error ejecutando el script: MissingSchemaError: Schema hasn't been registered for model "ReferralRequest".
+Use mongoose.model(name, schema)
+    at Mongoose.model (/home/hp/Escritorio/mls/biblioteca-virtual-backend/node_modules/[4mmongoose[24m/lib/mongoose.js:573:13)
+    at encontrarPatrocinadoresActivos [90m(/home/hp/Escritorio/mls/biblioteca-virtual-backend/scripts/[39mencontrarPatrocinadoresActivos.js:25:38[90m)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+
+🔌 Conexión cerrada
+[?2004h]0;hp@hp-HP-Laptop-14-bs0xx: ~/Escritorio/mls/biblioteca-virtual-backend/scripts[01;32mhp@hp-HP-Laptop-14-bs0xx[00m:[01;34m~/Escritorio/mls/biblioteca-virtual-backend/scripts[00m$ node encontrarPatrocinadoresActivos.js
+[?2004l(node:81883) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:81883) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+✅ Conectado a MongoDB
+
+📊 Buscando patrocinadores con 12+ referidos entre 1/9/2025 y 30/9/2025
+Total de referidos en el mes: 370
+
+🔍 Resultados de la agregación: [
+  {
+    "_id": "68991bd107d8bf3ac2a2c5b9",
+    "conteoReferidos": 33,
+    "primerRegistro": null
+  },
+  {
+    "_id": "687d7e785c65c257183ddc1d",
+    "conteoReferidos": 33,
+    "primerRegistro": null
+  },
+  {
+    "_id": "689a5afc26b9db7c8afd8608",
+    "conteoReferidos": 24,
+    "primerRegistro": null
+  },
+  {
+    "_id": "68acc80f899bb4257e4bc18d",
+    "conteoReferidos": 21,
+    "primerRegistro": null
+  },
+  {
+    "_id": "687db997ff6fe07931a09bb0",
+    "conteoReferidos": 15,
+    "primerRegistro": null
+  },
+  {
+    "_id": "68af8b8b085ce9415b1e8c82",
+    "conteoReferidos": 14,
+    "primerRegistro": null
+  },
+  {
+    "_id": "68b8d3a58b4035ca51577857",
+    "conteoReferidos": 12,
+    "primerRegistro": null
+  },
+  {
+    "_id": "68cc51a4058cb9473ca6e799",
+    "conteoReferidos": 12,
+    "primerRegistro": null
+  }
+]
+
+✅ Se encontraron 8 patrocinadores con 12+ referidos:
+
+💥 Error ejecutando el script: TypeError: Cannot read properties of null (reading 'solicitante_id')
+    at [90m/home/hp/Escritorio/mls/biblioteca-virtual-backend/scripts/[39mencontrarPatrocinadoresActivos.js:84:40
+    at Array.forEach (<anonymous>)
+    at encontrarPatrocinadoresActivos [90m(/home/hp/Escritorio/mls/biblioteca-virtual-backend/scripts/[39mencontrarPatrocinadoresActivos.js:83:25[90m)[39m
+[90m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+
+🔌 Conexión cerrada
+[?2004h]0;hp@hp-HP-Laptop-14-bs0xx: ~/Escritorio/mls/biblioteca-virtual-backend/scripts[01;32mhp@hp-HP-Laptop-14-bs0xx[00m:[01;34m~/Escritorio/mls/biblioteca-virtual-backend/scripts[00m$ node encontrarPatrocinadoresActivos.js
+[?2004l(node:82051) [MONGODB DRIVER] Warning: useNewUrlParser is a deprecated option: useNewUrlParser has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:82051) [MONGODB DRIVER] Warning: useUnifiedTopology is a deprecated option: useUnifiedTopology has no effect since Node.js Driver version 4.0.0 and will be removed in the next major version
+✅ Conectado a MongoDB
+
+📊 Buscando patrocinadores con 12+ referidos aceptados entre 1/9/2025 y 30/9/2025
+
+✅ Se encontraron 8 patrocinadores con 12+ referidos aceptados:
+
+1. Romio Santiago (@gsainfo) - 33 referidos
+2. Martha Reyes Rodríguez (@tica13) - 33 referidos
+3. Edwar García (@GUAJIRO) - 24 r
