@@ -48,6 +48,7 @@ app.get('/', (req, res) => {
 
 // Rutas de la API
 app.use('/api/usuarios', usuariosRouter);
+app.use('/usuarios', usuariosRouter);
 app.use('/api/referralCodes', referralCodesRoutes);
 app.use('/niveles', require('./routes/niveles'));
 app.use('/auth', authRoutes);
