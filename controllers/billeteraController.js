@@ -102,26 +102,55 @@ exports.enviarDinero = async (req, res) => {
     const { destinatario_id, monto } = req.body;
     const usuarioId = req.user.id;
 
-    const billeteraEmisor = await Billetera.findOne({ usuario_id: usuarioId });
-    const billeteraReceptor = await Billetera.findOne({ usuario_id: destinatario_id });
+    if (!destinatario_id) return res.status(400).json({ mensaje: 'destinatario_id es requerido' });
+    if (!monto || isNaN(parseFloat(monto)) || parseFloat(monto) <= 0) return res.status(400).json({ mensaje: 'Monto inválido' });
 
-    if (!billeteraEmisor || !billeteraReceptor || !billeteraEmisor.activa || !billeteraReceptor.activa) {
-      return res.status(404).json({ mensaje: 'Billetera no encontrada o no activa' });
+    const cantidad = parseFloat(monto);
+
+    // Decrementar saldo del emisor de forma atómica
+    const billeteraEmisor = await Billetera.findOneAndUpdate(
+      { usuario_id: usuarioId, activa: true, saldo: { $gte: cantidad } },
+      { $inc: { saldo: -cantidad } },
+      { new: true }
+    );
+
+    if (!billeteraEmisor) {
+      return res.status(400).json({ mensaje: 'Saldo insuficiente o billetera no activa' });
     }
 
+    // Incrementar saldo del receptor
+    const billeteraReceptor = await Billetera.findOneAndUpdate(
+      { usuario_id: destinatario_id, activa: true },
+      { $inc: { saldo: cantidad } },
+      { new: true }
+    );
+
+    // Si receptor no existe o no está activo, revertir débito del emisor
+    if (!billeteraReceptor) {
+      try {
+        await Billetera.findOneAndUpdate({ usuario_id: usuarioId }, { $inc: { saldo: cantidad } });
+      } catch (err) {
+        console.error('Error al revertir débito tras fallo en receptor:', err.message);
+      }
+      return res.status(404).json({ mensaje: 'Billetera receptora no encontrada o no activa' });
+    }
+
+    // Registrar transacciones
     const transaccionEmisor = new Transaccion({
       usuario_id: usuarioId,
-      tipo: 'envio', // Esto es correcto
-      monto: monto,
-      descripcion: `Envío de COP ${monto} al usuario ${destinatario_id}`,
+      tipo: 'envio',
+      monto: cantidad,
+      descripcion: `Envío de COP ${cantidad} al usuario ${destinatario_id}`,
+      estado: 'aprobado'
     });
     await transaccionEmisor.save();
 
     const transaccionReceptor = new Transaccion({
       usuario_id: destinatario_id,
-      tipo: 'recibido', // Cambiado de 'recibo' a 'recibido'
-      monto: monto,
-      descripcion: `Recepción de COP ${monto} del usuario ${usuarioId}`,
+      tipo: 'recibido',
+      monto: cantidad,
+      descripcion: `Recepción de COP ${cantidad} del usuario ${usuarioId}`,
+      estado: 'aprobado'
     });
     await transaccionReceptor.save();
 
@@ -139,33 +168,32 @@ exports.retirarDinero = async (req, res) => {
     const { monto } = req.body;
     const usuarioId = req.user.id;
 
-    const billetera = await Billetera.findOne({ usuario_id: usuarioId });
+    if (!monto || isNaN(parseFloat(monto)) || parseFloat(monto) <= 0) return res.status(400).json({ mensaje: 'Monto inválido' });
 
-    if (!billetera || !billetera.activa) {
-      return res.status(404).json({ mensaje: 'Billetera no encontrada o no activa' });
+    const cantidad = parseFloat(monto);
+
+    // Decrementar saldo de forma atómica
+    const billetera = await Billetera.findOneAndUpdate(
+      { usuario_id: usuarioId, activa: true, saldo: { $gte: cantidad } },
+      { $inc: { saldo: -cantidad } },
+      { new: true }
+    );
+
+    if (!billetera) {
+      return res.status(400).json({ mensaje: 'Saldo insuficiente o billetera no activa' });
     }
-
-
 
     // Crear la transacción con estado pendiente
     const nuevaTransaccion = new Transaccion({
       usuario_id: usuarioId,
       tipo: 'retiro',
-      monto: monto,
-      descripcion: `Retiro de COP ${monto} realizado`,
+      monto: cantidad,
+      descripcion: `Retiro de COP ${cantidad} realizado`,
       estado: 'pendiente', // Establecer estado como pendiente
     });
     await nuevaTransaccion.save();
 
-    // Actualizar el saldo de la billetera
-    billetera.saldo -= monto;
-    await billetera.save();
-
-    // Cambiar el estado de la transacción a aprobado
-    nuevaTransaccion.estado = 'pendiente';
-    await nuevaTransaccion.save();
-
-    res.status(200).json({ mensaje: 'Retiro exitoso', saldo: billetera.saldo });
+    res.status(200).json({ mensaje: 'Retiro creado y saldo reservado', saldo: billetera.saldo, retiro: nuevaTransaccion });
   } catch (error) {
     res.status(500).json({ mensaje: 'Error en el servidor', error: error.message });
   }

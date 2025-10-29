@@ -19,7 +19,7 @@ function initializeWebSocket(server) {
 
     try {
       const decoded = jwt.verify(token, JWT_SECRET);
-      const userId = decoded.id;
+  const userId = decoded.id.toString();
 
       // If there's an existing connection for this user, notify and close it.
       if (clients.has(userId)) {
@@ -28,8 +28,8 @@ function initializeWebSocket(server) {
         oldWs.terminate();
       }
 
-      // Store the new connection
-      clients.set(userId, ws);
+  // Store the new connection (use string keys)
+  clients.set(userId, ws);
       console.log(`Cliente conectado: ${userId}`);
 
       ws.on('close', () => {
