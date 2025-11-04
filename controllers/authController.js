@@ -54,8 +54,11 @@ exports.autenticarUsuario = async (req, res) => {
     // Notificar al cliente antiguo si existe
     if (clients.has(usuario._id.toString())) {
       const oldWs = clients.get(usuario._id.toString());
-      oldWs.send(JSON.stringify({ type: 'FORCE_LOGOUT', message: 'Has iniciado sesión en otro dispositivo.' }));
-      oldWs.terminate();
+      try {
+        oldWs.send(JSON.stringify({ type: 'FORCE_LOGOUT', message: 'Has iniciado sesión en otro dispositivo.' }));
+      } catch (e) {}
+      try { oldWs.terminate(); } catch (e) {}
+      clients.delete(usuario._id.toString());
     }
 
     const token = jwt.sign({ id: usuario._id }, JWT_SECRET, { expiresIn: '1h' });
