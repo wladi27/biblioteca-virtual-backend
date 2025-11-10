@@ -4,10 +4,14 @@ const {
   obtenerTransacciones, 
   actualizarEstadoTransaccion,
   eliminarTransaccion,
-  obtenerRecargas // Importa la función
+  obtenerRecargas, // Importa la función
+  obtenerTotalTransacciones,
 } = require('../controllers/transaccionController');
 
 const router = express.Router();
+
+// Ruta para obtener el total de transacciones
+router.get('/total', obtenerTotalTransacciones);
 
 // Ruta para obtener transacciones
 router.get('/transacciones/:id?', obtenerTransacciones);
