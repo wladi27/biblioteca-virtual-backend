@@ -226,23 +226,37 @@ exports.eliminarBilletera = async (req, res) => {
 // Activar billetera para todos los usuarios que no la tengan activa (optimizado)
 exports.activarBilleterasMasivo = async (req, res) => {
   try {
-    const usuarios = await Usuario.find();
-    let activadas = 0;
-    // Creamos un array de promesas para procesar en paralelo
-    const promesas = usuarios.map(async (usuario) => {
-      let billetera = await Billetera.findOne({ usuario_id: usuario._id });
-      if (!billetera) {
-        billetera = new Billetera({ usuario_id: usuario._id, activa: true });
-        await billetera.save();
-        activadas++;
-      } else if (!billetera.activa) {
-        billetera.activa = true;
-        await billetera.save();
-        activadas++;
-      }
+    // 1. Activar todas las billeteras que ya existen pero están inactivas
+    const resultadoUpdate = await Billetera.updateMany(
+      { activa: false },
+      { $set: { activa: true } }
+    );
+    const billeterasActualizadas = resultadoUpdate.modifiedCount;
+
+    // 2. Encontrar usuarios que todavía no tienen billetera
+    const usuarios = await Usuario.find().select('_id');
+    const usuariosIds = usuarios.map(u => u._id);
+
+    const billeterasExistentes = await Billetera.find({ usuario_id: { $in: usuariosIds } }).select('usuario_id');
+    const usuariosConBilleteraIds = billeterasExistentes.map(b => b.usuario_id.toString());
+
+    const usuariosSinBilleteraIds = usuariosIds.filter(id => !usuariosConBilleteraIds.includes(id.toString()));
+
+    let billeterasCreadas = 0;
+    // 3. Crear billeteras para los usuarios que no tienen una
+    if (usuariosSinBilleteraIds.length > 0) {
+      const nuevasBilleteras = usuariosSinBilleteraIds.map(id => ({
+        usuario_id: id,
+        saldo: 0,
+        activa: true,
+      }));
+      const resultadoInsert = await Billetera.insertMany(nuevasBilleteras);
+      billeterasCreadas = resultadoInsert.length;
+    }
+
+    res.status(200).json({ 
+      mensaje: `Proceso completado. Billeteras activadas: ${billeterasActualizadas}. Billeteras nuevas creadas: ${billeterasCreadas}.`
     });
-    await Promise.all(promesas);
-    res.status(200).json({ mensaje: `Billeteras activadas o actualizadas: ${activadas}` });
   } catch (error) {
     res.status(500).json({ mensaje: 'Error en el servidor', error: error.message });
   }
@@ -252,24 +266,39 @@ exports.activarBilleterasMasivo = async (req, res) => {
 exports.recargaGeneral = async (req, res) => {
   try {
     const { monto } = req.body;
-    if (!monto || isNaN(parseFloat(monto)) || parseFloat(monto) <= 0) {
+    const montoFloat = parseFloat(monto);
+
+    if (!monto || isNaN(montoFloat) || montoFloat <= 0) {
       return res.status(400).json({ mensaje: 'El monto debe ser un número mayor que 0' });
     }
-    const billeteras = await Billetera.find({ activa: true });
-    const promesas = billeteras.map(async (billetera) => {
-      billetera.saldo += parseFloat(monto);
-      await billetera.save();
-      // Registrar transacción de recarga masiva
-      const nuevaTransaccion = new Transaccion({
-        usuario_id: billetera.usuario_id,
-        tipo: 'recarga',
-        monto: parseFloat(monto),
-        descripcion: `Recarga general de ${monto}`,
-      });
-      await nuevaTransaccion.save();
-    });
-    await Promise.all(promesas);
-    res.status(200).json({ mensaje: `Recarga general realizada a ${billeteras.length} billeteras` });
+
+    // Obtener todas las billeteras activas
+    const billeterasActivas = await Billetera.find({ activa: true }).select('usuario_id');
+
+    if (billeterasActivas.length === 0) {
+      return res.status(200).json({ mensaje: 'No hay billeteras activas para recargar.' });
+    }
+
+    // Extraer los IDs de las billeteras a actualizar
+    const billeterasIds = billeterasActivas.map(b => b._id);
+
+    // 1. Actualizar los saldos en una sola operación
+    await Billetera.updateMany(
+      { _id: { $in: billeterasIds } },
+      { $inc: { saldo: montoFloat } }
+    );
+
+    // 2. Crear las transacciones en un solo lote
+    const transacciones = billeterasActivas.map(billetera => ({
+      usuario_id: billetera.usuario_id,
+      tipo: 'recarga',
+      monto: montoFloat,
+      descripcion: `Recarga general de ${monto}`,
+    }));
+
+    await Transaccion.insertMany(transacciones);
+
+    res.status(200).json({ mensaje: `Recarga general realizada a ${billeterasActivas.length} billeteras` });
   } catch (error) {
     res.status(500).json({ mensaje: 'Error en el servidor', error: error.message });
   }
