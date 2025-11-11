@@ -4,6 +4,8 @@ const {
     obtenerAportes,
     obtenerAportePorId,
     actualizarAporte,
+    obtenerAportesPaginados,
+    obtenerAportesNoValidados,
     eliminarAporte
 } = require('../controllers/aporteController');
 
@@ -17,6 +19,12 @@ router.get('/', obtenerAportes);
 
 // Ruta para obtener un aporte por ID
 router.get('/:id', obtenerAportePorId);
+
+// Nueva ruta para aportes paginados
+router.get('/admin/paginados', obtenerAportesPaginados);
+
+// Nueva ruta para aportes NO VALIDADOS paginados
+router.get('/admin/no-validados', obtenerAportesNoValidados);
 
 // Ruta para actualizar un aporte por ID
 router.put('/:id', actualizarAporte);

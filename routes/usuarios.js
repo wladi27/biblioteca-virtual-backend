@@ -7,7 +7,8 @@ router.post('/', usuarioController.agregarUsuario);
 router.get('/', usuarioController.obtenerUsuarios);
 router.get('/:usuario_id', usuarioController.obtenerUsuarioPorId);
 router.delete('/:usuario_id', usuarioController.eliminarUsuario);
-
+// Nueva ruta para usuarios paginados
+router.get('/admin/paginados', usuarioController.obtenerUsuariosPaginados);
 // Rutas para la pirámide
 router.get('/piramide/:usuario_id', usuarioController.obtenerPiramideUsuario);
 router.get('/piramide-red/:usuario_id', usuarioController.obtenerPiramideParaRed); 

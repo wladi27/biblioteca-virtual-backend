@@ -4,7 +4,9 @@ const {
   obtenerTransacciones, 
   actualizarEstadoTransaccion,
   eliminarTransaccion,
-  obtenerRecargas // Importa la función
+  obtenerRecargas,
+  obtenerRetirosUsuarios,
+  obtenerRetiros // Importa la nueva función
 } = require('../controllers/transaccionController');
 
 const router = express.Router();
@@ -13,12 +15,18 @@ const router = express.Router();
 router.get('/transacciones/:id?', obtenerTransacciones);
 
 // Ruta para obtener recargas
-router.get('/recargas/:id?', obtenerRecargas); // Nueva ruta
+router.get('/recargas/:id?', obtenerRecargas);
+
+// Ruta para obtener retiros
+router.get('/retiros/:id?', obtenerRetiros); // Nueva ruta para retiros
+
+// Ruta para obtener retiros
+router.get('/retiros/usuario/:id?', obtenerRetirosUsuarios); // Nueva ruta para retiros
 
 // Ruta para actualizar el estado de una transacción
 router.patch('/transacciones/:id', actualizarEstadoTransaccion);
 
 // Ruta para eliminar transacción
-router.delete('/:id', eliminarTransaccion);  // Usa la función importada directamente
+router.delete('/:id', eliminarTransaccion);
 
 module.exports = router;

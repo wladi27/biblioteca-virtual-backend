@@ -12,6 +12,7 @@ const authAdminRoutes = require('./routes/authAdmin');
 const aporteRoutes = require('./routes/aporteRoutes');
 const publicacionRoutes = require('./routes/publicacionRoutes');
 const tusersRoutes = require('./routes/tusersRoutes');
+const summaryRoutes = require('./routes/summaryRoutes');
 //billetera
 const billeteraRoutes = require('./routes/billeteraRoutes');
 const transaccionRoutes = require('./routes/transaccionRoutes');
@@ -61,6 +62,7 @@ app.use('/api/transacciones', transaccionRoutes);
 app.use('/api/usuario', require('./routes/usuarioRoutes')); // <--- Agrega esta línea
 app.use('/api/referralRequests', require('./routes/referralRequestRoutes'));
 app.use('/api/dolar', require('./routes/dolarRoutes'));
+app.use('/api/summary', summaryRoutes);
 
 // Manejo de errores
 app.use((err, req, res, next) => {

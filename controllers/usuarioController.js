@@ -469,6 +469,79 @@ const editarUsuario = async (req, res) => {
   }
 };
 
+// Obtener usuarios con paginación y filtros
+const obtenerUsuariosPaginados = async (req, res) => {
+  try {
+    const {
+      page = 1,
+      limit = 20,
+      search = '',
+      sortBy = 'fecha_creacion',
+      sortOrder = 'desc'
+    } = req.query;
+
+    const pageNum = parseInt(page);
+    const limitNum = parseInt(limit);
+    const skip = (pageNum - 1) * limitNum;
+
+    // Construir filtro de búsqueda
+    let filtro = {};
+    if (search) {
+      const searchRegex = new RegExp(search, 'i');
+      filtro = {
+        $or: [
+          { nombre_completo: searchRegex },
+          { nombre_usuario: searchRegex },
+          { correo_electronico: searchRegex },
+          { dni: searchRegex },
+          { linea_llamadas: searchRegex },
+          { linea_whatsapp: searchRegex }
+        ]
+      };
+    }
+
+    // Construir ordenamiento
+    const sort = {};
+    sort[sortBy] = sortOrder === 'desc' ? -1 : 1;
+
+    // Obtener usuarios con paginación
+    const usuarios = await Usuario.find(filtro)
+      .select('nombre_completo nombre_usuario correo_electronico dni linea_llamadas linea_whatsapp nivel fecha_creacion')
+      .sort(sort)
+      .skip(skip)
+      .limit(limitNum)
+      .lean();
+
+    // Obtener total de documentos para la paginación
+    const total = await Usuario.countDocuments(filtro);
+
+    // Calcular información de paginación
+    const totalPages = Math.ceil(total / limitNum);
+    const hasNext = pageNum < totalPages;
+    const hasPrev = pageNum > 1;
+
+    res.status(200).json({
+      usuarios,
+      pagination: {
+        currentPage: pageNum,
+        totalPages,
+        totalItems: total,
+        itemsPerPage: limitNum,
+        hasNext,
+        hasPrev,
+        nextPage: hasNext ? pageNum + 1 : null,
+        prevPage: hasPrev ? pageNum - 1 : null
+      }
+    });
+  } catch (error) {
+    console.error('Error al obtener usuarios paginados:', error);
+    res.status(500).json({ 
+      message: 'Error en el servidor', 
+      error: error.message 
+    });
+  }
+};
+
 module.exports = {
   agregarUsuario,
   obtenerUsuarios,
@@ -479,5 +552,6 @@ module.exports = {
   obtenerSaldoUsuario,
   obtenerPiramideParaRed,  
   obtenerPiramideCompleta,
+  obtenerUsuariosPaginados, 
   editarUsuario,
 };
