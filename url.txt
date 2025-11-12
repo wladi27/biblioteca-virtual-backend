@@ -1,2 +1,17 @@
 https://api-bv.vercel.app/api/aportes
 https://api-bv.vercel.app/usuarios
+
+# Ver estado del servicio
+sudo systemctl status mongod
+
+# Reiniciar MongoDB
+sudo systemctl restart mongod
+
+# Detener MongoDB
+sudo systemctl stop mongod
+
+# Iniciar MongoDB
+sudo systemctl start mongod
+
+# Ver logs
+sudo journalctl -u mongod -f
