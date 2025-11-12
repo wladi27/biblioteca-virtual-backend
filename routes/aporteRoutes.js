@@ -6,6 +6,7 @@ const {
     actualizarAporte,
     obtenerAportesPaginados,
     obtenerAportesNoValidados,
+    obtenerAportesPorUsuario,
     eliminarAporte
 } = require('../controllers/aporteController');
 
@@ -39,3 +40,4 @@ router.get('/usuario/:usuarioId', obtenerAportesPorUsuario);
 router.post('/validar-masivo', validarAportesMasivamente);
 
 module.exports = router;
+
