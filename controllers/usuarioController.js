@@ -542,8 +542,181 @@ const obtenerUsuariosPaginados = async (req, res) => {
   }
 };
 
+const agregarUsuariosEnLote = async (req, res) => {
+  try {
+    const { usuarios } = req.body;
+    
+    if (!usuarios || !Array.isArray(usuarios)) {
+      return res.status(400).json({ message: 'Formato de datos inválido' });
+    }
+
+    if (usuarios.length > 20) {
+      return res.status(400).json({ message: 'Máximo 20 usuarios por lote' });
+    }
+
+    // Obtener el último usuario para determinar el nivel inicial
+    const ultimoUsuario = await Usuario.findOne().sort({ _id: -1 });
+    let nivelActual = ultimoUsuario ? ultimoUsuario.nivel + 1 : 1;
+
+    const usuariosCreados = [];
+
+    // ESTRATEGIA MEJORADA: Obtener TODOS los padres disponibles ordenados
+    const padresDisponibles = await Usuario.find({
+      $or: [
+        { hijo1_id: null },
+        { hijo2_id: null },
+        { hijo3_id: null }
+      ]
+    }).sort({ nivel: 1, _id: 1 }); // Primero por nivel más bajo, luego por antigüedad
+
+    console.log(`Padres disponibles: ${padresDisponibles.length}`);
+
+    // Si no hay padres disponibles pero hay usuarios, usar el último usuario
+    if (padresDisponibles.length === 0 && ultimoUsuario) {
+      padresDisponibles.push(ultimoUsuario);
+    }
+
+    for (let i = 0; i < usuarios.length; i++) {
+      const usuarioData = usuarios[i];
+      
+      // Validaciones
+      if (!usuarioData.nombre_usuario || !usuarioData.contraseña) {
+        return res.status(400).json({ 
+          message: `Usuario ${i + 1}: nombre de usuario y contraseña son requeridos` 
+        });
+      }
+
+      // Verificar duplicados
+      const existe = await Usuario.findOne({ 
+        nombre_usuario: usuarioData.nombre_usuario 
+      });
+      if (existe) {
+        return res.status(400).json({ 
+          message: `El nombre de usuario "${usuarioData.nombre_usuario}" ya existe` 
+        });
+      }
+
+      // BUSCAR PADRE DISPONIBLE - LÓGICA CORREGIDA
+      let padreActual = null;
+      
+      // Buscar en la lista de padres disponibles
+      for (let j = 0; j < padresDisponibles.length; j++) {
+        const padre = padresDisponibles[j];
+        
+        // Verificar si este padre realmente tiene espacio (actualizado)
+        const padreActualizado = await Usuario.findById(padre._id);
+        if (!padreActualizado.hijo1_id || !padreActualizado.hijo2_id || !padreActualizado.hijo3_id) {
+          padreActual = padreActualizado;
+          break;
+        } else {
+          // Este padre ya está lleno, remover de la lista
+          padresDisponibles.splice(j, 1);
+          j--; // Ajustar índice después de remover
+        }
+      }
+
+      // Si no se encontró padre en la lista, buscar uno nuevo
+      if (!padreActual) {
+        padreActual = await Usuario.findOne({
+          $or: [
+            { hijo1_id: null },
+            { hijo2_id: null },
+            { hijo3_id: null }
+          ]
+        }).sort({ nivel: 1, _id: 1 });
+        
+        if (padreActual) {
+          padresDisponibles.push(padreActual);
+        }
+      }
+
+      // Si aún no hay padre, usar el último usuario como fallback
+      if (!padreActual && ultimoUsuario) {
+        padreActual = ultimoUsuario;
+      }
+
+      console.log(`Usuario ${i+1}: Padre asignado = ${padreActual ? padreActual.nombre_usuario : 'Ninguno'}`);
+
+      // Crear usuario
+      const nuevoUsuario = new Usuario({
+        ...usuarioData,
+        nivel: nivelActual++,
+        padre_id: padreActual ? padreActual._id : null
+      });
+
+      const usuarioGuardado = await nuevoUsuario.save();
+      usuariosCreados.push(usuarioGuardado);
+
+      // Asignar como hijo del padre
+      if (padreActual) {
+        await asignarHijoYActualizarLista(padreActual._id, usuarioGuardado._id, padresDisponibles);
+      }
+    }
+
+    res.status(201).json({
+      message: `${usuariosCreados.length} usuarios creados exitosamente`,
+      usuarios: usuariosCreados.map(u => ({
+        _id: u._id,
+        nombre_usuario: u.nombre_usuario,
+        nivel: u.nivel,
+        padre_id: u.padre_id
+      }))
+    });
+
+  } catch (error) {
+    console.error('Error en registro masivo:', error);
+    res.status(500).json({ 
+      message: 'Error en el servidor', 
+      error: error.message 
+    });
+  }
+};
+
+// Función mejorada para asignar hijos y actualizar la lista de padres
+const asignarHijoYActualizarLista = async (padre_id, hijo_id, padresDisponibles) => {
+  try {
+    const padre = await Usuario.findById(padre_id);
+    if (!padre) return;
+
+    let campoAsignado = null;
+    
+    // Asignar al primer campo disponible
+    if (!padre.hijo1_id) {
+      padre.hijo1_id = hijo_id;
+      campoAsignado = 'hijo1_id';
+    } else if (!padre.hijo2_id) {
+      padre.hijo2_id = hijo_id;
+      campoAsignado = 'hijo2_id';
+    } else if (!padre.hijo3_id) {
+      padre.hijo3_id = hijo_id;
+      campoAsignado = 'hijo3_id';
+    }
+
+    if (campoAsignado) {
+      await padre.save();
+      console.log(`✅ Usuario ${hijo_id} asignado como ${campoAsignado} de ${padre.nombre_usuario}`);
+
+      // Verificar si el padre ya está lleno después de esta asignación
+      const padreActualizado = await Usuario.findById(padre_id);
+      if (padreActualizado.hijo1_id && padreActualizado.hijo2_id && padreActualizado.hijo3_id) {
+        // Remover de la lista de padres disponibles
+        const index = padresDisponibles.findIndex(p => p._id.equals(padre_id));
+        if (index !== -1) {
+          padresDisponibles.splice(index, 1);
+          console.log(`➖ Padre ${padre.nombre_usuario} removido de disponibles (ya tiene 3 hijos)`);
+        }
+      }
+    } else {
+      console.warn(`⚠️ El padre ${padre.nombre_usuario} ya tiene 3 hijos asignados`);
+    }
+  } catch (error) {
+    console.error('Error asignando hijo:', error);
+  }
+};
+
 module.exports = {
   agregarUsuario,
+  agregarUsuariosEnLote,
   obtenerUsuarios,
   obtenerUsuarioPorId,
   eliminarUsuario,

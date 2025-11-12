@@ -3,7 +3,7 @@ const router = express.Router();
 const usuarioController = require('../controllers/usuarioController');
 
 // Rutas para usuarios
-router.post('/', usuarioController.agregarUsuario);
+router.post('/bulk-register', usuarioController.agregarUsuariosEnLote); // ✅ Nueva ruta para registro masivo
 router.get('/', usuarioController.obtenerUsuarios);
 router.get('/:usuario_id', usuarioController.obtenerUsuarioPorId);
 router.delete('/:usuario_id', usuarioController.eliminarUsuario);
