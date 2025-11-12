@@ -8,7 +8,8 @@
     "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint .",
-    "migrate": "node migrate.js"
+    "migrate": "node migrate.js",
+    "delete-referido-transactions": "node scripts/deleteRecargaReferidoTransactions.js"
   },
   "keywords": [],
   "author": "",

@@ -32,4 +32,10 @@ router.put('/:id', actualizarAporte);
 // Ruta para eliminar un aporte por ID
 router.delete('/:id', eliminarAporte);
 
+// Ruta para obtener los aportes de un usuario
+router.get('/usuario/:usuarioId', obtenerAportesPorUsuario);
+
+// Ruta para validar aportes masivamente
+router.post('/validar-masivo', validarAportesMasivamente);
+
 module.exports = router;

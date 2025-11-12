@@ -138,6 +138,7 @@ const agregarUsuario = async (req, res) => {
       nombre_usuario,
       contraseña,
       codigo_referido,
+      pais,
     } = req.body;
 
     // Eliminar espacios en blanco al inicio y al final
@@ -152,6 +153,7 @@ const agregarUsuario = async (req, res) => {
     nombre_usuario = nombre_usuario.trim();
     contraseña = contraseña.trim();
     codigo_referido = codigo_referido ? codigo_referido.trim() : undefined;
+    pais = pais ? pais.trim() : undefined;
 
     // Validar campos obligatorios
     const requiredFields = [
@@ -165,6 +167,7 @@ const agregarUsuario = async (req, res) => {
       dni,
       nombre_usuario,
       contraseña,
+      pais,
     ];
     if (requiredFields.some((field) => !field)) {
       return res.status(400).json({ message: 'Todos los campos son obligatorios' });
@@ -208,6 +211,7 @@ const agregarUsuario = async (req, res) => {
       nombre_usuario,
       contraseña,
       codigo_referido,
+      pais,
     });
 
     // Lógica para determinar el padre y nivel
@@ -442,7 +446,8 @@ const editarUsuario = async (req, res) => {
       'correo_electronico',
       'dni',
       'nombre_usuario',
-      'codigo_referido'
+      'codigo_referido',
+      'pais'
     ];
 
     // Construir objeto de actualización solo con los campos permitidos
@@ -727,4 +732,5 @@ module.exports = {
   obtenerPiramideCompleta,
   obtenerUsuariosPaginados, 
   editarUsuario,
+  searchUsuarios,
 };

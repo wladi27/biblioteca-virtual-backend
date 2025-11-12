@@ -11,6 +11,9 @@ const {
 
 const router = express.Router();
 
+// Ruta para obtener el total de transacciones
+router.get('/total', obtenerTotalTransacciones);
+
 // Ruta para obtener transacciones
 router.get('/transacciones/:id?', obtenerTransacciones);
 
