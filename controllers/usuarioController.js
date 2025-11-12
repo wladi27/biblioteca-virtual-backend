@@ -719,6 +719,31 @@ const asignarHijoYActualizarLista = async (padre_id, hijo_id, padresDisponibles)
   }
 };
 
+// Agregar esta función al controlador
+const searchUsuarios = async (req, res) => {
+  try {
+    const { search } = req.query;
+    
+    if (!search) {
+      return res.status(400).json({ message: 'Parámetro de búsqueda requerido' });
+    }
+
+    const usuarios = await Usuario.find({
+      $or: [
+        { nombre_completo: { $regex: search, $options: 'i' } },
+        { nombre_usuario: { $regex: search, $options: 'i' } },
+        { correo_electronico: { $regex: search, $options: 'i' } },
+        { dni: { $regex: search, $options: 'i' } }
+      ]
+    }).select('nombre_completo nombre_usuario correo_electronico dni nivel');
+
+    res.status(200).json(usuarios);
+  } catch (error) {
+    console.error('Error en búsqueda de usuarios:', error);
+    res.status(500).json({ message: 'Error en el servidor', error: error.message });
+  }
+};
+
 module.exports = {
   agregarUsuario,
   agregarUsuariosEnLote,
@@ -733,4 +758,5 @@ module.exports = {
   obtenerUsuariosPaginados, 
   editarUsuario,
   searchUsuarios,
+
 };
