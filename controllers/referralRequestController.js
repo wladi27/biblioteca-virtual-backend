@@ -56,22 +56,27 @@ exports.crearSolicitud = async (req, res) => {
   }
 };
 
-// Listar solicitudes recibidas por usuario
+// referralRequestController.js - CORREGIR
 exports.listarSolicitudesRecibidas = async (req, res) => {
   try {
     const { id } = req.params;
-    const solicitudes = await ReferralRequest.find({ referido_id: id }).populate('solicitante_id', 'nombre_usuario nombre_completo');
+    // SOLICITUDES RECIBIDAS: donde el usuario actual es el SOLICITANTE
+    // (otras personas quieren que él sea su patrocinador)
+    const solicitudes = await ReferralRequest.find({ solicitante_id: id }) // ← CORREGIDO
+      .populate('referido_id', 'nombre_usuario nombre_completo'); // ← CORREGIDO
     res.json(solicitudes);
   } catch (error) {
     res.status(500).json({ message: 'Error al obtener las solicitudes recibidas.', error: error.message });
   }
 };
 
-// Listar solicitudes enviadas por usuario
 exports.listarSolicitudesEnviadas = async (req, res) => {
   try {
     const { id } = req.params;
-    const solicitudes = await ReferralRequest.find({ solicitante_id: id }).populate('referido_id', 'nombre_usuario nombre_completo');
+    // SOLICITUDES ENVIADAS: donde el usuario actual es el REFERIDO  
+    // (él está solicitando ser referido de otras personas)
+    const solicitudes = await ReferralRequest.find({ referido_id: id }) // ← CORREGIDO
+      .populate('solicitante_id', 'nombre_usuario nombre_completo'); // ← CORREGIDO
     res.json(solicitudes);
   } catch (error) {
     res.status(500).json({ message: 'Error al obtener las solicitudes enviadas.', error: error.message });
