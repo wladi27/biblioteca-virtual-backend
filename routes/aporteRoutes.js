@@ -6,7 +6,6 @@ const {
     actualizarAporte,
     obtenerAportesPaginados,
     obtenerAportesNoValidados,
-    obtenerAportesPorUsuario,
     eliminarAporte
 } = require('../controllers/aporteController');
 
@@ -34,10 +33,11 @@ router.put('/:id', actualizarAporte);
 router.delete('/:id', eliminarAporte);
 
 // Ruta para obtener los aportes de un usuario
-router.get('/usuario/:usuarioId', obtenerAportesPorUsuario);
+//router.get('/usuario/:usuarioId', obtenerAportesPorUsuario);
 
 // Ruta para validar aportes masivamente
 router.post('/validar-masivo', validarAportesMasivamente);
 
 module.exports = router;
+
 
