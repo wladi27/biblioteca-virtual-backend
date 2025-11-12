@@ -399,6 +399,61 @@ const obtenerAportesNoValidados = async (req, res) => {
     }
 };
 
+// Obtener aportes por usuario específico
+const obtenerAportesPorUsuario = async (req, res) => {
+    try {
+        const { usuario_id } = req.params;
+
+        if (!usuario_id) {
+            return res.status(400).json({ error: 'El ID del usuario es requerido' });
+        }
+
+        // Verificar si el usuario existe
+        const Usuario = require('../models/usuario');
+        const usuario = await Usuario.findById(usuario_id);
+        if (!usuario) {
+            return res.status(404).json({ error: 'Usuario no encontrado' });
+        }
+
+        // Obtener todos los aportes del usuario
+        const aportes = await Aporte.find({ usuarioId: usuario_id })
+            .sort({ fecha_creacion: -1 })
+            .lean();
+
+        // Calcular estadísticas
+        const totalAportes = aportes.length;
+        const aportesValidados = aportes.filter(aporte => aporte.aporte === true).length;
+        const aportesNoValidados = aportes.filter(aporte => 
+            aporte.aporte === false || 
+            aporte.aporte === null || 
+            !aporte.hasOwnProperty('aporte')
+        ).length;
+
+        res.status(200).json({
+            usuario: {
+                _id: usuario._id,
+                nombre_completo: usuario.nombre_completo,
+                nombre_usuario: usuario.nombre_usuario,
+                nivel: usuario.nivel,
+                dni: usuario.dni
+            },
+            aportes: aportes,
+            estadisticas: {
+                total: totalAportes,
+                validados: aportesValidados,
+                noValidados: aportesNoValidados
+            }
+        });
+
+    } catch (error) {
+        console.error('Error al obtener aportes por usuario:', error);
+        res.status(500).json({ 
+            error: 'Error al obtener los aportes del usuario',
+            message: error.message 
+        });
+    }
+};
+
 module.exports = {
     crearAporte,
     obtenerAportes,
@@ -406,5 +461,7 @@ module.exports = {
     actualizarAporte,
     obtenerAportesPaginados,
     obtenerAportesNoValidados,
+    obtenerAportesPorUsuario,
     eliminarAporte
 };
+
