@@ -22,6 +22,9 @@ const referralRequestSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
     index: true
+  },
+  fecha_respuesta: {
+    type: Date
   }
 });
 

@@ -7,14 +7,18 @@ router.post('/', usuarioController.agregarUsuario);
 router.get('/', usuarioController.obtenerUsuarios);
 router.get('/:usuario_id', usuarioController.obtenerUsuarioPorId);
 router.delete('/:usuario_id', usuarioController.eliminarUsuario);
-// Nueva ruta para usuarios paginados
+
+// Ruta para usuarios paginados
 router.get('/admin/paginados', usuarioController.obtenerUsuariosPaginados);
+
 // Rutas para la pirámide
 router.get('/piramide/:usuario_id', usuarioController.obtenerPiramideUsuario);
 router.get('/piramide-red/:usuario_id', usuarioController.obtenerPiramideParaRed); 
 router.get('/piramide-completa/:usuario_id', usuarioController.obtenerPiramideCompleta);
+router.get('/piramide-nivel/:usuarioId/:nivel', usuarioController.obtenerPiramidePorNivel);
 router.get('/piramide', usuarioController.obtenerPiramideGlobal);
-// Nueva ruta para obtener el saldo del usuario
+
+// Ruta para obtener el saldo del usuario
 router.get('/saldo/:usuario_id', usuarioController.obtenerSaldoUsuario);
 
 module.exports = router;

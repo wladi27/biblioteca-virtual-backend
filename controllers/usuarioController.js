@@ -4,45 +4,174 @@ const bcrypt = require('bcrypt');
 const mongoose = require('mongoose');
 const Transaccion = require('../models/transaccion');
 
-// Función para construir la pirámide de usuarios
-const construirPiramide = async (id, nivelActual = 1, nivelMaximo = 12) => {
-  if (nivelActual > nivelMaximo) return null;
+// Función optimizada para obtener usuarios por nivel específico - CORREGIDA
+const obtenerPiramidePorNivel = async (req, res) => {
+  try {
+    const { usuarioId, nivel } = req.params;
+    const nivelNum = parseInt(nivel);
 
-  // Obtener el usuario actual con más campos relevantes
-  const usuario = await Usuario.findById(id)
-    .select('nombre_usuario hijo1_id hijo2_id hijo3_id nivel') // Agregamos nivel
-    .lean();
-  
-  if (!usuario) return null;
+    if (!usuarioId || nivelNum < 0 || nivelNum > 11) {
+      return res.status(400).json({ message: 'Parámetros inválidos. Niveles: 0-11' });
+    }
 
-  // Obtener los IDs de los hijos (filtramos los valores nulos)
-  const hijosIds = [usuario.hijo1_id, usuario.hijo2_id, usuario.hijo3_id].filter(Boolean);
+    // Obtener usuarios del nivel específico
+    const usuariosNivel = await obtenerUsuariosPorNivel(usuarioId, nivelNum);
+    
+    // Calcular cantidad esperada: 3^nivel
+    const cantidadEsperada = nivelNum === 0 ? 1 : Math.pow(3, nivelNum);
+    
+    res.status(200).json({
+      usuarios: usuariosNivel,
+      nivel: nivelNum,
+      total: usuariosNivel.length,
+      esperado: cantidadEsperada
+    });
+  } catch (error) {
+    console.error('Error obteniendo nivel:', error);
+    res.status(500).json({ message: error.message });
+  }
+};
 
-  // Recursivamente construir la pirámide para cada hijo
-  const hijos = await Promise.all(
-    hijosIds.map(async (hijoId) => {
-      return await construirPiramide(hijoId, nivelActual + 1, nivelMaximo);
+// Función CORREGIDA para obtener usuarios de un nivel específico
+const obtenerUsuariosPorNivel = async (usuarioId, nivelObjetivo) => {
+  if (nivelObjetivo === 0) {
+    // Nivel 0: solo el usuario raíz
+    const usuario = await Usuario.findById(usuarioId)
+      .select('_id nombre_usuario nivel')
+      .lean();
+    return usuario ? [usuario] : [];
+  }
+
+  try {
+    // Para niveles > 0, obtener todos los usuarios en ese nivel
+    let usuariosNivel = [];
+    let nivelActual = 0;
+    let usuariosActuales = [usuarioId];
+
+    while (nivelActual < nivelObjetivo && usuariosActuales.length > 0) {
+      // Obtener todos los hijos de los usuarios actuales
+      const hijos = await Usuario.find({
+        padre_id: { $in: usuariosActuales }
+      })
+      .select('_id nombre_usuario nivel padre_id hijo1_id hijo2_id hijo3_id')
+      .lean();
+
+      nivelActual++;
+      usuariosActuales = hijos.map(hijo => hijo._id);
+
+      if (nivelActual === nivelObjetivo) {
+        usuariosNivel = hijos;
+      }
+    }
+
+    return usuariosNivel.map(usuario => ({
+      _id: usuario._id,
+      nombre_usuario: usuario.nombre_usuario,
+      nivel: usuario.nivel
+    }));
+
+  } catch (error) {
+    console.error('Error en obtenerUsuariosPorNivel:', error);
+    // Fallback a método recursivo
+    return await obtenerUsuariosPorNivelRecursivo(usuarioId, nivelObjetivo);
+  }
+};
+
+// Método recursivo como fallback - CORREGIDO
+const obtenerUsuariosPorNivelRecursivo = async (usuarioId, nivelObjetivo, nivelActual = 0, usuariosActuales = []) => {
+  if (nivelActual === 0) {
+    const usuario = await Usuario.findById(usuarioId)
+      .select('_id nombre_usuario nivel hijo1_id hijo2_id hijo3_id')
+      .lean();
+    if (!usuario) return [];
+    usuariosActuales = [usuario];
+  }
+
+  if (nivelActual === nivelObjetivo) {
+    return usuariosActuales.map(u => ({
+      _id: u._id,
+      nombre_usuario: u.nombre_usuario,
+      nivel: u.nivel
+    }));
+  }
+
+  // Obtener todos los hijos directos de los usuarios actuales
+  const todosLosHijos = await Promise.all(
+    usuariosActuales.map(async (usuario) => {
+      const hijosIds = [usuario.hijo1_id, usuario.hijo2_id, usuario.hijo3_id].filter(Boolean);
+      if (hijosIds.length === 0) return [];
+      
+      const hijos = await Usuario.find({ _id: { $in: hijosIds } })
+        .select('_id nombre_usuario nivel hijo1_id hijo2_id hijo3_id')
+        .lean();
+      
+      return hijos;
     })
   );
 
-  // Retornar la estructura del usuario actual con sus hijos y nivel
-  return {
+  const hijosPlanos = todosLosHijos.flat();
+
+  if (hijosPlanos.length === 0) return [];
+
+  return await obtenerUsuariosPorNivelRecursivo(usuarioId, nivelObjetivo, nivelActual + 1, hijosPlanos);
+};
+
+// Función construirPiramide optimizada
+const construirPiramide = async (id, nivelActual = 0, nivelMaximo = 11, cache = new Map()) => {
+  if (nivelActual > nivelMaximo) return null;
+  
+  const cacheKey = `${id}-${nivelActual}`;
+  if (cache.has(cacheKey)) {
+    return cache.get(cacheKey);
+  }
+
+  const usuario = await Usuario.findById(id)
+    .select('nombre_usuario hijo1_id hijo2_id hijo3_id nivel')
+    .populate('hijo1_id', 'nombre_usuario nivel')
+    .populate('hijo2_id', 'nombre_usuario nivel')
+    .populate('hijo3_id', 'nombre_usuario nivel')
+    .lean();
+
+  if (!usuario) {
+    cache.set(cacheKey, null);
+    return null;
+  }
+
+  const hijosIds = [usuario.hijo1_id, usuario.hijo2_id, usuario.hijo3_id]
+    .filter(hijo => hijo && hijo._id);
+
+  const hijos = await Promise.all(
+    hijosIds.map(async (hijo) => {
+      if (nivelActual + 1 <= nivelMaximo) {
+        return await construirPiramide(hijo._id, nivelActual + 1, nivelMaximo, cache);
+      }
+      return {
+        _id: hijo._id,
+        nombre_usuario: hijo.nombre_usuario,
+        nivel: hijo.nivel,
+        hijos: []
+      };
+    })
+  );
+
+  const resultado = {
     _id: usuario._id,
     nombre_usuario: usuario.nombre_usuario,
-    nivel: usuario.nivel || 0, // Asegurar que siempre haya un nivel
-    hijos: hijos.filter((child) => child !== null), // Filtramos hijos nulos
+    nivel: nivelActual, // Usar nivelActual en lugar del nivel de la base de datos
+    hijos: hijos.filter(child => child !== null),
   };
+
+  cache.set(cacheKey, resultado);
+  return resultado;
 };
 
 const obtenerPiramideParaRed = async (req, res) => {
   try {
     const usuarioId = req.params.usuario_id;
-    const nivelMaximo = req.query.nivel ? parseInt(req.query.nivel) : 12;
+    const nivelMaximo = req.query.nivel ? parseInt(req.query.nivel) : 11;
 
-    // Construir la pirámide completa
-    const piramideCompleta = await construirPiramide(usuarioId, 1, nivelMaximo);
+    const piramideCompleta = await construirPiramide(usuarioId, 0, nivelMaximo);
     
-    // Procesar la pirámide para organizarla por niveles
     const nivelesOrganizados = {};
     
     const procesarNivel = (nodo, nivelActual) => {
@@ -53,10 +182,9 @@ const obtenerPiramideParaRed = async (req, res) => {
       nivelesOrganizados[nivelActual].push({
         _id: nodo._id,
         nombre_usuario: nodo.nombre_usuario,
-        nivel: nodo.nivel
+        nivel: nivelActual // Usar nivelActual
       });
       
-      // Procesar hijos recursivamente
       if (nodo.hijos && nivelActual < nivelMaximo) {
         nodo.hijos.forEach(hijo => {
           procesarNivel(hijo, nivelActual + 1);
@@ -65,7 +193,7 @@ const obtenerPiramideParaRed = async (req, res) => {
     };
     
     if (piramideCompleta) {
-      procesarNivel(piramideCompleta, 1);
+      procesarNivel(piramideCompleta, 0);
     }
 
     res.status(200).json({
@@ -82,8 +210,8 @@ const obtenerPiramideParaRed = async (req, res) => {
 const calcularNivelesCompletados = (niveles) => {
   let nivelesCompletados = 0;
   
-  for (let nivel = 1; nivel <= 12; nivel++) {
-    const cantidadEsperada = Math.pow(3, nivel - 1); // Nivel 1: 3^0=1, Nivel 2: 3^1=3, etc.
+  for (let nivel = 0; nivel <= 11; nivel++) {
+    const cantidadEsperada = nivel === 0 ? 1 : Math.pow(3, nivel);
     if (niveles[nivel] && niveles[nivel].length >= cantidadEsperada) {
       nivelesCompletados++;
     } else {
@@ -100,8 +228,7 @@ const obtenerPiramideUsuario = async (req, res) => {
     const usuarioId = req.params.usuario_id;
     const { nivel } = req.query;
 
-    // Construir la pirámide hasta el nivel especificado (o nivel 12 por defecto)
-    const piramide = await construirPiramide(usuarioId, 1, nivel ? parseInt(nivel) : 12);
+    const piramide = await construirPiramide(usuarioId, 0, nivel ? parseInt(nivel) : 11);
     res.status(200).json(piramide);
   } catch (error) {
     res.status(500).json({ message: error.message });
@@ -111,12 +238,10 @@ const obtenerPiramideUsuario = async (req, res) => {
 // Obtener la pirámide global (desde el primer usuario)
 const obtenerPiramideGlobal = async (req, res) => {
   try {
-    // Obtener el primer usuario de la colección
     const primerUsuario = await Usuario.findOne().sort({ _id: 1 }).lean();
     if (!primerUsuario) return res.status(404).json({ message: 'No hay usuarios disponibles' });
 
-    // Construir la pirámide a partir del primer usuario
-    const piramide = await construirPiramide(primerUsuario._id);
+    const piramide = await construirPiramide(primerUsuario._id, 0, 11);
     res.status(200).json(piramide);
   } catch (error) {
     res.status(500).json({ message: error.message });
@@ -172,19 +297,16 @@ const agregarUsuario = async (req, res) => {
 
     // Validar el código de referido si se proporcionó
     if (codigo_referido) {
-      // Verificar si el código existe en la base de datos
       const referralCode = await ReferralCode.findOne({ code: codigo_referido });
       
       if (!referralCode) {
         return res.status(400).json({ message: 'El código de referido no es válido' });
       }
       
-      // Verificar si el código ya ha sido usado
       if (referralCode.used) {
         return res.status(400).json({ message: 'El código de referido ya ha sido utilizado' });
       }
       
-      // Marcar el código como usado en la colección ReferralCode
       referralCode.used = true;
       await referralCode.save();
     }
@@ -293,7 +415,6 @@ const obtenerUsuarioPorId = async (req, res) => {
     const usuario = await Usuario.findById(req.params.usuario_id).populate('hijo1_id hijo2_id hijo3_id');
     if (!usuario) return res.status(404).json({ message: 'Usuario no encontrado' });
 
-    // Obtener información del padre
     let padre = null;
     if (usuario.padre_id) {
       padre = await Usuario.findById(usuario.padre_id).select('_id nombre_completo');
@@ -308,39 +429,91 @@ const obtenerUsuarioPorId = async (req, res) => {
   }
 };
 
-// Nuevo endpoint para obtener la pirámide completa en formato plano
+// Función optimizada para obtener la pirámide completa en formato plano
 const obtenerPiramideCompleta = async (req, res) => {
   try {
     const usuarioId = req.params.usuario_id;
     
-    // Construir la pirámide jerárquica
-    const piramide = await construirPiramide(usuarioId);
+    const resultado = await Usuario.aggregate([
+      {
+        $match: { _id: new mongoose.Types.ObjectId(usuarioId) }
+      },
+      {
+        $graphLookup: {
+          from: 'usuarios',
+          startWith: '$_id',
+          connectFromField: '_id',
+          connectToField: 'padre_id',
+          as: 'redCompleta',
+          maxDepth: 11,
+          depthField: 'nivelRed'
+        }
+      },
+      {
+        $project: {
+          usuarios: {
+            $concatArrays: [
+              [{
+                _id: '$_id',
+                nombre_usuario: '$nombre_usuario',
+                nivel: 0
+              }],
+              {
+                $map: {
+                  input: '$redCompleta',
+                  as: 'usuario',
+                  in: {
+                    _id: '$$usuario._id',
+                    nombre_usuario: '$$usuario.nombre_usuario',
+                    nivel: { $add: ['$$usuario.nivelRed', 1] }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        $unwind: '$usuarios'
+      },
+      {
+        $replaceRoot: { newRoot: '$usuarios' }
+      },
+      {
+        $sort: { nivel: 1, nombre_usuario: 1 }
+      }
+    ]);
+
+    res.status(200).json({
+      usuarios: resultado
+    });
+    
+  } catch (error) {
+    console.error('Error en piramide optimizada:', error);
+    const piramide = await construirPiramide(usuarioId, 0, 11);
     
     if (!piramide) {
       return res.status(404).json({ message: 'Usuario no encontrado' });
     }
     
-    // Función recursiva para aplanar la pirámide
-    const aplanarPiramide = (nodo, usuarios = []) => {
+    const aplanarPiramide = (nodo, nivelActual = 0, usuarios = []) => {
       usuarios.push({
         _id: nodo._id,
         nombre_usuario: nodo.nombre_usuario,
-        nivel: nodo.nivel
+        nivel: nivelActual
       });
       
       if (nodo.hijos && nodo.hijos.length > 0) {
         nodo.hijos.forEach(hijo => {
-          aplanarPiramide(hijo, usuarios);
+          aplanarPiramide(hijo, nivelActual + 1, usuarios);
         });
       }
       
       return usuarios;
     };
     
-    // Obtener todos los usuarios en formato plano
-    const usuariosPiramide = aplanarPiramide(piramide);
+    const usuariosPiramide = aplanarPiramide(piramide, 0);
     
-    // Ordenar por nivel y luego por nombre de usuario
     usuariosPiramide.sort((a, b) => {
       if (a.nivel !== b.nivel) {
         return a.nivel - b.nivel;
@@ -351,12 +524,8 @@ const obtenerPiramideCompleta = async (req, res) => {
     res.status(200).json({
       usuarios: usuariosPiramide
     });
-    
-  } catch (error) {
-    res.status(500).json({ message: error.message });
   }
 };
-
 
 // Eliminar un usuario por ID
 const eliminarUsuario = async (req, res) => {
@@ -374,9 +543,8 @@ const contarUsuariosEnPiramide = async (id) => {
   const piramide = await construirPiramide(id);
   if (!piramide) return 0;
 
-  // Contar los usuarios recursivamente
   const contarHijos = (nodo) => {
-    let contador = 1; // Contamos al usuario actual
+    let contador = 1;
     if (nodo.hijos) {
       nodo.hijos.forEach((hijo) => {
         contador += contarHijos(hijo);
@@ -393,33 +561,29 @@ const obtenerSaldoUsuario = async (req, res) => {
   try {
     const usuarioId = req.params.usuario_id;
 
-    // Validar que el ID no esté vacío
     if (!usuarioId) {
       return res.status(400).json({ mensaje: 'ID de usuario es requerido' });
     }
 
-    // Obtener todas las transacciones del usuario
     const transacciones = await Transaccion.find({ usuario_id: usuarioId });
 
-    // Calcular el saldo
     let saldo = 0;
     transacciones.forEach(transaccion => {
       switch (transaccion.tipo) {
         case 'recarga':
         case 'recibido':
-          saldo += transaccion.monto; // Sumar montos de recargas y recibidos
+          saldo += transaccion.monto;
           break;
         case 'envio':
         case 'retiro':
-          saldo -= transaccion.monto; // Restar montos de envíos y retiros
+          saldo -= transaccion.monto;
           break;
       }
     });
 
-    // Si necesitas multiplicar el saldo por el número total de usuarios
     const totalUsuarios = await contarUsuariosEnPiramide(usuarioId);
     const preSaldo = totalUsuarios - 1;
-    const saldoFinal = saldo + (preSaldo * 130); // Ajustar el saldo final
+    const saldoFinal = saldo + (preSaldo * 130);
 
     res.status(200).json({ saldo: saldoFinal });
   } catch (error) {
@@ -427,11 +591,10 @@ const obtenerSaldoUsuario = async (req, res) => {
   }
 };
 
-// Editar información del usuario (excepto hijos, padre y contraseña)
+// Editar información del usuario
 const editarUsuario = async (req, res) => {
   try {
     const { id } = req.params;
-    // Campos permitidos para editar
     const camposEditables = [
       'nombre_completo',
       'linea_llamadas',
@@ -445,7 +608,6 @@ const editarUsuario = async (req, res) => {
       'codigo_referido'
     ];
 
-    // Construir objeto de actualización solo con los campos permitidos
     const actualizacion = {};
     camposEditables.forEach((campo) => {
       if (req.body[campo] !== undefined) {
@@ -484,7 +646,6 @@ const obtenerUsuariosPaginados = async (req, res) => {
     const limitNum = parseInt(limit);
     const skip = (pageNum - 1) * limitNum;
 
-    // Construir filtro de búsqueda
     let filtro = {};
     if (search) {
       const searchRegex = new RegExp(search, 'i');
@@ -500,11 +661,9 @@ const obtenerUsuariosPaginados = async (req, res) => {
       };
     }
 
-    // Construir ordenamiento
     const sort = {};
     sort[sortBy] = sortOrder === 'desc' ? -1 : 1;
 
-    // Obtener usuarios con paginación
     const usuarios = await Usuario.find(filtro)
       .select('nombre_completo nombre_usuario correo_electronico dni linea_llamadas linea_whatsapp nivel fecha_creacion')
       .sort(sort)
@@ -512,10 +671,8 @@ const obtenerUsuariosPaginados = async (req, res) => {
       .limit(limitNum)
       .lean();
 
-    // Obtener total de documentos para la paginación
     const total = await Usuario.countDocuments(filtro);
 
-    // Calcular información de paginación
     const totalPages = Math.ceil(total / limitNum);
     const hasNext = pageNum < totalPages;
     const hasPrev = pageNum > 1;
@@ -554,4 +711,6 @@ module.exports = {
   obtenerPiramideCompleta,
   obtenerUsuariosPaginados, 
   editarUsuario,
+  obtenerPiramidePorNivel,
+  obtenerUsuariosPorNivel
 };

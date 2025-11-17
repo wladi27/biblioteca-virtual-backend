@@ -5,16 +5,20 @@ const billeteraSchema = new mongoose.Schema({
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Usuario',
     required: true,
-    unique: true,
+    unique: true
   },
   saldo: {
     type: Number,
-    default: 0,
+    default: 0
   },
   activa: {
     type: Boolean,
     default: false,
-  },
+    index: true
+  }
+}, {
+  timestamps: true
 });
 
-module.exports = mongoose.model('Billetera', billeteraSchema);
+
+module.exports = mongoose.models.Billetera || mongoose.model('Billetera', billeteraSchema);

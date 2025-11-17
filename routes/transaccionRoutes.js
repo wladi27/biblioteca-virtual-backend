@@ -6,27 +6,39 @@ const {
   eliminarTransaccion,
   obtenerRecargas,
   obtenerRetirosUsuarios,
-  obtenerRetiros // Importa la nueva función
+  obtenerRetiros,
+  obtenerTransaccionesRecargaMasiva,
+  obtenerEstadisticas,
+  buscarTransacciones
 } = require('../controllers/transaccionController');
 
 const router = express.Router();
 
-// Ruta para obtener transacciones
+// Ruta para obtener transacciones con filtros avanzados
 router.get('/transacciones/:id?', obtenerTransacciones);
 
-// Ruta para obtener recargas
+// Ruta para obtener recargas (con opción de incluir recargas masivas)
 router.get('/recargas/:id?', obtenerRecargas);
 
 // Ruta para obtener retiros
-router.get('/retiros/:id?', obtenerRetiros); // Nueva ruta para retiros
+router.get('/retiros/:id?', obtenerRetiros);
 
-// Ruta para obtener retiros
-router.get('/retiros/usuario/:id?', obtenerRetirosUsuarios); // Nueva ruta para retiros
+// Ruta para obtener retiros con filtros avanzados
+router.get('/retiros/usuario/:id?', obtenerRetirosUsuarios);
+
+// Ruta para obtener transacciones de una recarga masiva específica
+router.get('/recarga-masiva/:recargaMasivaId', obtenerTransaccionesRecargaMasiva);
+
+// Ruta para obtener estadísticas
+router.get('/estadisticas', obtenerEstadisticas);
+
+// Ruta para buscar transacciones
+router.get('/buscar', buscarTransacciones);
 
 // Ruta para actualizar el estado de una transacción
-router.patch('/transacciones/:id', actualizarEstadoTransaccion);
+router.patch('/transacciones/:id', authMiddleware, actualizarEstadoTransaccion);
 
 // Ruta para eliminar transacción
-router.delete('/:id', eliminarTransaccion);
+router.delete('/transacciones/:id', authMiddleware, eliminarTransaccion);
 
 module.exports = router;

@@ -1,27 +1,30 @@
 const express = require('express');
-const {
-  crearSolicitud,
-  listarSolicitudesRecibidas,
-  listarSolicitudesEnviadas,
-  cambiarEstado,
-  listarTodasLasSolicitudes
-} = require('../controllers/referralRequestController');
+const referralRequestController = require('../controllers/referralRequestController');
 
 const router = express.Router();
 
-// Obtener todas las solicitudes
-router.get('/', listarTodasLasSolicitudes);
+// Ruta: GET /api/referralRequests/
+router.get('/', referralRequestController.listarTodasLasSolicitudes);
 
-// Crear solicitud de referido
-router.post('/', crearSolicitud);
+// Ruta: POST /api/referralRequests/
+router.post('/', referralRequestController.crearSolicitud);
 
-// Listar solicitudes recibidas por usuario
-router.get('/recibidas/:id', listarSolicitudesRecibidas);
+// Ruta: GET /api/referralRequests/recibidas/:id
+router.get('/recibidas/:id', referralRequestController.listarSolicitudesRecibidas);
 
-// Listar solicitudes enviadas por usuario
-router.get('/enviadas/:id', listarSolicitudesEnviadas);
+// Ruta: GET /api/referralRequests/enviadas/:id
+router.get('/enviadas/:id', referralRequestController.listarSolicitudesEnviadas);
 
-// Cambiar estado de la solicitud (aceptar/rechazar)
-router.patch('/:id', cambiarEstado);
+// Ruta: PATCH /api/referralRequests/:id
+router.patch('/:id', referralRequestController.cambiarEstado);
+
+// Ruta: POST /api/referralRequests/aceptar-multiples
+router.post('/aceptar-multiples', referralRequestController.aceptarMultiplesSolicitudes);
+
+// Ruta: GET /api/referralRequests/patrocinador/:usuarioId
+router.get('/patrocinador/:usuarioId', referralRequestController.obtenerPatrocinador);
+
+// Ruta: GET /api/referralRequests/referidos-directos/:usuarioId
+router.get('/referidos-directos/:usuarioId', referralRequestController.obtenerReferidosDirectos);
 
 module.exports = router;

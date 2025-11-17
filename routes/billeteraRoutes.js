@@ -5,7 +5,7 @@ const authMiddleware = require('../middleware/authMiddleware');
 const router = express.Router();
 
 // Obtener información de la billetera
-router.get('/wallet/:usuarioId', billeteraController.obtenerBilletera); // Nueva ruta para obtener la billetera
+router.get('/wallet/:usuarioId', billeteraController.obtenerBilletera);
 
 // Verificar el estado de la billetera
 router.get('/estado/:usuarioId', billeteraController.verificarEstado);
@@ -13,7 +13,7 @@ router.get('/estado/:usuarioId', billeteraController.verificarEstado);
 // Activar billetera
 router.post('/activar', authMiddleware, billeteraController.activarBilletera);
 
-// Recargar billetera
+// Recargar billetera INDIVIDUAL
 router.post('/recargar', billeteraController.recargarBilletera);
 
 // Recargar billetera por referido directo
@@ -28,10 +28,20 @@ router.post('/retirar', authMiddleware, billeteraController.retirarDinero);
 // Eliminar billetera
 router.delete('/eliminar', authMiddleware, billeteraController.eliminarBilletera);
 
-// Activar billeteras masivamente
-router.post('/activar-todas', billeteraController.activarBilleterasMasivo);
+// NUEVAS RUTAS OPTIMIZADAS
+router.post('/activar-inactivas', billeteraController.activarBilleterasInactivas);
+router.post('/recarga-ultra-rapida', billeteraController.recargaGeneralUltraRapida);
 
-// Recarga general para todas las billeteras activas
+// RUTAS PARA CONSULTAR RECARGAS MASIVAS
+router.get('/recargas-masivas', billeteraController.obtenerRecargasMasivas);
+router.get('/recargas-masivas/:id', billeteraController.obtenerDetalleRecargaMasiva);
+router.get('/recargas-masivas/revertidas', billeteraController.obtenerRecargasMasivasRevertidas);
+router.get('/recargas-masivas/no-revertidas', billeteraController.obtenerRecargasMasivasNoRevertidas);
+
+// Rutas originales (mantener por compatibilidad)
+router.post('/activar-todas', billeteraController.activarBilleterasMasivo);
 router.post('/recarga-general', billeteraController.recargaGeneral);
+
+router.post('/revertir-recarga-masiva/:recargaMasivaId', billeteraController.revertirRecargaMasiva);
 
 module.exports = router;
