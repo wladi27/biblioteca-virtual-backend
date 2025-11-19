@@ -632,14 +632,15 @@ const editarUsuario = async (req, res) => {
 };
 
 // Obtener usuarios con paginación y filtros
+// En la función obtenerUsuariosPaginados, modifica la parte del sort:
 const obtenerUsuariosPaginados = async (req, res) => {
   try {
     const {
       page = 1,
       limit = 20,
       search = '',
-      sortBy = 'fecha_creacion',
-      sortOrder = 'desc'
+      sortBy = 'nivel', // Cambiado por defecto a nivel
+      sortOrder = 'asc'  // Cambiado por defecto a ascendente
     } = req.query;
 
     const pageNum = parseInt(page);
@@ -663,6 +664,11 @@ const obtenerUsuariosPaginados = async (req, res) => {
 
     const sort = {};
     sort[sortBy] = sortOrder === 'desc' ? -1 : 1;
+    
+    // Si ordenamos por nivel, agregar orden secundario por nombre
+    if (sortBy === 'nivel') {
+      sort['nombre_completo'] = 1;
+    }
 
     const usuarios = await Usuario.find(filtro)
       .select('nombre_completo nombre_usuario correo_electronico dni linea_llamadas linea_whatsapp nivel fecha_creacion')

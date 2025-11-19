@@ -36,7 +36,7 @@ router.get('/estadisticas', obtenerEstadisticas);
 router.get('/buscar', buscarTransacciones);
 
 // Ruta para actualizar el estado de una transacción
-router.patch('/transacciones/:id', authMiddleware, actualizarEstadoTransaccion);
+router.patch('/transacciones/:id', actualizarEstadoTransaccion);
 
 // Ruta para eliminar transacción
 router.delete('/transacciones/:id', authMiddleware, eliminarTransaccion);
