@@ -709,3 +709,213 @@ exports.pagarComisionReferido = async (patrocinadorId, montoComision, solicitant
     throw error;
   }
 };
+
+// En billeteraController.js - Agregar este método
+
+// En billeteraController.js - Agregar este método
+
+// Recarga masiva SOLO a billeteras que faltan transacciones
+exports.recargaMasivaFaltantes = async (req, res) => {
+  let recargaMasiva;
+  
+  try {
+    console.time('recargaMasivaFaltantes');
+    const { monto, fecha, tipo_transaccion, incluir_inactivas = 'false' } = req.body;
+
+    if (!monto || isNaN(parseFloat(monto)) || parseFloat(monto) <= 0) {
+      return res.status(400).json({ mensaje: 'El monto debe ser un número mayor que 0' });
+    }
+
+    if (!fecha || !tipo_transaccion) {
+      return res.status(400).json({ mensaje: 'Fecha y tipo_transaccion son requeridos' });
+    }
+
+    const montoNumero = parseFloat(monto);
+    const fechaInicio = new Date(fecha);
+    const fechaFin = new Date(fecha);
+    fechaFin.setDate(fechaFin.getDate() + 1);
+
+    // 1. Obtener billeteras faltantes usando agregación
+    const pipeline = [
+      {
+        $lookup: {
+          from: 'transaccions',
+          let: { usuarioId: '$usuario_id' },
+          pipeline: [
+            {
+              $match: {
+                $expr: { $eq: ['$usuario_id', '$$usuarioId'] },
+                tipo: tipo_transaccion,
+                fecha: { $gte: fechaInicio, $lt: fechaFin }
+              }
+            }
+          ],
+          as: 'transacciones_existentes'
+        }
+      },
+      {
+        $match: {
+          'transacciones_existentes': { $size: 0 }
+        }
+      },
+      ...(incluir_inactivas !== 'true' ? [{ $match: { activa: true } }] : [])
+    ];
+
+    const billeterasFaltantes = await Billetera.aggregate(pipeline);
+    
+    if (billeterasFaltantes.length === 0) {
+      return res.status(404).json({ 
+        mensaje: 'No se encontraron billeteras faltantes para los criterios especificados' 
+      });
+    }
+
+    const billeterasIds = billeterasFaltantes.map(b => b._id);
+    const usuariosIds = billeterasFaltantes.map(b => b.usuario_id);
+
+    console.log(`📊 Billeteras faltantes encontradas: ${billeterasFaltantes.length}`);
+
+    // 2. Crear registro de recarga masiva específica
+    recargaMasiva = new RecargaMasiva({
+      monto_individual: montoNumero,
+      total_billeteras: billeterasFaltantes.length,
+      monto_total: montoNumero * billeterasFaltantes.length,
+      ejecutado_por: ADMIN_ID,
+      estado: 'procesando',
+      tipo: 'recarga_faltantes',
+      metadata: {
+        fecha_consulta: fecha,
+        tipo_transaccion_faltante: tipo_transaccion,
+        incluyo_inactivas: incluir_inactivas === 'true',
+        billeteras_afectadas_ids: billeterasIds,
+        usuarios_afectados_ids: usuariosIds
+      }
+    });
+    await recargaMasiva.save();
+
+    // 3. Actualizar SOLO las billeteras faltantes
+    const resultado = await Billetera.updateMany(
+      { _id: { $in: billeterasIds } },
+      { $inc: { saldo: montoNumero } }
+    );
+
+    console.log(`✅ Billeteras actualizadas: ${resultado.modifiedCount} de ${billeterasFaltantes.length}`);
+
+    // 4. Crear TRANSACCIÓN PRINCIPAL de recarga masiva específica
+    const transaccionPrincipal = new Transaccion({
+      usuario_id: ADMIN_ID,
+      tipo: 'recarga_masiva',
+      monto: montoNumero * resultado.modifiedCount,
+      descripcion: `RECARGA MASIVA FALTANTES: ${montoNumero} cargado a ${resultado.modifiedCount} billeteras que no tenían transacción tipo "${tipo_transaccion}" en fecha ${fecha}`,
+      estado: 'aprobado',
+      recarga_masiva_id: recargaMasiva._id,
+      es_recarga_masiva: true,
+      metadata: {
+        tipo_faltante: tipo_transaccion,
+        fecha_consulta: fecha,
+        billeteras_objetivo: billeterasFaltantes.length,
+        billeteras_actualizadas: resultado.modifiedCount
+      }
+    });
+    await transaccionPrincipal.save();
+
+    // 5. Actualizar recarga masiva
+    recargaMasiva.transaccion_principal_id = transaccionPrincipal._id;
+    recargaMasiva.estado = 'completado';
+    recargaMasiva.billeteras_actualizadas = resultado.modifiedCount;
+    await recargaMasiva.save();
+
+    // 6. Crear transacciones individuales en background
+    this.crearTransaccionesIndividualesFaltantesBackground(
+      recargaMasiva._id, 
+      montoNumero, 
+      usuariosIds,
+      tipo_transaccion,
+      fecha
+    );
+
+    console.timeEnd('recargaMasivaFaltantes');
+
+    res.status(200).json({
+      mensaje: `✅ Recarga masiva para billeteras faltantes completada`,
+      recarga_masiva_id: recargaMasiva._id,
+      billeterasAfectadas: resultado.modifiedCount,
+      totalBilleterasFaltantes: billeterasFaltantes.length,
+      montoIndividual: montoNumero,
+      montoTotal: montoNumero * resultado.modifiedCount,
+      criterios: {
+        fecha_consulta: fecha,
+        tipo_transaccion_faltante: tipo_transaccion,
+        incluyo_inactivas: incluir_inactivas === 'true'
+      },
+      tiempo: 'Procesamiento rápido'
+    });
+
+  } catch (error) {
+    console.error('❌ Error en recargaMasivaFaltantes:', error);
+    
+    if (recargaMasiva && recargaMasiva._id) {
+      await RecargaMasiva.findByIdAndUpdate(recargaMasiva._id, { 
+        estado: 'fallido',
+        error: error.message 
+      });
+    }
+    
+    res.status(500).json({ 
+      mensaje: 'Error en el servidor', 
+      error: error.message 
+    });
+  }
+};
+
+// Función para crear transacciones individuales para billeteras faltantes
+exports.crearTransaccionesIndividualesFaltantesBackground = async (
+  recargaMasivaId, 
+  monto, 
+  usuariosIds,
+  tipoFaltante,
+  fechaConsulta
+) => {
+  try {
+    setTimeout(async () => {
+      try {
+        console.log(`🔄 Creando transacciones individuales para recarga masiva faltantes: ${recargaMasivaId}`);
+        
+        const batchSize = 50;
+        let totalCreadas = 0;
+        
+        for (let i = 0; i < usuariosIds.length; i += batchSize) {
+          const batch = usuariosIds.slice(i, i + batchSize);
+          const transaccionesBatch = batch.map(usuarioId => ({
+            usuario_id: usuarioId,
+            tipo: 'recarga',
+            monto: monto,
+            descripcion: `Recarga compensatoria - Faltaba transacción tipo "${tipoFaltante}" del ${fechaConsulta}`,
+            recarga_masiva_id: recargaMasivaId,
+            es_recarga_masiva: true,
+            fecha: new Date(),
+            estado: 'aprobado',
+            metadata: {
+              tipo_faltante: tipoFaltante,
+              fecha_consulta: fechaConsulta,
+              es_compensacion: true
+            }
+          }));
+          
+          await Transaccion.insertMany(transaccionesBatch, { ordered: false });
+          totalCreadas += transaccionesBatch.length;
+          console.log(`📊 Transacciones individuales creadas: ${totalCreadas}/${usuariosIds.length}`);
+          
+          await new Promise(resolve => setTimeout(resolve, 100));
+        }
+        
+        console.log(`✅ Transacciones individuales completadas para recarga masiva faltantes: ${recargaMasivaId}`);
+        
+      } catch (error) {
+        console.error('❌ Error creando transacciones individuales faltantes:', error);
+      }
+    }, 1000);
+    
+  } catch (error) {
+    console.error('Error en crearTransaccionesIndividualesFaltantesBackground:', error);
+  }
+};

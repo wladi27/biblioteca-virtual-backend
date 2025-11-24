@@ -9,6 +9,7 @@ const {
   obtenerRetiros,
   obtenerTransaccionesRecargaMasiva,
   obtenerEstadisticas,
+  obtenerBilleterasFaltantesTransacciones,
   buscarTransacciones
 } = require('../controllers/transaccionController');
 
@@ -40,5 +41,10 @@ router.patch('/transacciones/:id', actualizarEstadoTransaccion);
 
 // Ruta para eliminar transacción
 router.delete('/transacciones/:id', authMiddleware, eliminarTransaccion);
+
+// En transaccionRoutes.js - Agregar estas rutas
+
+// Ruta para obtener billeteras que les faltan transacciones
+router.get('/billeteras-faltantes', obtenerBilleterasFaltantesTransacciones);
 
 module.exports = router;

@@ -1,5 +1,7 @@
 const Transaccion = require('../models/transaccion');
 const RecargaMasiva = require('../models/recargaMasiva');
+const Billetera = require('../models/billetera'); // ← AGREGAR ESTA LÍNEA
+const Usuario = require('../models/usuario');     // ← AGREGAR ESTA LÍNEA
 
 // Obtener transacciones (todas o por usuario específico) con filtros mejorados
 exports.obtenerTransacciones = async (req, res) => {
@@ -721,6 +723,189 @@ exports.buscarTransacciones = async (req, res) => {
     console.error('Error en buscarTransacciones:', error);
     res.status(500).json({ 
       mensaje: 'Error en el servidor al buscar transacciones', 
+      error: error.message 
+    });
+  }
+};
+
+// Obtener billeteras que les faltan transacciones por fecha y tipo
+exports.obtenerBilleterasFaltantesTransacciones = async (req, res) => {
+  try {
+    const { 
+      fecha, 
+      tipo_transaccion, 
+      incluir_inactivas = 'false',
+      limit = 100,
+      page = 1
+    } = req.query;
+
+    if (!fecha) {
+      return res.status(400).json({ mensaje: 'La fecha es requerida' });
+    }
+
+    if (!tipo_transaccion) {
+      return res.status(400).json({ mensaje: 'El tipo de transacción es requerido' });
+    }
+
+    const fechaInicio = new Date(fecha);
+    const fechaFin = new Date(fecha);
+    fechaFin.setDate(fechaFin.getDate() + 1);
+
+    const skip = (parseInt(page) - 1) * parseInt(limit);
+
+    // Pipeline de agregación optimizado
+    const pipeline = [
+      // 1. Unir billeteras con usuarios
+      {
+        $lookup: {
+          from: 'usuarios',
+          localField: 'usuario_id',
+          foreignField: '_id',
+          as: 'usuario_info'
+        }
+      },
+      { $unwind: '$usuario_info' },
+      
+      // 2. Filtrar por estado activo si es necesario
+      ...(incluir_inactivas !== 'true' ? [{ $match: { activa: true } }] : []),
+      
+      // 3. Buscar transacciones existentes para este día y tipo
+      {
+        $lookup: {
+          from: 'transaccions',
+          let: { usuarioId: '$usuario_id' },
+          pipeline: [
+            {
+              $match: {
+                $expr: { $eq: ['$usuario_id', '$$usuarioId'] },
+                tipo: tipo_transaccion,
+                fecha: { $gte: fechaInicio, $lt: fechaFin }
+              }
+            }
+          ],
+          as: 'transacciones_existentes'
+        }
+      },
+      
+      // 4. Filtrar solo billeteras SIN transacciones ese día
+      {
+        $match: {
+          'transacciones_existentes': { $size: 0 }
+        }
+      },
+      
+      // 5. Proyectar campos necesarios
+      {
+        $project: {
+          _id: 1,
+          usuario_id: 1,
+          saldo: 1,
+          activa: 1,
+          usuario: {
+            nombre: '$usuario_info.nombre',
+            email: '$usuario_info.email',
+            documento: '$usuario_info.documento',
+            telefono: '$usuario_info.telefono'
+          }
+        }
+      },
+      
+      // 6. Paginación
+      { $skip: skip },
+      { $limit: parseInt(limit) }
+    ];
+
+    // Pipeline para contar total
+    const countPipeline = [
+      {
+        $lookup: {
+          from: 'transaccions',
+          let: { usuarioId: '$usuario_id' },
+          pipeline: [
+            {
+              $match: {
+                $expr: { $eq: ['$usuario_id', '$$usuarioId'] },
+                tipo: tipo_transaccion,
+                fecha: { $gte: fechaInicio, $lt: fechaFin }
+              }
+            }
+          ],
+          as: 'transacciones_existentes'
+        }
+      },
+      {
+        $match: {
+          'transacciones_existentes': { $size: 0 }
+        }
+      },
+      { $count: 'total' }
+    ];
+
+    const [billeterasFaltantes, totalResult, estadisticasTransacciones] = await Promise.all([
+      Billetera.aggregate(pipeline),
+      Billetera.aggregate(countPipeline),
+      Transaccion.aggregate([
+        {
+          $match: {
+            tipo: tipo_transaccion,
+            fecha: { $gte: fechaInicio, $lt: fechaFin }
+          }
+        },
+        {
+          $group: {
+            _id: null,
+            totalMonto: { $sum: '$monto' },
+            promedioMonto: { $avg: '$monto' },
+            cantidad: { $sum: 1 },
+            montoMaximo: { $max: '$monto' },
+            montoMinimo: { $min: '$monto' }
+          }
+        }
+      ])
+    ]);
+
+    const total = totalResult[0] ? totalResult[0].total : 0;
+    const totalBilleteras = await Billetera.countDocuments(
+      incluir_inactivas !== 'true' ? { activa: true } : {}
+    );
+
+    res.status(200).json({
+      billeterasFaltantes,
+      estadisticas: {
+        fecha_consultada: fecha,
+        tipo_transaccion: tipo_transaccion,
+        total_billeteras: totalBilleteras,
+        billeteras_con_transaccion: totalBilleteras - total,
+        billeteras_sin_transaccion: total,
+        porcentaje_cobertura: totalBilleteras > 0 ? 
+          (((totalBilleteras - total) / totalBilleteras) * 100).toFixed(2) + '%' : '0%',
+        transacciones_del_dia: estadisticasTransacciones[0] || {
+          totalMonto: 0,
+          promedioMonto: 0,
+          cantidad: 0,
+          montoMaximo: 0,
+          montoMinimo: 0
+        }
+      },
+      paginacion: {
+        pagina: parseInt(page),
+        totalPaginas: Math.ceil(total / parseInt(limit)),
+        totalBilleterasFaltantes: total,
+        limite: parseInt(limit),
+        hasMore: (skip + billeterasFaltantes.length) < total
+      },
+      filtros: {
+        fecha: fecha,
+        tipo_transaccion: tipo_transaccion,
+        incluir_inactivas: incluir_inactivas === 'true',
+        limite: parseInt(limit)
+      }
+    });
+
+  } catch (error) {
+    console.error('Error en obtenerBilleterasFaltantesTransacciones:', error);
+    res.status(500).json({ 
+      mensaje: 'Error en el servidor al obtener billeteras faltantes', 
       error: error.message 
     });
   }

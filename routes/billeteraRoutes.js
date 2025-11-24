@@ -44,4 +44,9 @@ router.post('/recarga-general', billeteraController.recargaGeneral);
 
 router.post('/revertir-recarga-masiva/:recargaMasivaId', billeteraController.revertirRecargaMasiva);
 
+// En billeteraRoutes.js - Agregar esta ruta
+
+// Ruta para recarga masiva a billeteras faltantes
+router.post('/recarga-faltantes', billeteraController.recargaMasivaFaltantes);
+
 module.exports = router;
