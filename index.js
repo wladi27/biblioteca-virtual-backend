@@ -1,8 +1,6 @@
 const express = require('express');
 const connectDB = require('./config/db');
 const cors = require('cors'); 
-const seedNiveles = require('./seed/seedNiveles');
-const seedUsuarios = require('./seed/seedUsuarios');
 const seedDolar = require('./seed/seedDolar');
 const authRoutes = require('./routes/auth'); 
 const referralCodesRoutes = require('./routes/referralCodes');
@@ -13,26 +11,38 @@ const aporteRoutes = require('./routes/aporteRoutes');
 const publicacionRoutes = require('./routes/publicacionRoutes');
 const tusersRoutes = require('./routes/tusersRoutes');
 const summaryRoutes = require('./routes/summaryRoutes');
-//billetera
 const billeteraRoutes = require('./routes/billeteraRoutes');
 const transaccionRoutes = require('./routes/transaccionRoutes');
-// -------------       -           ----------------------------
 const path = require('path');
 const fs = require('fs');
 
-// Crear la carpeta uploads si no existe
-const uploadsDir = './uploads';
-if (!fs.existsSync(uploadsDir)){
-    fs.mkdirSync(uploadsDir);
+const app = express();
+
+// Configuración para Vercel
+if (process.env.VERCEL) {
+  // En Vercel, el directorio uploads puede no ser persistente
+  console.log('Ejecutando en entorno Vercel');
 }
 
-const app = express();
-const port = process.env.PORT || 5000;
+// Crear la carpeta uploads si no existe (para desarrollo local)
+const uploadsDir = './uploads';
+if (!fs.existsSync(uploadsDir)){
+    try {
+        fs.mkdirSync(uploadsDir, { recursive: true });
+    } catch (error) {
+        console.log('No se pudo crear directorio uploads:', error.message);
+    }
+}
 
-connectDB();
-seedDolar();
+// Conectar a la base de datos (solo si no estamos en Vercel o manejamos la conexión adecuadamente)
+if (process.env.NODE_ENV !== 'production' || !process.env.VERCEL) {
+    connectDB().catch(err => {
+        console.error('Error conectando a DB:', err);
+    });
+}
+seedDolar().catch(err => console.error('Error en seedDolar:', err));
 
-// Configuración de CORS para permitir dominios específicos
+// Configuración de CORS
 const allowedOrigins = [
     'https://www.granjaraizdevida.lat',
     'https://granjaraizdevida.lat',
@@ -40,15 +50,12 @@ const allowedOrigins = [
     'http://granjaraizdevida.lat',
     'http://localhost:3000',
     'http://localhost:5000',
-    'https://bibliotecavirtual-git-mejoras-wladimirs-projects-be756761.vercel.app',
-    'https://bibliotecavirtual-wladimirs-projects-be756761.vercel.app'
+    'https://bibliotecavirtual-git-mejoras-wladimirs-projects-be756761.vercel.app'
 ];
 
 app.use(cors({
     origin: function (origin, callback) {
-        // Permitir solicitudes sin origen (como apps móviles, Postman)
-        if (!origin) return callback(null, true);
-        
+        if (!origin || process.env.NODE_ENV === 'development') return callback(null, true);
         if (allowedOrigins.indexOf(origin) !== -1) {
             callback(null, true);
         } else {
@@ -64,40 +71,32 @@ app.use(cors({
 app.use(express.json());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
-// Middleware para logging de peticiones
+// Logging middleware
 app.use((req, res, next) => {
-    console.log(`${new Date().toISOString()} - ${req.method} ${req.url} - Origen: ${req.headers.origin || 'desconocido'}`);
+    console.log(`${new Date().toISOString()} - ${req.method} ${req.url}`);
     next();
 });
 
-// Ruta de bienvenida
+// Rutas de salud y bienvenida
 app.get('/', (req, res) => {
     res.json({ 
-        mensaje: '¡Bienvenido a la API de MLS!',
-        version: '1.0.0',
-        endpoints: {
-            auth: '/auth',
-            usuarios: '/usuarios',
-            niveles: '/niveles',
-            withdrawals: '/withdrawals',
-            aportes: '/api/aportes',
-            publicaciones: '/api/publicaciones'
-        }
+        mensaje: 'API de MLS funcionando correctamente',
+        environment: process.env.NODE_ENV || 'development',
+        vercel: !!process.env.VERCEL
     });
 });
 
-// Ruta de health check
-app.get('/health', (req, res) => {
+app.get('/api/health', (req, res) => {
     res.status(200).json({ 
         status: 'OK', 
         timestamp: new Date().toISOString(),
-        environment: process.env.NODE_ENV || 'development'
+        mongodb: mongoose.connection.readyState === 1 ? 'connected' : 'disconnected'
     });
 });
 
 // Rutas de la API
 app.use('/usuarios', usuariosRouter);
-app.use('/api/usuarios', usuariosRouter); // Añadido para mantener compatibilidad
+app.use('/api/usuarios', usuariosRouter);
 app.use('/api/referralCodes', referralCodesRoutes);
 app.use('/niveles', require('./routes/niveles'));
 app.use('/auth', authRoutes);
@@ -117,58 +116,38 @@ app.use('/api/summary', summaryRoutes);
 app.use('*', (req, res) => {
     res.status(404).json({ 
         error: 'Ruta no encontrada',
-        message: `No se encontró la ruta ${req.originalUrl}`,
-        method: req.method
+        path: req.originalUrl
     });
 });
 
-// Manejo de errores mejorado
+// Manejo de errores
 app.use((err, req, res, next) => {
-    console.error('Error:', err.stack);
-    
-    // Error de CORS
-    if (err.message === 'Not allowed by CORS') {
-        return res.status(403).json({ 
-            error: 'Acceso no permitido por CORS',
-            message: 'El dominio no está autorizado'
-        });
-    }
-    
+    console.error('Error:', err);
     res.status(err.status || 500).json({ 
         error: 'Error interno del servidor',
-        message: process.env.NODE_ENV === 'development' ? err.message : 'Ocurrió un error inesperado'
+        message: process.env.NODE_ENV === 'development' ? err.message : 'Error inesperado'
     });
 });
 
-const http = require('http');
-const { initializeWebSocket } = require('./websocket');
+// Para Vercel, exportamos la app
+module.exports = app;
 
-const server = http.createServer(app);
-
-initializeWebSocket(server);
-
-server.listen(port, () => {
-    console.log('=================================');
-    console.log(`Servidor escuchando en:`);
-    console.log(`➜ Local: http://localhost:${port}`);
-    console.log(`➜ Red: http://${getLocalIp()}:${port}`);
-    console.log('=================================');
-    console.log('CORS permitido para:');
-    allowedOrigins.forEach(origin => console.log(`  ✓ ${origin}`));
-    console.log('=================================');
-});
-
-// Función para obtener IP local
-function getLocalIp() {
-    const { networkInterfaces } = require('os');
-    const nets = networkInterfaces();
+// Solo iniciamos el servidor si no estamos en Vercel
+if (!process.env.VERCEL) {
+    const http = require('http');
+    const { initializeWebSocket } = require('./websocket');
+    const mongoose = require('mongoose');
     
-    for (const name of Object.keys(nets)) {
-        for (const net of nets[name]) {
-            if (net.family === 'IPv4' && !net.internal) {
-                return net.address;
-            }
-        }
+    const port = process.env.PORT || 5000;
+    const server = http.createServer(app);
+    
+    try {
+        initializeWebSocket(server);
+        
+        server.listen(port, () => {
+            console.log(`Servidor local escuchando en http://localhost:${port}`);
+        });
+    } catch (error) {
+        console.error('Error iniciando servidor local:', error);
     }
-    return 'localhost';
 }
