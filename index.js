@@ -2,7 +2,7 @@ const express = require('express');
 const connectDB = require('./config/db');
 const cors = require('cors'); 
 const seedNiveles = require('./seed/seedNiveles');
-const seedUsuarios = require('./seed/seedUsuarios'); // Importar seedUsuarios
+const seedUsuarios = require('./seed/seedUsuarios');
 const seedDolar = require('./seed/seedDolar');
 const authRoutes = require('./routes/auth'); 
 const referralCodesRoutes = require('./routes/referralCodes');
@@ -32,23 +32,72 @@ const port = process.env.PORT || 5000;
 connectDB();
 seedDolar();
 
-// Configuración de CORS para permitir todos los dominios
+// Configuración de CORS para permitir dominios específicos
+const allowedOrigins = [
+    'https://www.granjaraizdevida.lat',
+    'https://granjaraizdevida.lat',
+    'http://www.granjaraizdevida.lat',
+    'http://granjaraizdevida.lat',
+    'http://localhost:3000',
+    'http://localhost:5000',
+    'https://bibliotecavirtual-git-mejoras-wladimirs-projects-be756761.vercel.app',
+    'https://bibliotecavirtual-wladimirs-projects-be756761.vercel.app'
+];
+
 app.use(cors({
-  origin: '*', // Permitir todos los dominios
-  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'], // Métodos permitidos
-  allowedHeaders: ['Content-Type', 'Authorization'] // Cabeceras permitidas
+    origin: function (origin, callback) {
+        // Permitir solicitudes sin origen (como apps móviles, Postman)
+        if (!origin) return callback(null, true);
+        
+        if (allowedOrigins.indexOf(origin) !== -1) {
+            callback(null, true);
+        } else {
+            console.log('Bloqueado por CORS:', origin);
+            callback(null, false);
+        }
+    },
+    methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
+    credentials: true
 }));
 
 app.use(express.json());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
+// Middleware para logging de peticiones
+app.use((req, res, next) => {
+    console.log(`${new Date().toISOString()} - ${req.method} ${req.url} - Origen: ${req.headers.origin || 'desconocido'}`);
+    next();
+});
+
 // Ruta de bienvenida
 app.get('/', (req, res) => {
-  res.send('¡Bienvenido a la API de MLS!');
+    res.json({ 
+        mensaje: '¡Bienvenido a la API de MLS!',
+        version: '1.0.0',
+        endpoints: {
+            auth: '/auth',
+            usuarios: '/usuarios',
+            niveles: '/niveles',
+            withdrawals: '/withdrawals',
+            aportes: '/api/aportes',
+            publicaciones: '/api/publicaciones'
+        }
+    });
+});
+
+// Ruta de health check
+app.get('/health', (req, res) => {
+    res.status(200).json({ 
+        status: 'OK', 
+        timestamp: new Date().toISOString(),
+        environment: process.env.NODE_ENV || 'development'
+    });
 });
 
 // Rutas de la API
 app.use('/usuarios', usuariosRouter);
+app.use('/api/usuarios', usuariosRouter); // Añadido para mantener compatibilidad
 app.use('/api/referralCodes', referralCodesRoutes);
 app.use('/niveles', require('./routes/niveles'));
 app.use('/auth', authRoutes);
@@ -59,15 +108,36 @@ app.use('/api/publicaciones', publicacionRoutes);
 app.use('/api/tusuarios', tusersRoutes);
 app.use('/api/billetera', billeteraRoutes);
 app.use('/api/transacciones', transaccionRoutes);
-app.use('/api/usuario', require('./routes/usuarioRoutes')); // <--- Agrega esta línea
+app.use('/api/usuario', require('./routes/usuarioRoutes'));
 app.use('/api/referralRequests', require('./routes/referralRequestRoutes'));
 app.use('/api/dolar', require('./routes/dolarRoutes'));
 app.use('/api/summary', summaryRoutes);
 
-// Manejo de errores
+// Manejo de rutas no encontradas
+app.use('*', (req, res) => {
+    res.status(404).json({ 
+        error: 'Ruta no encontrada',
+        message: `No se encontró la ruta ${req.originalUrl}`,
+        method: req.method
+    });
+});
+
+// Manejo de errores mejorado
 app.use((err, req, res, next) => {
-  console.error(err.stack);
-  res.status(500).send('Error interno del servidor');
+    console.error('Error:', err.stack);
+    
+    // Error de CORS
+    if (err.message === 'Not allowed by CORS') {
+        return res.status(403).json({ 
+            error: 'Acceso no permitido por CORS',
+            message: 'El dominio no está autorizado'
+        });
+    }
+    
+    res.status(err.status || 500).json({ 
+        error: 'Error interno del servidor',
+        message: process.env.NODE_ENV === 'development' ? err.message : 'Ocurrió un error inesperado'
+    });
 });
 
 const http = require('http');
@@ -78,5 +148,27 @@ const server = http.createServer(app);
 initializeWebSocket(server);
 
 server.listen(port, () => {
-  console.log(`Servidor escuchando en http://localhost:${port}`);
+    console.log('=================================');
+    console.log(`Servidor escuchando en:`);
+    console.log(`➜ Local: http://localhost:${port}`);
+    console.log(`➜ Red: http://${getLocalIp()}:${port}`);
+    console.log('=================================');
+    console.log('CORS permitido para:');
+    allowedOrigins.forEach(origin => console.log(`  ✓ ${origin}`));
+    console.log('=================================');
 });
+
+// Función para obtener IP local
+function getLocalIp() {
+    const { networkInterfaces } = require('os');
+    const nets = networkInterfaces();
+    
+    for (const name of Object.keys(nets)) {
+        for (const net of nets[name]) {
+            if (net.family === 'IPv4' && !net.internal) {
+                return net.address;
+            }
+        }
+    }
+    return 'localhost';
+}
