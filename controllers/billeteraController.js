@@ -500,7 +500,7 @@ exports.recargarPorReferidoDirecto = async (req, res) => {
       return res.status(400).json({ mensaje: 'El nivel es requerido y debe ser un número' });
     }
 
-    const monto = parseInt(nivel) >= 1792 ? 1400 : 500;
+    const monto = parseInt(nivel) >= 1792 ? 7000 : 1400;
 
     const billetera = await Billetera.findOne({ usuario_id: usuarioId });
 
