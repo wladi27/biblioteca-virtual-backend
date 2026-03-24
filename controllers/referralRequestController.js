@@ -239,7 +239,7 @@ exports.aceptarMultiplesSolicitudes = async (req, res) => {
         }
 
         // Calcular monto de comisión según el nivel del solicitante
-        const montoComision = solicitud.solicitante_id.nivel >= 1792 ? 1400 : 500;
+        const montoComision = solicitud.solicitante_id.nivel >= 1792 ? 7000 : 1400;
 
         // Pagar comisión al patrocinador
         billeteraPatrocinador.saldo += montoComision;
@@ -336,7 +336,7 @@ exports.cambiarEstado = async (req, res) => {
       }
 
       // Calcular monto de comisión según el nivel del solicitante
-      const montoComision = solicitud.solicitante_id.nivel >= 1792 ? 1400 : 500;
+      const montoComision = solicitud.solicitante_id.nivel >= 1792 ? 7000 : 500;
 
       // Pagar comisión al patrocinador
       billeteraPatrocinador.saldo += montoComision;
