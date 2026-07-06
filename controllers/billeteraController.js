@@ -285,91 +285,94 @@ exports.activarBilleterasInactivas = async (req, res) => {
   }
 };
 
+const ejecutarRecargaMasivaGeneral = async ({ monto, ejecutadoPor = ADMIN_ID, registrarTransaccionesIndividuales = true }) => {
+  if (!monto || isNaN(parseFloat(monto)) || parseFloat(monto) <= 0) {
+    const error = new Error('El monto debe ser un número mayor que 0');
+    error.statusCode = 400;
+    throw error;
+  }
+
+  const montoNumero = parseFloat(monto);
+  const totalBilleteras = await Billetera.countDocuments({ activa: true });
+
+  if (totalBilleteras === 0) {
+    const error = new Error('No hay billeteras activas para recargar');
+    error.statusCode = 404;
+    throw error;
+  }
+
+  let recargaMasiva = new RecargaMasiva({
+    monto_individual: montoNumero,
+    total_billeteras: totalBilleteras,
+    monto_total: montoNumero * totalBilleteras,
+    ejecutado_por: ejecutadoPor,
+    estado: 'procesando'
+  });
+
+  await recargaMasiva.save();
+
+  const resultado = await Billetera.updateMany(
+    { activa: true },
+    { $inc: { saldo: montoNumero } }
+  );
+
+  const transaccionPrincipal = new Transaccion({
+    usuario_id: ejecutadoPor,
+    tipo: 'recarga_masiva',
+    monto: montoNumero * resultado.modifiedCount,
+    descripcion: `RECARGA MASIVA: ${montoNumero} cargado individualmente a ${resultado.modifiedCount} billeteras activas`,
+    estado: 'aprobado',
+    recarga_masiva_id: recargaMasiva._id,
+    es_recarga_masiva: true
+  });
+
+  await transaccionPrincipal.save();
+
+  recargaMasiva.transaccion_principal_id = transaccionPrincipal._id;
+  recargaMasiva.estado = 'completado';
+  await recargaMasiva.save();
+
+  if (registrarTransaccionesIndividuales) {
+    module.exports.crearTransaccionesIndividualesBackground(recargaMasiva._id, montoNumero);
+  }
+
+  return {
+    recarga_masiva_id: recargaMasiva._id,
+    billeterasAfectadas: resultado.modifiedCount,
+    totalBilleteras,
+    montoIndividual: montoNumero,
+    montoTotal: montoNumero * resultado.modifiedCount,
+    transaccionPrincipal: transaccionPrincipal._id,
+    ejecutado_por: ejecutadoPor,
+    tiempo: '2-3 segundos (máximo)'
+  };
+};
+
 // Recarga masiva ULTRA RÁPIDA con nuevo tipo recarga_masiva
 exports.recargaGeneralUltraRapida = async (req, res) => {
-  let recargaMasiva;
-  
   try {
     console.time('recargaGeneralUltraRapida');
     const { monto } = req.body;
-
-    if (!monto || isNaN(parseFloat(monto)) || parseFloat(monto) <= 0) {
-      return res.status(400).json({ mensaje: 'El monto debe ser un número mayor que 0' });
-    }
-
-    const montoNumero = parseFloat(monto);
-    
-    // 1. Contar billeteras activas
-    const totalBilleteras = await Billetera.countDocuments({ activa: true });
-    
-    if (totalBilleteras === 0) {
-      return res.status(404).json({ mensaje: 'No hay billeteras activas para recargar' });
-    }
-
-    // 2. Crear registro de recarga masiva con ID fijo del admin
-    recargaMasiva = new RecargaMasiva({
-      monto_individual: montoNumero,
-      total_billeteras: totalBilleteras,
-      monto_total: montoNumero * totalBilleteras,
-      ejecutado_por: ADMIN_ID,
-      estado: 'procesando'
-    });
-    await recargaMasiva.save();
-
-    // 3. Actualizar TODAS las billeteras activas
-    const resultado = await Billetera.updateMany(
-      { activa: true },
-      { $inc: { saldo: montoNumero } }
-    );
-
-    // 4. Crear TRANSACCIÓN PRINCIPAL de recarga masiva
-    const transaccionPrincipal = new Transaccion({
-      usuario_id: ADMIN_ID,
-      tipo: 'recarga_masiva',
-      monto: montoNumero * resultado.modifiedCount,
-      descripcion: `RECARGA MASIVA: ${montoNumero} cargado individualmente a ${resultado.modifiedCount} billeteras activas`,
-      estado: 'aprobado',
-      recarga_masiva_id: recargaMasiva._id,
-      es_recarga_masiva: true
-    });
-    await transaccionPrincipal.save();
-
-    // 5. Actualizar recarga masiva con la transacción principal
-    recargaMasiva.transaccion_principal_id = transaccionPrincipal._id;
-    recargaMasiva.estado = 'completado';
-    await recargaMasiva.save();
-
-    // 6. Crear transacciones individuales en background
-    this.crearTransaccionesIndividualesBackground(recargaMasiva._id, montoNumero);
+    const resultado = await ejecutarRecargaMasivaGeneral({ monto });
 
     console.timeEnd('recargaGeneralUltraRapida');
 
     res.status(200).json({
-      mensaje: `✅ Recarga masiva completada exitosamente`,
-      recarga_masiva_id: recargaMasiva._id,
-      billeterasAfectadas: resultado.modifiedCount,
-      totalBilleteras: totalBilleteras,
-      montoIndividual: montoNumero,
-      montoTotal: montoNumero * resultado.modifiedCount,
-      transaccionPrincipal: transaccionPrincipal._id,
-      ejecutado_por: ADMIN_ID,
-      tiempo: '2-3 segundos (máximo)'
+      mensaje: '✅ Recarga masiva completada exitosamente',
+      ...resultado
     });
-
   } catch (error) {
     console.error('Error en recargaGeneralUltraRapida:', error);
-    
-    // Revertir recarga masiva si falló
-    if (recargaMasiva && recargaMasiva._id) {
-      await RecargaMasiva.findByIdAndUpdate(recargaMasiva._id, { estado: 'fallido' });
-    }
-    
-    res.status(500).json({ 
-      mensaje: 'Error en el servidor', 
-      error: error.message 
+
+    const statusCode = error.statusCode || 500;
+    res.status(statusCode).json({
+      mensaje: statusCode === 400 || statusCode === 404 ? error.message : 'Error en el servidor',
+      error: error.message
     });
   }
 };
+
+exports.ejecutarRecargaMasivaAutomatica = async (opciones = {}) => ejecutarRecargaMasivaGeneral(opciones);
 
 // Método para crear transacciones individuales en background
 exports.crearTransaccionesIndividualesBackground = async (recargaMasivaId, monto) => {

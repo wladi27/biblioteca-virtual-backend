@@ -19,6 +19,7 @@ const transaccionRoutes = require('./routes/transaccionRoutes');
 // -------------       -           ----------------------------
 const path = require('path');
 const fs = require('fs');
+require('./cron-recarga-diaria');
 
 // Crear la carpeta uploads si no existe
 const uploadsDir = './uploads';
