@@ -1,18 +1,15 @@
 const { MongoClient } = require('mongodb');
-require('dotenv').config(); // Para leer variables de entorno desde un archivo .env
+require('dotenv').config();
 
-// 1. Configura tus cadenas de conexión
-// Es una mejor práctica usar variables de entorno para las credenciales.
-const sourceUri = process.env.SOURCE_MONGO_URI || "mongodb://wladi:Wladi.0127!@72.60.70.200:27000";
-const destUri = process.env.DEST_MONGO_URI || "mongodb+srv://wladimir:W27330449@mls.s2hdk.mongodb.net/";
+const sourceUri = process.env.SOURCE_MONGO_URI;
+const destUri = process.env.DEST_MONGO_URI || process.env.DB_URI;
 
-// 2. Nombres de las bases de datos
-const sourceDBName = 'biblioteca_db';
-const destDBName = 'test'; // Puede ser el mismo o uno nuevo
+const sourceDBName = process.env.SOURCE_DB_NAME || 'biblioteca_db';
+const destDBName = process.env.DEST_DB_NAME || 'test';
 
 async function migrate() {
   if (!sourceUri || !destUri) {
-    console.error("Por favor, define las variables de entorno SOURCE_MONGO_URI y DEST_MONGO_URI.");
+    console.error('Por favor, define las variables de entorno SOURCE_MONGO_URI y DEST_MONGO_URI.');
     process.exit(1);
   }
 
@@ -20,16 +17,14 @@ async function migrate() {
   const destClient = new MongoClient(destUri);
 
   try {
-    // Conectar a ambos servidores
     await sourceClient.connect();
-    console.log("Conectado a la base de datos de origen (Atlas)...");
+    console.log('Conectado a la base de datos de origen...');
     await destClient.connect();
-    console.log("Conectado a la base de datos de destino...");
+    console.log('Conectado a la base de datos de destino...');
 
     const sourceDb = sourceClient.db(sourceDBName);
     const destDb = destClient.db(destDBName);
 
-    // Obtener la lista de colecciones de la base de datos de origen
     const collections = await sourceDb.listCollections().toArray();
 
     for (const collectionInfo of collections) {
@@ -39,31 +34,28 @@ async function migrate() {
       const sourceCollection = sourceDb.collection(collectionName);
       const destCollection = destDb.collection(collectionName);
 
-      // Opcional: Limpiar la colección de destino antes de insertar
-      // await destCollection.deleteMany({});
-
-      // Leer todos los documentos de la colección de origen
       const documents = await sourceCollection.find({}).toArray();
 
-      // Insertar los documentos en la colección de destino
       if (documents.length > 0) {
-        await destCollection.insertMany(documents, { ordered: false }); // ordered:false para continuar si hay un error
+        await destCollection.insertMany(documents, { ordered: false });
         console.log(` -> Se migraron ${documents.length} documentos a la colección ${collectionName}.`);
       } else {
         console.log(` -> La colección ${collectionName} está vacía, no se migró nada.`);
       }
     }
 
-    console.log("\n¡Migración completada exitosamente!");
-
+    console.log('\n¡Migración completada exitosamente!');
   } catch (err) {
-    console.error("Ocurrió un error durante la migración:", err);
+    console.error('Ocurrió un error durante la migración:', err);
   } finally {
-    // Asegurarse de cerrar las conexiones
     await sourceClient.close();
     await destClient.close();
-    console.log("Conexiones cerradas.");
+    console.log('Conexiones cerradas.');
   }
 }
 
-migrate();
+if (require.main === module) {
+  migrate();
+}
+
+module.exports = migrate;

@@ -1,5 +1,7 @@
 const express = require('express');
 const authMiddleware = require('../middleware/authMiddleware');
+const { requireAdmin } = require('../middleware/authMiddleware');
+const { recargarBilletera } = require('../controllers/billeteraController');
 const { 
   obtenerTransacciones, 
   actualizarEstadoTransaccion,
@@ -14,6 +16,9 @@ const {
 } = require('../controllers/transaccionController');
 
 const router = express.Router();
+
+// Ruta para recarga administrativa individual (soporta /api/transacciones/recarga-admin)
+router.post('/recarga-admin', authMiddleware, requireAdmin, recargarBilletera);
 
 // Ruta para obtener transacciones con filtros avanzados
 router.get('/transacciones/:id?', obtenerTransacciones);

@@ -1,6 +1,7 @@
 const express = require('express');
 const billeteraController = require('../controllers/billeteraController');
 const authMiddleware = require('../middleware/authMiddleware');
+const { requireAdmin } = require('../middleware/authMiddleware');
 
 const router = express.Router();
 
@@ -10,43 +11,33 @@ router.get('/wallet/:usuarioId', billeteraController.obtenerBilletera);
 // Verificar el estado de la billetera
 router.get('/estado/:usuarioId', billeteraController.verificarEstado);
 
-// Activar billetera
+// Activar billetera de usuario autenticado
 router.post('/activar', authMiddleware, billeteraController.activarBilletera);
 
-// Recargar billetera INDIVIDUAL
-router.post('/recargar', billeteraController.recargarBilletera);
-
-// Recargar billetera por referido directo
-router.post('/recarga-referido', billeteraController.recargarPorReferidoDirecto);
-
-// Enviar dinero
+// Enviar dinero (Deshabilitado temporalmente)
 router.post('/enviar', authMiddleware, billeteraController.enviarDinero);
 
-// Retirar dinero
+// Retirar dinero (Usuario autenticado con saldo suficiente)
 router.post('/retirar', authMiddleware, billeteraController.retirarDinero);
 
 // Eliminar billetera
 router.delete('/eliminar', authMiddleware, billeteraController.eliminarBilletera);
 
-// NUEVAS RUTAS OPTIMIZADAS
-router.post('/activar-inactivas', billeteraController.activarBilleterasInactivas);
-router.post('/recarga-ultra-rapida', billeteraController.recargaGeneralUltraRapida);
+// Reconciliar saldo (Auditoría)
+router.post('/reconciliar/:usuarioId', authMiddleware, billeteraController.reconciliarSaldo);
 
-// RUTAS PARA CONSULTAR RECARGAS MASIVAS
-router.get('/recargas-masivas', billeteraController.obtenerRecargasMasivas);
-router.get('/recargas-masivas/:id', billeteraController.obtenerDetalleRecargaMasiva);
-router.get('/recargas-masivas/revertidas', billeteraController.obtenerRecargasMasivasRevertidas);
-router.get('/recargas-masivas/no-revertidas', billeteraController.obtenerRecargasMasivasNoRevertidas);
-
-// Rutas originales (mantener por compatibilidad)
-router.post('/activar-todas', billeteraController.activarBilleterasMasivo);
-router.post('/recarga-general', billeteraController.recargaGeneral);
-
-router.post('/revertir-recarga-masiva/:recargaMasivaId', billeteraController.revertirRecargaMasiva);
-
-// En billeteraRoutes.js - Agregar esta ruta
-
-// Ruta para recarga masiva a billeteras faltantes
-router.post('/recarga-faltantes', billeteraController.recargaMasivaFaltantes);
+// --- RUTAS ADMINISTRATIVAS PROTEGIDAS (Admin) ---
+router.post('/recargar', authMiddleware, requireAdmin, billeteraController.recargarBilletera);
+router.post('/recarga-referido', authMiddleware, requireAdmin, billeteraController.recargarPorReferidoDirecto);
+router.post('/activar-inactivas', authMiddleware, requireAdmin, billeteraController.activarBilleterasInactivas);
+router.post('/recarga-ultra-rapida', authMiddleware, requireAdmin, billeteraController.recargaGeneralUltraRapida);
+router.get('/recargas-masivas', authMiddleware, requireAdmin, billeteraController.obtenerRecargasMasivas);
+router.get('/recargas-masivas/:id', authMiddleware, requireAdmin, billeteraController.obtenerDetalleRecargaMasiva);
+router.get('/recargas-masivas/revertidas', authMiddleware, requireAdmin, billeteraController.obtenerRecargasMasivasRevertidas);
+router.get('/recargas-masivas/no-revertidas', authMiddleware, requireAdmin, billeteraController.obtenerRecargasMasivasNoRevertidas);
+router.post('/activar-todas', authMiddleware, requireAdmin, billeteraController.activarBilleterasMasivo);
+router.post('/recarga-general', authMiddleware, requireAdmin, billeteraController.recargaGeneral);
+router.post('/revertir-recarga-masiva/:recargaMasivaId', authMiddleware, requireAdmin, billeteraController.revertirRecargaMasiva);
+router.post('/recarga-faltantes', authMiddleware, requireAdmin, billeteraController.recargaMasivaFaltantes);
 
 module.exports = router;

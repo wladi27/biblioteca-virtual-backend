@@ -3,7 +3,10 @@ const cron = require('node-cron');
 const { ejecutarRecargaAutomaticaDiaria } = require('./services/recargaMasivaService');
 const connectDB = require('./config/db');
 
-connectDB();
+// Solo conectar a DB si el script se ejecuta directamente de forma independiente
+if (require.main === module) {
+  connectDB();
+}
 
 cron.schedule('0 7 * * *', async () => {
   try {

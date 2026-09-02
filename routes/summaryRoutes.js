@@ -1,10 +1,12 @@
 const express = require('express');
 const router = express.Router();
-const { getSummaryData } = require('../controllers/summaryController');
-const protect = require('../middleware/authMiddleware'); // Assuming you want to protect this route
+const { getSummaryData, getAdminDashboardOverview } = require('../controllers/summaryController');
+const authMiddleware = require('../middleware/authMiddleware');
 
-console.log('getSummaryData in summaryRoutes:', getSummaryData);
+// Endpoint Consolidado: Métricas globales + últimos retiros en 1 sola llamada HTTP
+router.get('/admin-dashboard', authMiddleware, getAdminDashboardOverview);
 
-router.get('/', getSummaryData);
+// Endpoint de resumen general
+router.get('/', authMiddleware, getSummaryData);
 
 module.exports = router;

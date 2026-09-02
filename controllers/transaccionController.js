@@ -77,7 +77,7 @@ exports.obtenerTransacciones = async (req, res) => {
     }
 
     const transacciones = await Transaccion.find(filtro)
-      .populate('usuario_id', 'nombre email documento')
+      .populate('usuario_id', 'nombre_completo correo_electronico dni nombre_usuario')
       .populate('recarga_masiva_id', 'monto_individual total_billeteras fecha_ejecucion')
       .sort({ fecha: -1 })
       .skip(skip)
@@ -492,11 +492,16 @@ exports.actualizarEstadoTransaccion = async (req, res) => {
       id,
       actualizacion,
       { new: true, runValidators: true }
-    ).populate('usuario_id', 'nombre email');
+    ).populate('usuario_id', 'nombre_completo correo_electronico dni nombre_usuario');
 
-    // Si se rechaza un retiro, reembolsar el saldo
+    // Si se rechaza un retiro, reembolsar el saldo a la billetera del usuario
     if (estado === 'rechazado' && transaccionActual.estado !== 'rechazado') {
-      console.log(`Reembolsar saldo por retiro rechazado: ${transaccionActual.monto} al usuario ${transaccionActual.usuario_id}`);
+      const billetera = await Billetera.findOne({ usuario_id: transaccionActual.usuario_id });
+      if (billetera) {
+        billetera.saldo += transaccionActual.monto;
+        await billetera.save();
+        console.log(`✅ Saldo de ${transaccionActual.monto} COP reembolsado a usuario ${transaccionActual.usuario_id}`);
+      }
     }
 
     console.log(`Transacción ${id} actualizada a estado: ${estado}`);

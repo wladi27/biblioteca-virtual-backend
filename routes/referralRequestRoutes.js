@@ -9,6 +9,12 @@ router.get('/', referralRequestController.listarTodasLasSolicitudes);
 // Ruta: POST /api/referralRequests/
 router.post('/', referralRequestController.crearSolicitud);
 
+// Ruta: POST /api/referralRequests/liquidar-pendientes (Barrido global)
+router.post('/liquidar-pendientes', referralRequestController.liquidarComisionesPendientesGlobal);
+
+// Ruta: GET /api/referralRequests/resumen-comisiones/:usuarioId
+router.get('/resumen-comisiones/:usuarioId', referralRequestController.obtenerResumenComisiones);
+
 // Ruta: GET /api/referralRequests/recibidas/:id
 router.get('/recibidas/:id', referralRequestController.listarSolicitudesRecibidas);
 

@@ -1,35 +1,44 @@
 const express = require('express');
 const {
     crearAporte,
+    obtenerEstadoAporteUsuario,
     obtenerAportes,
     obtenerAportePorId,
     actualizarAporte,
+    validarAportesEnLote,
     obtenerAportesPaginados,
     obtenerAportesNoValidados,
     eliminarAporte
 } = require('../controllers/aporteController');
+const authMiddleware = require('../middleware/authMiddleware');
 
 const router = express.Router();
 
-// Ruta para crear un nuevo aporte
-router.post('/', crearAporte);
+// Ruta para obtener el estado de aporte/verificación de un usuario
+router.get('/estado/:usuarioId', authMiddleware, obtenerEstadoAporteUsuario);
+
+// Ruta para validar aportes en lote (masivo o por filtro)
+router.post('/validar-lote', authMiddleware, validarAportesEnLote);
+
+// Ruta para crear o registrar solicitud de aporte
+router.post('/', authMiddleware, crearAporte);
 
 // Ruta para obtener todos los aportes
-router.get('/', obtenerAportes);
+router.get('/', authMiddleware, obtenerAportes);
 
 // Ruta para obtener un aporte por ID
-router.get('/:id', obtenerAportePorId);
+router.get('/:id', authMiddleware, obtenerAportePorId);
 
 // Nueva ruta para aportes paginados
-router.get('/admin/paginados', obtenerAportesPaginados);
+router.get('/admin/paginados', authMiddleware, obtenerAportesPaginados);
 
 // Nueva ruta para aportes NO VALIDADOS paginados
-router.get('/admin/no-validados', obtenerAportesNoValidados);
+router.get('/admin/no-validados', authMiddleware, obtenerAportesNoValidados);
 
 // Ruta para actualizar un aporte por ID
-router.put('/:id', actualizarAporte);
+router.put('/:id', authMiddleware, actualizarAporte);
 
 // Ruta para eliminar un aporte por ID
-router.delete('/:id', eliminarAporte);
+router.delete('/:id', authMiddleware, eliminarAporte);
 
 module.exports = router;

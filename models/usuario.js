@@ -8,18 +8,26 @@ const usuarioSchema = new mongoose.Schema({
   cuenta_numero: { type: String },
   banco: { type: String },
   titular_cuenta: { type: String },
-  correo_electronico: { type: String, required: true }, // No es único
+  correo_electronico: { type: String, required: true },
   dni: { type: String, required: true },
   nombre_usuario: { type: String, required: true, unique: true },
   contraseña: { type: String, required: true },
-  codigo_referido: { type: String }, // Campo opcional
-  padre_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null, index: true }, // Indexado
-  nivel: { type: Number, default: 1, index: true }, // Indexado
-  hijo1_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null, index: true }, // Indexado
-  hijo2_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null, index: true }, // Indexado
-  hijo3_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null, index: true }, // Indexado
+  codigo_referido: { type: String },
+  padre_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null, index: true },
+  nivel: { type: Number, default: 1, index: true },
+  hijo1_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null, index: true },
+  hijo2_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null, index: true },
+  hijo3_id: { type: mongoose.Schema.Types.ObjectId, ref: 'Usuario', default: null, index: true },
+  rol: { type: String, enum: ['user', 'admin'], default: 'user', index: true },
   token: { type: String },
+}, {
+  timestamps: true
 });
+
+// Índices compuestos para consultas rápidas de la pirámide y jerarquía
+usuarioSchema.index({ hijo1_id: 1, hijo2_id: 1, hijo3_id: 1, _id: 1 });
+usuarioSchema.index({ padre_id: 1, nivel: 1 });
+usuarioSchema.index({ codigo_referido: 1 });
 
 // Encriptar la contraseña antes de guardar
 usuarioSchema.pre('save', async function (next) {

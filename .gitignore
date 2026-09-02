@@ -1,9 +1,27 @@
 .vercel
 .env
+.env.*
 node_modules
+*.log
+.qodo
+
+# Sensitive and data dump files
+usuarios.json
+users.json
+aportes.json
+exports/
+url.txt
 deleteAporte.js
 deleteCodes.js
 deletePost.js
 deleteWithdrawals.js
+deleteAllTransacciones.js
+deleteAllUsuarios.js
+deleteTestu.js
 mongoScript.js
-.qodo
+utest.js
+bot.js
+
+# Uploads directory contents (preserve directory)
+uploads/*
+!uploads/.gitkeep
