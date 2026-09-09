@@ -95,6 +95,9 @@ app.use((err, req, res, next) => {
 const server = http.createServer(app);
 initializeWebSocket(server);
 
+// Exportar la app de Express para Vercel Serverless Functions
+module.exports = app;
+
 server.listen(port, () => {
   console.log(`🚀 Servidor Granja Raíz de Vida escuchando en http://localhost:${port}`);
 });

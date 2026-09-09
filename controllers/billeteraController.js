@@ -376,11 +376,14 @@ const ejecutarRecargaMasivaGeneral = async ({
 
   const tipoTransaccion = esDiaria ? 'recarga_diaria' : 'recarga_masiva';
 
+  const adminUser = !ejecutadoPor ? await Usuario.findOne({ rol: 'admin' }) : null;
+  const usuarioEjecutor = ejecutadoPor || adminUser?._id || null;
+
   const recargaMasiva = new RecargaMasiva({
     monto_individual: montoNumero,
     total_billeteras: totalBilleteras,
     monto_total: montoNumero * totalBilleteras,
-    ejecutado_por: ejecutadoPor,
+    ejecutado_por: usuarioEjecutor,
     estado: 'procesando'
   });
   await recargaMasiva.save();
@@ -392,8 +395,9 @@ const ejecutarRecargaMasivaGeneral = async ({
   );
 
   // Registrar transacción principal
+  const primerUsuario = !usuarioEjecutor ? await Usuario.findOne() : null;
   const transaccionPrincipal = new Transaccion({
-    usuario_id: ejecutadoPor || (await Usuario.findOne({ rol: 'admin' }))?._id || (await Usuario.findOne())?._id,
+    usuario_id: usuarioEjecutor || primerUsuario?._id,
     tipo: tipoTransaccion,
     monto: montoNumero * resultado.modifiedCount,
     descripcion: `RECARGA MASIVA: ${montoNumero} COP cargados a ${resultado.modifiedCount} billeteras activas`,

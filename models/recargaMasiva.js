@@ -20,7 +20,8 @@ const recargaMasivaSchema = new mongoose.Schema({
   ejecutado_por: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'Usuario',
-    required: true
+    required: false,
+    default: null
   },
   estado: {
     type: String,

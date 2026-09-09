@@ -41,7 +41,7 @@ const ejecutarRecargaAutomaticaDiaria = async (config = {}) => {
   console.log(`▶️ Ejecutando recarga automática diaria de ${resolvedConfig.monto} COP.`);
   return ejecutarRecargaMasivaAutomatica({
     monto: resolvedConfig.monto,
-    ejecutadoPor: undefined,
+    ejecutadoPor: null,
     registrarTransaccionesIndividuales: true
   });
 };
