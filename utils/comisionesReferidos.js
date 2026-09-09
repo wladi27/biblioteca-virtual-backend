@@ -254,25 +254,41 @@ const recorrerYLiquidarComisionesPendientes = async (filtroExtra = {}) => {
     };
 
     const solicitudesPendientes = await ReferralRequest.find(filtro).select('_id solicitante_id referido_id');
+    if (solicitudesPendientes.length === 0) {
+      return { revisadas: 0, liquidadas: 0, aunPendientes: 0, totalPagado: 0, detalles: [] };
+    }
+
+    // Pre-cargar todos los aportes verificados en un Set para validación instantánea O(1) en memoria
+    const aportesAprobados = await Aporte.find({ aporte: true }).select('usuarioId').lean();
+    const setVerificados = new Set(aportesAprobados.map(a => a.usuarioId?.toString()).filter(Boolean));
 
     let liquidadas = 0;
     let aunPendientes = 0;
     let totalPagado = 0;
     const detalles = [];
 
+    // Separar únicamente las que tienen a AMBOS verificados para procesar
     for (const sol of solicitudesPendientes) {
-      const resultado = await procesarComisionReferido(sol._id);
-      if (resultado.pagada) {
-        liquidadas++;
-        totalPagado += resultado.monto || MONTO_COMISION_DEFAULT;
-        detalles.push({ solicitudId: sol._id, estado: 'liquidada', monto: resultado.monto });
+      const pId = sol.solicitante_id?.toString();
+      const rId = sol.referido_id?.toString();
+      const ambosVerificados = pId && rId && setVerificados.has(pId) && setVerificados.has(rId);
+
+      if (ambosVerificados) {
+        const resultado = await procesarComisionReferido(sol._id);
+        if (resultado.pagada) {
+          liquidadas++;
+          totalPagado += resultado.monto || MONTO_COMISION_DEFAULT;
+          detalles.push({ solicitudId: sol._id, estado: 'liquidada', monto: resultado.monto });
+        } else {
+          aunPendientes++;
+          detalles.push({ solicitudId: sol._id, estado: 'pendiente', motivo: resultado.motivo });
+        }
       } else {
         aunPendientes++;
-        detalles.push({ solicitudId: sol._id, estado: 'pendiente', motivo: resultado.motivo });
       }
     }
 
-    console.log(`📊 Barrido de comisiones de referidos: ${solicitudesPendientes.length} revisadas, ${liquidadas} liquidadas (Total: COP $${totalPagado}), ${aunPendientes} aún pendientes.`);
+    console.log(`📊 Barrido de comisiones: ${solicitudesPendientes.length} revisadas, ${liquidadas} liquidadas (Total: COP $${totalPagado}), ${aunPendientes} pendientes.`);
 
     return {
       revisadas: solicitudesPendientes.length,
